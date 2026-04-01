@@ -1,0 +1,213 @@
+{
+  "title": "Augmented Reality",
+  "tagline": "Add a digital layer to reality.",
+  "short_description": "Enhances physical spaces, products, or exhibits with interactive digital content viewed through mobile devices or dedicated screens.",
+  "long_description": "A modular AR layer that overlays stories, data, visuals, and interactive prompts onto the real world. It can be used for playful discovery, product explanation, spatial storytelling, or educational content, creating a bridge between physical context and digital enhancement. Ideal for museums, exhibitions, retail, and brand activations that want to reveal more without adding physical clutter.",
+  "moment": "Journey",
+  "tag": [
+    "Module",
+    "AR & VR",
+    "Discovery",
+    "Education"
+  ],
+  "visuals": [
+    "Hero visual – Augmented Reality in use within a branded environment",
+    "Interface mockup – primary interaction flow for Augmented Reality",
+    "System overview – how visitors, screen, and backend connect",
+    "Scenario visual – themed use case of Augmented Reality"
+  ],
+  "included": {
+    "module": "Augmented Reality",
+    "slide": "What's included",
+    "items": [
+      {
+        "title": "Core interaction flow",
+        "description": "Base experience logic and visitor-facing interaction for Augmented Reality.",
+        "visual": "Primary user flow"
+      },
+      {
+        "title": "Branded interface skin",
+        "description": "Adaptation of colours, typography, and visual language to the project context.",
+        "visual": "UI style frame"
+      },
+      {
+        "title": "Basic analytics output",
+        "description": "Tracking of key participation and usage signals relevant to the module.",
+        "visual": "Simple export or dashboard preview"
+      }
+    ]
+  },
+  "excluded": {
+    "slide": "What’s Excluded",
+    "items": [
+      {
+        "title": "Venue hardware outside agreed scope",
+        "description": "Screens, sound, network, scenic build, mounts, printers, or special sensors are scoped separately unless explicitly listed."
+      },
+      {
+        "title": "Large-scale custom content production",
+        "description": "Extensive editorial work, translations, media creation, or bespoke storytelling assets are separate services unless included."
+      },
+      {
+        "title": "Deep custom logic beyond the base module",
+        "description": "Unique game systems, unusual integrations, or one-off backend behaviour require separate scoping and testing."
+      }
+    ]
+  },
+  "states": {
+    "module": "Augmented Reality",
+    "slide": "States",
+    "items": [
+      {
+        "state": "Attract",
+        "trigger": "Visitor notices the installation or receives the entry prompt",
+        "experience": "Augmented Reality communicates what to do and invites the first action.",
+        "feedback": "Idle visuals, signage, motion, or ambient cue",
+        "configurable": "Branding, call-to-action, language",
+        "data": "View or start count"
+      },
+      {
+        "state": "Engage",
+        "trigger": "Visitor starts the interaction",
+        "experience": "The main Augmented Reality experience unfolds and reacts to the visitor’s input.",
+        "feedback": "Live visual, audio, or haptic response",
+        "configurable": "Game rules, pacing, theme, interaction mode",
+        "data": "Inputs, timing, progress, completion"
+      },
+      {
+        "state": "Resolve",
+        "trigger": "Interaction reaches an outcome or end point",
+        "experience": "Results, rewards, media, or next steps are revealed.",
+        "feedback": "Score, confirmation, reward, save, or share prompt",
+        "configurable": "CTA, outcome logic, reward type",
+        "data": "Outcome, score, exportable summary"
+      }
+    ]
+  },
+  "changes": {
+    "module": "Augmented Reality",
+    "slide": "Customisable Elements",
+    "items": [
+      {
+        "title": "Visual identity",
+        "description": "Colours, fonts, screen assets, motion language, and tone can be adapted to brand or event theme."
+      },
+      {
+        "title": "Content layer",
+        "description": "Texts, questions, media, products, scenes, or stories can be swapped to fit the context."
+      },
+      {
+        "title": "Interaction rules",
+        "description": "Difficulty, duration, scoring, progression, and multiplayer logic can be tuned to the audience."
+      }
+    ]
+  },
+  "setup": {
+    "module": "Augmented Reality",
+    "slide": "Setup Notes & Requirements",
+    "items": [
+      {
+        "title": "Power and connectivity",
+        "description": "Stable power plus the right local network or internet setup depending on the module’s data and media needs."
+      },
+      {
+        "title": "Spatial planning",
+        "description": "Sufficient visitor flow, visibility, and physical clearance for safe and intuitive use."
+      },
+      {
+        "title": "Display and input hardware",
+        "description": "Screen, projector, sensors, touch surface, buttons, mobile flow, or other input devices according to the module setup."
+      }
+    ]
+  },
+  "data": {
+    "module": "Augmented Reality",
+    "slide": "Data & Impact",
+    "items": [
+      {
+        "title": "Participation metrics",
+        "description": "Starts, active users, completion rate, repeat plays, or dwell time depending on module behaviour."
+      },
+      {
+        "title": "Behaviour signals",
+        "description": "Inputs, choices, timing, accuracy, usage paths, or content preferences that help interpret engagement quality."
+      },
+      {
+        "title": "Connected follow-up potential",
+        "description": "Optional link to tokens, galleries, dashboards, exports, or post-event communication flows."
+      }
+    ]
+  },
+  "compatible": {
+    "module": "Augmented Reality",
+    "slide": "Compatible Modules & Additional Services",
+    "items": [
+      {
+        "title": "Visitor Token Pass",
+        "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
+      },
+      {
+        "title": "Shared Gallery / Media outputs",
+        "description": "Useful when the module produces or benefits from captured media, highlights, or public recap moments."
+      },
+      {
+        "title": "User Experience & Interface Design",
+        "description": "Refines the front-end quality and ensures the module feels coherent inside the wider BRDGE system."
+      }
+    ]
+  },
+  "twist": {
+    "module": "Augmented Reality",
+    "slide": "Custom Twist Ideas",
+    "items": [
+      {
+        "title": "Sponsor edition",
+        "description": "Introduce branded rewards, visuals, or mechanics tied to a partner or campaign."
+      },
+      {
+        "title": "Tournament or leaderboard mode",
+        "description": "Extend the base interaction into a competitive format across guests, teams, or time slots."
+      },
+      {
+        "title": "Token-connected continuity",
+        "description": "Carry outcomes into another module, a personal recap, or a post-event reward flow."
+      }
+    ]
+  },
+  "theme": {
+    "module": "Augmented Reality",
+    "slide": "Themed Story Examples",
+    "items": [
+      {
+        "title": "Winter / festive edition",
+        "description": "Re-skin the same interaction with seasonal visuals, story framing, and rewards."
+      },
+      {
+        "title": "Museum / education storyline",
+        "description": "Adapt the module to teach content, reveal facts, or guide visitors through a knowledge-driven narrative."
+      },
+      {
+        "title": "Brand activation scenario",
+        "description": "Translate the interaction into a product or campaign story that feels native to the brand world."
+      }
+    ]
+  },
+  "why": {
+    "module": "Augmented Reality",
+    "slide": "Why it works",
+    "items": [
+      {
+        "title": "Needs a clearer participation hook",
+        "description": "Augmented Reality gives visitors an immediate reason to engage instead of only observing."
+      },
+      {
+        "title": "Experience should feel more memorable",
+        "description": "Augmented Reality creates a distinct interaction moment that people remember and talk about afterward."
+      },
+      {
+        "title": "Engagement should be measurable",
+        "description": "Augmented Reality can capture interactions, completions, usage frequency, or connected outputs for reporting."
+      }
+    ]
+  }
+}
