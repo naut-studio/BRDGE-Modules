@@ -1,0 +1,215 @@
+[
+  {
+    "title": "Crowd Games",
+    "tagline": "One room. One pulse.",
+    "short_description": "Large-scale participation games that turn many people into one connected play moment.",
+    "long_description": "A category of multiplayer experiences designed for groups, stages, or public spaces where many participants can join at once. Inputs can come from phones, buttons, gestures, or group voting, creating a shared rhythm and a strong sense of collective momentum. Ideal for conferences, ceremonies, launches, and exhibitions that want the crowd itself to become the main attraction.",
+    "moment": "Journey",
+    "tag": [
+      "Module",
+      "Experience",
+      "Group Activation",
+      "Gamification"
+    ],
+    "visuals": [
+      "Hero visual – Crowd Games in use within a branded environment",
+      "Interface mockup – primary interaction flow for Crowd Games",
+      "System overview – how visitors, screen, and backend connect",
+      "Scenario visual – themed use case of Crowd Games"
+    ],
+    "included": {
+      "module": "Crowd Games",
+      "slide": "What's included",
+      "items": [
+        {
+          "title": "Core interaction flow",
+          "description": "Base experience logic and visitor-facing interaction for Crowd Games.",
+          "visual": "Primary user flow"
+        },
+        {
+          "title": "Branded interface skin",
+          "description": "Adaptation of colours, typography, and visual language to the project context.",
+          "visual": "UI style frame"
+        },
+        {
+          "title": "Basic analytics output",
+          "description": "Tracking of key participation and usage signals relevant to the module.",
+          "visual": "Simple export or dashboard preview"
+        }
+      ]
+    },
+    "excluded": {
+      "slide": "What’s Excluded",
+      "items": [
+        {
+          "title": "Venue hardware outside agreed scope",
+          "description": "Screens, sound, network, scenic build, mounts, printers, or special sensors are scoped separately unless explicitly listed."
+        },
+        {
+          "title": "Large-scale custom content production",
+          "description": "Extensive editorial work, translations, media creation, or bespoke storytelling assets are separate services unless included."
+        },
+        {
+          "title": "Deep custom logic beyond the base module",
+          "description": "Unique game systems, unusual integrations, or one-off backend behaviour require separate scoping and testing."
+        }
+      ]
+    },
+    "states": {
+      "module": "Crowd Games",
+      "slide": "States",
+      "items": [
+        {
+          "state": "Attract",
+          "trigger": "Visitor notices the installation or receives the entry prompt",
+          "experience": "Crowd Games communicates what to do and invites the first action.",
+          "feedback": "Idle visuals, signage, motion, or ambient cue",
+          "configurable": "Branding, call-to-action, language",
+          "data": "View or start count"
+        },
+        {
+          "state": "Engage",
+          "trigger": "Visitor starts the interaction",
+          "experience": "The main Crowd Games experience unfolds and reacts to the visitor’s input.",
+          "feedback": "Live visual, audio, or haptic response",
+          "configurable": "Game rules, pacing, theme, interaction mode",
+          "data": "Inputs, timing, progress, completion"
+        },
+        {
+          "state": "Resolve",
+          "trigger": "Interaction reaches an outcome or end point",
+          "experience": "Results, rewards, media, or next steps are revealed.",
+          "feedback": "Score, confirmation, reward, save, or share prompt",
+          "configurable": "CTA, outcome logic, reward type",
+          "data": "Outcome, score, exportable summary"
+        }
+      ]
+    },
+    "changes": {
+      "module": "Crowd Games",
+      "slide": "Customisable Elements",
+      "items": [
+        {
+          "title": "Visual identity",
+          "description": "Colours, fonts, screen assets, motion language, and tone can be adapted to brand or event theme."
+        },
+        {
+          "title": "Content layer",
+          "description": "Texts, questions, media, products, scenes, or stories can be swapped to fit the context."
+        },
+        {
+          "title": "Interaction rules",
+          "description": "Difficulty, duration, scoring, progression, and multiplayer logic can be tuned to the audience."
+        }
+      ]
+    },
+    "setup": {
+      "module": "Crowd Games",
+      "slide": "Setup Notes & Requirements",
+      "items": [
+        {
+          "title": "Power and connectivity",
+          "description": "Stable power plus the right local network or internet setup depending on the module’s data and media needs."
+        },
+        {
+          "title": "Spatial planning",
+          "description": "Sufficient visitor flow, visibility, and physical clearance for safe and intuitive use."
+        },
+        {
+          "title": "Display and input hardware",
+          "description": "Screen, projector, sensors, touch surface, buttons, mobile flow, or other input devices according to the module setup."
+        }
+      ]
+    },
+    "data": {
+      "module": "Crowd Games",
+      "slide": "Data & Impact",
+      "items": [
+        {
+          "title": "Participation metrics",
+          "description": "Starts, active users, completion rate, repeat plays, or dwell time depending on module behaviour."
+        },
+        {
+          "title": "Behaviour signals",
+          "description": "Inputs, choices, timing, accuracy, usage paths, or content preferences that help interpret engagement quality."
+        },
+        {
+          "title": "Connected follow-up potential",
+          "description": "Optional link to tokens, galleries, dashboards, exports, or post-event communication flows."
+        }
+      ]
+    },
+    "compatible": {
+      "module": "Crowd Games",
+      "slide": "Compatible Modules & Additional Services",
+      "items": [
+        {
+          "title": "Visitor Token Pass",
+          "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
+        },
+        {
+          "title": "Shared Gallery / Media outputs",
+          "description": "Useful when the module produces or benefits from captured media, highlights, or public recap moments."
+        },
+        {
+          "title": "User Experience & Interface Design",
+          "description": "Refines the front-end quality and ensures the module feels coherent inside the wider BRDGE system."
+        }
+      ]
+    },
+    "twist": {
+      "module": "Crowd Games",
+      "slide": "Custom Twist Ideas",
+      "items": [
+        {
+          "title": "Sponsor edition",
+          "description": "Introduce branded rewards, visuals, or mechanics tied to a partner or campaign."
+        },
+        {
+          "title": "Tournament or leaderboard mode",
+          "description": "Extend the base interaction into a competitive format across guests, teams, or time slots."
+        },
+        {
+          "title": "Token-connected continuity",
+          "description": "Carry outcomes into another module, a personal recap, or a post-event reward flow."
+        }
+      ]
+    },
+    "theme": {
+      "module": "Crowd Games",
+      "slide": "Themed Story Examples",
+      "items": [
+        {
+          "title": "Winter / festive edition",
+          "description": "Re-skin the same interaction with seasonal visuals, story framing, and rewards."
+        },
+        {
+          "title": "Museum / education storyline",
+          "description": "Adapt the module to teach content, reveal facts, or guide visitors through a knowledge-driven narrative."
+        },
+        {
+          "title": "Brand activation scenario",
+          "description": "Translate the interaction into a product or campaign story that feels native to the brand world."
+        }
+      ]
+    },
+    "why": {
+      "module": "Crowd Games",
+      "slide": "Why it works",
+      "items": [
+        {
+          "title": "Needs a clearer participation hook",
+          "description": "Crowd Games gives visitors an immediate reason to engage instead of only observing."
+        },
+        {
+          "title": "Experience should feel more memorable",
+          "description": "Crowd Games creates a distinct interaction moment that people remember and talk about afterward."
+        },
+        {
+          "title": "Engagement should be measurable",
+          "description": "Crowd Games can capture interactions, completions, usage frequency, or connected outputs for reporting."
+        }
+      ]
+    }
+  }
+]

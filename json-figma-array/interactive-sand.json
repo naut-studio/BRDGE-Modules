@@ -1,0 +1,216 @@
+[
+  {
+    "title": "Interactive Sand",
+    "tagline": "Shape the surface. Reveal the story.",
+    "short_description": "A tactile sand-based interaction where digging, shaping, or uncovering areas triggers projected digital responses.",
+    "long_description": "An interactive sand table that combines physical manipulation with projection or sensing to reveal information, visuals, or playful reactions. Visitors can uncover objects, shape landscapes, or trigger layered content through touch and movement, creating a deeply tactile discovery experience. Ideal for museums, education, themed storytelling, and exhibit moments that benefit from slower, sensory interaction.",
+    "moment": "Journey",
+    "tag": [
+      "Module",
+      "Experience",
+      "Interactive Surfaces",
+      "Discovery",
+      "Education"
+    ],
+    "visuals": [
+      "Hero visual – Interactive Sand in use within a branded environment",
+      "Interface mockup – primary interaction flow for Interactive Sand",
+      "System overview – how visitors, screen, and backend connect",
+      "Scenario visual – themed use case of Interactive Sand"
+    ],
+    "included": {
+      "module": "Interactive Sand",
+      "slide": "What's included",
+      "items": [
+        {
+          "title": "Core interaction flow",
+          "description": "Base experience logic and visitor-facing interaction for Interactive Sand.",
+          "visual": "Primary user flow"
+        },
+        {
+          "title": "Branded interface skin",
+          "description": "Adaptation of colours, typography, and visual language to the project context.",
+          "visual": "UI style frame"
+        },
+        {
+          "title": "Basic analytics output",
+          "description": "Tracking of key participation and usage signals relevant to the module.",
+          "visual": "Simple export or dashboard preview"
+        }
+      ]
+    },
+    "excluded": {
+      "slide": "What’s Excluded",
+      "items": [
+        {
+          "title": "Venue hardware outside agreed scope",
+          "description": "Screens, sound, network, scenic build, mounts, printers, or special sensors are scoped separately unless explicitly listed."
+        },
+        {
+          "title": "Large-scale custom content production",
+          "description": "Extensive editorial work, translations, media creation, or bespoke storytelling assets are separate services unless included."
+        },
+        {
+          "title": "Deep custom logic beyond the base module",
+          "description": "Unique game systems, unusual integrations, or one-off backend behaviour require separate scoping and testing."
+        }
+      ]
+    },
+    "states": {
+      "module": "Interactive Sand",
+      "slide": "States",
+      "items": [
+        {
+          "state": "Attract",
+          "trigger": "Visitor notices the installation or receives the entry prompt",
+          "experience": "Interactive Sand communicates what to do and invites the first action.",
+          "feedback": "Idle visuals, signage, motion, or ambient cue",
+          "configurable": "Branding, call-to-action, language",
+          "data": "View or start count"
+        },
+        {
+          "state": "Engage",
+          "trigger": "Visitor starts the interaction",
+          "experience": "The main Interactive Sand experience unfolds and reacts to the visitor’s input.",
+          "feedback": "Live visual, audio, or haptic response",
+          "configurable": "Game rules, pacing, theme, interaction mode",
+          "data": "Inputs, timing, progress, completion"
+        },
+        {
+          "state": "Resolve",
+          "trigger": "Interaction reaches an outcome or end point",
+          "experience": "Results, rewards, media, or next steps are revealed.",
+          "feedback": "Score, confirmation, reward, save, or share prompt",
+          "configurable": "CTA, outcome logic, reward type",
+          "data": "Outcome, score, exportable summary"
+        }
+      ]
+    },
+    "changes": {
+      "module": "Interactive Sand",
+      "slide": "Customisable Elements",
+      "items": [
+        {
+          "title": "Visual identity",
+          "description": "Colours, fonts, screen assets, motion language, and tone can be adapted to brand or event theme."
+        },
+        {
+          "title": "Content layer",
+          "description": "Texts, questions, media, products, scenes, or stories can be swapped to fit the context."
+        },
+        {
+          "title": "Interaction rules",
+          "description": "Difficulty, duration, scoring, progression, and multiplayer logic can be tuned to the audience."
+        }
+      ]
+    },
+    "setup": {
+      "module": "Interactive Sand",
+      "slide": "Setup Notes & Requirements",
+      "items": [
+        {
+          "title": "Power and connectivity",
+          "description": "Stable power plus the right local network or internet setup depending on the module’s data and media needs."
+        },
+        {
+          "title": "Spatial planning",
+          "description": "Sufficient visitor flow, visibility, and physical clearance for safe and intuitive use."
+        },
+        {
+          "title": "Display and input hardware",
+          "description": "Screen, projector, sensors, touch surface, buttons, mobile flow, or other input devices according to the module setup."
+        }
+      ]
+    },
+    "data": {
+      "module": "Interactive Sand",
+      "slide": "Data & Impact",
+      "items": [
+        {
+          "title": "Participation metrics",
+          "description": "Starts, active users, completion rate, repeat plays, or dwell time depending on module behaviour."
+        },
+        {
+          "title": "Behaviour signals",
+          "description": "Inputs, choices, timing, accuracy, usage paths, or content preferences that help interpret engagement quality."
+        },
+        {
+          "title": "Connected follow-up potential",
+          "description": "Optional link to tokens, galleries, dashboards, exports, or post-event communication flows."
+        }
+      ]
+    },
+    "compatible": {
+      "module": "Interactive Sand",
+      "slide": "Compatible Modules & Additional Services",
+      "items": [
+        {
+          "title": "Visitor Token Pass",
+          "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
+        },
+        {
+          "title": "Shared Gallery / Media outputs",
+          "description": "Useful when the module produces or benefits from captured media, highlights, or public recap moments."
+        },
+        {
+          "title": "User Experience & Interface Design",
+          "description": "Refines the front-end quality and ensures the module feels coherent inside the wider BRDGE system."
+        }
+      ]
+    },
+    "twist": {
+      "module": "Interactive Sand",
+      "slide": "Custom Twist Ideas",
+      "items": [
+        {
+          "title": "Sponsor edition",
+          "description": "Introduce branded rewards, visuals, or mechanics tied to a partner or campaign."
+        },
+        {
+          "title": "Tournament or leaderboard mode",
+          "description": "Extend the base interaction into a competitive format across guests, teams, or time slots."
+        },
+        {
+          "title": "Token-connected continuity",
+          "description": "Carry outcomes into another module, a personal recap, or a post-event reward flow."
+        }
+      ]
+    },
+    "theme": {
+      "module": "Interactive Sand",
+      "slide": "Themed Story Examples",
+      "items": [
+        {
+          "title": "Winter / festive edition",
+          "description": "Re-skin the same interaction with seasonal visuals, story framing, and rewards."
+        },
+        {
+          "title": "Museum / education storyline",
+          "description": "Adapt the module to teach content, reveal facts, or guide visitors through a knowledge-driven narrative."
+        },
+        {
+          "title": "Brand activation scenario",
+          "description": "Translate the interaction into a product or campaign story that feels native to the brand world."
+        }
+      ]
+    },
+    "why": {
+      "module": "Interactive Sand",
+      "slide": "Why it works",
+      "items": [
+        {
+          "title": "Needs a clearer participation hook",
+          "description": "Interactive Sand gives visitors an immediate reason to engage instead of only observing."
+        },
+        {
+          "title": "Experience should feel more memorable",
+          "description": "Interactive Sand creates a distinct interaction moment that people remember and talk about afterward."
+        },
+        {
+          "title": "Engagement should be measurable",
+          "description": "Interactive Sand can capture interactions, completions, usage frequency, or connected outputs for reporting."
+        }
+      ]
+    }
+  }
+]
