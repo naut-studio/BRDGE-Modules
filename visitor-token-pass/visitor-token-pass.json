@@ -1,215 +1,417 @@
 [
   {
-    "title": "Visitor Token Pass",
-    "tagline": "One key. Every interaction.",
-    "short_description": "A personalized digital identity that connects each visitor to your experience. It links interactions, content, and moments across physical and digital touchpoints.",
-    "long_description": "A flexible digital pass that assigns each visitor a unique token, enabling seamless identification, personalization, and data continuity throughout the experience. Whether accessed via QR code, NFC wristband, RFID card, or tagged object, it connects people to content, games, media, and rewards while tracking interactions in real time. The foundation for connected visitor journeys across spaces and moments.",
-    "moment": "Pre-Journey, Journey, Post-Journey",
-    "tag": [
-      "Module",
-      "System",
-      "Personalization",
-      "Discovery"
-    ],
-    "visuals": [
-      "Hero visual – Visitor Token Pass in use within a branded environment",
-      "Interface mockup – primary interaction flow for Visitor Token Pass",
-      "System overview – how visitors, screen, and backend connect",
-      "Scenario visual – themed use case of Visitor Token Pass"
-    ],
-    "included": {
-      "module": "Visitor Token Pass",
-      "slide": "What's included",
-      "items": [
-        {
-          "title": "Core interaction flow",
-          "description": "Base experience logic and visitor-facing interaction for Visitor Token Pass.",
-          "visual": "Primary user flow"
-        },
-        {
-          "title": "Branded interface skin",
-          "description": "Adaptation of colours, typography, and visual language to the project context.",
-          "visual": "UI style frame"
-        },
-        {
-          "title": "Basic analytics output",
-          "description": "Tracking of key participation and usage signals relevant to the module.",
-          "visual": "Simple export or dashboard preview"
-        }
-      ]
-    },
-    "excluded": {
-      "slide": "What’s Excluded",
-      "items": [
-        {
-          "title": "Venue hardware outside agreed scope",
-          "description": "Screens, sound, network, scenic build, mounts, printers, or special sensors are scoped separately unless explicitly listed."
-        },
-        {
-          "title": "Large-scale custom content production",
-          "description": "Extensive editorial work, translations, media creation, or bespoke storytelling assets are separate services unless included."
-        },
-        {
-          "title": "Deep custom logic beyond the base module",
-          "description": "Unique game systems, unusual integrations, or one-off backend behaviour require separate scoping and testing."
-        }
-      ]
-    },
-    "states": {
-      "module": "Visitor Token Pass",
-      "slide": "States",
-      "items": [
-        {
-          "state": "Attract",
-          "trigger": "Visitor notices the installation or receives the entry prompt",
-          "experience": "Visitor Token Pass communicates what to do and invites the first action.",
-          "feedback": "Idle visuals, signage, motion, or ambient cue",
-          "configurable": "Branding, call-to-action, language",
-          "data": "View or start count"
-        },
-        {
-          "state": "Engage",
-          "trigger": "Visitor starts the interaction",
-          "experience": "The main Visitor Token Pass experience unfolds and reacts to the visitor’s input.",
-          "feedback": "Live visual, audio, or haptic response",
-          "configurable": "Game rules, pacing, theme, interaction mode",
-          "data": "Inputs, timing, progress, completion"
-        },
-        {
-          "state": "Resolve",
-          "trigger": "Interaction reaches an outcome or end point",
-          "experience": "Results, rewards, media, or next steps are revealed.",
-          "feedback": "Score, confirmation, reward, save, or share prompt",
-          "configurable": "CTA, outcome logic, reward type",
-          "data": "Outcome, score, exportable summary"
-        }
-      ]
-    },
-    "changes": {
-      "module": "Visitor Token Pass",
-      "slide": "Customisable Elements",
-      "items": [
-        {
-          "title": "Visual identity",
-          "description": "Colours, fonts, screen assets, motion language, and tone can be adapted to brand or event theme."
-        },
-        {
-          "title": "Content layer",
-          "description": "Texts, questions, media, products, scenes, or stories can be swapped to fit the context."
-        },
-        {
-          "title": "Interaction rules",
-          "description": "Difficulty, duration, scoring, progression, and multiplayer logic can be tuned to the audience."
-        }
-      ]
-    },
-    "setup": {
-      "module": "Visitor Token Pass",
-      "slide": "Setup Notes & Requirements",
-      "items": [
-        {
-          "title": "Power and connectivity",
-          "description": "Stable power plus the right local network or internet setup depending on the module’s data and media needs."
-        },
-        {
-          "title": "Spatial planning",
-          "description": "Sufficient visitor flow, visibility, and physical clearance for safe and intuitive use."
-        },
-        {
-          "title": "Display and input hardware",
-          "description": "Screen, projector, sensors, touch surface, buttons, mobile flow, or other input devices according to the module setup."
-        }
-      ]
-    },
-    "data": {
-      "module": "Visitor Token Pass",
-      "slide": "Data & Impact",
-      "items": [
-        {
-          "title": "Participation metrics",
-          "description": "Starts, active users, completion rate, repeat plays, or dwell time depending on module behaviour."
-        },
-        {
-          "title": "Behaviour signals",
-          "description": "Inputs, choices, timing, accuracy, usage paths, or content preferences that help interpret engagement quality."
-        },
-        {
-          "title": "Connected follow-up potential",
-          "description": "Optional link to tokens, galleries, dashboards, exports, or post-event communication flows."
-        }
-      ]
-    },
-    "compatible": {
-      "module": "Visitor Token Pass",
-      "slide": "Compatible Modules & Additional Services",
-      "items": [
-        {
-          "title": "Visitor Token Pass",
-          "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
-        },
-        {
-          "title": "Shared Gallery / Media outputs",
-          "description": "Useful when the module produces or benefits from captured media, highlights, or public recap moments."
-        },
-        {
-          "title": "User Experience & Interface Design",
-          "description": "Refines the front-end quality and ensures the module feels coherent inside the wider BRDGE system."
-        }
-      ]
-    },
-    "twist": {
-      "module": "Visitor Token Pass",
-      "slide": "Custom Twist Ideas",
-      "items": [
-        {
-          "title": "Sponsor edition",
-          "description": "Introduce branded rewards, visuals, or mechanics tied to a partner or campaign."
-        },
-        {
-          "title": "Tournament or leaderboard mode",
-          "description": "Extend the base interaction into a competitive format across guests, teams, or time slots."
-        },
-        {
-          "title": "Token-connected continuity",
-          "description": "Carry outcomes into another module, a personal recap, or a post-event reward flow."
-        }
-      ]
-    },
-    "theme": {
-      "module": "Visitor Token Pass",
-      "slide": "Themed Story Examples",
-      "items": [
-        {
-          "title": "Winter / festive edition",
-          "description": "Re-skin the same interaction with seasonal visuals, story framing, and rewards."
-        },
-        {
-          "title": "Museum / education storyline",
-          "description": "Adapt the module to teach content, reveal facts, or guide visitors through a knowledge-driven narrative."
-        },
-        {
-          "title": "Brand activation scenario",
-          "description": "Translate the interaction into a product or campaign story that feels native to the brand world."
-        }
-      ]
-    },
-    "why": {
-      "module": "Visitor Token Pass",
-      "slide": "Why it works",
-      "items": [
-        {
-          "title": "Needs a clearer participation hook",
-          "description": "Visitor Token Pass gives visitors an immediate reason to engage instead of only observing."
-        },
-        {
-          "title": "Experience should feel more memorable",
-          "description": "Visitor Token Pass creates a distinct interaction moment that people remember and talk about afterward."
-        },
-        {
-          "title": "Engagement should be measurable",
-          "description": "Visitor Token Pass can capture interactions, completions, usage frequency, or connected outputs for reporting."
-        }
-      ]
-    }
+  "title": "Visitor Token Pass",
+  "tagline": "One key. Every interaction.",
+  "short_description": "A personalized digital identity that connects each visitor to your experience. It links interactions, content, and moments across physical and digital touchpoints.",
+  "long_description": "A flexible digital pass that assigns each visitor a unique token, enabling seamless identification, personalization, and data continuity throughout the experience. Whether accessed via QR code, NFC wristband, RFID card, or tagged object, it connects people to content, games, media, and rewards while tracking interactions in real time. The Visitor Token Pass is the connective layer beneath the full BRDGE ecosystem — the foundation for connected visitor journeys across spaces, modules, and moments. It transforms a collection of interactions into a coherent, personal experience.",
+  "moment": "Pre-Journey, Journey, Post-Journey",
+  "tag": [
+    "Module",
+    "System",
+    "Personalization",
+    "Discovery",
+    "Identity",
+    "Data",
+    "Journey"
+  ],
+
+  "where": {
+    "module": "Visitor Token Pass",
+    "slide": "Where it works best",
+    "items": [
+      {
+        "title": "Museums & Exhibitions",
+        "description": "Visitors receive a token at entry and carry it through the space — unlocking content, logging discoveries, and building a personal trail that can be revisited or shared after the visit."
+      },
+      {
+        "title": "Conferences & Brand Events",
+        "description": "Attendees are identified from the moment they arrive, enabling personalized session tracking, targeted content delivery, lead capture, and post-event follow-up tied to real behavior."
+      },
+      {
+        "title": "Shows, Activations & Multi-Zone Experiences",
+        "description": "Across pop-ups, trade shows, or large-venue activations, the Token Pass bridges separate zones and interactions into one coherent visitor story — with rewards, progress, and continuity built in."
+      }
+    ]
+  },
+
+  "goals": {
+    "module": "Visitor Token Pass",
+    "slide": "Adaptable to your Goals",
+    "items": [
+      {
+        "title": "Personalization Layer",
+        "description": "Every visitor gets a unique identity that shapes what they see, unlock, and receive — making the experience feel tailored rather than generic."
+      },
+      {
+        "title": "Data Collection & Insights",
+        "description": "Every touchpoint becomes a data signal. The Token Pass captures who engaged, where, for how long, and with what outcome — turning foot traffic into actionable intelligence."
+      },
+      {
+        "title": "Hybrid Journey Connector",
+        "description": "Bridges the physical and digital: a visitor's in-space interactions can trigger digital follow-ups, personal galleries, or post-event content delivered directly to them."
+      },
+      {
+        "title": "Loyalty & Return Visits",
+        "description": "Tokens can carry history between visits — rewarding returning visitors, unlocking new content, and building a relationship that extends beyond a single event."
+      }
+    ]
+  },
+
+  "solves": {
+    "module": "Visitor Token Pass",
+    "slide": "What it solves",
+    "items": [
+      {
+        "title": "Anonymous crowds with no follow-up",
+        "description": "Without a token system, visitors pass through unseen. The Token Pass creates an identity layer that makes every interaction attributable, connectable, and valuable beyond the moment."
+      },
+      {
+        "title": "Disconnected touchpoints",
+        "description": "Multiple activations, screens, or zones that don't talk to each other feel fragmented. The Token Pass ties them into a single visitor thread — one journey, one identity, multiple moments."
+      },
+      {
+        "title": "No measurable proof of engagement",
+        "description": "Clients often struggle to report on what actually happened. The Token Pass generates participation records, interaction logs, and outcome data tied to real visitor behavior."
+      },
+      {
+        "title": "One-size-fits-all experience",
+        "description": "Without identification, every visitor gets the same content. The Token Pass enables personalization based on profile, preferences, past interactions, or chosen paths."
+      },
+      {
+        "title": "Missed post-event opportunity",
+        "description": "Most activations end at the exit. Token Pass can trigger post-visit content, personal galleries, or reward emails — extending engagement well beyond the physical space."
+      },
+      {
+        "title": "No continuity between sessions or zones",
+        "description": "Visitors who return or move between areas lose their progress. Token Pass preserves state, history, and rewards across the full journey — even across multiple days."
+      },
+      {
+        "title": "Hard to justify the investment",
+        "description": "Without data, it's difficult to prove ROI on experiential work. Token Pass provides reportable metrics — start counts, completion rates, dwell time, and interaction depth — that make the case clear."
+      },
+      {
+        "title": "Scalability gaps in large-format events",
+        "description": "Managing personalization at scale is complex. The Token Pass system handles hundreds or thousands of simultaneous visitors without degrading the individual experience."
+      }
+    ]
+  },
+
+  "included": {
+    "module": "Visitor Token Pass",
+    "slide": "What's included",
+    "items": [
+      {
+        "title": "Token generation & assignment flow",
+        "description": "The full logic for creating, issuing, and linking unique visitor tokens — whether via QR code, NFC, RFID, or URL-based access."
+      },
+      {
+        "title": "Visitor-facing interaction interface",
+        "description": "The screen or digital surface the visitor interacts with when activating or using their token — styled and adapted to the project context."
+      },
+      {
+        "title": "Branded interface skin",
+        "description": "Adaptation of colours, typography, and visual language to match the client's brand or event identity."
+      },
+      {
+        "title": "Session continuity logic",
+        "description": "The system maintains each visitor's state across interactions and zones for the duration of the experience."
+      },
+      {
+        "title": "Basic analytics output",
+        "description": "Tracking of key participation signals — activations, usage events, and completion markers — delivered in a readable export or dashboard format."
+      }
+    ]
+  },
+
+  "excluded": {
+    "slide": "What's Excluded",
+    "items": [
+      {
+        "title": "Physical token hardware",
+        "description": "NFC wristbands, RFID cards, printed QR materials, badge printers, or reader devices are not included and must be sourced, scoped, and supplied separately."
+      },
+      {
+        "title": "Venue infrastructure",
+        "description": "Screens, projectors, network setup, cabling, mounts, or any physical installation is outside the base scope unless explicitly listed in the project brief."
+      },
+      {
+        "title": "Custom content production",
+        "description": "Editorial content, translations, brand photography, motion graphics, or bespoke storytelling assets are separate services and not part of the default module delivery."
+      },
+      {
+        "title": "Deep custom integration logic",
+        "description": "Connecting to external CRM systems, ticketing platforms, loyalty databases, or proprietary APIs requires separate scoping, development, and testing effort."
+      },
+      {
+        "title": "Post-event communication design",
+        "description": "Email templates, push notification flows, or personal recap landing pages triggered after the visit are services to be scoped separately, even if the data to power them is captured."
+      }
+    ]
+  },
+
+  "states": {
+    "module": "Visitor Token Pass",
+    "slide": "States",
+    "items": [
+      {
+        "state": "Attract",
+        "trigger": "Visitor approaches the activation point or receives an entry prompt (physical or digital)",
+        "experience": "The system presents a clear invitation — what the token is, why it matters, and how to get started. The experience communicates value before asking for action.",
+        "feedback": "Idle animation, ambient motion, signage prompt, or branded idle screen",
+        "configurable": "Headline message, visual identity, language, entry mechanic (QR, tap, scan, URL)",
+        "data": "Proximity triggers or view count if sensor-equipped"
+      },
+      {
+        "state": "Register",
+        "trigger": "Visitor scans, taps, or enters the activation flow to claim their token",
+        "experience": "A unique token is generated and linked to the visitor. Optional: they enter a name, select a preference, or receive a physical carrier (wristband, card, sticker).",
+        "feedback": "Confirmation animation, welcome message, token ID displayed or encoded",
+        "configurable": "Registration fields (name, language, preference), token carrier type, onboarding message",
+        "data": "Token creation timestamp, entry point, optional profile inputs"
+      },
+      {
+        "state": "Engage",
+        "trigger": "Visitor uses their token at one or more touchpoints across the experience",
+        "experience": "Each interaction is recognized and logged. The visitor receives personalized content, unlocks, or progress — the experience reacts to who they are and what they've done.",
+        "feedback": "Personalized visuals, progress indicators, unlocked content, or reward signals",
+        "configurable": "Touchpoint logic, content per profile, unlock conditions, interaction pacing",
+        "data": "Touchpoints visited, interaction depth, time spent, choices made, modules triggered"
+      },
+      {
+        "state": "Resolve",
+        "trigger": "Visitor completes the journey, reaches a threshold, or exits the experience",
+        "experience": "A summary, reward, or personal recap is presented. The token's full journey is surfaced — what was collected, achieved, or unlocked. Post-visit options are offered.",
+        "feedback": "Journey summary screen, reward reveal, QR to personal gallery, share prompt, or printed output",
+        "configurable": "Outcome format, reward type, post-visit CTA, share mechanics",
+        "data": "Completion status, final score or outcome, exportable visitor record, follow-up trigger"
+      }
+    ]
+  },
+
+  "changes": {
+    "module": "Visitor Token Pass",
+    "slide": "Customisable Elements",
+    "items": [
+      {
+        "title": "Visual identity",
+        "description": "Colours, fonts, screen assets, animation style, and overall tone can be fully adapted to the brand, event, or seasonal theme."
+      },
+      {
+        "title": "Token carrier format",
+        "description": "The physical or digital medium — QR code printout, NFC wristband, RFID card, sticker, or URL-based pass — can be chosen to fit the venue format and audience."
+      },
+      {
+        "title": "Registration depth",
+        "description": "From a frictionless anonymous tap to a richer onboarding with name, language, or preference selection — the registration flow is tunable to context and audience type."
+      },
+      {
+        "title": "Content and personalization logic",
+        "description": "What visitors unlock, see, or receive based on their token can be scripted to reflect their profile, choices, or progress through the experience."
+      },
+      {
+        "title": "Outcome and reward mechanics",
+        "description": "End-state rewards can range from a personal summary screen to a printed keepsake, digital gallery link, discount code, or gamified prize reveal."
+      },
+      {
+        "title": "Language and copy",
+        "description": "All on-screen text, prompts, and messages can be localised or adapted to the event's communication style and audience."
+      }
+    ]
+  },
+
+  "setup": {
+    "module": "Visitor Token Pass",
+    "slide": "Setup Notes & Requirements",
+    "items": [
+      {
+        "title": "Stable network connection",
+        "description": "A reliable local Wi-Fi or wired network is required for real-time token recognition, data sync, and multi-touchpoint continuity. Offline fallback modes can be scoped if connectivity is uncertain."
+      },
+      {
+        "title": "Token issuance point",
+        "description": "A designated physical or digital entry point where visitors receive or activate their token — this may be a staffed desk, a self-serve kiosk, a printed QR at entry, or a pre-sent URL."
+      },
+      {
+        "title": "Reader hardware (if physical tokens)",
+        "description": "NFC readers, RFID scanners, or QR camera-equipped devices are required at each touchpoint. Hardware must be sourced, tested, and installed by the client or a designated technical partner."
+      },
+      {
+        "title": "Display hardware at touchpoints",
+        "description": "Each interaction point requires a screen, tablet, or display device configured to communicate with the token system and show personalized outputs."
+      },
+      {
+        "title": "Backend access and admin setup",
+        "description": "Client or operator needs access to the dashboard or admin panel for configuration, live monitoring, and post-event data export. Setup and training are included in onboarding."
+      },
+      {
+        "title": "Spatial and flow planning",
+        "description": "Token touchpoints must be positioned with visitor flow in mind — legible, accessible, and sequenced logically across the venue to avoid bottlenecks or confusion."
+      },
+      {
+        "title": "Privacy and data handling compliance",
+        "description": "If personal data (names, contact info) is collected during registration, the client is responsible for ensuring GDPR or local compliance, consent messaging, and data retention policies."
+      }
+    ]
+  },
+
+  "data": {
+    "module": "Visitor Token Pass",
+    "slide": "Data & Impact",
+    "items": [
+      {
+        "title": "Token activations",
+        "description": "Total number of unique tokens issued — a direct measure of how many individual visitors engaged with the experience."
+      },
+      {
+        "title": "Touchpoint interaction log",
+        "description": "A record of which zones, modules, or stations each token interacted with — revealing traffic patterns, popular moments, and underperforming areas."
+      },
+      {
+        "title": "Dwell time per visitor",
+        "description": "How long each token was active across the space — indicating depth of engagement and experience quality."
+      },
+      {
+        "title": "Completion and drop-off rates",
+        "description": "How many visitors reached key milestones or end states, and where others dropped out — informing experience design improvements."
+      },
+      {
+        "title": "Personalization inputs",
+        "description": "Optional profile data collected at registration (preferences, language, team) that can inform post-event segmentation and communication."
+      },
+      {
+        "title": "Post-visit follow-up triggers",
+        "description": "If opt-in is collected, the token record can be used to send personal galleries, recap content, or reward emails — with open and click tracking available."
+      },
+      {
+        "title": "Exportable visitor records",
+        "description": "Full or anonymised data exports in structured format for CRM ingestion, reporting decks, or stakeholder presentations."
+      }
+    ]
+  },
+
+  "compatible": {
+    "module": "Visitor Token Pass",
+    "slide": "Compatible Modules & Additional Services",
+    "items": [
+      {
+        "title": "Journey Module",
+        "description": "The Token Pass is the connective thread for multi-stop visitor journeys — each checkpoint recognizes the visitor and adapts the experience to their progress."
+      },
+      {
+        "title": "Shared Gallery / Media Output",
+        "description": "Visitor-captured media, moments, or generated content can be linked to their token and delivered as a personal post-visit gallery."
+      },
+      {
+        "title": "Feedback & Survey Module",
+        "description": "Post-interaction feedback can be tied to specific visitor tokens — enabling segmented analysis by profile, path, or engagement depth."
+      },
+      {
+        "title": "Leaderboard & Gamification Module",
+        "description": "Token-linked scores and achievements can feed into live rankings or competitive formats across the event space."
+      },
+      {
+        "title": "Booth & Station Modules",
+        "description": "Individual interaction points across the venue become richer when they recognize returning visitors via their token — enabling continuity and personalization at each stop."
+      },
+      {
+        "title": "User Experience & Interface Design",
+        "description": "A dedicated UX/UI design service ensures the token registration flow and all connected interfaces feel polished, intuitive, and on-brand."
+      },
+      {
+        "title": "Technical Setup & Live Hosting",
+        "description": "On-site technical support ensures hardware, connectivity, and token infrastructure run smoothly across the event — especially important for large-scale or multi-day deployments."
+      },
+      {
+        "title": "Customer Journey Roadmap",
+        "description": "A consulting service to map the full visitor arc — from pre-registration to post-visit — and identify where the Token Pass creates the most value within the broader experience design."
+      },
+      {
+        "title": "Marketing Design",
+        "description": "Visual assets to promote the token experience before the event — email headers, landing pages, event signage, and onboarding materials that set visitor expectations."
+      }
+    ]
+  },
+
+  "twist": {
+    "module": "Visitor Token Pass",
+    "slide": "Custom Twist Ideas",
+    "items": [
+      {
+        "title": "VIP & tiered access",
+        "description": "Different token tiers unlock different content, zones, or rewards — creating visible distinction between general, premium, and backstage visitor experiences."
+      },
+      {
+        "title": "Collectible token mechanic",
+        "description": "Visitors collect stamps, badges, or digital artifacts at each touchpoint — turning the token into a trophy of their full journey through the space."
+      },
+      {
+        "title": "Team or group token",
+        "description": "Groups share a single token identity — competing or collaborating as a unit, with a shared score and collective outcome at the end."
+      },
+      {
+        "title": "Sponsor-branded token edition",
+        "description": "A partner brand takes ownership of the token visual and reward layer — turning the pass itself into a branded moment and sponsorship deliverable."
+      },
+      {
+        "title": "Progressive unlock journey",
+        "description": "Content or zones are revealed only after visiting previous stations in sequence — creating narrative tension and guided discovery across the venue."
+      },
+      {
+        "title": "Return visit reward",
+        "description": "Tokens persist between days or events — visitors who return pick up where they left off and unlock exclusive content only available on second or third visits."
+      },
+      {
+        "title": "Pre-event token activation",
+        "description": "Visitors receive and activate their token before arriving — filling in a profile, choosing a character, or making choices that shape what they find when they walk in."
+      },
+      {
+        "title": "Physical keepsake output",
+        "description": "At the journey's end, the token triggers a printed card, sticker, or packaged memento personalized with the visitor's name, path, or score — a tangible takeaway."
+      },
+      {
+        "title": "Live data wall integration",
+        "description": "Token interactions feed a public-facing data visualization — a live map, heatmap, or crowd counter showing the collective energy of the space in real time."
+      }
+    ]
+  },
+
+  "theme": {
+    "module": "Visitor Token Pass",
+    "slide": "Themed Story Examples",
+    "items": [
+      {
+        "title": "Secret agent mission briefing",
+        "description": "Each visitor receives a classified token that unlocks intel across the venue — completing the mission earns a dossier with their full case record."
+      },
+      {
+        "title": "Winter festive edition",
+        "description": "Tokens become magical keys that unlock advent-style surprises at each stop — culminating in a personalised gift or seasonal reward at the exit."
+      },
+      {
+        "title": "Explorer's field log",
+        "description": "Visitors are cast as expedition members — their token is their field journal, logging discoveries, species, or artefacts found across the exhibition landscape."
+      },
+      {
+        "title": "Brand world passport",
+        "description": "Visitors 'travel' between branded zones, each stamped into their token — arriving at the final destination with a complete brand story and a personalised souvenir."
+      },
+      {
+        "title": "Sports fan identity card",
+        "description": "At a sports event or activation, the token carries the visitor's team allegiance, tracks their game participation, and reveals a personalised end-of-day highlight reel."
+      },
+      {
+        "title": "Museum time traveller",
+        "description": "Each token is assigned an era — visitors discover artefacts, stories, and challenges tailored to their historical period, with a full timeline delivered at the end."
+      },
+      {
+        "title": "Conference delegate profile",
+        "description": "At a professional event, the token ties together talks attended, sessions completed, and contacts made — generating a personalised summary for each attendee to take away."
+      },
+      {
+        "title": "Superhero origin story",
+        "description": "Visitors build their hero identity across the experience — each interaction adds a power, trait, or emblem — culminating in a fully formed character portrait."
+      }
+    ]
   }
+}
 ]
