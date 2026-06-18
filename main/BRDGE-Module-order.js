@@ -60,7 +60,7 @@ export const moduleOrder = [
   { order: 50, title: "Interactive Guided Theatre", slug: "interactive-guided-theatre" },
   { order: 51, title: "Virtual Reality Portals", slug: "virtual-reality-portals" },
   { order: 52, title: "Body Tracker", slug: "body-tracker" },
-  { order: 53, title: "AirHockey", slug: "air-hockey" },
+  { order: 53, title: "AirHockey", slug: "airhockey" },
   { order: 54, title: "Digital Magnifier", slug: "digital-magnifier" },
   { order: 55, title: "Interactive Floor", slug: "interactive-floor" },
   { order: 56, title: "Live Drawings", slug: "live-drawings" },
