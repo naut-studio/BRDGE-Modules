@@ -9,7 +9,7 @@
 
 export const moduleOrder = [
   { order:  1, title: "Spatial Mediaguide", slug: "spatial-mediaguide" },
-  { order:  2, title: "Photo- / Videobooth", slug: "photo-videobooth" },
+  { order:  2, title: "Memory Catcher", slug: "memory-catcher" },
   { order:  3, title: "Trail / Scavenger Hunt", slug: "trail" },
   { order:  4, title: "Pose Games", slug: "pose-games" },
   { order:  5, title: "Crowd Games", slug: "crowd-games" },
