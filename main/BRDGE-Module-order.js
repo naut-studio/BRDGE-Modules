@@ -66,5 +66,5 @@ export const moduleOrder = [
   { order: 56, title: "Live Drawings", slug: "live-drawings" },
   { order: 57, title: "Interactive Trampoline", slug: "interactive-trampoline" },
   { order: 58, title: "Support System", slug: "support-system" },
-  { order: 59, title: "Instructions & Documentation", slug: "instructions-documentation" },
+  { order: 59, title: "Wiki Documentation", slug: "wiki-documentation" },
 ];
