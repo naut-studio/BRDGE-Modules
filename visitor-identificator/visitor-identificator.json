@@ -29,7 +29,7 @@
       },
       {
         "title": "Shows, Activations & Multi-Zone Experiences",
-        "description": "Across pop-ups, trade shows, or large-venue activations, the Token Pass bridges separate zones and interactions into one coherent visitor story — with rewards, progress, and continuity built in."
+        "description": "Across pop-ups, trade shows, or large-venue activations, the Visitor Identificator bridges separate zones and interactions into one coherent visitor story — with rewards, progress, and continuity built in."
       }
     ]
   },
@@ -44,7 +44,7 @@
       },
       {
         "title": "Data Collection & Insights",
-        "description": "Every touchpoint becomes a data signal. The Token Pass captures who engaged, where, for how long, and with what outcome — turning foot traffic into actionable intelligence."
+        "description": "Every touchpoint becomes a data signal. The Visitor Identificator captures who engaged, where, for how long, and with what outcome — turning foot traffic into actionable intelligence."
       },
       {
         "title": "Hybrid Journey Connector",
@@ -63,35 +63,35 @@
     "items": [
       {
         "title": "Anonymous crowds with no follow-up",
-        "description": "Without a token system, visitors pass through unseen. The Token Pass creates an identity layer that makes every interaction attributable, connectable, and valuable beyond the moment."
+        "description": "Without a token system, visitors pass through unseen. The Visitor Identificator creates an identity layer that makes every interaction attributable, connectable, and valuable beyond the moment."
       },
       {
         "title": "Disconnected touchpoints",
-        "description": "Multiple activations, screens, or zones that don't talk to each other feel fragmented. The Token Pass ties them into a single visitor thread — one journey, one identity, multiple moments."
+        "description": "Multiple activations, screens, or zones that don't talk to each other feel fragmented. The Visitor Identificator ties them into a single visitor thread — one journey, one identity, multiple moments."
       },
       {
         "title": "No measurable proof of engagement",
-        "description": "Clients often struggle to report on what actually happened. The Token Pass generates participation records, interaction logs, and outcome data tied to real visitor behavior."
+        "description": "Clients often struggle to report on what actually happened. The Visitor Identificator generates participation records, interaction logs, and outcome data tied to real visitor behavior."
       },
       {
         "title": "One-size-fits-all experience",
-        "description": "Without identification, every visitor gets the same content. The Token Pass enables personalization based on profile, preferences, past interactions, or chosen paths."
+        "description": "Without identification, every visitor gets the same content. The Visitor Identificator enables personalization based on profile, preferences, past interactions, or chosen paths."
       },
       {
         "title": "Missed post-event opportunity",
-        "description": "Most activations end at the exit. Token Pass can trigger post-visit content, personal galleries, or reward emails — extending engagement well beyond the physical space."
+        "description": "Most activations end at the exit. Visitor Identificator can trigger post-visit content, personal galleries, or reward emails — extending engagement well beyond the physical space."
       },
       {
         "title": "No continuity between sessions or zones",
-        "description": "Visitors who return or move between areas lose their progress. Token Pass preserves state, history, and rewards across the full journey — even across multiple days."
+        "description": "Visitors who return or move between areas lose their progress. Visitor Identificator preserves state, history, and rewards across the full journey — even across multiple days."
       },
       {
         "title": "Hard to justify the investment",
-        "description": "Without data, it's difficult to prove ROI on experiential work. Token Pass provides reportable metrics — start counts, completion rates, dwell time, and interaction depth — that make the case clear."
+        "description": "Without data, it's difficult to prove ROI on experiential work. Visitor Identificator provides reportable metrics — start counts, completion rates, dwell time, and interaction depth — that make the case clear."
       },
       {
         "title": "Scalability gaps in large-format events",
-        "description": "Managing personalization at scale is complex. The Token Pass system handles hundreds or thousands of simultaneous visitors without degrading the individual experience."
+        "description": "Managing personalization at scale is complex. The Visitor Identificator system handles hundreds or thousands of simultaneous visitors without degrading the individual experience."
       }
     ]
   },
@@ -295,7 +295,7 @@
     "items": [
       {
         "title": "Journey Module",
-        "description": "The Token Pass is the connective thread for multi-stop visitor journeys — each checkpoint recognizes the visitor and adapts the experience to their progress."
+        "description": "The Visitor Identificator is the connective thread for multi-stop visitor journeys — each checkpoint recognizes the visitor and adapts the experience to their progress."
       },
       {
         "title": "Shared Gallery / Media Output",
@@ -323,7 +323,7 @@
       },
       {
         "title": "Customer Journey Roadmap",
-        "description": "A consulting service to map the full visitor arc — from pre-registration to post-visit — and identify where the Token Pass creates the most value within the broader experience design."
+        "description": "A consulting service to map the full visitor arc — from pre-registration to post-visit — and identify where the Visitor Identificator creates the most value within the broader experience design."
       },
       {
         "title": "Marketing Design",

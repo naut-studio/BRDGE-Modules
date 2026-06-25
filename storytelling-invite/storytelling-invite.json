@@ -3,7 +3,7 @@
     "title": "Storytelling Invite",
     "tagline": "The experience starts before the event.",
     "short_description": "Transforms pre-event communication into an emotional entry point that teases the story and nudges guests toward the first digital touchpoint.",
-    "long_description": "A narrative onboarding layer for invitations, registration flows, and pre-event emails that introduces the tone, world, and first actions of the journey. It can connect directly to modules such as Visitor Token Pass, quizzes, scavenger hunts, or guides, making the invitation itself part of the experience instead of a neutral information mail.",
+    "long_description": "A narrative onboarding layer for invitations, registration flows, and pre-event emails that introduces the tone, world, and first actions of the journey. It can connect directly to modules such as Visitor Identificator, quizzes, scavenger hunts, or guides, making the invitation itself part of the experience instead of a neutral information mail.",
     "moment": "Pre-Journey",
     "tag": [
       "Module",
@@ -144,7 +144,7 @@
       "slide": "Compatible Modules & Additional Services",
       "items": [
         {
-          "title": "Visitor Token Pass",
+          "title": "Visitor Identificator",
           "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
         },
         {

@@ -298,7 +298,7 @@
     "slide": "Compatible Modules & Additional Services",
     "items": [
       {
-        "title": "Visitor Token Pass",
+        "title": "Visitor Identificator",
         "description": "Link game participation to individual visitor identities — enabling personalized follow-up, score history, and continuity across a multi-module experience."
       },
       {

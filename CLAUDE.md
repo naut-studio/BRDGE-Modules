@@ -131,6 +131,11 @@ reversing the field mapping above:
 - **Tags and categories must be EXACT matches** to the approved lists — spelling, casing, spacing
   (e.g. `"AR / XR"`, `"NFC / RFID / QR Code"`, `"High Energy"`). If a value isn't on the list,
   stop and flag it. Never invent, merge, or re-case.
+- **Module names referenced in copy** (e.g. Better Together / Connections pairings) must be real,
+  current module names taken **exactly** from the **Module Order (JS)** list (the source of truth for
+  what modules exist). Never invent a name or use one from memory — older names drift (e.g. it's
+  "Visitor Identificator", not "Visitor Token Pass"; "Journey Manager", not "Journey"). If unsure,
+  read the Order (JS) list and use the exact title. Flag any pairing name you can't find on the list.
 - **Slugs tie to the folder name, file name, and URL path.** Preserve the existing slug, folder/file
   names, and order when editing, unless I explicitly ask to change them. Changing a slug means
   renaming both the folder and the `<slug>.js` file to match, and updating the Order (JS) page.
