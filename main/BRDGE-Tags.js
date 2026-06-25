@@ -1,9 +1,13 @@
 // =============================================================================
-// BRDGE - TAG GROUPS
-// =============================================================================
-// Source of truth for all available tags and their filter groups.
-// Adding a tag here makes it available in module JS files and in the filters.
-// Group title = filter dropdown label in the UI.
+// SOURCE OF TRUTH for tags (groups + full vocabulary).
+// The website fetches this file at runtime. Two copies must mirror it:
+//   - use-tag-constants.ts  (local fallback if the fetch fails)
+//   - the Notion "Tags" dropdown in the BRDGE Modules database (data-entry gate)
+//
+// AFTER EDITING THIS FILE — in Claude Code (BRDGE-Modules project), say:
+//   "I updated BRDGE-Tags.js — sync the fallback and the Notion dropdown."
+// It rewrites use-tag-constants.ts to match, updates the Notion Tags options,
+// and shows you what changed. Removals/renames are flagged, not silently deleted.
 // =============================================================================
 
 export const tagGroups = [
