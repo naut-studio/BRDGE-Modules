@@ -56,16 +56,30 @@ template and a request conflict, surface the conflict before proceeding.
   → `gallery: [{ file, width? }]`
 - Gallery Credits → `galleryCredits`
 - Client Logos (one per line) → `clientLogos: [...]`
+- Highlight fields (descriptions + optional titles, and Free Highlight 1–3) → see **Highlights** below.
+- Status (select: `1. Idea` / `2. Drafting` / `3. Copy done` / `4. Media done` / `5. Can be improved`
+  / `6. Good enough`) → **not exported** (internal progress tracker).
+- Notes → **not exported** (internal scratch field).
 
 ### Highlights (build the array in this order)
-- If **Free Highlight Title/Description** are filled, add that first:
-  `{ title: <Free Highlight Title>, description: <Free Highlight Description>, image: "", imageWidth: "10%" }`
-- Then the four fixed highlights. Titles, icons, `imageSide`, and `imageWidth` come from the
-  template; only the **description** comes from Notion:
-  1. `{ title: "Twists & Upgrades",      description: <Twists Description>,         image: "icon-wand_stars.svg",  imageWidth: "10%", imageSide: "left" }`
-  2. `{ title: "Themed Story Examples",  description: <Themes Description>,         image: "icon-styleguide.svg",  imageWidth: "10%", imageSide: "left" }`
-  3. `{ title: "Data That Proves Value", description: <Data/ROI Description>,       image: "icon-insert_chart.svg", imageWidth: "10%", imageSide: "left" }`
-  4. `{ title: "Better Together",        description: <Better Together Description>, image: "icon-automation.svg",  imageWidth: "10%", imageSide: "left" }`
+- **Free highlights (up to 3).** For each filled slot, add it first (before the four standard ones),
+  default `image: "icon-check_circle.svg"` (never leave `image` empty — empty renders a plain number,
+  which we don't want for free highlights). Slot → fields:
+  - Slot 1: `Free Highlight1 Title` + `Free Highlight Description`
+  - Slot 2: `Free Highlight2 Title` + `Free Highlight2 Description`
+  - Slot 3: `Free Highlight3 Title` + `Free Highlight3 Description`
+  Each → `{ title: <slot title>, description: <slot description>, image: "icon-check_circle.svg", imageWidth: "10%" }`
+- Then the four standard highlights. Icons, `imageSide`, and `imageWidth` are fixed (below). The
+  **description** always comes from Notion. The **title** is the default below *unless* the module
+  provides a custom title for that slot (the optional `… Title` fields) — if set, use the custom title;
+  if blank, fall back to the default. Icons stay fixed even when the title is customized (the slot's
+  meaning is unchanged; only its wording is).
+  1. Default **"Twists & Upgrades"** — title from `Twists Title` else default; `description: <Twists Description>`; `image: "icon-wand_stars.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
+  2. Default **"Themed Story Examples"** — title from `Themes Title` else default; `description: <Themes Description>`; `image: "icon-styleguide.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
+  3. Default **"Data That Proves Value"** — title from `Data/ROI Title` else default; `description: <Data/ROI Description>`; `image: "icon-insert_chart.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
+  4. Default **"Better Together"** — title from `Connections Title` else default; `description: <Connections Description>`; `image: "icon-automation.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
+- Note: custom titles make a module read more tailored but less uniform across the catalogue. The
+  defaults above are the consistent fallback; prefer them unless a custom title clearly reads better.
 
 ### States
 `states` is **not** populated from Notion. For a new module, leave it as the template default. For an
@@ -96,12 +110,17 @@ in code. Read `[slug]/[slug].js` and create or update its row in the **BRDGE Mod
 reversing the field mapping above:
 - Map straight back: title, slug, publish, tagline, short/long description, categories, tags, and the
   media fields (illustration, animation, videoUrl, videoUrls, gallery, clientLogos).
-- **Highlights, un-bundled:** put each fixed highlight's description into its matching field — Twists
-  Description, Themes Description, Data/ROI Description, Better Together Description. Any extra
-  highlight beyond the four goes into Free Highlight Title/Description. Don't import the fixed
-  titles/icons — they're template defaults.
+- **Highlights, un-bundled:** put each standard highlight's description into its matching field —
+  `Twists Description`, `Themes Description`, `Data/ROI Description`, `Connections Description`. If a
+  highlight's title differs from the standard default, put it in the matching title field (`Twists
+  Title`, `Themes Title`, `Data/ROI Title`, `Connections Title`); if it matches the default, leave the
+  title field blank. Any highlights beyond the four go into the free-highlight slots — `Free
+  Highlight1 Title` + `Free Highlight Description`, then `Free Highlight2/3 Title` + `Free
+  Highlight2/3 Description`. Don't import the standard icons — they're fixed defaults.
 - **`states`:** has no Notion field — leave it in the file only; ignore it on import.
-- **Status:** set as I specify (final modules are usually `Published`). Ask if I don't say.
+- **Status & Publish:** these are separate. `Publish` (checkbox) maps to the file's `publish`. `Status`
+  is the internal tracker — set as I specify; for finished modules use `6. Good enough` (there is no
+  "Published" status). Ask if I don't say.
 - **If a row with that slug already exists,** show the differences and wait — never silently overwrite
   a hand-edited row.
 - **Vocabulary mismatch:** if a tag or category in the file isn't in the current `BRDGE-Tags.js` /
