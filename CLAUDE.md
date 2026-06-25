@@ -57,7 +57,7 @@ template and a request conflict, surface the conflict before proceeding.
 
 ### Highlights (build the array in this order)
 - If **Free Highlight Title/Description** are filled, add that first:
-  `{ title: <Free Highlight Title>, description: <Free Highlight Description>, image: "", imageWidth: "10%" }`
+  `{ title: <Free Highlight Title>, description: <Free Highlight Description>, image: "icon-check_circle.svg", imageWidth: "10%" }`
 - Then the four fixed highlights. Titles, icons, `imageSide`, and `imageWidth` come from the
   template; only the **description** comes from Notion:
   1. `{ title: "Twists & Upgrades",      description: <Twists Description>,         image: "icon-wand_stars.svg",  imageWidth: "10%", imageSide: "left" }`
