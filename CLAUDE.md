@@ -29,6 +29,8 @@ template and a request conflict, surface the conflict before proceeding.
 1. Read the module's row from the **BRDGE Modules** database.
 2. Read an **existing module `.js` file in this repo** as the exact format reference — match its
    export style, field order, quoting, and indentation, and write the new file to the same folder.
+   Copy the reference for *structure only* — **derive the export name and header comment from this
+   module's own slug** (`prize-draw` → `prizeDrawModule`), never copy the reference file's name.
 3. Build the module object from the template, filling values from the Notion row (mapping below).
 4. **Each module lives in its own folder named after its `slug`, containing a `<slug>.js` file** —
    e.g. `pose-games/pose-games.js`. The folder and the file both match the slug verbatim, including
@@ -57,7 +59,7 @@ template and a request conflict, surface the conflict before proceeding.
 
 ### Highlights (build the array in this order)
 - If **Free Highlight Title/Description** are filled, add that first:
-  `{ title: <Free Highlight Title>, description: <Free Highlight Description>, image: "icon-check_circle.svg", imageWidth: "10%" }`
+  `{ title: <Free Highlight Title>, description: <Free Highlight Description>, image: "", imageWidth: "10%" }`
 - Then the four fixed highlights. Titles, icons, `imageSide`, and `imageWidth` come from the
   template; only the **description** comes from Notion:
   1. `{ title: "Twists & Upgrades",      description: <Twists Description>,         image: "icon-wand_stars.svg",  imageWidth: "10%", imageSide: "left" }`
@@ -119,8 +121,10 @@ reversing the field mapping above:
   appended last, using its title and slug. If I ask for a specific position, insert it there and
   shift every later module by +1 so the sequence stays contiguous and unique.
 - **Export naming:** each module's exported object and header comment must be named after the module
-  itself (e.g. `poseGamesModule`), matching its slug — not a leftover name copied from another module.
-  If you spot a file whose export/header doesn't match its slug, flag it as a likely copy-paste bug.
+  itself — the slug in camelCase + `Module` (e.g. `prize-draw` → `prizeDrawModule`), never a generic
+  name like `module` or a leftover copied from another file. Set this from the slug when generating;
+  don't inherit it from the reference file. If you spot a file whose export/header doesn't match its
+  slug, flag it as a likely copy-paste bug.
 - If a row is missing copy, offer to draft it using the AI prompt in the README — don't invent
   technical claims.
 
