@@ -32,7 +32,7 @@ export const moduleOrder = [
   { order: 22, title: "Shared Gallery", slug: "shared-gallery" },
   { order: 23, title: "Mosaic Wall", slug: "mosaic-wall" },
   { order: 24, title: "Virtual Shootout", slug: "virtual-shootout" },
-  { order: 25, title: "Digital Grafitti", slug: "digital-grafitti" },
+  { order: 25, title: "Digital Graffiti", slug: "digital-grafitti" },
   { order: 26, title: "Remote Controllers", slug: "remote-controllers" },
   { order: 27, title: "Ball Wall Games", slug: "ball-wall-games" },
   { order: 28, title: "Balance Games", slug: "balance-games" },
@@ -65,6 +65,6 @@ export const moduleOrder = [
   { order: 55, title: "Interactive Floor", slug: "interactive-floor" },
   { order: 56, title: "Live Drawings", slug: "live-drawings" },
   { order: 57, title: "Interactive Trampoline", slug: "interactive-trampoline" },
-  { order: 58, title: "Ticketing System", slug: "ticketing-system" },
+  { order: 58, title: "Support System", slug: "support-system" },
   { order: 59, title: "Instructions & Documentation", slug: "instructions-documentation" },
 ];
