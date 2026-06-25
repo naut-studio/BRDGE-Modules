@@ -32,7 +32,7 @@ export const moduleOrder = [
   { order: 22, title: "Shared Gallery", slug: "shared-gallery" },
   { order: 23, title: "Mosaic Wall", slug: "mosaic-wall" },
   { order: 24, title: "Virtual Shootout", slug: "virtual-shootout" },
-  { order: 25, title: "Digital Graffiti", slug: "digital-grafitti" },
+  { order: 25, title: "Digital Graffiti", slug: "digital-graffiti" },
   { order: 26, title: "Remote Controllers", slug: "remote-controllers" },
   { order: 27, title: "Ball Wall Games", slug: "ball-wall-games" },
   { order: 28, title: "Balance Games", slug: "balance-games" },
