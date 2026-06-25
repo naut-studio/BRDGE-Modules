@@ -30,7 +30,10 @@ template and a request conflict, surface the conflict before proceeding.
 2. Read an **existing module `.js` file in this repo** as the exact format reference — match its
    export style, field order, quoting, and indentation, and write the new file to the same folder.
 3. Build the module object from the template, filling values from the Notion row (mapping below).
-4. **File name = `slug` + `.js`**, verbatim — including any existing typo. Never use the display title.
+4. **Each module lives in its own folder named after its `slug`, containing a `<slug>.js` file** —
+   e.g. `pose-games/pose-games.js`. The folder and the file both match the slug verbatim, including
+   any existing typo. Never use the display title. Place new modules following the same location and
+   pattern as existing module folders.
 5. For a **new** module, leave anything the row doesn't provide as `""` or `[]`. For an **existing**
    module, see "Editing an existing module" below — never blank a field the row happens to leave empty.
 
@@ -85,13 +88,31 @@ row doesn't carry.**
 - If Notion and the file both have a value and they differ, flag the difference and ask — don't
   silently pick one.
 
+## Importing an existing module into Notion (file → row)
+The reverse direction — used to backfill the source of truth for modules that were authored directly
+in code. Read `[slug]/[slug].js` and create or update its row in the **BRDGE Modules** database,
+reversing the field mapping above:
+- Map straight back: title, slug, publish, tagline, short/long description, categories, tags, and the
+  media fields (illustration, animation, videoUrl, videoUrls, gallery, clientLogos).
+- **Highlights, un-bundled:** put each fixed highlight's description into its matching field — Twists
+  Description, Themes Description, Data/ROI Description, Better Together Description. Any extra
+  highlight beyond the four goes into Free Highlight Title/Description. Don't import the fixed
+  titles/icons — they're template defaults.
+- **`states`:** has no Notion field — leave it in the file only; ignore it on import.
+- **Status:** set as I specify (final modules are usually `Published`). Ask if I don't say.
+- **If a row with that slug already exists,** show the differences and wait — never silently overwrite
+  a hand-edited row.
+- **Vocabulary mismatch:** if a tag or category in the file isn't in the current `BRDGE-Tags.js` /
+  Categories list, the dropdown can't hold it — report it rather than guessing (this surfaces drift
+  in older modules).
+
 ## Rules
 - **Tags and categories must be EXACT matches** to the approved lists — spelling, casing, spacing
   (e.g. `"AR / XR"`, `"NFC / RFID / QR Code"`, `"High Energy"`). If a value isn't on the list,
   stop and flag it. Never invent, merge, or re-case.
-- **Slugs tie to file names and URL paths.** Preserve the existing slug, file name, and order when
-  editing, unless I explicitly ask to change them. Changing a slug means renaming the file to match
-  and updating the Order (JS) page.
+- **Slugs tie to the folder name, file name, and URL path.** Preserve the existing slug, folder/file
+  names, and order when editing, unless I explicitly ask to change them. Changing a slug means
+  renaming both the folder and the `<slug>.js` file to match, and updating the Order (JS) page.
 - **Typos:** if you spot a likely typo (slug, title, tag, anywhere), tell me the exact value and a
   suggested fix. Do not silently change it. Still use the slug verbatim for the file name.
 - **New module → update the Order (JS) page.** Default: next order number (current highest + 1),
