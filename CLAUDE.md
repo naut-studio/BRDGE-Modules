@@ -59,27 +59,30 @@ template and a request conflict, surface the conflict before proceeding.
 - Highlight fields (descriptions + optional titles, and Free Highlight 1–3) → see **Highlights** below.
 - Status (select: `1. Idea` / `2. Drafting` / `3. Copy done` / `4. Media done` / `5. Can be improved`
   / `6. Good enough`) → **not exported** (internal progress tracker).
-- Notes → **not exported** (internal scratch field).
+- Notes / Missing → **not exported** (internal scratch field).
 
 ### Highlights (build the array in this order)
-- **Free highlights (up to 3).** For each filled slot, add it first (before the four standard ones),
+- **Free highlights (up to 5).** For each filled slot, add it first (before the four standard ones),
   default `image: "icon-check_circle.svg"` (never leave `image` empty — empty renders a plain number,
   which we don't want for free highlights). Slot → fields:
   - Slot 1: `Free Highlight1 Title` + `Free Highlight Description`
   - Slot 2: `Free Highlight2 Title` + `Free Highlight2 Description`
   - Slot 3: `Free Highlight3 Title` + `Free Highlight3 Description`
+  - Slot 4: `Free Highlight4 Title` + `Free Highlight4 Description`
+  - Slot 5: `Free Highlight5 Title` + `Free Highlight5 Description`
   Each → `{ title: <slot title>, description: <slot description>, image: "icon-check_circle.svg", imageWidth: "10%" }`
 - Then the four standard highlights. Icons, `imageSide`, and `imageWidth` are fixed (below). The
-  **description** always comes from Notion. The **title** is the default below *unless* the module
-  provides a custom title for that slot (the optional `… Title` fields) — if set, use the custom title;
-  if blank, fall back to the default. Icons stay fixed even when the title is customized (the slot's
-  meaning is unchanged; only its wording is).
-  1. Default **"Twists & Upgrades"** — title from `Twists Title` else default; `description: <Twists Description>`; `image: "icon-wand_stars.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
-  2. Default **"Themed Story Examples"** — title from `Themes Title` else default; `description: <Themes Description>`; `image: "icon-styleguide.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
-  3. Default **"Data That Proves Value"** — title from `Data/ROI Title` else default; `description: <Data/ROI Description>`; `image: "icon-insert_chart.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
-  4. Default **"Better Together"** — title from `Connections Title` else default; `description: <Connections Description>`; `image: "icon-automation.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
-- Note: custom titles make a module read more tailored but less uniform across the catalogue. The
-  defaults above are the consistent fallback; prefer them unless a custom title clearly reads better.
+  **description** always comes from Notion. **Always write a custom, contextual title** for each:
+  use the module's `… Title` field if filled, else draft a contextual one from the module's content.
+  Keep the standard default on the same line as an inline comment — `title: "<custom>", // default:
+  "<standard>"` — so the creator can revert by swapping the value for the commented default. Icons
+  stay fixed even when the title is customized (the slot's meaning is unchanged; only its wording is).
+  1. Default **"Twists & Upgrades"** — custom title from `Twists Title` (else drafted); `description: <Twists Description>`; `image: "icon-wand_stars.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
+  2. Default **"Themed Story Examples"** — custom title from `Themes Title` (else drafted); `description: <Themes Description>`; `image: "icon-styleguide.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
+  3. Default **"Data That Proves Value"** — custom title from `Data/ROI Title` (else drafted); `description: <Data/ROI Description>`; `image: "icon-insert_chart.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
+  4. Default **"Better Together"** — custom title from `Connections Title` (else drafted); `description: <Connections Description>`; `image: "icon-automation.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
+- Keep the default in the comment every time, so reverting to the consistent catalogue-wide title is
+  a one-line edit.
 
 ### States
 `states` is **not** populated from Notion. For a new module, leave it as the template default. For an
