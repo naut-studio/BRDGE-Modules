@@ -65,7 +65,7 @@ template and a request conflict, surface the conflict before proceeding.
 - **Free highlights (up to 5).** For each filled slot, add it first (before the four standard ones),
   default `image: "icon-check_circle.svg"` (never leave `image` empty — empty renders a plain number,
   which we don't want for free highlights). Slot → fields:
-  - Slot 1: `Free Highlight1 Title` + `Free Highlight Description`
+  - Slot 1: `Free Highlight1 Title` + `Free Highlight1 Description`
   - Slot 2: `Free Highlight2 Title` + `Free Highlight2 Description`
   - Slot 3: `Free Highlight3 Title` + `Free Highlight3 Description`
   - Slot 4: `Free Highlight4 Title` + `Free Highlight4 Description`
@@ -131,6 +131,11 @@ reversing the field mapping above:
   in older modules).
 
 ## Rules
+- **No em dashes in module copy.** When writing or editing any module copy (tagline, descriptions,
+  highlight titles/descriptions), do not use em dashes (—). Use commas, parentheses, or separate
+  sentences instead. This applies whether drafting fresh copy or editing existing copy, across the
+  whole catalogue. (This rule is about the copy you generate, not about reformatting text I typed
+  into Notion — copy from a Notion row verbatim.)
 - **Tags and categories must be EXACT matches** to the approved lists — spelling, casing, spacing
   (e.g. `"AR / XR"`, `"NFC / RFID / QR Code"`, `"High Energy"`). If a value isn't on the list,
   stop and flag it. Never invent, merge, or re-case.

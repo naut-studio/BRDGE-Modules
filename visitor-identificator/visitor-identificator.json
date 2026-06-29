@@ -3,7 +3,7 @@
   "title": "Visitor Identificator",
   "tagline": "One key. Every interaction.",
   "short_description": "A personalized digital identity that connects each visitor to your experience. It links interactions, content, and moments across physical and digital touchpoints.",
-  "long_description": "A flexible digital pass that assigns each visitor a unique token, enabling seamless identification, personalization, and data continuity throughout the experience. Whether accessed via QR code, NFC wristband, RFID card, or tagged object, it connects people to content, games, media, and rewards while tracking interactions in real time. The Visitor Identificator is the connective layer beneath the full BRDGE ecosystem — the foundation for connected visitor journeys across spaces, modules, and moments. It transforms a collection of interactions into a coherent, personal experience.",
+  "long_description": "A flexible digital pass that assigns each visitor a unique token, enabling seamless identification, personalization, and data continuity throughout the experience. Whether accessed via QR code, NFC wristband, RFID card, or tagged object, it connects people to content, games, media, and rewards while tracking interactions in real time. The Visitor Identificator is the connective layer beneath the full BRDGE ecosystem, the foundation for connected visitor journeys across spaces, modules, and moments. It transforms a collection of interactions into a coherent, personal experience.",
   "moment": "Pre-Journey, Journey, Post-Journey",
   "tag": [
     "Module",
@@ -21,7 +21,7 @@
     "items": [
       {
         "title": "Museums & Exhibitions",
-        "description": "Visitors receive a token at entry and carry it through the space — unlocking content, logging discoveries, and building a personal trail that can be revisited or shared after the visit."
+        "description": "Visitors receive a token at entry and carry it through the space, unlocking content, logging discoveries, and building a personal trail that can be revisited or shared after the visit."
       },
       {
         "title": "Conferences & Brand Events",
@@ -29,7 +29,7 @@
       },
       {
         "title": "Shows, Activations & Multi-Zone Experiences",
-        "description": "Across pop-ups, trade shows, or large-venue activations, the Visitor Identificator bridges separate zones and interactions into one coherent visitor story — with rewards, progress, and continuity built in."
+        "description": "Across pop-ups, trade shows, or large-venue activations, the Visitor Identificator bridges separate zones and interactions into one coherent visitor story, with rewards, progress, and continuity built in."
       }
     ]
   },
@@ -40,11 +40,11 @@
     "items": [
       {
         "title": "Personalization Layer",
-        "description": "Every visitor gets a unique identity that shapes what they see, unlock, and receive — making the experience feel tailored rather than generic."
+        "description": "Every visitor gets a unique identity that shapes what they see, unlock, and receive, making the experience feel tailored rather than generic."
       },
       {
         "title": "Data Collection & Insights",
-        "description": "Every touchpoint becomes a data signal. The Visitor Identificator captures who engaged, where, for how long, and with what outcome — turning foot traffic into actionable intelligence."
+        "description": "Every touchpoint becomes a data signal. The Visitor Identificator captures who engaged, where, for how long, and with what outcome, turning foot traffic into actionable intelligence."
       },
       {
         "title": "Hybrid Journey Connector",
@@ -52,7 +52,7 @@
       },
       {
         "title": "Loyalty & Return Visits",
-        "description": "Tokens can carry history between visits — rewarding returning visitors, unlocking new content, and building a relationship that extends beyond a single event."
+        "description": "Tokens can carry history between visits, rewarding returning visitors, unlocking new content, and building a relationship that extends beyond a single event."
       }
     ]
   },
@@ -67,7 +67,7 @@
       },
       {
         "title": "Disconnected touchpoints",
-        "description": "Multiple activations, screens, or zones that don't talk to each other feel fragmented. The Visitor Identificator ties them into a single visitor thread — one journey, one identity, multiple moments."
+        "description": "Multiple activations, screens, or zones that don't talk to each other feel fragmented. The Visitor Identificator ties them into a single visitor thread, one journey, one identity, multiple moments."
       },
       {
         "title": "No measurable proof of engagement",
@@ -79,15 +79,15 @@
       },
       {
         "title": "Missed post-event opportunity",
-        "description": "Most activations end at the exit. Visitor Identificator can trigger post-visit content, personal galleries, or reward emails — extending engagement well beyond the physical space."
+        "description": "Most activations end at the exit. Visitor Identificator can trigger post-visit content, personal galleries, or reward emails, extending engagement well beyond the physical space."
       },
       {
         "title": "No continuity between sessions or zones",
-        "description": "Visitors who return or move between areas lose their progress. Visitor Identificator preserves state, history, and rewards across the full journey — even across multiple days."
+        "description": "Visitors who return or move between areas lose their progress. Visitor Identificator preserves state, history, and rewards across the full journey, even across multiple days."
       },
       {
         "title": "Hard to justify the investment",
-        "description": "Without data, it's difficult to prove ROI on experiential work. Visitor Identificator provides reportable metrics — start counts, completion rates, dwell time, and interaction depth — that make the case clear."
+        "description": "Without data, it's difficult to prove ROI on experiential work. Visitor Identificator provides reportable metrics (start counts, completion rates, dwell time, and interaction depth) that make the case clear."
       },
       {
         "title": "Scalability gaps in large-format events",
@@ -102,11 +102,11 @@
     "items": [
       {
         "title": "Token generation & assignment flow",
-        "description": "The full logic for creating, issuing, and linking unique visitor tokens — whether via QR code, NFC, RFID, or URL-based access."
+        "description": "The full logic for creating, issuing, and linking unique visitor tokens, whether via QR code, NFC, RFID, or URL-based access."
       },
       {
         "title": "Visitor-facing interaction interface",
-        "description": "The screen or digital surface the visitor interacts with when activating or using their token — styled and adapted to the project context."
+        "description": "The screen or digital surface the visitor interacts with when activating or using their token, styled and adapted to the project context."
       },
       {
         "title": "Branded interface skin",
@@ -118,7 +118,7 @@
       },
       {
         "title": "Basic analytics output",
-        "description": "Tracking of key participation signals — activations, usage events, and completion markers — delivered in a readable export or dashboard format."
+        "description": "Tracking of key participation signals (activations, usage events, and completion markers) delivered in a readable export or dashboard format."
       }
     ]
   },
@@ -156,7 +156,7 @@
       {
         "state": "Attract",
         "trigger": "Visitor approaches the activation point or receives an entry prompt (physical or digital)",
-        "experience": "The system presents a clear invitation — what the token is, why it matters, and how to get started. The experience communicates value before asking for action.",
+        "experience": "The system presents a clear invitation: what the token is, why it matters, and how to get started. The experience communicates value before asking for action.",
         "feedback": "Idle animation, ambient motion, signage prompt, or branded idle screen",
         "configurable": "Headline message, visual identity, language, entry mechanic (QR, tap, scan, URL)",
         "data": "Proximity triggers or view count if sensor-equipped"
@@ -172,7 +172,7 @@
       {
         "state": "Engage",
         "trigger": "Visitor uses their token at one or more touchpoints across the experience",
-        "experience": "Each interaction is recognized and logged. The visitor receives personalized content, unlocks, or progress — the experience reacts to who they are and what they've done.",
+        "experience": "Each interaction is recognized and logged. The visitor receives personalized content, unlocks, or progress: the experience reacts to who they are and what they've done.",
         "feedback": "Personalized visuals, progress indicators, unlocked content, or reward signals",
         "configurable": "Touchpoint logic, content per profile, unlock conditions, interaction pacing",
         "data": "Touchpoints visited, interaction depth, time spent, choices made, modules triggered"
@@ -180,7 +180,7 @@
       {
         "state": "Resolve",
         "trigger": "Visitor completes the journey, reaches a threshold, or exits the experience",
-        "experience": "A summary, reward, or personal recap is presented. The token's full journey is surfaced — what was collected, achieved, or unlocked. Post-visit options are offered.",
+        "experience": "A summary, reward, or personal recap is presented. The token's full journey is surfaced: what was collected, achieved, or unlocked. Post-visit options are offered.",
         "feedback": "Journey summary screen, reward reveal, QR to personal gallery, share prompt, or printed output",
         "configurable": "Outcome format, reward type, post-visit CTA, share mechanics",
         "data": "Completion status, final score or outcome, exportable visitor record, follow-up trigger"
@@ -198,11 +198,11 @@
       },
       {
         "title": "Token carrier format",
-        "description": "The physical or digital medium — QR code printout, NFC wristband, RFID card, sticker, or URL-based pass — can be chosen to fit the venue format and audience."
+        "description": "The physical or digital medium (QR code printout, NFC wristband, RFID card, sticker, or URL-based pass) can be chosen to fit the venue format and audience."
       },
       {
         "title": "Registration depth",
-        "description": "From a frictionless anonymous tap to a richer onboarding with name, language, or preference selection — the registration flow is tunable to context and audience type."
+        "description": "From a frictionless anonymous tap to a richer onboarding with name, language, or preference selection, the registration flow is tunable to context and audience type."
       },
       {
         "title": "Content and personalization logic",
@@ -229,7 +229,7 @@
       },
       {
         "title": "Token issuance point",
-        "description": "A designated physical or digital entry point where visitors receive or activate their token — this may be a staffed desk, a self-serve kiosk, a printed QR at entry, or a pre-sent URL."
+        "description": "A designated physical or digital entry point where visitors receive or activate their token: this may be a staffed desk, a self-serve kiosk, a printed QR at entry, or a pre-sent URL."
       },
       {
         "title": "Reader hardware (if physical tokens)",
@@ -245,7 +245,7 @@
       },
       {
         "title": "Spatial and flow planning",
-        "description": "Token touchpoints must be positioned with visitor flow in mind — legible, accessible, and sequenced logically across the venue to avoid bottlenecks or confusion."
+        "description": "Token touchpoints must be positioned with visitor flow in mind, legible, accessible, and sequenced logically across the venue to avoid bottlenecks or confusion."
       },
       {
         "title": "Privacy and data handling compliance",
@@ -260,19 +260,19 @@
     "items": [
       {
         "title": "Token activations",
-        "description": "Total number of unique tokens issued — a direct measure of how many individual visitors engaged with the experience."
+        "description": "Total number of unique tokens issued, a direct measure of how many individual visitors engaged with the experience."
       },
       {
         "title": "Touchpoint interaction log",
-        "description": "A record of which zones, modules, or stations each token interacted with — revealing traffic patterns, popular moments, and underperforming areas."
+        "description": "A record of which zones, modules, or stations each token interacted with, revealing traffic patterns, popular moments, and underperforming areas."
       },
       {
         "title": "Dwell time per visitor",
-        "description": "How long each token was active across the space — indicating depth of engagement and experience quality."
+        "description": "How long each token was active across the space, indicating depth of engagement and experience quality."
       },
       {
         "title": "Completion and drop-off rates",
-        "description": "How many visitors reached key milestones or end states, and where others dropped out — informing experience design improvements."
+        "description": "How many visitors reached key milestones or end states, and where others dropped out, informing experience design improvements."
       },
       {
         "title": "Personalization inputs",
@@ -280,7 +280,7 @@
       },
       {
         "title": "Post-visit follow-up triggers",
-        "description": "If opt-in is collected, the token record can be used to send personal galleries, recap content, or reward emails — with open and click tracking available."
+        "description": "If opt-in is collected, the token record can be used to send personal galleries, recap content, or reward emails, with open and click tracking available."
       },
       {
         "title": "Exportable visitor records",
@@ -295,7 +295,7 @@
     "items": [
       {
         "title": "Journey Module",
-        "description": "The Visitor Identificator is the connective thread for multi-stop visitor journeys — each checkpoint recognizes the visitor and adapts the experience to their progress."
+        "description": "The Visitor Identificator is the connective thread for multi-stop visitor journeys: each checkpoint recognizes the visitor and adapts the experience to their progress."
       },
       {
         "title": "Shared Gallery / Media Output",
@@ -303,7 +303,7 @@
       },
       {
         "title": "Feedback & Survey Module",
-        "description": "Post-interaction feedback can be tied to specific visitor tokens — enabling segmented analysis by profile, path, or engagement depth."
+        "description": "Post-interaction feedback can be tied to specific visitor tokens, enabling segmented analysis by profile, path, or engagement depth."
       },
       {
         "title": "Leaderboard & Gamification Module",
@@ -311,7 +311,7 @@
       },
       {
         "title": "Booth & Station Modules",
-        "description": "Individual interaction points across the venue become richer when they recognize returning visitors via their token — enabling continuity and personalization at each stop."
+        "description": "Individual interaction points across the venue become richer when they recognize returning visitors via their token, enabling continuity and personalization at each stop."
       },
       {
         "title": "User Experience & Interface Design",
@@ -319,15 +319,15 @@
       },
       {
         "title": "Technical Setup & Live Hosting",
-        "description": "On-site technical support ensures hardware, connectivity, and token infrastructure run smoothly across the event — especially important for large-scale or multi-day deployments."
+        "description": "On-site technical support ensures hardware, connectivity, and token infrastructure run smoothly across the event, especially important for large-scale or multi-day deployments."
       },
       {
         "title": "Customer Journey Roadmap",
-        "description": "A consulting service to map the full visitor arc — from pre-registration to post-visit — and identify where the Visitor Identificator creates the most value within the broader experience design."
+        "description": "A consulting service to map the full visitor arc, from pre-registration to post-visit, and identify where the Visitor Identificator creates the most value within the broader experience design."
       },
       {
         "title": "Marketing Design",
-        "description": "Visual assets to promote the token experience before the event — email headers, landing pages, event signage, and onboarding materials that set visitor expectations."
+        "description": "Visual assets to promote the token experience before the event: email headers, landing pages, event signage, and onboarding materials that set visitor expectations."
       }
     ]
   },
@@ -338,39 +338,39 @@
     "items": [
       {
         "title": "VIP & tiered access",
-        "description": "Different token tiers unlock different content, zones, or rewards — creating visible distinction between general, premium, and backstage visitor experiences."
+        "description": "Different token tiers unlock different content, zones, or rewards, creating visible distinction between general, premium, and backstage visitor experiences."
       },
       {
         "title": "Collectible token mechanic",
-        "description": "Visitors collect stamps, badges, or digital artifacts at each touchpoint — turning the token into a trophy of their full journey through the space."
+        "description": "Visitors collect stamps, badges, or digital artifacts at each touchpoint, turning the token into a trophy of their full journey through the space."
       },
       {
         "title": "Team or group token",
-        "description": "Groups share a single token identity — competing or collaborating as a unit, with a shared score and collective outcome at the end."
+        "description": "Groups share a single token identity, competing or collaborating as a unit, with a shared score and collective outcome at the end."
       },
       {
         "title": "Sponsor-branded token edition",
-        "description": "A partner brand takes ownership of the token visual and reward layer — turning the pass itself into a branded moment and sponsorship deliverable."
+        "description": "A partner brand takes ownership of the token visual and reward layer, turning the pass itself into a branded moment and sponsorship deliverable."
       },
       {
         "title": "Progressive unlock journey",
-        "description": "Content or zones are revealed only after visiting previous stations in sequence — creating narrative tension and guided discovery across the venue."
+        "description": "Content or zones are revealed only after visiting previous stations in sequence, creating narrative tension and guided discovery across the venue."
       },
       {
         "title": "Return visit reward",
-        "description": "Tokens persist between days or events — visitors who return pick up where they left off and unlock exclusive content only available on second or third visits."
+        "description": "Tokens persist between days or events: visitors who return pick up where they left off and unlock exclusive content only available on second or third visits."
       },
       {
         "title": "Pre-event token activation",
-        "description": "Visitors receive and activate their token before arriving — filling in a profile, choosing a character, or making choices that shape what they find when they walk in."
+        "description": "Visitors receive and activate their token before arriving, filling in a profile, choosing a character, or making choices that shape what they find when they walk in."
       },
       {
         "title": "Physical keepsake output",
-        "description": "At the journey's end, the token triggers a printed card, sticker, or packaged memento personalized with the visitor's name, path, or score — a tangible takeaway."
+        "description": "At the journey's end, the token triggers a printed card, sticker, or packaged memento personalized with the visitor's name, path, or score, a tangible takeaway."
       },
       {
         "title": "Live data wall integration",
-        "description": "Token interactions feed a public-facing data visualization — a live map, heatmap, or crowd counter showing the collective energy of the space in real time."
+        "description": "Token interactions feed a public-facing data visualization, a live map, heatmap, or crowd counter showing the collective energy of the space in real time."
       }
     ]
   },
@@ -381,19 +381,19 @@
     "items": [
       {
         "title": "Secret agent mission briefing",
-        "description": "Each visitor receives a classified token that unlocks intel across the venue — completing the mission earns a dossier with their full case record."
+        "description": "Each visitor receives a classified token that unlocks intel across the venue: completing the mission earns a dossier with their full case record."
       },
       {
         "title": "Winter festive edition",
-        "description": "Tokens become magical keys that unlock advent-style surprises at each stop — culminating in a personalised gift or seasonal reward at the exit."
+        "description": "Tokens become magical keys that unlock advent-style surprises at each stop, culminating in a personalised gift or seasonal reward at the exit."
       },
       {
         "title": "Explorer's field log",
-        "description": "Visitors are cast as expedition members — their token is their field journal, logging discoveries, species, or artefacts found across the exhibition landscape."
+        "description": "Visitors are cast as expedition members: their token is their field journal, logging discoveries, species, or artefacts found across the exhibition landscape."
       },
       {
         "title": "Brand world passport",
-        "description": "Visitors 'travel' between branded zones, each stamped into their token — arriving at the final destination with a complete brand story and a personalised souvenir."
+        "description": "Visitors 'travel' between branded zones, each stamped into their token, arriving at the final destination with a complete brand story and a personalised souvenir."
       },
       {
         "title": "Sports fan identity card",
@@ -401,15 +401,15 @@
       },
       {
         "title": "Museum time traveller",
-        "description": "Each token is assigned an era — visitors discover artefacts, stories, and challenges tailored to their historical period, with a full timeline delivered at the end."
+        "description": "Each token is assigned an era: visitors discover artefacts, stories, and challenges tailored to their historical period, with a full timeline delivered at the end."
       },
       {
         "title": "Conference delegate profile",
-        "description": "At a professional event, the token ties together talks attended, sessions completed, and contacts made — generating a personalised summary for each attendee to take away."
+        "description": "At a professional event, the token ties together talks attended, sessions completed, and contacts made, generating a personalised summary for each attendee to take away."
       },
       {
         "title": "Superhero origin story",
-        "description": "Visitors build their hero identity across the experience — each interaction adds a power, trait, or emblem — culminating in a fully formed character portrait."
+        "description": "Visitors build their hero identity across the experience: each interaction adds a power, trait, or emblem, culminating in a fully formed character portrait."
       }
     ]
   }

@@ -24,15 +24,15 @@
     "items": [
       {
         "title": "Festivals, Fairs & Outdoor Events",
-        "description": "Classic carnival games, strength challenges, or skill stations become fully connected — a moderator logs each result on the spot, feeding scores into a live leaderboard or personal recap visible across the event."
+        "description": "Classic carnival games, strength challenges, or skill stations become fully connected: a moderator logs each result on the spot, feeding scores into a live leaderboard or personal recap visible across the event."
       },
       {
         "title": "Brand Activations & Experiential Zones",
-        "description": "Physical brand challenges — throwing, building, tasting, or testing — gain a digital layer without losing their tactile appeal. Moderators capture moments and scores that become part of the visitor's branded story."
+        "description": "Physical brand challenges (throwing, building, tasting, or testing) gain a digital layer without losing their tactile appeal. Moderators capture moments and scores that become part of the visitor's branded story."
       },
       {
         "title": "Conferences, Team Events & Workshops",
-        "description": "Group activities, team challenges, or workshop exercises that happen off-screen can still contribute to a collective journey — scores, results, and photos logged by a facilitator feed into the wider BRDGE experience."
+        "description": "Group activities, team challenges, or workshop exercises that happen off-screen can still contribute to a collective journey: scores, results, and photos logged by a facilitator feed into the wider BRDGE experience."
       }
     ]
   },
@@ -43,19 +43,19 @@
     "items": [
       {
         "title": "Experience Extension",
-        "description": "Expand the BRDGE journey beyond screens and sensors — any physical game or human-led activity becomes a connected touchpoint, ensuring no moment is lost from the visitor's story."
+        "description": "Expand the BRDGE journey beyond screens and sensors: any physical game or human-led activity becomes a connected touchpoint, ensuring no moment is lost from the visitor's story."
       },
       {
         "title": "Gamified Motivation",
-        "description": "Knowing their score is recorded and visible on a leaderboard raises the stakes of every physical challenge — visitors push harder, return for rematches, and engage more deeply with the activity."
+        "description": "Knowing their score is recorded and visible on a leaderboard raises the stakes of every physical challenge: visitors push harder, return for rematches, and engage more deeply with the activity."
       },
       {
         "title": "Data Collection & Insights",
-        "description": "Physical activities generate real behavioral and performance data — moderated logging turns analogue play into structured metrics that inform event reporting and visitor profiling."
+        "description": "Physical activities generate real behavioral and performance data: moderated logging turns analogue play into structured metrics that inform event reporting and visitor profiling."
       },
       {
         "title": "Memorable Shareable Moments",
-        "description": "A photo captured by a moderator at the peak of a challenge becomes a personal digital souvenir — shareable, branded, and tied to the visitor's unique token and journey recap."
+        "description": "A photo captured by a moderator at the peak of a challenge becomes a personal digital souvenir, shareable, branded, and tied to the visitor's unique token and journey recap."
       }
     ]
   },
@@ -66,11 +66,11 @@
     "items": [
       {
         "title": "Physical activities that fall outside the digital journey",
-        "description": "Analogue games and human-led challenges are often invisible to the data layer. Moderated Activities bridges that gap — every physical result is captured and connected to the visitor's overall experience."
+        "description": "Analogue games and human-led challenges are often invisible to the data layer. Moderated Activities bridges that gap: every physical result is captured and connected to the visitor's overall experience."
       },
       {
         "title": "Inconsistent score tracking across stations",
-        "description": "Without a system, moderators use clipboards, paper, or memory. This module gives them a standardised tablet interface — fast, consistent, and instantly synced to the backend."
+        "description": "Without a system, moderators use clipboards, paper, or memory. This module gives them a standardised tablet interface, fast, consistent, and instantly synced to the backend."
       },
       {
         "title": "Leaderboards that miss the most exciting moments",
@@ -78,23 +78,23 @@
       },
       {
         "title": "Visitors who disengage from screen-heavy experiences",
-        "description": "Not everyone wants to stare at a device. Moderated Activities brings those visitors into the journey through play that feels natural — the digital layer works quietly in the background."
+        "description": "Not everyone wants to stare at a device. Moderated Activities brings those visitors into the journey through play that feels natural: the digital layer works quietly in the background."
       },
       {
         "title": "No visual memory of physical achievements",
-        "description": "A great throw, a jump record, or a team challenge deserves a photograph. Moderators can capture and upload images in the moment — tied to the visitor's token and surfaced in their personal recap."
+        "description": "A great throw, a jump record, or a team challenge deserves a photograph. Moderators can capture and upload images in the moment, tied to the visitor's token and surfaced in their personal recap."
       },
       {
         "title": "Fragmented multi-format events",
-        "description": "Events that mix digital and physical activities often feel like two separate experiences. This module unifies them — physical scores, digital interactions, and media all flow into one coherent visitor record."
+        "description": "Events that mix digital and physical activities often feel like two separate experiences. This module unifies them: physical scores, digital interactions, and media all flow into one coherent visitor record."
       },
       {
         "title": "Proving engagement at unstaffed-feeling stations",
-        "description": "A human moderator adds credibility, fairness, and energy to any challenge — and the digital log proves the interaction happened, with a timestamp and result to back it up."
+        "description": "A human moderator adds credibility, fairness, and energy to any challenge, and the digital log proves the interaction happened, with a timestamp and result to back it up."
       },
       {
         "title": "Scaling physical activations without losing personalisation",
-        "description": "At large events with many parallel stations, it's hard to maintain individual recognition. Moderated Activities ties every result back to a specific visitor — even across dozens of simultaneous challenges."
+        "description": "At large events with many parallel stations, it's hard to maintain individual recognition. Moderated Activities ties every result back to a specific visitor, even across dozens of simultaneous challenges."
       }
     ]
   },
@@ -105,7 +105,7 @@
     "items": [
       {
         "title": "Moderator tablet interface",
-        "description": "A clean, fast-entry screen for the activity facilitator — logging scores, confirming participation, adding notes, or uploading a photo with minimal friction during a live event."
+        "description": "A clean, fast-entry screen for the activity facilitator, logging scores, confirming participation, adding notes, or uploading a photo with minimal friction during a live event."
       },
       {
         "title": "Visitor identification flow",
@@ -113,15 +113,15 @@
       },
       {
         "title": "Score and result entry logic",
-        "description": "Configurable input fields for the specific activity — numeric score, time, distance, rank, or a simple participation confirmation — adapted to the challenge format."
+        "description": "Configurable input fields for the specific activity (numeric score, time, distance, rank, or a simple participation confirmation) adapted to the challenge format."
       },
       {
         "title": "Photo capture and upload",
-        "description": "The moderator can take and upload a photo from the tablet in the moment — linked to the visitor's token and available in their post-visit gallery or digital souvenir."
+        "description": "The moderator can take and upload a photo from the tablet in the moment, linked to the visitor's token and available in their post-visit gallery or digital souvenir."
       },
       {
         "title": "Backend sync and analytics output",
-        "description": "All logged results flow in real time into the BRDGE backend — feeding leaderboards, personal recaps, and the event's participation data export."
+        "description": "All logged results flow in real time into the BRDGE backend, feeding leaderboards, personal recaps, and the event's participation data export."
       }
     ]
   },
@@ -131,7 +131,7 @@
     "items": [
       {
         "title": "Physical activity equipment and props",
-        "description": "The game itself — cans, hammers, targets, jump mats, or any physical prop — is entirely outside scope and must be sourced, built, and maintained by the client or event partner."
+        "description": "The game itself (cans, hammers, targets, jump mats, or any physical prop) is entirely outside scope and must be sourced, built, and maintained by the client or event partner."
       },
       {
         "title": "Moderator staffing",
@@ -158,7 +158,7 @@
     "items": [
       {
         "state": "Ready",
-        "trigger": "The station is set up and the moderator's tablet is active — waiting for the next participant",
+        "trigger": "The station is set up and the moderator's tablet is active, waiting for the next participant",
         "experience": "The tablet displays the station identity and a prompt to locate or scan the next visitor. The physical activity area is prepared and the moderator is in position.",
         "feedback": "Station name, activity title, and visitor lookup prompt on moderator screen",
         "configurable": "Station name, activity type label, branding on moderator interface",
@@ -167,7 +167,7 @@
       {
         "state": "Identify",
         "trigger": "A visitor arrives at the activity station",
-        "experience": "The moderator scans the visitor's QR code, taps their NFC token, or searches by name — pulling up their profile and linking the upcoming result to their record.",
+        "experience": "The moderator scans the visitor's QR code, taps their NFC token, or searches by name, pulling up their profile and linking the upcoming result to their record.",
         "feedback": "Visitor name and token confirmed on moderator screen; optional welcome or instruction displayed",
         "configurable": "Lookup method (scan, tap, manual search), confirmation message",
         "data": "Visitor token linked, arrival time at station"
@@ -176,14 +176,14 @@
         "state": "Play",
         "trigger": "Visitor is identified and the physical activity begins",
         "experience": "The visitor performs the analogue challenge. The moderator observes, assists if needed, and prepares to log the result. A photo opportunity is flagged if configured.",
-        "feedback": "Active state on moderator tablet — result entry fields ready, photo capture button available",
+        "feedback": "Active state on moderator tablet, result entry fields ready, photo capture button available",
         "configurable": "Result input type (score, time, distance, rank, pass/fail), photo prompt toggle",
         "data": "Activity duration, photo taken (yes/no)"
       },
       {
         "state": "Log",
-        "trigger": "The activity is complete — the moderator records the outcome",
-        "experience": "The moderator enters the result and optionally uploads a photo. A single confirmation tap submits everything to the BRDGE backend — instantly updating the visitor's record, leaderboard, and recap.",
+        "trigger": "The activity is complete: the moderator records the outcome",
+        "experience": "The moderator enters the result and optionally uploads a photo. A single confirmation tap submits everything to the BRDGE backend, instantly updating the visitor's record, leaderboard, and recap.",
         "feedback": "Success confirmation on moderator tablet; optional real-time leaderboard update on nearby display",
         "configurable": "Result field labels, photo upload, confirmation message, leaderboard push toggle",
         "data": "Score or result logged, photo uploaded, leaderboard position updated, timestamp"
@@ -191,7 +191,7 @@
       {
         "state": "Resolve",
         "trigger": "Result is submitted and the visitor's journey record is updated",
-        "experience": "The visitor can be shown their result, their leaderboard position, or a preview of their digital souvenir — before the station resets for the next participant.",
+        "experience": "The visitor can be shown their result, their leaderboard position, or a preview of their digital souvenir, before the station resets for the next participant.",
         "feedback": "Optional result display for the visitor (on tablet, nearby screen, or their own device), reset prompt for moderator",
         "configurable": "Visitor-facing result display, CTA (check leaderboard, view recap), reset flow",
         "data": "Confirmed result in visitor record, rank assigned, souvenir or recap triggered if configured"
@@ -205,23 +205,23 @@
     "items": [
       {
         "title": "Activity type and result format",
-        "description": "The input logic adapts to the challenge — a numeric score for distance or strength, a time for speed events, a simple pass/fail for participation confirmation, or a rank position in a head-to-head."
+        "description": "The input logic adapts to the challenge: a numeric score for distance or strength, a time for speed events, a simple pass/fail for participation confirmation, or a rank position in a head-to-head."
       },
       {
         "title": "Station identity and branding",
-        "description": "Each activity station can carry its own name, icon, and visual identity on the moderator interface — useful for multi-zone events with several simultaneous challenges."
+        "description": "Each activity station can carry its own name, icon, and visual identity on the moderator interface, useful for multi-zone events with several simultaneous challenges."
       },
       {
         "title": "Photo capture settings",
-        "description": "Photo upload can be made mandatory, optional, or disabled entirely per station — and captured images can be auto-branded with overlays, frames, or event logos before delivery."
+        "description": "Photo upload can be made mandatory, optional, or disabled entirely per station, and captured images can be auto-branded with overlays, frames, or event logos before delivery."
       },
       {
         "title": "Visitor lookup method",
-        "description": "Moderators can locate visitors by scanning a QR code, tapping an NFC token, or searching by name or entry number — adaptable to the physical token format in use."
+        "description": "Moderators can locate visitors by scanning a QR code, tapping an NFC token, or searching by name or entry number, adaptable to the physical token format in use."
       },
       {
         "title": "Leaderboard display logic",
-        "description": "Results from Moderated Activities can feed into a shared leaderboard alongside digital module scores — or maintain a separate physical challenge ranking, depending on the event structure."
+        "description": "Results from Moderated Activities can feed into a shared leaderboard alongside digital module scores, or maintain a separate physical challenge ranking, depending on the event structure."
       },
       {
         "title": "Multilingual moderator interface",
@@ -248,7 +248,7 @@
       },
       {
         "title": "Moderator briefing and interface training",
-        "description": "Each moderator needs a short briefing on the tablet flow — identifying visitors, entering results, capturing photos, and handling edge cases. A walkthrough guide or on-site training session is included in onboarding."
+        "description": "Each moderator needs a short briefing on the tablet flow, identifying visitors, entering results, capturing photos, and handling edge cases. A walkthrough guide or on-site training session is included in onboarding."
       },
       {
         "title": "Visitor token system in place",
@@ -260,7 +260,7 @@
       },
       {
         "title": "Station positioning and visitor flow",
-        "description": "Each station should have clear queuing space, a defined activity area, and a comfortable position for the moderator — visible to participants but not obstructing the physical challenge."
+        "description": "Each station should have clear queuing space, a defined activity area, and a comfortable position for the moderator, visible to participants but not obstructing the physical challenge."
       },
       {
         "title": "Admin access for live monitoring",
@@ -275,31 +275,31 @@
     "items": [
       {
         "title": "Participation log per station",
-        "description": "A timestamped record of every visitor who took part in each physical activity — including their token ID, station, and result — forming a complete picture of physical engagement across the event."
+        "description": "A timestamped record of every visitor who took part in each physical activity, including their token ID, station, and result, forming a complete picture of physical engagement across the event."
       },
       {
         "title": "Score and result records",
-        "description": "Every logged result — numeric, time-based, rank, or pass/fail — is stored against the visitor's record and exportable for leaderboard management or post-event reporting."
+        "description": "Every logged result (numeric, time-based, rank, or pass/fail) is stored against the visitor's record and exportable for leaderboard management or post-event reporting."
       },
       {
         "title": "Leaderboard contribution data",
-        "description": "Physical activity scores feed directly into the overall event leaderboard — enabling a unified competitive picture that spans both analogue and digital interactions."
+        "description": "Physical activity scores feed directly into the overall event leaderboard, enabling a unified competitive picture that spans both analogue and digital interactions."
       },
       {
         "title": "Photo archive linked to visitor tokens",
-        "description": "All moderator-captured images are stored and associated with individual visitor records — accessible in personal recaps, post-visit galleries, or branded digital souvenir flows."
+        "description": "All moderator-captured images are stored and associated with individual visitor records, accessible in personal recaps, post-visit galleries, or branded digital souvenir flows."
       },
       {
         "title": "Station throughput and dwell time",
-        "description": "How many visitors passed through each station, how long activities took on average, and peak traffic windows — useful for capacity planning and future event design."
+        "description": "How many visitors passed through each station, how long activities took on average, and peak traffic windows, useful for capacity planning and future event design."
       },
       {
         "title": "Moderator activity log",
-        "description": "A record of all submissions made per station and per operator — useful for quality control, shift management, and identifying any logging gaps or anomalies."
+        "description": "A record of all submissions made per station and per operator, useful for quality control, shift management, and identifying any logging gaps or anomalies."
       },
       {
         "title": "Exportable full results dataset",
-        "description": "A structured export of all moderated activity data — visitor identities (anonymised if required), scores, photos, and timestamps — ready for reporting decks or CRM integration."
+        "description": "A structured export of all moderated activity data, visitor identities (anonymised if required), scores, photos, and timestamps, ready for reporting decks or CRM integration."
       }
     ]
   },
@@ -310,31 +310,31 @@
     "items": [
       {
         "title": "Visitor Identificator",
-        "description": "The essential companion — every moderated result is tied to a visitor's token, ensuring physical activity data flows into their personal journey record and post-visit recap."
+        "description": "The essential companion: every moderated result is tied to a visitor's token, ensuring physical activity data flows into their personal journey record and post-visit recap."
       },
       {
         "title": "Leaderboard Display Module",
-        "description": "Physical activity scores can feed a live leaderboard displayed across the venue — making analogue performance visible to the full crowd and driving competitive motivation."
+        "description": "Physical activity scores can feed a live leaderboard displayed across the venue, making analogue performance visible to the full crowd and driving competitive motivation."
       },
       {
         "title": "Journey Module",
-        "description": "Moderated Activities become a defined stop in the overall visitor journey — checking off a physical challenge unlocks the next step, reward, or content in the broader experience arc."
+        "description": "Moderated Activities become a defined stop in the overall visitor journey: checking off a physical challenge unlocks the next step, reward, or content in the broader experience arc."
       },
       {
         "title": "Shared Gallery / Media Output",
-        "description": "Photos captured by moderators feed into a shared event gallery or personal digital souvenir — giving visitors a visual memory of their physical achievement."
+        "description": "Photos captured by moderators feed into a shared event gallery or personal digital souvenir, giving visitors a visual memory of their physical achievement."
       },
       {
         "title": "Crowd Games",
-        "description": "Combine physical station results with digital crowd play — moderator-logged scores can compete alongside real-time game results in a unified event leaderboard."
+        "description": "Combine physical station results with digital crowd play: moderator-logged scores can compete alongside real-time game results in a unified event leaderboard."
       },
       {
         "title": "Feedback & Survey Module",
-        "description": "Follow a physical activity with an instant digital feedback prompt — capturing how the visitor felt about the challenge while the adrenaline is still fresh."
+        "description": "Follow a physical activity with an instant digital feedback prompt, capturing how the visitor felt about the challenge while the adrenaline is still fresh."
       },
       {
         "title": "Live Hosting & Expert Staff",
-        "description": "Trained moderators or activity hosts provided as a staffing service — briefed on both the physical game and the tablet logging flow, ensuring a smooth and energetic station experience."
+        "description": "Trained moderators or activity hosts provided as a staffing service, briefed on both the physical game and the tablet logging flow, ensuring a smooth and energetic station experience."
       },
       {
         "title": "Technical Setup & Live Support",
@@ -353,39 +353,39 @@
     "items": [
       {
         "title": "World record wall",
-        "description": "The top score at each physical station is enshrined as the event record — displayed live and updated in real time, giving every participant a reason to beat the current leader."
+        "description": "The top score at each physical station is enshrined as the event record, displayed live and updated in real time, giving every participant a reason to beat the current leader."
       },
       {
         "title": "Team relay scoring",
-        "description": "Individual scores at physical stations are pooled into a team total — groups compete across multiple activities, with the aggregate result determining the team leaderboard position."
+        "description": "Individual scores at physical stations are pooled into a team total: groups compete across multiple activities, with the aggregate result determining the team leaderboard position."
       },
       {
         "title": "Moderator photo booth moment",
-        "description": "The moderator doubles as a photographer — staging a branded shot at the peak of the challenge, auto-framed with an event overlay and delivered to the visitor's personal recap."
+        "description": "The moderator doubles as a photographer, staging a branded shot at the peak of the challenge, auto-framed with an event overlay and delivered to the visitor's personal recap."
       },
       {
         "title": "Sponsor-owned activity station",
-        "description": "A partner brand takes full ownership of one physical station — their name, their challenge, their reward — with all logged data forming a branded engagement report."
+        "description": "A partner brand takes full ownership of one physical station (their name, their challenge, their reward) with all logged data forming a branded engagement report."
       },
       {
         "title": "Physical + digital combo challenge",
-        "description": "A physical activity result unlocks a follow-on digital challenge — the moderator's logged score becomes the starting condition for a screen-based game or puzzle the visitor then completes."
+        "description": "A physical activity result unlocks a follow-on digital challenge: the moderator's logged score becomes the starting condition for a screen-based game or puzzle the visitor then completes."
       },
       {
         "title": "VIP challenge lane",
-        "description": "A premium or backstage version of the activity — with a dedicated moderator, a more dramatic result display, and an exclusive digital souvenir — available to VIP token holders only."
+        "description": "A premium or backstage version of the activity, with a dedicated moderator, a more dramatic result display, and an exclusive digital souvenir, available to VIP token holders only."
       },
       {
         "title": "Progressive unlocks across stations",
-        "description": "Completing a physical activity unlocks the next one in a defined sequence — the moderator's confirmation is the gate, creating a structured adventure trail across the venue."
+        "description": "Completing a physical activity unlocks the next one in a defined sequence: the moderator's confirmation is the gate, creating a structured adventure trail across the venue."
       },
       {
         "title": "Live commentator integration",
-        "description": "A live host or MC receives real-time result alerts from the moderator dashboard and calls out top scores, records broken, or dramatic moments over the PA — making physical results part of the event narrative."
+        "description": "A live host or MC receives real-time result alerts from the moderator dashboard and calls out top scores, records broken, or dramatic moments over the PA, making physical results part of the event narrative."
       },
       {
         "title": "Return challenge mechanic",
-        "description": "Visitors can attempt the same physical station multiple times — the system logs their best result, tracks improvement, and rewards personal bests with a special badge or bonus score."
+        "description": "Visitors can attempt the same physical station multiple times: the system logs their best result, tracks improvement, and rewards personal bests with a special badge or bonus score."
       }
     ]
   },
@@ -396,35 +396,35 @@
     "items": [
       {
         "title": "Highland Games festival",
-        "description": "Strength and skill challenges — caber toss, tug of war, hammer throw — moderated and logged into a clan leaderboard, with kilted visuals and a dramatic championship reveal."
+        "description": "Strength and skill challenges (caber toss, tug of war, hammer throw) moderated and logged into a clan leaderboard, with kilted visuals and a dramatic championship reveal."
       },
       {
         "title": "Carnival fairground",
-        "description": "Classic fair games — ring toss, tin can alley, ball throw — reimagined with a digital score card, a prize tier system, and a personal recap delivered at the exit booth."
+        "description": "Classic fair games (ring toss, tin can alley, ball throw) reimagined with a digital score card, a prize tier system, and a personal recap delivered at the exit booth."
       },
       {
         "title": "Sports combine & scouting day",
-        "description": "Athletic stations measuring speed, strength, and agility — moderated by coaches with tablets — feeding a live performance dashboard that every participant can view and share."
+        "description": "Athletic stations measuring speed, strength, and agility (moderated by coaches with tablets) feeding a live performance dashboard that every participant can view and share."
       },
       {
         "title": "Brand challenge circuit",
-        "description": "A series of physical tasks built around a brand's identity — each station named after a product, value, or campaign — with scores feeding a branded leaderboard and winner recognition moment."
+        "description": "A series of physical tasks built around a brand's identity, each station named after a product, value, or campaign, with scores feeding a branded leaderboard and winner recognition moment."
       },
       {
         "title": "Science experiment lab",
-        "description": "In a museum or education context, moderators log the outcomes of physical experiments — reaction times, building challenges, or measurement tasks — adding them to a shared discovery record."
+        "description": "In a museum or education context, moderators log the outcomes of physical experiments (reaction times, building challenges, or measurement tasks) adding them to a shared discovery record."
       },
       {
         "title": "Team away-day Olympics",
-        "description": "Office teams compete across a series of absurd physical challenges — scored by a neutral moderator — with team totals feeding a live leaderboard and a trophy ceremony at the end."
+        "description": "Office teams compete across a series of absurd physical challenges (scored by a neutral moderator) with team totals feeding a live leaderboard and a trophy ceremony at the end."
       },
       {
         "title": "Adventure trail quest",
-        "description": "Visitors navigate a series of outdoor physical checkpoints — each moderated and stamped into their digital passport — completing the quest for a final reward and a full journey recap."
+        "description": "Visitors navigate a series of outdoor physical checkpoints (each moderated and stamped into their digital passport) completing the quest for a final reward and a full journey recap."
       },
       {
         "title": "Christmas market challenge",
-        "description": "Festive physical games — snowball throw, elf speed-stack, gift wrapping race — moderated and scored into a seasonal leaderboard, with a top-scorer gift reveal at the end of each day."
+        "description": "Festive physical games (snowball throw, elf speed-stack, gift wrapping race) moderated and scored into a seasonal leaderboard, with a top-scorer gift reveal at the end of each day."
       }
     ]
   }
