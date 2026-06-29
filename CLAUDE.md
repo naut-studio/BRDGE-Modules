@@ -124,9 +124,9 @@ reversing the field mapping above:
   `Twists Description`, `Themes Description`, `Data/ROI Description`, `Connections Description`. If a
   highlight's title differs from the standard default, put it in the matching title field (`Twists
   Title`, `Themes Title`, `Data/ROI Title`, `Connections Title`); if it matches the default, leave the
-  title field blank. Any highlights beyond the four go into the free-highlight slots — `Free
-  Highlight1 Title` + `Free Highlight Description`, then `Free Highlight2/3 Title` + `Free
-  Highlight2/3 Description`. Don't import the standard icons — they're fixed defaults.
+  title field blank. Any highlights beyond the four go into the free-highlight slots (1–5) — slot 1 =
+  `Free Highlight1 Title` + `Free Highlight1 Description`, slots 2–5 = `Free Highlight{N} Title` +
+  `Free Highlight{N} Description`. Don't import the standard icons — they're fixed defaults.
 - **`states`:** has no Notion field — leave it in the file only; ignore it on import.
 - **Status & Publish:** these are separate. `Publish` (checkbox) maps to the file's `publish`. `Status`
   is the internal tracker — set as I specify; for finished modules use `6. Good enough` (there is no
