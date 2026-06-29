@@ -83,6 +83,13 @@ template and a request conflict, surface the conflict before proceeding.
   4. Default **"Better Together"** — custom title from `Connections Title` (else drafted); `description: <Connections Description>`; `image: "icon-automation.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
 - Keep the default in the comment every time, so reverting to the consistent catalogue-wide title is
   a one-line edit.
+- **No redundant standard highlights.** A standard highlight (Twists / Themes / Data / Connections)
+  must add a dimension the free highlights don't already cover. If it would largely restate a free
+  highlight, either give it genuinely distinct content or **omit it entirely** — never pad the array
+  with a near-duplicate. A module may ship with fewer than four standard highlights.
+- **Data/ROI framing.** Data capture is mostly an optional add-on, not a built-in guarantee. Write the
+  Data/ROI description as an opt-in step ("Add a data layer to…", "Bolt on…", "Add an optional … layer
+  that…"), never as a toggle ("Switch on / Enable / Turn on") or an affirmative claim ("Captures X").
 
 ### States
 `states` is **not** populated from Notion. For a new module, leave it as the template default. For an
@@ -139,6 +146,9 @@ reversing the field mapping above:
 - **Tags and categories must be EXACT matches** to the approved lists — spelling, casing, spacing
   (e.g. `"AR / XR"`, `"NFC / RFID / QR Code"`, `"High Energy"`). If a value isn't on the list,
   stop and flag it. Never invent, merge, or re-case.
+- **Tag comprehensively.** Don't tag minimally — apply every approved tag the module's copy genuinely
+  supports (the richer modules run ~20–30 tags across mood, mechanics, technology, content, audience,
+  venue, and goal), not just the few most obvious ones. Add only what the content justifies.
 - **Module names referenced in copy** (e.g. Better Together / Connections pairings) must be real,
   current module names taken **exactly** from the **Module Order (JS)** list (the source of truth for
   what modules exist). Never invent a name or use one from memory — older names drift (e.g. it's
