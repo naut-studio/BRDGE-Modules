@@ -12,10 +12,10 @@
       "Personalization"
     ],
     "visuals": [
-      "Hero visual – Prize Draw in use within a branded environment",
-      "Interface mockup – primary interaction flow for Prize Draw",
-      "System overview – how visitors, screen, and backend connect",
-      "Scenario visual – themed use case of Prize Draw"
+      "Hero visual: Prize Draw in use within a branded environment",
+      "Interface mockup: primary interaction flow for Prize Draw",
+      "System overview: how visitors, screen, and backend connect",
+      "Scenario visual: themed use case of Prize Draw"
     ],
     "included": {
       "module": "Prize Draw",

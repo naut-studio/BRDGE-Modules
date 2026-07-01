@@ -2,7 +2,7 @@
   "title": "Ball Wall Games",
   "tagline": "Throw the ball. Trigger the action.",
   "short_description": "A physical ball game where real-world throws trigger instant reactions on a digital wall projection, blending sport, play, and spectacle into one moment.",
-  "long_description": "A physical-digital game that connects real ball throws with a large-scale interactive projection. Each hit triggers instant visual and audio reactions at the exact impact point, turning movement into play. The experience is intuitive, energetic, and highly repeatable – ideal for exhibitions, brand activations, and spaces that thrive on action and attention.",
+  "long_description": "A physical-digital game that connects real ball throws with a large-scale interactive projection. Each hit triggers instant visual and audio reactions at the exact impact point, turning movement into play. The experience is intuitive, energetic, and highly repeatable, ideal for exhibitions, brand activations, and spaces that thrive on action and attention.",
   "moment": "Journey",
   "tag": [
     "Module",
@@ -11,10 +11,10 @@
     "Interactive Surfaces"
   ],
   "visuals": [
-    "Hero visual – Ball Wall Games in use within a branded environment",
-    "Interface mockup – primary interaction flow for Ball Wall Games",
-    "System overview – how visitors, screen, and backend connect",
-    "Scenario visual – themed use case of Ball Wall Games"
+    "Hero visual: Ball Wall Games in use within a branded environment",
+    "Interface mockup: primary interaction flow for Ball Wall Games",
+    "System overview: how visitors, screen, and backend connect",
+    "Scenario visual: themed use case of Ball Wall Games"
   ],
   "included": {
     "module": "Ball Wall Games",

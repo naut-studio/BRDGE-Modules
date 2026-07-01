@@ -12,10 +12,10 @@
       "Discovery"
     ],
     "visuals": [
-      "Hero visual – Shared Gallery in use within a branded environment",
-      "Interface mockup – primary interaction flow for Shared Gallery",
-      "System overview – how visitors, screen, and backend connect",
-      "Scenario visual – themed use case of Shared Gallery"
+      "Hero visual: Shared Gallery in use within a branded environment",
+      "Interface mockup: primary interaction flow for Shared Gallery",
+      "System overview: how visitors, screen, and backend connect",
+      "Scenario visual: themed use case of Shared Gallery"
     ],
     "included": {
       "module": "Shared Gallery",

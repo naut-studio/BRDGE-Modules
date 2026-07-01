@@ -12,10 +12,10 @@
       "Group Activation"
     ],
     "visuals": [
-      "Hero visual – Event Dashboard in use within a branded environment",
-      "Interface mockup – primary interaction flow for Event Dashboard",
-      "System overview – how visitors, screen, and backend connect",
-      "Scenario visual – themed use case of Event Dashboard"
+      "Hero visual: Event Dashboard in use within a branded environment",
+      "Interface mockup: primary interaction flow for Event Dashboard",
+      "System overview: how visitors, screen, and backend connect",
+      "Scenario visual: themed use case of Event Dashboard"
     ],
     "included": {
       "module": "Event Dashboard",

@@ -2,7 +2,7 @@
   "title": "Moderated Activities",
   "tagline": "Bring analogue challenges into the digital journey.",
   "short_description": "A simple way to connect physical games and human-led activities with the BRDGE ecosystem. Each result, score, or snapshot is logged by a moderator through a tablet, keeping every guest's achievement part of the overall experience.",
-  "long_description": "Not every experience needs a screen. This module bridges fully analogue activities – from can-throwing and hammer games to jump-height or strength challenges – with digital storytelling. A moderator equipped with a tablet records scores, uploads photos, or confirms participation, ensuring that even hands-on, physical games become part of the visitor's journey. The data flows seamlessly into the BRDGE system, enabling leaderboards, personal recaps, or digital souvenirs, just like any connected module.",
+  "long_description": "Not every experience needs a screen. This module bridges fully analogue activities: from can-throwing and hammer games to jump-height or strength challenges: with digital storytelling. A moderator equipped with a tablet records scores, uploads photos, or confirms participation, ensuring that even hands-on, physical games become part of the visitor's journey. The data flows seamlessly into the BRDGE system, enabling leaderboards, personal recaps, or digital souvenirs, just like any connected module.",
   "moment": "Journey",
   "tag": [
     "Module",

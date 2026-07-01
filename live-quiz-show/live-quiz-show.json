@@ -1,6 +1,6 @@
 {
   "title": "Live Quiz Show",
-  "tagline": "Turn any crowd into a team – fast questions, instant hype, real-time ranking.",
+  "tagline": "Turn any crowd into a team: fast questions, instant hype, real-time ranking.",
   "short_description": "A live, host-led quiz where guests answer on their own phones and watch the leaderboard evolve in real time. Ideal for energising a room, teaching content, or sparking playful competition.",
   "long_description": "A real-time quiz for stages, conferences, museums, brand spaces, and events. Guests join instantly on their phones via QR or short code, answer questions shown on a shared screen, and follow the action through live results and a dynamic leaderboard. Ideal for energising audiences, sharing knowledge, and capturing participation data for meaningful follow-up.",
   "moment": "Journey",
@@ -12,10 +12,10 @@
     "Education"
   ],
   "visuals": [
-    "Hero visual – Live Quiz Show in use within a branded environment",
-    "Interface mockup – primary interaction flow for Live Quiz Show",
-    "System overview – how visitors, screen, and backend connect",
-    "Scenario visual – themed use case of Live Quiz Show"
+    "Hero visual: Live Quiz Show in use within a branded environment",
+    "Interface mockup: primary interaction flow for Live Quiz Show",
+    "System overview: how visitors, screen, and backend connect",
+    "Scenario visual: themed use case of Live Quiz Show"
   ],
   "included": {
     "module": "Live Quiz Show",

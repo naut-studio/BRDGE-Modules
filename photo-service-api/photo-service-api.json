@@ -11,10 +11,10 @@
       "Photo Video & Memories"
     ],
     "visuals": [
-      "Hero visual – Photo Service API in use within a branded environment",
-      "Interface mockup – primary interaction flow for Photo Service API",
-      "System overview – how visitors, screen, and backend connect",
-      "Scenario visual – themed use case of Photo Service API"
+      "Hero visual: Photo Service API in use within a branded environment",
+      "Interface mockup: primary interaction flow for Photo Service API",
+      "System overview: how visitors, screen, and backend connect",
+      "Scenario visual: themed use case of Photo Service API"
     ],
     "included": {
       "module": "Photo Service API",
