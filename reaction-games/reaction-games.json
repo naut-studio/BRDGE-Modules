@@ -37,14 +37,11 @@
   "illustration": "illustration.png",
   "animation": "",
   "videoUrl": "",
-  "videoUrls": [],
+  "videoUrls": ["https://upload.naut.ch/Pistolero-IMG_8435.mp4","https://upload.naut.ch/Victorinox_MansWorld_S.mp4"],
   "gallery": [
-    { "file": "gallery-1.jpg" },
-    { "file": "gallery-2.jpg" },
-    { "file": "gallery-3.jpg" },
-    { "file": "gallery-4.jpg" },
-    { "file": "gallery-5.jpg" },
-    { "file": "gallery-6.jpg" }
+    { "file": "gallery-4.jpg", "width": "33%" },
+    { "file": "gallery-5.jpg", "width": "33%" },
+    { "file": "gallery-6.jpg", "width": "33%" }
   ],
   "galleryCredits": "",
   "clientLogos": [
