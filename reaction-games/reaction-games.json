@@ -39,8 +39,8 @@
   "videoUrl": "",
   "videoUrls": ["https://upload.naut.ch/Pistolero-IMG_8435.mp4","https://upload.naut.ch/Victorinox_MansWorld_S.mp4"],
   "gallery": [
-    { "file": "gallery-4.jpg", "width": "33%" },
     { "file": "gallery-5.jpg", "width": "33%" },
+    { "file": "gallery-4.jpg", "width": "33%" },
     { "file": "gallery-6.jpg", "width": "33%" }
   ],
   "galleryCredits": "",
