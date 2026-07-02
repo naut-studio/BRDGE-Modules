@@ -1,0 +1,135 @@
+{
+  "title": "Pistolero Game",
+  "slug": "pistolero-game",
+  "publish": true,
+  "tagline": "Quickdraw duel.",
+  "shortDescription": "A rapid-reaction duel where players face off in a tense countdown, then hit their trigger at the perfect moment to score. Great for energetic queues, stage moments, and playful competition with instant results.",
+  "longDescription": "A fast-paced reaction duel designed for instant excitement. Two players face off in a tense countdown and must wait for the exact draw cue before firing. Shoot too early and you lose, react too late and your opponent wins. Easy to grasp, fun to watch, and built for repeat play, perfect for queues, stage moments, and competitive brand activations.",
+  "categories": [
+    "Gamification & Fun"
+  ],
+  "tags": [
+    "Live",
+    "Small",
+    "Competitive",
+    "High Energy",
+    "Wow Factor",
+    "Memorable",
+    "Viral",
+    "Gamified",
+    "Multiplayer",
+    "Single Player",
+    "Reflex",
+    "Timed",
+    "Real-Time",
+    "AI-Powered",
+    "Phygital",
+    "Low Barrier",
+    "Family Friendly",
+    "Corporate Event",
+    "Festival",
+    "Trade Show",
+    "Retail",
+    "Brand Activation",
+    "Sponsorship",
+    "Leaderboard",
+    "Data Collection"
+  ],
+  "illustration": "illustration.png",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [],
+  "galleryCredits": "",
+  "clientLogos": [
+    "logo-xaver.svg"
+  ],
+  "highlights": [
+    {
+      "title": "Physical Duel Interface (Buttons, Props, Setup)",
+      "description": "The experience comes to life through a simple but highly engaging physical setup. Players stand face-to-face at a dedicated station, each equipped with a large, responsive trigger button or themed prop. The tactile interaction increases tension and clarity, so you feel the moment before you act. The setup is robust, intuitive, and adaptable to different themes, from western barrels to sleek branded pedestals.",
+      "image": "highlight-1.png"
+    },
+    {
+      "title": "Real-Time Feedback & Result Screen",
+      "description": "Every action is instantly translated into clear visual feedback on the screen. From countdown to the decisive 'DRAW' moment, players and spectators follow the tension in real time. Results are displayed immediately, highlighting reaction times and the winner in a bold, readable format. This creates a strong spectator effect and reinforces the competitive loop with satisfying, shareable outcomes.",
+      "image": "highlight-2.png",
+      "imageWidth": "33%"
+    },
+    {
+      "title": "Leaderboard & Competitive Layer",
+      "description": "Beyond individual duels, the game scales into a broader competitive experience through leaderboards. Players can see how they rank against others, track fastest reaction times, or compete for top positions. This adds motivation for repeat play and transforms a simple interaction into an ongoing challenge, ideal for events where engagement should build over time.",
+      "image": "highlight-3.png"
+    },
+    {
+      "title": "Solo, Brackets & Sudden Death",
+      "description": "Run it solo against an AI draw, bracket several players into a knockout tournament, or add a sudden-death final for a big finish. Layer in gunshot sound design, muzzle-flash lighting, or a slow-motion replay of the winning draw to raise the drama at premium installs.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Wild West to Sci-Fi",
+      "description": "Reskin the duel for any world: a Wild West saloon standoff, a sci-fi blaster duel, a spy laser showdown, a medieval joust, or a fully branded product face-off. The countdown, the draw, and the winner reveal all carry the chosen look and sound.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Optional Duel Data",
+      "description": "Add a data layer to log duels played, reaction times, win rates, and repeat plays, then export it for a post-event read on engagement and the fastest hands in the room.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Wire It Into the Event",
+      "description": "Pair it with Visitor Identificator to tie scores and reaction times to each player, with Journey Manager to make the duel one stop on a longer route, with Prize Draw to reward the fastest hand, or with a Connected Photographer to capture the winner's moment.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Attract / Idle",
+      "trigger": "No players at the station.",
+      "experience": "A looping attract sequence runs, with a demo duel and a call to step up and draw.",
+      "feedback": "Idle animation, ambient sound, a clear step-in prompt.",
+      "configurable": "Attract visuals, branding, demo content, audio bed.",
+      "data": "Footfall near the station, attract-to-play conversion."
+    },
+    {
+      "state": "Lock In",
+      "trigger": "Two players take position, or one player selects a solo AI duel.",
+      "experience": "The system greets both sides, explains the rule in a line, and starts a short countdown.",
+      "feedback": "Player-side lights, countdown, a short prompt to ready up.",
+      "configurable": "Number of sides, solo or versus, countdown length, instruction copy.",
+      "data": "Duels started, solo versus versus split."
+    },
+    {
+      "state": "Standoff",
+      "trigger": "Countdown ends.",
+      "experience": "A tense hold builds before the draw cue, and firing too early counts as a fault.",
+      "feedback": "Rising tension audio, held visuals, an early-draw penalty cue.",
+      "configurable": "Hold length and variability, early-draw rule, tension theme.",
+      "data": "Early draws, hold duration."
+    },
+    {
+      "state": "Draw & Result",
+      "trigger": "The draw cue fires.",
+      "experience": "Players hit their trigger and the faster clean draw wins, with reaction times shown for both.",
+      "feedback": "Draw flash, winner animation, reaction times, optional slow-motion replay.",
+      "configurable": "Win logic, replay on or off, result copy, sound and light theme.",
+      "data": "Reaction times per player, winner, faults, match duration."
+    },
+    {
+      "state": "Reset",
+      "trigger": "The result is shown, or the station times out.",
+      "experience": "Scores can post to a leaderboard, then the station clears for the next duel.",
+      "feedback": "Score post confirmation, brief thanks, fade back to attract.",
+      "configurable": "Leaderboard push, timeout duration, end-screen call to action.",
+      "data": "Repeat plays, leaderboard entries, session duration."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "title": "Support System",
+  "slug": "support-system",
+  "publish": true,
+  "tagline": "Report it, resolve it.",
+  "shortDescription": "An add-on support layer that turns every glitch, question, and request into a tracked ticket. It captures issues through simple forms, routes them by priority, and keeps any deployment running smoothly.",
+  "longDescription": "Built on Notion forms and databases, it gives every deployment a living record of what is happening on the ground. Anyone on site can submit an issue, question, or request through a simple form, and each entry becomes a tracked ticket with a priority, an owner, a status, and a full history. From there it can trigger email alerts, push app warnings, surface live dashboards, and hold any supporting media, how-to guides, or lifecycle notes a team needs. Because it sits on top of Notion, it stretches to match how each client already works: light triage for a small pop-up, or full incident management with stability logs and response targets for a long-running installation. It runs as a standalone service or as a quiet operational layer behind any other module. BRDGE handles it end to end, from form and database structure to routing logic, notifications, and the dashboards that tie reporting, escalation, resolution, and data together.",
+  "categories": [
+    "Tools For Visitors & Partners"
+  ],
+  "tags": [
+    "Pre-Event",
+    "Live",
+    "Post-Event",
+    "Mobile",
+    "Collaborative",
+    "Real-Time",
+    "Low Barrier",
+    "Multi-Language",
+    "Data Collection",
+    "Corporate Event",
+    "Festival",
+    "Museum",
+    "Retail"
+  ],
+  "illustration": "illustration.png",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [],
+  "galleryLayout": [],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "Attach It to Anything",
+      "description": "Sell it as a standalone service or bolt it onto any other module as a quiet support layer. It needs no hardware, no floor space, and no visitor-facing footprint, so it drops into a quote as a low-friction add-on that raises the perceived reliability of the whole package.",
+      "image": "icon-hub.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Smarter Intake & Escalation",
+      "description": "Swap the intake from a public form to a QR code on each unit, a staff-only chat channel, or a monitored inbox. Layer in automatic escalation when a ticket sits too long, response-time targets, severity scoring, recurring-issue detection, or an on-call rotation that pages the right person automatically.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Themed Reskins",
+      "description": "Dress the intake forms and dashboards to match the client's world: a clean corporate help desk, a playful festival 'something's broken' kiosk, a museum conservation log, or a retail floor-stock alert board. Same engine underneath, a look that fits each deployment.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Optional Reporting Layer",
+      "description": "Add a reporting layer that rolls ticket history into uptime and stability reports, response-time stats, and a clear record of how issues were handled. Each ticket can log time of report, category, priority, owner, time to resolution, and recurrence, giving clients the evidence to justify renewal and to fix what matters before the next run.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Sits Behind Any Module",
+      "description": "Pair it with Booths so a stand attendant can flag a fault in seconds, with Journey so a broken stop reroutes visitors automatically, with Leaderboard or Games so scoring glitches get caught live, or with a Feedback module so visitor complaints and operational issues land in one place.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "New",
+      "trigger": "Someone submits a form, scans a report QR, or an automated check flags a fault.",
+      "experience": "The report lands in the database as an untriaged ticket and the reporter gets a confirmation.",
+      "feedback": "Confirmation message to the reporter; the ticket appears at the top of the intake board.",
+      "configurable": "Intake channels (form, QR, email, chat), required fields, confirmation copy.",
+      "data": "Timestamp, reporter, category, raw description, attached media."
+    },
+    {
+      "state": "Triaged",
+      "trigger": "A coordinator or a rule sets priority and assigns an owner.",
+      "experience": "The ticket is categorised, prioritised, and routed to the right person or team.",
+      "feedback": "Priority badge and owner shown on the board; assignment notification sent.",
+      "configurable": "Priority levels, categories, routing rules, auto-assignment logic.",
+      "data": "Priority, owner, category, time from report to triage."
+    },
+    {
+      "state": "In Progress",
+      "trigger": "The owner starts work and updates the status.",
+      "experience": "Work happens; notes, how-to references, and media are added to the ticket.",
+      "feedback": "Status updates on the live dashboard; optional app warning if the issue affects visitors.",
+      "configurable": "Status stages, escalation timers, app-warning thresholds, linked how-to docs.",
+      "data": "Status history, time in progress, notes, escalations triggered."
+    },
+    {
+      "state": "Resolved",
+      "trigger": "The owner marks the issue fixed.",
+      "experience": "A fix is recorded and, where set up, verified before the ticket closes.",
+      "feedback": "Resolution note logged; reporter and stakeholders notified; dashboard count drops.",
+      "configurable": "Verification step on or off, resolution categories, notification recipients.",
+      "data": "Resolution time, fix description, who resolved it."
+    },
+    {
+      "state": "Closed",
+      "trigger": "Resolution is confirmed, or the ticket is archived after a set period.",
+      "experience": "The ticket moves into the historical record and feeds reporting.",
+      "feedback": "Ticket leaves the active board and appears in stability and uptime reports.",
+      "configurable": "Auto-close window, archive rules, report fields.",
+      "data": "Full lifecycle record, total resolution time, recurrence flag."
+    }
+  ]
+}

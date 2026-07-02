@@ -1,0 +1,121 @@
+{
+  "title": "Wiki Documentation",
+  "slug": "wiki-documentation",
+  "publish": true,
+  "tagline": "Run it clean.",
+  "shortDescription": "A living documentation layer that turns any installation into a guided, repeatable process. Built in Notion and Figma, it gives every role, from technician to end client, exactly the instructions they need and nothing they don't.",
+  "longDescription": "It packages everything needed to install, operate, and hand over an interactive setup into one structured, living reference. Notion holds the searchable wiki, step-by-step procedures, troubleshooting databases, and role-based pages, all editable in real time, version tracked, and reachable on any device on the show floor. Figma carries the visual side: wiring and cabling schematics, projector mapping and calibration guides, floor plans, and branded handover one-pagers that make the whole thing client ready.\n\nIts role flexes by audience. A technician follows the wiring diagrams and calibration steps, an on-site operator runs daily checklists and quick-fix flows, an event manager tracks status and sign-off, and the reseller or end client receives a clean, branded handover pack. The same source updates everywhere, so nobody works from a stale PDF. Tech partners keep standing access to the full wiki of tutorials and video walkthroughs, so the knowledge supports them long after the event.\n\nIt scales from a single kiosk to a multi-stand deployment, with QR codes on the hardware linking straight to the right page, optional multi-language versions for international crews, and content depth tuned to each role.\n\nBRDGE builds and maintains the documentation layer end to end: information structure, version control, role-based access, and live links connecting every procedure to the module it supports.",
+  "categories": [
+    "Tools For Visitors & Partners"
+  ],
+  "tags": [
+    "Pre-Event",
+    "Live",
+    "Post-Event",
+    "Mobile",
+    "AI-Powered",
+    "NFC / RFID / QR Code",
+    "Print",
+    "Personalized",
+    "Multi-Language",
+    "Low Barrier",
+    "Video",
+    "Educational",
+    "Collaborative",
+    "Data Collection"
+  ],
+  "illustration": "illustration.png",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [],
+  "galleryLayout": [],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "Tech Partner Enablement",
+      "description": "Tech partners get standing access to an extensive wiki packed with tutorials and step-by-step video walkthroughs. It turns setup, calibration, and troubleshooting into skills the team keeps, so partners stay self-sufficient across every future deployment instead of relying on a one-off briefing.",
+      "image": "icon-build.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "White-Label Handover",
+      "description": "Drop in the reseller or client brand and the whole pack becomes a polished, professional handover. It makes a stand or installation feel fully owned and turns routine setup paperwork into a credibility builder you can charge for.",
+      "image": "icon-autorenew.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "QR, Video & AI Add-Ons",
+      "description": "Layer in QR codes on the hardware that deep-link to the right page, embed video walkthroughs, add an AI assistant trained on the docs for instant answers, or wire up live status dashboards and sign-off checklists. Each upgrade is an easy paid add-on.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Presentation Skins",
+      "description": "The same content reskins to fit the moment: a lean technical style for crews, a premium branded style for client handover, a co-branded version for a sponsor, or localized regional packs for international teams.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Optional Usage Tracking",
+      "description": "Add an optional usage-tracking layer to see what crews actually use: page views, checklist completion, install time, sign-offs, and recurring issues logged in a searchable database. In place, it cuts support calls, speeds every future setup, and gives clients clear evidence of a clean, on-time deployment.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "One Hub for Every Module",
+      "description": "It plugs into every other module by gathering each one's setup and run guide into a single hub. Pair it with Journey or Booths to document a full multi-stand route, with Games and Leaderboard to capture their config and reset flows, or with Visitor Identificator to brief reward handling, so a large deployment stays coordinated from one source.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Install",
+      "trigger": "Hardware arrives on site",
+      "experience": "Crew follows placement, wiring, and cabling guides from the Figma schematics and Notion step-by-step pages.",
+      "feedback": "Checklist progress, reference photos, pass marks per step.",
+      "configurable": "Venue layout, hardware list, cabling routes.",
+      "data": "Install time, step completion, install photos."
+    },
+    {
+      "state": "Calibrate & Test",
+      "trigger": "Hardware connected and powered",
+      "experience": "Crew runs calibration, projector mapping, and sensor tests against documented target values.",
+      "feedback": "Test results and pass/fail per check.",
+      "configurable": "Projector and sensor parameters, test thresholds.",
+      "data": "Calibration log, test outcomes."
+    },
+    {
+      "state": "Operate",
+      "trigger": "Doors open / experience goes live",
+      "experience": "On-site operator follows daily start-up, content-swap, and shutdown routines.",
+      "feedback": "Live status board, daily checklist state.",
+      "configurable": "Daily routines, content swaps, opening hours.",
+      "data": "Uptime, daily checklist completion."
+    },
+    {
+      "state": "Troubleshoot",
+      "trigger": "Issue detected during operation",
+      "experience": "Operator searches the known-issue database and follows the matching fix flow, escalating if unresolved.",
+      "feedback": "Resolved / escalate status, linked fix steps.",
+      "configurable": "Known-issue entries, escalation contacts.",
+      "data": "Issue logs, recurring problems, time to resolve."
+    },
+    {
+      "state": "Handover & Archive",
+      "trigger": "Event ends or client takes over",
+      "experience": "Manager delivers the branded handover pack, confirms sign-off, and archives the deployment for reuse.",
+      "feedback": "Sign-off confirmation, handover record.",
+      "configurable": "Branding, scope of handover, access permissions.",
+      "data": "Handover record, reusable knowledge base entry."
+    }
+  ]
+}

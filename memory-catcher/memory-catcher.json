@@ -1,0 +1,181 @@
+{
+  "title": "Memory Catcher",
+  "slug": "memory-catcher",
+  "publish": true,
+  "tagline": "Catch the moment.",
+  "shortDescription": "A playful, digital booth that lets visitors capture photos, videos, GIFs, or AI-enhanced portraits in seconds. Designed for instant fun, sharing, and memorable takeaways.",
+  "longDescription": "Bring playful interaction and instant memory-making to your event. Visitors can pose for photos, record short video messages, create animated GIFs, or step into themed personas using subtle AI effects like face swapping or background replacement. The capture itself becomes part of the fun, triggered by a tap, a smile, a pose, or a scream, and every output can be branded, shared, printed, or routed into a wider visitor journey. BRDGE handles the full stack end to end: capture and trigger logic, AI processing, scene management, and the journey, gallery, and data links that connect it to the rest of an activation.",
+  "categories": [
+    "Capture & Memory"
+  ],
+  "tags": [
+    "User-Generated",
+    "AI-Powered",
+    "Brand Activation",
+    "Memorable",
+    "Viral",
+    "Low Barrier",
+    "Family Friendly",
+    "Corporate Event",
+    "Single Player",
+    "Video",
+    "Print",
+    "Personalized",
+    "Phygital",
+    "Multiplayer",
+    "Wow Factor",
+    "Journey",
+    "Data Collection",
+    "Lead Generation",
+    "Festival",
+    "Museum",
+    "Exhibition"
+  ],
+  "illustration": "illustration.png",
+  "animation": "animation.json",
+  "videoUrl": "",
+  "videoUrls": [
+    "https://upload.naut.ch/webguideRemoteFoto.mp4",
+    "https://upload.naut.ch/Swisscom-BlueSpace-short.mp4"
+  ],
+  "gallery": [
+    "gallery-15.png",
+    "gallery-3.png",
+    "gallery-9.jpg",
+    "gallery-11.jpg",
+    "gallery-10.png",
+    "gallery-16.png",
+    "gallery-2.png",
+    "gallery-14.png",
+    "gallery-17.png",
+    "gallery-20.png",
+    "gallery-21.png",
+    "gallery-22.png",
+    "gallery-19.png",
+    "gallery-23.png",
+    "zwe.png",
+    "gallery-5.png",
+    "gallery-6.png",
+    "mer.png",
+    "gallery-13.jpg",
+    "gallery-18.png",
+    "gallery-7.png",
+    "wow.png"
+  ],
+  "galleryLayout": [
+    "25%",
+    "25%",
+    "50%",
+    "50%",
+    "50%",
+    "25%",
+    "25%",
+    "25%",
+    "25%",
+    "50%",
+    "50%",
+    "50%",
+    "25%",
+    "25%",
+    "25%",
+    "50%",
+    "25%",
+    "33%",
+    "33%",
+    "33%",
+    "50%",
+    "50%"
+  ],
+  "galleryCredits": "© WOW-Museum, Zweifel, Mercedes, Swisscom",
+  "clientLogos": [
+    "logo-ricola.svg",
+    "logo-zweifel.svg",
+    "logo-mercedes.svg",
+    "logo-swisscom.svg",
+    "logo-xaver.svg",
+    "logo-wow.svg",
+    "logo-maestrani.svg"
+  ],
+  "highlights": [
+    {
+      "title": "Your Unique Start",
+      "description": "The trigger is half the fun. Fire the shutter with a tap, a held pose, a big smile, a gesture, a countdown, or even a scream, so the act of being captured turns into a moment in itself. Each trigger sets a different energy, from calm and posed to loud and chaotic, and any of them can be themed or rebranded per client.",
+      "image": "highlight-1.png",
+      "imageWidth": "70%"
+    },
+    {
+      "title": "Enhance and Transform",
+      "description": "Subtle AI effects turn a plain snapshot into something worth sharing. Swap faces, drop in branded or virtual backgrounds, restyle a portrait into any visual world, or place guests inside a themed persona. Effects are swapped per client and per campaign, so the same setup wears a fresh look for every booking.",
+      "image": "highlight-2.png",
+      "imageWidth": "70%"
+    },
+    {
+      "title": "One Capture, Many Outputs",
+      "description": "A single capture becomes whatever the moment needs. Deliver a still, a GIF, a boomerang, or a short video, then send it to a guest's personal journey, push it straight to social, or print a branded keepsake on the spot. Frames, formats, and delivery are all configurable to keep the brand present in every share.",
+      "image": "highlight-3.png",
+      "imageWidth": "70%"
+    },
+    {
+      "title": "Add Game Mechanics",
+      "description": "Layer in mechanics that change how it plays: multi-shot photo strips, group and solo modes, a timed capture challenge, a hidden 'best face' score, or a hashtag-to-print flow. Small mechanical add-ons keep repeat bookings fresh and open clear paid upgrades.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Any World, Same Booth",
+      "description": "Reskin the whole look for any world: a festive winter set, a Western saloon, a racing pit lane, a sustainability green-screen, or a clean corporate stage. Same hardware, a new universe for every event.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Optional Reach & Opt-In Data",
+      "description": "Add an optional data layer to log participation, captures, prints, shares, and opt-ins, while each share carries branded content outward on its own. In place, it gives a clear count of reach and engagement plus a clean stream of consented contacts for follow-up.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Plugs Into the Catalog",
+      "description": "Plugs straight into the wider catalog: set it as one stop on a Journey, feed captures into a Mosaic Wall or Shared Gallery, route keepsakes through Photo Printing, or hand opt-ins to a Prize Draw to turn a fun moment into a qualified lead.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Attract",
+      "trigger": "A guest approaches or notices the idle screen",
+      "experience": "Looping demo content and a clear call to action invite the first step, with no instructions needed to start.",
+      "feedback": "Idle reel, motion, signage, ambient sound",
+      "configurable": "Branding, call-to-action copy, language, attract media",
+      "data": "Approaches, starts"
+    },
+    {
+      "state": "Capture",
+      "trigger": "Guest taps start or fires the chosen trigger (smile, pose, gesture, scream, countdown)",
+      "experience": "The selected format records, photo, video, GIF, or boomerang, with live preview and on-screen guidance.",
+      "feedback": "Live preview, countdown, shutter sound, flash, capture confirmation",
+      "configurable": "Trigger type, format, number of shots, pacing, theme",
+      "data": "Captures, format used, trigger type, retakes"
+    },
+    {
+      "state": "Enhance",
+      "trigger": "Capture completes",
+      "experience": "Optional AI effects apply, face swap, background replacement, style transfer, or a themed persona, and the guest confirms the result.",
+      "feedback": "Effect preview, before and after, apply or retry controls",
+      "configurable": "Available effects, default style, branded frame, watermark",
+      "data": "Effects applied, edit time, accept vs retake"
+    },
+    {
+      "state": "Deliver",
+      "trigger": "Guest confirms the final result",
+      "experience": "The output is routed to a personal journey, pushed to social, or printed on the spot, wrapped in a branded frame.",
+      "feedback": "QR or link, share prompt, print confirmation, save success",
+      "configurable": "Delivery channels, frame, print layout, opt-in fields",
+      "data": "Shares, prints, opt-ins, channel chosen"
+    }
+  ]
+}

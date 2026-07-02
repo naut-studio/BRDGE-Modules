@@ -1,215 +1,131 @@
-[
-  {
-    "title": "Prize Draw",
-    "tagline": "Participation meets anticipation.",
-    "short_description": "A flexible giveaway mechanic that can be tied to registration, games, milestones, or post-event actions to turn engagement into reward moments.",
-    "long_description": "A modular prize draw that can run as a simple raffle or as a connected mechanic across the visitor journey. Participants can enter through registration, gameplay, token scans, or challenge completions, and prizes can be revealed live, digitally, or after the event. Ideal for increasing participation, capturing leads, and adding a memorable incentive layer.",
-    "moment": "Journey, Post-Journey",
-    "tag": [
-      "Module",
-      "Experience",
-      "Gamification",
-      "Personalization"
-    ],
-    "visuals": [
-      "Hero visual: Prize Draw in use within a branded environment",
-      "Interface mockup: primary interaction flow for Prize Draw",
-      "System overview: how visitors, screen, and backend connect",
-      "Scenario visual: themed use case of Prize Draw"
-    ],
-    "included": {
-      "module": "Prize Draw",
-      "slide": "What's included",
-      "items": [
-        {
-          "title": "Core interaction flow",
-          "description": "Base experience logic and visitor-facing interaction for Prize Draw.",
-          "visual": "Primary user flow"
-        },
-        {
-          "title": "Branded interface skin",
-          "description": "Adaptation of colours, typography, and visual language to the project context.",
-          "visual": "UI style frame"
-        },
-        {
-          "title": "Basic analytics output",
-          "description": "Tracking of key participation and usage signals relevant to the module.",
-          "visual": "Simple export or dashboard preview"
-        }
-      ]
+{
+  "title": "Prize Draw",
+  "slug": "prize-draw",
+  "publish": true,
+  "tagline": "Playful chance to win.",
+  "shortDescription": "Invite visitors to join a prize-driven moment that blends excitement, visibility, and light competition. Whether through a digital draw, race, spin, or reveal, it transforms giveaways into an engaging shared experience.",
+  "longDescription": "Create a memorable giveaway moment that feels like part of the experience, not just an add-on. Participants enter through registration, gameplay, token scans, or challenge completions, then watch a live physics simulation play out in real time, unpredictable, unscripted, and genuinely suspenseful. Winners emerge from the chaos naturally, celebrated through branded visuals and storytelling. It runs as a standalone activation or connects with games, journey tracking, leaderboards, and post-event reward flows, and BRDGE handles the full interaction logic, physics engine, and scene management end to end.",
+  "categories": [
+    "Gamification & Fun",
+    "Audience Activation"
+  ],
+  "tags": [
+    "Live",
+    "Post-Event",
+    "Large",
+    "Small",
+    "High Energy",
+    "Wow Factor",
+    "Memorable",
+    "Viral",
+    "Gamified",
+    "Multiplayer",
+    "Chance",
+    "Real-Time",
+    "Voting",
+    "User-Generated",
+    "Personalized",
+    "Low Barrier",
+    "Family Friendly",
+    "Conference",
+    "Trade Show",
+    "Corporate Event",
+    "Festival",
+    "Brand Activation",
+    "Sponsorship",
+    "Lead Generation",
+    "Loyalty",
+    "Reward",
+    "Data Collection",
+    "Leaderboard"
+  ],
+  "illustration": "illustration.png",
+  "animation": "animation.json",
+  "videoUrl": "PXL_20260326_191909905_1.mp4",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "https://youtube.com/shorts/4RnGaUUf0rU?si=7Fw2s2CNspBZxsHE",
+      "width": "40%"
     },
-    "excluded": {
-      "slide": "What’s Excluded",
-      "items": [
-        {
-          "title": "Venue hardware outside agreed scope",
-          "description": "Screens, sound, network, scenic build, mounts, printers, or special sensors are scoped separately unless explicitly listed."
-        },
-        {
-          "title": "Large-scale custom content production",
-          "description": "Extensive editorial work, translations, media creation, or bespoke storytelling assets are separate services unless included."
-        },
-        {
-          "title": "Deep custom logic beyond the base module",
-          "description": "Unique game systems, unusual integrations, or one-off backend behaviour require separate scoping and testing."
-        }
-      ]
+    {
+      "file": "videoplayback_3.mp4",
+      "width": "20%"
     },
-    "states": {
-      "module": "Prize Draw",
-      "slide": "States",
-      "items": [
-        {
-          "state": "Attract",
-          "trigger": "Visitor notices the installation or receives the entry prompt",
-          "experience": "Prize Draw communicates what to do and invites the first action.",
-          "feedback": "Idle visuals, signage, motion, or ambient cue",
-          "configurable": "Branding, call-to-action, language",
-          "data": "View or start count"
-        },
-        {
-          "state": "Engage",
-          "trigger": "Visitor starts the interaction",
-          "experience": "The main Prize Draw experience unfolds and reacts to the visitor’s input.",
-          "feedback": "Live visual, audio, or haptic response",
-          "configurable": "Game rules, pacing, theme, interaction mode",
-          "data": "Inputs, timing, progress, completion"
-        },
-        {
-          "state": "Resolve",
-          "trigger": "Interaction reaches an outcome or end point",
-          "experience": "Results, rewards, media, or next steps are revealed.",
-          "feedback": "Score, confirmation, reward, save, or share prompt",
-          "configurable": "CTA, outcome logic, reward type",
-          "data": "Outcome, score, exportable summary"
-        }
-      ]
-    },
-    "changes": {
-      "module": "Prize Draw",
-      "slide": "Customisable Elements",
-      "items": [
-        {
-          "title": "Visual identity",
-          "description": "Colours, fonts, screen assets, motion language, and tone can be adapted to brand or event theme."
-        },
-        {
-          "title": "Content layer",
-          "description": "Texts, questions, media, products, scenes, or stories can be swapped to fit the context."
-        },
-        {
-          "title": "Interaction rules",
-          "description": "Difficulty, duration, scoring, progression, and multiplayer logic can be tuned to the audience."
-        }
-      ]
-    },
-    "setup": {
-      "module": "Prize Draw",
-      "slide": "Setup Notes & Requirements",
-      "items": [
-        {
-          "title": "Power and connectivity",
-          "description": "Stable power plus the right local network or internet setup depending on the module’s data and media needs."
-        },
-        {
-          "title": "Spatial planning",
-          "description": "Sufficient visitor flow, visibility, and physical clearance for safe and intuitive use."
-        },
-        {
-          "title": "Display and input hardware",
-          "description": "Screen, projector, sensors, touch surface, buttons, mobile flow, or other input devices according to the module setup."
-        }
-      ]
-    },
-    "data": {
-      "module": "Prize Draw",
-      "slide": "Data & Impact",
-      "items": [
-        {
-          "title": "Participation metrics",
-          "description": "Starts, active users, completion rate, repeat plays, or dwell time depending on module behaviour."
-        },
-        {
-          "title": "Behaviour signals",
-          "description": "Inputs, choices, timing, accuracy, usage paths, or content preferences that help interpret engagement quality."
-        },
-        {
-          "title": "Connected follow-up potential",
-          "description": "Optional link to tokens, galleries, dashboards, exports, or post-event communication flows."
-        }
-      ]
-    },
-    "compatible": {
-      "module": "Prize Draw",
-      "slide": "Compatible Modules & Additional Services",
-      "items": [
-        {
-          "title": "Visitor Identificator",
-          "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
-        },
-        {
-          "title": "Shared Gallery / Media outputs",
-          "description": "Useful when the module produces or benefits from captured media, highlights, or public recap moments."
-        },
-        {
-          "title": "User Experience & Interface Design",
-          "description": "Refines the front-end quality and ensures the module feels coherent inside the wider BRDGE system."
-        }
-      ]
-    },
-    "twist": {
-      "module": "Prize Draw",
-      "slide": "Custom Twist Ideas",
-      "items": [
-        {
-          "title": "Sponsor edition",
-          "description": "Introduce branded rewards, visuals, or mechanics tied to a partner or campaign."
-        },
-        {
-          "title": "Tournament or leaderboard mode",
-          "description": "Extend the base interaction into a competitive format across guests, teams, or time slots."
-        },
-        {
-          "title": "Token-connected continuity",
-          "description": "Carry outcomes into another module, a personal recap, or a post-event reward flow."
-        }
-      ]
-    },
-    "theme": {
-      "module": "Prize Draw",
-      "slide": "Themed Story Examples",
-      "items": [
-        {
-          "title": "Winter / festive edition",
-          "description": "Re-skin the same interaction with seasonal visuals, story framing, and rewards."
-        },
-        {
-          "title": "Museum / education storyline",
-          "description": "Adapt the module to teach content, reveal facts, or guide visitors through a knowledge-driven narrative."
-        },
-        {
-          "title": "Brand activation scenario",
-          "description": "Translate the interaction into a product or campaign story that feels native to the brand world."
-        }
-      ]
-    },
-    "why": {
-      "module": "Prize Draw",
-      "slide": "Why it works",
-      "items": [
-        {
-          "title": "Needs a clearer participation hook",
-          "description": "Prize Draw gives visitors an immediate reason to engage instead of only observing."
-        },
-        {
-          "title": "Experience should feel more memorable",
-          "description": "Prize Draw creates a distinct interaction moment that people remember and talk about afterward."
-        },
-        {
-          "title": "Engagement should be measurable",
-          "description": "Prize Draw can capture interactions, completions, usage frequency, or connected outputs for reporting."
-        }
-      ]
+    {
+      "file": "https://www.youtube.com/shorts/v_hnpd2dmt8",
+      "width": "40%"
     }
-  }
-]
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "3 steps to podium",
+      "description": "Visitors scan a QR code to enter, a live physics simulation (marble race, obstacle course, or custom mechanic) plays out in real time with genuine unpredictability and suspense, then finalists surface and prizes are awarded live on screen.",
+      "image": "highlight-1.png",
+      "imageWidth": "70%",
+      "imageSide": "right"
+    },
+    {
+      "title": "Works Standalone or Connected",
+      "description": "Run it as a self-contained giveaway station or wire it into registration, token scans, gameplay outcomes, and post-event reward flows, and the same module covers all scenarios.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Remix the Mechanics",
+      "description": "Swap the marble race for a ball drop, pinball run, or custom physics arena. Add prize tiers, sponsor-branded obstacles, a multi-heat bracket format, or audience voting on race conditions. The physics engine stays live and unscripted regardless of the skin.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Skin It to Any World",
+      "description": "Re-dress it as a festive advent calendar reveal, a Wild West saloon poker draw, a futuristic capsule machine, a treasure hunt chest unlock, or a branded roulette wheel. Same logic, entirely different world.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Proof in the Numbers",
+      "description": "Add a data layer that tracks entries, participation rate, draw completion events, and winner moments. Pair it with lead capture or token scans to tie prize draw activity to individual visitor profiles, exportable for client reporting.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Personalized and Connected",
+      "description": "Pair with Journey Manager to make the draw the final reward of a multi-stop experience, with Visitor Identificator to recognize entrants and draw on real visitor data for a personalized draw, with Leaderboard to surface top-draw moments live, or with Shared Gallery to broadcast winner reactions across the venue.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Attract",
+      "trigger": "Visitor notices the installation or receives the entry prompt",
+      "experience": "The module communicates what to do and what can be won, inviting the first action.",
+      "feedback": "Idle animation, prize visuals, motion graphics, or ambient cue",
+      "configurable": "Branding, prize imagery, call-to-action text, language",
+      "data": "View or approach count"
+    },
+    {
+      "state": "Engage",
+      "trigger": "Visitor enters the draw (via registration, scan, game completion, or tap)",
+      "experience": "Entry is confirmed and the participant is held in suspense while the draw builds anticipation.",
+      "feedback": "Entry confirmation, animated queue, live counter, or suspense sequence",
+      "configurable": "Entry method, draw pacing, entry cap, eligibility rules",
+      "data": "Entry count, entry method, timestamp, visitor ID if linked"
+    },
+    {
+      "state": "Resolve",
+      "trigger": "Draw is triggered (live, scheduled, or threshold-based)",
+      "experience": "Winner(s) are revealed through a playful animated sequence; non-winners get a thank-you or consolation CTA.",
+      "feedback": "Live physics reveal, winner emergence, audio sting, confetti, name/prize display",
+      "configurable": "Reveal style, prize tiers, winner count, consolation message, share prompt",
+      "data": "Winner ID, prize assigned, draw timestamp, exportable results"
+    }
+  ]
+}

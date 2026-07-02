@@ -1,421 +1,248 @@
-[
-  {
+{
   "title": "Crowd Games",
-  "tagline": "One room. One pulse.",
-  "short_description": "Large-scale participation games that turn many people into one connected play moment.",
-  "long_description": "A category of multiplayer experiences designed for groups, stages, or public spaces where many participants can join at once. Inputs can come from phones, buttons, gestures, or group voting, creating a shared rhythm and a strong sense of collective momentum. Crowd Games dissolve the boundary between audience and participant, every person in the room becomes part of the outcome. Ideal for conferences, ceremonies, launches, and exhibitions that want the crowd itself to become the main attraction.",
-  "moment": "Journey",
-  "tag": [
-    "Module",
-    "Experience",
-    "Group Activation",
-    "Gamification",
-    "Live Event",
-    "Multiplayer",
-    "Audience Engagement"
+  "slug": "crowd-games",
+  "publish": true,
+  "tagline": "Move as one.",
+  "shortDescription": "A collaborative mobile game where the whole audience steers one shared avatar at the same time, turning a passive crowd into a single, synchronized team.",
+  "longDescription": "Every player uses their phone as a simple left/right controller, and the more people who pick the same direction, the stronger the movement becomes. There is no app to install: visitors scan a QR code, join in seconds, and instantly become part of one collective player on the big screen. It adapts to almost any goal - a branded story journey, a networking energizer, a live poll, or a knowledge quiz - and to any theme, from space travel to sustainability. BRDGE handles the interaction logic, real-time scene management, and the journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Gamification & Fun",
+    "Audience Activation",
+    "Discovery & Learning"
   ],
-
-  "where": {
-    "module": "Crowd Games",
-    "slide": "Where it works best",
-    "items": [
-      {
-        "title": "Conferences & Keynote Stages",
-        "description": "Transform passive audiences into active participants: mid-session games, live polls turned into play, or icebreaker moments that energize the room and keep attention sharp."
-      },
-      {
-        "title": "Brand Launches & Live Events",
-        "description": "Create a peak shared moment that the entire room experiences together, a collective game tied to a product reveal, a campaign theme, or a brand milestone that guests will talk about long after."
-      },
-      {
-        "title": "Museums, Exhibitions & Public Spaces",
-        "description": "Turn a gallery floor or open atrium into an arena: visitors of all ages join a shared game that makes the space feel alive, social, and worth exploring together."
-      }
-    ]
-  },
-
-  "goals": {
-    "module": "Crowd Games",
-    "slide": "Adaptable to your Goals",
-    "items": [
-      {
-        "title": "Audience Engagement",
-        "description": "Replace passive observation with active participation: every person in the room has a role, an input, and a stake in the outcome."
-      },
-      {
-        "title": "Event Energy Boost",
-        "description": "Inject a high-energy shared moment that resets the room's mood, ideal as an icebreaker, a mid-program reset, or a closing climax that sends people out on a high."
-      },
-      {
-        "title": "Community Building",
-        "description": "Shared play creates shared memory. Crowd Games generate a collective experience that bonds participants: strangers become teammates, and the event becomes the story they tell."
-      },
-      {
-        "title": "Memorable Shareable Moments",
-        "description": "A room full of people reacting in unison is inherently photogenic and social: Crowd Games produce the kind of moment that ends up in event recaps, social posts, and highlight reels."
-      }
-    ]
-  },
-
-  "solves": {
-    "module": "Crowd Games",
-    "slide": "What it solves",
-    "items": [
-      {
-        "title": "Passive audiences that don't connect",
-        "description": "People sit, watch, and leave without ever truly engaging. Crowd Games give every person in the room a reason to participate, individually and together, turning observers into players."
-      },
-      {
-        "title": "Energy drops during long programs",
-        "description": "Attention fades fast in lengthy events. A well-placed Crowd Game resets the energy, refocuses the room, and creates a natural peak moment that carries the program forward."
-      },
-      {
-        "title": "Forgettable event experiences",
-        "description": "Most events blur into each other. A moment where the whole crowd plays together, and wins or loses as one, is the kind of memory that sticks and gets retold."
-      },
-      {
-        "title": "Difficult to scale personal interaction",
-        "description": "Individual activations can't serve 200 people at once. Crowd Games are designed to scale: the more people join, the better the experience gets."
-      },
-      {
-        "title": "Sponsors without a clear moment",
-        "description": "Crowd Games offer a high-visibility branded slot (the game itself, the countdown, the winner reveal) all framed within a partner's visual and message."
-      },
-      {
-        "title": "No proof of crowd engagement",
-        "description": "Organizers need to show ROI. Crowd Games generate participation counts, response data, and crowd behavior signals that translate directly into reporting metrics."
-      },
-      {
-        "title": "Disconnected individuals in a group setting",
-        "description": "Conferences and exhibitions often feel lonely despite the crowd. Shared play is one of the fastest ways to create a social bond: Crowd Games manufacture that moment by design."
-      },
-      {
-        "title": "Low perceived production value",
-        "description": "A live game with real-time crowd reaction elevates the perceived quality of the entire event: it signals ambition, interactivity, and craft that reflects well on the organizer."
-      }
-    ]
-  },
-
-  "included": {
-    "module": "Crowd Games",
-    "slide": "What's included",
-    "items": [
-      {
-        "title": "Core game interaction flow",
-        "description": "The complete multiplayer experience logic (join mechanic, game loop, scoring, and resolution) built for simultaneous participation at scale."
-      },
-      {
-        "title": "Participant join flow",
-        "description": "How players enter the game: via QR code, short URL, or a dedicated device, a fast, frictionless onboarding that works for any crowd size."
-      },
-      {
-        "title": "Main display output",
-        "description": "The large-screen or projection-ready view that the full room sees: live results, crowd reactions, countdowns, and game states shown in real time."
-      },
-      {
-        "title": "Branded interface skin",
-        "description": "Adaptation of colours, typography, and visual language across both the player-facing device view and the main crowd-facing display."
-      },
-      {
-        "title": "Basic analytics output",
-        "description": "Participation count, response data, game outcomes, and key engagement signals delivered as an export or summary dashboard."
-      }
-    ]
-  },
-
-  "excluded": {
-    "slide": "What's Excluded",
-    "items": [
-      {
-        "title": "Venue AV and projection infrastructure",
-        "description": "Large-format screens, projectors, PA systems, or LED walls are not included. The client or venue is responsible for providing the display environment the game runs on."
-      },
-      {
-        "title": "Network infrastructure for large crowds",
-        "description": "Reliable Wi-Fi capable of handling hundreds of simultaneous device connections must be provided or contracted separately. Consumer-grade venue Wi-Fi is often insufficient."
-      },
-      {
-        "title": "Live hosting or MC performance",
-        "description": "A human host, presenter, or game master to guide the crowd through the experience is not included by default and must be scoped as a separate staffing or service line."
-      },
-      {
-        "title": "Custom game engine development",
-        "description": "Entirely bespoke game mechanics, novel interaction paradigms, or one-off multiplayer systems beyond the base module require separate scoping, development, and QA."
-      },
-      {
-        "title": "Physical props or staging",
-        "description": "Buzzers, handheld devices, physical game boards, staging, or set builds are outside the digital scope and require a separate production or events partner."
-      }
-    ]
-  },
-
-  "states": {
-    "module": "Crowd Games",
-    "slide": "States",
-    "items": [
-      {
-        "state": "Attract",
-        "trigger": "The game is loaded and waiting: the room has not yet been invited to join",
-        "experience": "The main screen displays an engaging idle state (animated visuals, a game teaser, or a countdown) building anticipation before the host or system triggers the join phase.",
-        "feedback": "Looping animation, branded idle screen, ambient sound or music, teaser visuals",
-        "configurable": "Branding, idle message, countdown timer, background music",
-        "data": "Screen-on time, session start timestamp"
-      },
-      {
-        "state": "Join",
-        "trigger": "The host or system opens the game: participants are invited to connect via their devices",
-        "experience": "A QR code or URL is displayed on the main screen. Participants scan and join from their phones in seconds. A live counter shows the crowd growing in real time.",
-        "feedback": "Join counter, player roster or avatars populating on screen, confirmation on participant device",
-        "configurable": "Join method (QR, URL, NFC), player display style, lobby message, waiting screen design",
-        "data": "Total players joined, device types, join speed curve"
-      },
-      {
-        "state": "Play",
-        "trigger": "Host or automatic timer launches the game: all joined participants enter simultaneously",
-        "experience": "The game unfolds in real time across the main display and every participant's device. Inputs are collected, results update live, and the crowd reacts to each round or moment.",
-        "feedback": "Live score updates, crowd reaction visuals, audio cues, countdown timers, round transitions",
-        "configurable": "Game type, number of rounds, time per round, difficulty, scoring logic, team vs individual mode",
-        "data": "Responses per round, response timing, answer distribution, crowd accuracy, drop-off rate"
-      },
-      {
-        "state": "Resolve",
-        "trigger": "Final round ends or game reaches its conclusion",
-        "experience": "Results are revealed on the main screen: winners, scores, crowd stats, or a collective outcome. The moment is designed for maximum shared reaction. Optional: share, save, or reward flow.",
-        "feedback": "Winner reveal animation, crowd stat summary, leaderboard display, share prompt on participant device",
-        "configurable": "Outcome format, winner display logic, reward or CTA, post-game message",
-        "data": "Final scores, winner record, full participation export, crowd response summary"
-      }
-    ]
-  },
-
-  "changes": {
-    "module": "Crowd Games",
-    "slide": "Customisable Elements",
-    "items": [
-      {
-        "title": "Visual identity",
-        "description": "Colours, fonts, animation style, and overall aesthetic can be fully adapted, from corporate brand guidelines to immersive themed environments."
-      },
-      {
-        "title": "Game format and mechanics",
-        "description": "Quiz, vote, reflex challenge, prediction, team battle, or collaborative goal, the core interaction type can be chosen or combined to fit the audience and program."
-      },
-      {
-        "title": "Content layer",
-        "description": "Questions, prompts, media, images, or story context can all be swapped to align with the event topic, brand message, or educational theme."
-      },
-      {
-        "title": "Multiplayer structure",
-        "description": "Individual competition, team play, or full-crowd collaboration, the social dynamic of the game can be tuned to the audience size and desired energy."
-      },
-      {
-        "title": "Pacing and difficulty",
-        "description": "Round duration, number of rounds, time pressure, and scoring weight can be calibrated for a casual fun moment or an intense competitive finale."
-      },
-      {
-        "title": "Host integration",
-        "description": "The game can be designed to run autonomously or with a live host, with built-in commentary triggers, pause points, and host-control dashboard options."
-      },
-      {
-        "title": "Language and copy",
-        "description": "All on-screen text, question prompts, result messages, and device-facing copy can be localised or adapted to the event's communication style."
-      }
-    ]
-  },
-
-  "setup": {
-    "module": "Crowd Games",
-    "slide": "Setup Notes & Requirements",
-    "items": [
-      {
-        "title": "High-capacity Wi-Fi network",
-        "description": "A dedicated network capable of handling simultaneous connections from the full participant count is essential. Standard venue Wi-Fi is often insufficient for 100+ devices: a dedicated event network or temporary hotspot infrastructure is recommended."
-      },
-      {
-        "title": "Large-format display or projection",
-        "description": "The game requires a main screen visible to the entire crowd, a projector, LED wall, or large monitor depending on venue size. The client or venue is responsible for providing and positioning this display."
-      },
-      {
-        "title": "Participant devices",
-        "description": "Players join on their own smartphones via browser, no app download required. Minimum requirement is a modern mobile browser with stable Wi-Fi access."
-      },
-      {
-        "title": "Operator or host device",
-        "description": "A laptop or tablet for the game operator or host to manage the session, control pacing, and monitor the admin dashboard in real time."
-      },
-      {
-        "title": "Audio output (recommended)",
-        "description": "Sound effects and music significantly enhance the Crowd Games experience. A PA system or venue speakers connected to the operator device is strongly recommended."
-      },
-      {
-        "title": "Spatial setup and sightlines",
-        "description": "All participants must have a clear view of the main display. Venue layout, seating arrangement, and screen positioning should be confirmed in advance during site planning."
-      },
-      {
-        "title": "Technical rehearsal",
-        "description": "A run-through before the live audience arrives is strongly recommended, testing the join flow, display output, network load, and host controls under real conditions."
-      }
-    ]
-  },
-
-  "data": {
-    "module": "Crowd Games",
-    "slide": "Data & Impact",
-    "items": [
-      {
-        "title": "Total participation count",
-        "description": "Number of unique players who joined the game, a direct measure of crowd activation and a key headline metric for event reports."
-      },
-      {
-        "title": "Response data per round",
-        "description": "What the crowd answered, chose, or voted for at each moment, revealing preferences, knowledge levels, and engagement patterns across the session."
-      },
-      {
-        "title": "Response timing and accuracy",
-        "description": "How quickly participants responded and how correct or aligned their answers were, useful for gauging content difficulty and crowd familiarity with the subject matter."
-      },
-      {
-        "title": "Completion and drop-off rate",
-        "description": "How many participants stayed through to the final round versus dropped off mid-game, an indicator of pacing, difficulty balance, and engagement quality."
-      },
-      {
-        "title": "Team or individual scores",
-        "description": "Final rankings and score distributions across all participants, exportable for leaderboard display, winner recognition, or competitive reporting."
-      },
-      {
-        "title": "Crowd sentiment signals",
-        "description": "Aggregate response patterns that reveal how the crowd felt about topics, products, or questions, useful for brand research, campaign testing, or post-event analysis."
-      },
-      {
-        "title": "Exportable session summary",
-        "description": "A structured export of the full session (participation, results, and key signals) formatted for stakeholder reports or CRM ingestion."
-      }
-    ]
-  },
-
-  "compatible": {
-    "module": "Crowd Games",
-    "slide": "Compatible Modules & Additional Services",
-    "items": [
-      {
-        "title": "Visitor Identificator",
-        "description": "Link game participation to individual visitor identities, enabling personalized follow-up, score history, and continuity across a multi-module experience."
-      },
-      {
-        "title": "Leaderboard Display Module",
-        "description": "Surface live or cumulative rankings on a dedicated screen, keeping competitive energy alive between game sessions or across a full event day."
-      },
-      {
-        "title": "Shared Gallery / Media Output",
-        "description": "Capture crowd reaction moments, winner reveals, or collective stats as shareable visual assets, extending the game's energy into social and recap content."
-      },
-      {
-        "title": "Feedback & Survey Module",
-        "description": "Follow the game with a fast feedback moment, capturing crowd sentiment, NPS, or topic reactions while engagement is at its peak."
-      },
-      {
-        "title": "Journey Module",
-        "description": "Embed Crowd Games as a defined stop within a wider multi-touchpoint visitor journey, with outcomes feeding into the broader experience arc."
-      },
-      {
-        "title": "Live Hosting & Expert Staff",
-        "description": "A trained live host or game master elevates the Crowd Games experience, managing crowd energy, reading the room, and driving participation beyond what the system alone can do."
-      },
-      {
-        "title": "Technical Setup & Live Support",
-        "description": "On-site technical staffing ensures the game runs without interruption, monitoring network load, display output, and device connectivity throughout the event."
-      },
-      {
-        "title": "Marketing Design",
-        "description": "Pre-event communication assets that prime the crowd: teaser graphics, briefing slides, or social posts that build anticipation for the game moment."
-      },
-      {
-        "title": "User Experience & Interface Design",
-        "description": "A dedicated design pass on the player-facing and display-facing interfaces, ensuring the game feels polished, legible, and on-brand at every scale."
-      }
-    ]
-  },
-
-  "twist": {
-    "module": "Crowd Games",
-    "slide": "Custom Twist Ideas",
-    "items": [
-      {
-        "title": "Team battle format",
-        "description": "Split the crowd into colour-coded teams (tables, sections, or random assignment) and let them compete collectively, amplifying rivalry and social noise."
-      },
-      {
-        "title": "Live elimination rounds",
-        "description": "Players are knocked out round by round until one winner remains: tension builds naturally and the crowd watches the final duel unfold on the main screen."
-      },
-      {
-        "title": "Sponsor challenge slot",
-        "description": "A branded game round is owned entirely by a partner (their question, their visual, their prize) turning a sponsor moment into the most memorable part of the program."
-      },
-      {
-        "title": "Audience decides the event",
-        "description": "Use Crowd Games as a live decision mechanism: the crowd votes on the next speaker, the next song, or the next challenge, making them co-authors of the event."
-      },
-      {
-        "title": "Real-time product quiz",
-        "description": "Embed product knowledge, campaign trivia, or brand storytelling directly into the game rounds, education through play, with scores that reflect genuine brand engagement."
-      },
-      {
-        "title": "Prediction market round",
-        "description": "Before a reveal, announcement, or result, the crowd places their bets: then the answer lands on screen to collective gasps, cheers, or groans."
-      },
-      {
-        "title": "Collaborative crowd challenge",
-        "description": "Flip the format: instead of competing, the whole room works together to hit a collective target, beat a score, or complete a challenge as one unified team."
-      },
-      {
-        "title": "Cross-event tournament",
-        "description": "Run the same game format across multiple events or days, with a running leaderboard, turning a single activation into an ongoing competitive narrative."
-      },
-      {
-        "title": "Physical + digital hybrid round",
-        "description": "Combine digital inputs with a live physical challenge (a gesture, a race, or a prop) that the crowd completes in the room while the screen tracks and tallies results."
-      }
-    ]
-  },
-
-  "theme": {
-    "module": "Crowd Games",
-    "slide": "Themed Story Examples",
-    "items": [
-      {
-        "title": "Game show spectacular",
-        "description": "The venue becomes a TV studio: buzzer rounds, dramatic music, a host in a suit, and a live leaderboard that builds to a theatrical winner reveal."
-      },
-      {
-        "title": "Winter Olympics edition",
-        "description": "Teams compete in a series of themed seasonal challenges (speed rounds, accuracy tests, and a medal ceremony) wrapped in festive winter visuals and crowd energy."
-      },
-      {
-        "title": "Brand knowledge championship",
-        "description": "A quiz built entirely around a brand's world (product history, campaign trivia, values, and vision) turning engagement into education in a competitive format."
-      },
-      {
-        "title": "Science & discovery challenge",
-        "description": "In a museum or education setting, Crowd Games become a live experiment: the crowd votes on hypotheses, answers research questions, and discovers results together."
-      },
-      {
-        "title": "Conference kick-off icebreaker",
-        "description": "A fast, fun game at the start of a conference day (light questions, team assignments, and a leaderboard) that dissolves awkwardness and makes the room feel like a community."
-      },
-      {
-        "title": "Sports fan prediction league",
-        "description": "At a sports-themed event, fans predict outcomes, rate performances, and compete in reflex rounds, all wrapped in team colours and match-day energy."
-      },
-      {
-        "title": "Escape room in a crowd",
-        "description": "The whole room works together to solve a mystery, decoding clues revealed round by round on the main screen, with the collective answer unlocking the next stage."
-      },
-      {
-        "title": "New year countdown challenge",
-        "description": "A series of rapid rounds builds toward midnight: each game completed unlocks part of the celebration reveal, turning the countdown into a crowd-powered experience."
-      }
-    ]
-  }
+  "tags": [
+    "Live",
+    "Large",
+    "Mobile",
+    "Collaborative",
+    "High Energy",
+    "Icebreaker",
+    "Wow Factor",
+    "Gamified",
+    "Multiplayer",
+    "Real-Time",
+    "Projection",
+    "NFC / RFID / QR Code",
+    "Phygital",
+    "User-Generated",
+    "Storytelling",
+    "Low Barrier",
+    "Multi-Language",
+    "Conference",
+    "Trade Show",
+    "Corporate Event",
+    "Brand Activation",
+    "Educational",
+    "Competitive",
+    "Voting",
+    "Trivia",
+    "Leaderboard",
+    "Data Collection",
+    "Memorable",
+    "Festival",
+    "Exhibition",
+    "Sponsorship"
+  ],
+  "illustration": "illustration.png",
+  "animation": "animation",
+  "videoUrl": "gallery-0.mp4",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "gallery-1.jpg",
+      "width": "33%"
+    },
+    {
+      "file": "gallery-2.jpg",
+      "width": "33%"
+    },
+    {
+      "file": "gallery-3.jpg",
+      "width": "33%"
+    },
+    {
+      "file": "gallery-4.png",
+      "width": "40%"
+    },
+    {
+      "file": "gallery-5.png",
+      "width": "40%"
+    },
+    {
+      "file": "gallery-6.png",
+      "width": "20%"
+    },
+    {
+      "file": "gallery-7.jpg",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-8.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-9.jpg",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-10.png",
+      "width": "25%"
+    },
+    {
+      "file": "gallery-11.jpg",
+      "width": "25%"
+    },
+    {
+      "file": "gallery-12.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-13.jpg",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-14.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-15.jpg",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-16.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-17.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-18.png",
+      "width": "80%"
+    },
+    {
+      "file": "gallery-20.jpg",
+      "width": "20%"
+    },
+    {
+      "file": "gallery-21.jpg",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-22.jpg",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-23.jpg",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-24.jpg",
+      "width": "30%"
+    }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [
+    "logo-tedx.svg",
+    "logo-swisslife.svg",
+    "logo-migros.svg",
+    "logo-xaver.svg",
+    "logo-galenica.svg",
+    "logo-klimatag.svg"
+  ],
+  "highlights": [
+    {
+      "title": "Instant, No-App Participation",
+      "description": "The whole room joins in seconds by scanning a QR code in the browser, so even large, passive audiences activate with zero friction and no hardware to hand out.",
+      "image": "icon-bolt.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Reshape the Mechanic",
+      "description": "Reshape the mechanic itself: swap the input from phones to buttons, gestures, or motion; split the crowd into teams that each steer their own avatar and race head to head; or turn steering into a live vote, where the avatar moves to catch A or B. Layer on vertical-lane gameplay, sponsor editions with branded vessels and rewards, or tournament and leaderboard rounds.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Any World, One Game",
+      "description": "Reskin the same game for any world - Space Travel, Holiday Travel, a sustainability mission, a culture-and-history quest, a music festival, or a fully branded product story.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Optional Crowd Data",
+      "description": "Add a data layer that captures engagement rate, player count (peak, average, per round), session duration, score stats, and a heatmap of movement, giving the client clear proof of participation and reach.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Pairs With Your Stack",
+      "description": "Pair with Visitor Identificator for rewards and follow-up, Shared Gallery for the collective result and shareable cards, Journey Manager to make it one stop on a longer route, or a Leaderboard for live competition.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Idle",
+      "trigger": "No presence detected",
+      "experience": "An animated attract loop invites participation.",
+      "feedback": "Calm background motion, ambient music",
+      "configurable": "Attract visuals, loop duration, background music",
+      "data": "Idle duration, foot-traffic visibility, attract loop impressions"
+    },
+    {
+      "state": "Instructions",
+      "trigger": "Players step into the detection area",
+      "experience": "The game explains the rules and how to join, using visuals and/or voiceover.",
+      "feedback": "On-screen diagrams, voice guidance, theme visuals",
+      "configurable": "Instruction duration, content format, language",
+      "data": "Instruction duration, drop-off rate, engagement tracking"
+    },
+    {
+      "state": "Ready",
+      "trigger": "Participants scan the QR code to join",
+      "experience": "The system waits for players to connect - the QR code is shown and the lobby forms.",
+      "feedback": "QR display with join animation, loading audio cues",
+      "configurable": "Max player count, waiting time, QR link logic",
+      "data": "Join rate, time to connect, user identifiers"
+    },
+    {
+      "state": "Start",
+      "trigger": "All players joined or the countdown expires",
+      "experience": "The intro animation plays and the countdown begins.",
+      "feedback": "Countdown numbers, start jingle, animated transition to gameplay",
+      "configurable": "Countdown length, intro visuals, launch sound",
+      "data": "Countdown duration, drop-off at launch, time to play"
+    },
+    {
+      "state": "Play",
+      "trigger": "The game officially begins",
+      "experience": "The crowd actively steers the shared avatar - collecting, dodging, solving, or moving together.",
+      "feedback": "Responsive sound design, real-time visuals, avatar animation",
+      "configurable": "Gameplay type, difficulty, input mapping, audio theme",
+      "data": "Motion input, group accuracy, performance metrics"
+    },
+    {
+      "state": "Result",
+      "trigger": "Game ends through success, fail, or timeout",
+      "experience": "Score, team result, or feedback screen appears, and players receive a shareable result on their phones.",
+      "feedback": "Celebration animation, music fanfare, score visuals",
+      "configurable": "Result style, reward display, next-steps prompt",
+      "data": "Score breakdown, success rate, group contribution analysis"
+    },
+    {
+      "state": "Cancel",
+      "trigger": "Timeout, participant inactivity, or manual stop",
+      "experience": "The session ends early and resets to attract mode.",
+      "feedback": "Fade-out visuals, system tone, idle loop restart",
+      "configurable": "Cancel trigger threshold, cancellation message",
+      "data": "Abort reason, duration until cancel, user retention"
+    }
+  ]
 }
-]

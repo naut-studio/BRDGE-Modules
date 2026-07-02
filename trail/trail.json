@@ -1,0 +1,144 @@
+{
+  "title": "Trail / Scavenger Hunt",
+  "slug": "trail",
+  "publish": true,
+  "tagline": "Follow the path.",
+  "shortDescription": "A mobile-first adventure that guides visitors through playful, location-based challenges using their own devices. It turns spaces into an interactive trail of discovery, curiosity, and momentum.",
+  "longDescription": "A gamified, mobile-led experience that leads participants through a series of clues, tasks, and locations. Visitors uncover hints, solve challenges, and progress step by step along a curated route. Each interaction reveals a new layer of the story, encourages exploration, and keeps engagement high. Designed to adapt to exhibitions, events, cities, or brands, it transforms movement into meaning and participation into a memorable journey.",
+  "categories": [
+    "Gamification & Fun",
+    "Discovery & Learning"
+  ],
+  "tags": [
+    "Gamified",
+    "Competitive",
+    "Multiplayer",
+    "Trivia",
+    "Timed",
+    "Memorable",
+    "Mobile",
+    "NFC / RFID / QR Code",
+    "Phygital",
+    "Storytelling",
+    "Educational",
+    "Multi-Language",
+    "Personalized",
+    "User-Generated",
+    "Low Barrier",
+    "Family Friendly",
+    "Museum",
+    "Exhibition",
+    "Festival",
+    "Corporate Event",
+    "Retail",
+    "Journey",
+    "Leaderboard",
+    "Reward",
+    "Data Collection",
+    "Brand Activation"
+  ],
+  "illustration": "illustration.png",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "video-1.mp4",
+      "width": "50%"
+    },
+    {
+      "file": "video-2.mp4",
+      "width": "50%"
+    }
+  ],
+  "galleryCredits": "© WOW-Museum",
+  "clientLogos": [
+    "logo-postfinance.svg",
+    "logo-wow.svg",
+    "logo-ubs.svg",
+    "logo-swica.svg",
+    "logo-xaver.svg",
+    "logo-kantonsratzh.svg"
+  ],
+  "highlights": [
+    {
+      "title": "A Start that you design",
+      "description": "Set the tone before the first step. Open with a custom welcome screen in any language, then shape how players enter: add a privacy or consent checkbox for the legal step, assign each player a role or mission, or swap static instructions for a video onboarding. The entry point is yours to craft, playful, branded, or cinematic, so every trail feels like your own.",
+      "image": "highlight-1b.png",
+      "imageWidth": "67%"
+    },
+    {
+      "title": "Mix Your Own Challenges",
+      "description": "Build the journey from a flexible deck of challenge types and arrange them however your story flows. Mix multiple-choice and trivia for knowledge, 'guess the word' for puzzles, location-based check-ins for movement, or open creative prompts: take a photo, complete a dare, or interpret a task their own way. Tune the difficulty and tone so the mix fits your audience and your message.",
+      "image": "highlight-2b.png",
+      "imageWidth": "67%"
+    },
+    {
+      "title": "Guide the Journey",
+      "description": "Make sure no one ever feels lost. A visual timeline maps completed and upcoming challenges so players always know where they are, and on top of it you can layer a voice: a live moderator who nudges through real-time chat, or a pre-scripted bot that drops hints, cheers players on, and reveals the next clue with personality. Together they turn a checklist of tasks into a journey players feel guided through.",
+      "image": "highlight-3b.png",
+      "imageWidth": "67%"
+    },
+    {
+      "title": "End on Your Terms",
+      "description": "Decide how the journey lands. Close with a final 'moral' page that ties the story together, a recap of scores and stats, or a leaderboard reveal that crowns the winners. Reward completion with a real prize, or a unique QR code that unlocks a discount, a collectible, or the next chapter. The finale is where your trail leaves its mark, so make it count.",
+      "image": "highlight-4b.png",
+      "imageWidth": "67%"
+    },
+    {
+      "title": "One Route, Any World",
+      "description": "Reskin the same route engine for any world: a museum mystery that reveals facts along the way, a city heritage walk, a brand discovery tour, a kids' treasure hunt, or a festive advent trail. Look, story, and challenges all change while the underlying flow stays the same.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Optional Trail Data",
+      "description": "Add a data layer to track starts, stop completion, drop-off points, time per challenge, and finish rate, and connect it to tokens or dashboards for post-event reporting that shows exactly where visitors went and what held their attention.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Part of a Bigger Journey",
+      "description": "Pair it with Visitor Identificator to tie progress and identity to each visitor profile, with Journey Manager to make the trail one leg of a longer multi-stop route, or with a Shared Gallery to collect and showcase the photos players capture along the way.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Onboarding",
+      "trigger": "Visitor scans the start QR code or opens the trail link.",
+      "experience": "A short welcome flow loads on the phone, sets the language, and explains the goal before the first challenge.",
+      "feedback": "Branded welcome screen, language picker, a clear start cue.",
+      "configurable": "Welcome copy, languages, roles, consent step, onboarding video.",
+      "data": "Starts, language chosen, role selected."
+    },
+    {
+      "state": "On the Trail",
+      "trigger": "A challenge unlocks at a stop or location.",
+      "experience": "A clue or task appears and the player solves it to move on, with difficulty able to ramp across the route.",
+      "feedback": "Live timeline, progress bar, hints, success and retry cues.",
+      "configurable": "Challenge types, order, difficulty, hint logic, time limits.",
+      "data": "Attempts, time per challenge, hint use, accuracy."
+    },
+    {
+      "state": "Checkpoint",
+      "trigger": "A challenge is completed.",
+      "experience": "The score updates, the map advances, and the next clue is revealed, optionally with a moderator or bot message.",
+      "feedback": "Success animation, points, map update, guiding voice.",
+      "configurable": "Scoring, reveal logic, moderator or bot tone.",
+      "data": "Completions per stop, running score, drop-off points."
+    },
+    {
+      "state": "Finish",
+      "trigger": "The final challenge is completed or the route ends.",
+      "experience": "A wrap-up recap, leaderboard, and any reward or unlock are presented.",
+      "feedback": "Moral page, score card, leaderboard reveal, prize or QR unlock.",
+      "configurable": "End page, reward logic, leaderboard, share prompt.",
+      "data": "Finish rate, total time, rewards claimed, shares."
+    }
+  ]
+}

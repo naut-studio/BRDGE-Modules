@@ -1,0 +1,149 @@
+{
+  "title": "AirHockey",
+  "slug": "airhockey",
+  "publish": true,
+  "tagline": "Magic flow.",
+  "shortDescription": "A real puck on a real table, supercharged with AR projections, reactive lighting, and themed battle modes. Head-to-head competition that draws a crowd and keeps players coming back.",
+  "longDescription": "It starts with something everyone already knows: two players, two mallets, one puck. Then the table comes alive. Projected visuals map directly onto the playing surface, reacting to every strike, deflection, and goal in real time. Fireballs, spell effects, space debris, ninja clans: the game mode sets the world, and the puck controls the action within it. Patented puck and striker recognition technology tracks movement across the full surface with no blind spots, driving the AR layer at a smooth, cinematic frame rate. Intelligent LED lighting on the cabinet responds to live game events: a goal scored, a rally building, the match end. Five themed battle modes are included out of the box, each with distinct visual identity and gameplay mechanics layered on top of the core game physics. The format is self-contained, operable without staff, and sized for high-traffic venues. It runs as a standalone attraction or as one stop within a broader experience, connected to Journey for route-based activation, Leaderboard for cross-venue competition, or Visitor Identificator for profile-linked play. BRDGE handles interaction logic, scene and mode management, and all journey, leaderboard, and data integrations end to end.",
+  "categories": [
+    "Gamification & Fun",
+    "Audience Activation"
+  ],
+  "tags": [
+    "Live",
+    "Large",
+    "Competitive",
+    "High Energy",
+    "Wow Factor",
+    "Memorable",
+    "Immersive",
+    "Gamified",
+    "Multiplayer",
+    "Reflex",
+    "Timed",
+    "Real-Time",
+    "Projection",
+    "AR / XR",
+    "Computer Vision",
+    "Phygital",
+    "Family Friendly",
+    "Low Barrier",
+    "Journey",
+    "Corporate Event",
+    "Festival",
+    "Pop-Up",
+    "Retail",
+    "Leaderboard",
+    "Loyalty",
+    "Reward",
+    "Brand Activation",
+    "Single Player",
+    "AI-Powered",
+    "Data Collection",
+    "Lead Generation",
+    "Sponsorship"
+  ],
+  "illustration": "illustration.png",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [],
+  "galleryLayout": [],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "A Crowd Magnet With Universal Appeal",
+      "description": "Air hockey is one of the most instantly legible games on earth. Everyone knows the rules in two seconds. The AR layer makes it unmissable from across a venue. Bystanders stop, watch, and queue. That combination of zero learning curve and high spectacle makes it one of the easiest modules to sell to almost any client type: mall operators, festival producers, corporate event planners, and retail activations alike.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Solo AI, Tournaments & Branding",
+      "description": "Swap to single-player mode with an AI opponent for solo activations. Add a token-gate so each game requires a scanned wristband or QR code, turning play into a reward. Enable score-to-leaderboard so every match feeds a live ranking on a separate screen. Layer in timed sudden-death rounds for tournament formats. Upgrade to branded pucks and mallets for premium client installs.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Battle Worlds to Reskin",
+      "description": "Space Battle: puck leaves meteor trails and goals trigger planetary explosions. Winter Wonderland: ice rink aesthetic with snowfall and frozen-goal effects for seasonal activations. Brand Arena: client's visual identity, colors, and mascot replace the default world. Sport Sponsor: stadium atmosphere with crowd audio and sponsor branding mapped onto the table surface. Fantasy Duel: spell-casting mechanics with branded characters for entertainment IPs.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Optional Match Data",
+      "description": "As an optional add-on, a data layer can log game count, session duration, score outcomes, and, when linked to Visitor Identificator or Journey, player IDs. It can also track dwell time and replay rate per unit and per event, gate the game start behind registration to capture contact data for lead-gen, or log impression time on branded surface visuals for sponsors. Anything captured feeds the Event Dashboard for real-time and post-event reporting.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Pairs Across the Venue",
+      "description": "Journey Manager: make it one stamped stop on a multi-zone route, driving traffic across a venue. Leaderboard: broadcast match scores live so the whole event sees the rankings build. Visitor Identificator: link play to visitor profiles for personalized stats and return incentives. Prize Draw / Wheel of Luck: use a top-score threshold to unlock a prize spin. Photo/Videobooth: capture the winning moment immediately after the match ends.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Attract",
+      "trigger": "No active players; idle timeout reached",
+      "experience": "The table runs an animated demo loop: puck trails, effects, and game highlights play on the surface without requiring input",
+      "feedback": "Ambient AR visuals on the table; LED cabinet lighting pulses slowly; attract audio loop plays",
+      "configurable": "Demo content, lighting color, audio volume, idle timeout duration",
+      "data": "Impression time (how long the attract screen ran before a game started)"
+    },
+    {
+      "state": "Mode Select",
+      "trigger": "Player touches the table or inserts token / scans QR code",
+      "experience": "Players choose a game mode (e.g. Space Battle, Ninja Fight, Tower Wars) from a menu projected onto the surface",
+      "feedback": "Mode previews animate on the table; LED reacts to hover selection; selection confirmed with a sound cue",
+      "configurable": "Available modes, default mode (skip select for single-mode installs), language of UI labels",
+      "data": "Mode selected; timestamp; player ID if linked"
+    },
+    {
+      "state": "Countdown",
+      "trigger": "Mode confirmed by both players (or auto-start after selection)",
+      "experience": "A short countdown projects onto the surface; players take positions",
+      "feedback": "Large projected countdown numbers; drumroll or theme audio builds; LED flashes on zero",
+      "configurable": "Countdown duration, audio theme, branded overlay during countdown",
+      "data": "Game start timestamp"
+    },
+    {
+      "state": "Active Play",
+      "trigger": "Countdown completes",
+      "experience": "Live match in progress: the air-propelled puck glides across the surface, AR effects respond to every strike, goal, and save in real time",
+      "feedback": "Reactive projections track puck position; goal events trigger full-table effect bursts; LED lights respond to scoring; spatial audio plays",
+      "configurable": "Match duration, score limit, effect intensity, branded visual overlays, music track",
+      "data": "Score per player, rally count, goal timestamps, session duration, puck hit frequency"
+    },
+    {
+      "state": "Goal Event",
+      "trigger": "Puck enters a goal",
+      "experience": "Short celebratory or defeat animation plays for both players; score updates on the info screen",
+      "feedback": "Full-surface goal animation; LED flash in scorer's color; audio sting plays",
+      "configurable": "Goal animation per theme, scorer color assignment, audio sting",
+      "data": "Goal scored by (player ID or side), time of goal, running score"
+    },
+    {
+      "state": "Match End",
+      "trigger": "Score limit or time limit reached",
+      "experience": "Winner and loser states animate on the table; final score displayed; option to replay or exit",
+      "feedback": "Victory animation on winner's side; full score summary projected; LED dims to post-game state",
+      "configurable": "Win animation per theme, replay prompt timing, auto-return to attract mode after timeout",
+      "data": "Final scores, winner, total match duration, player IDs if linked"
+    },
+    {
+      "state": "Score Submit",
+      "trigger": "Match end, if Leaderboard or Journey integration is active",
+      "experience": "Final score is pushed to the leaderboard or Journey stamp is issued; player sees confirmation on the info screen",
+      "feedback": "Confirmation message on the screen; optional QR code to view personal stats",
+      "configurable": "Leaderboard display name source, Journey stamp design, opt-in data consent prompt",
+      "data": "Score submitted to leaderboard, Journey checkpoint marked, player profile updated"
+    }
+  ]
+}

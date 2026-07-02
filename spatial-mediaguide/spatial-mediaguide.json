@@ -1,216 +1,133 @@
-[
-  {
-    "title": "Spatial Mediaguide",
-    "tagline": "The right story, in the right place.",
-    "short_description": "A location-aware guide that delivers relevant stories, media, or explanations based on where the visitor is and what they choose to explore.",
-    "long_description": "A digital guide layer for exhibitions, museums, campuses, and branded spaces that adapts content to spatial context. Visitors can unlock audio, text, video, or interactive media through QR points, proximity logic, language selection, or thematic filters, making exploration more personal and scalable. Ideal for environments that need structure without sacrificing autonomy.",
-    "moment": "Journey, Post-Journey",
-    "tag": [
-      "Module",
-      "Experience",
-      "Discovery",
-      "Booths & Guides",
-      "Education"
-    ],
-    "visuals": [
-      "Hero visual: Spatial Mediaguide in use within a branded environment",
-      "Interface mockup: primary interaction flow for Spatial Mediaguide",
-      "System overview: how visitors, screen, and backend connect",
-      "Scenario visual: themed use case of Spatial Mediaguide"
-    ],
-    "included": {
-      "module": "Spatial Mediaguide",
-      "slide": "What's included",
-      "items": [
-        {
-          "title": "Core interaction flow",
-          "description": "Base experience logic and visitor-facing interaction for Spatial Mediaguide.",
-          "visual": "Primary user flow"
-        },
-        {
-          "title": "Branded interface skin",
-          "description": "Adaptation of colours, typography, and visual language to the project context.",
-          "visual": "UI style frame"
-        },
-        {
-          "title": "Basic analytics output",
-          "description": "Tracking of key participation and usage signals relevant to the module.",
-          "visual": "Simple export or dashboard preview"
-        }
-      ]
+{
+  "title": "Spatial Mediaguide",
+  "slug": "spatial-mediaguide",
+  "publish": true,
+  "tagline": "The story around you.",
+  "shortDescription": "A location-aware QR/NFC guide that delivers relevant stories, facts, and media based on each visitor’s position, language, and profile, directly on their phone.",
+  "longDescription": "A smart companion that enriches physical spaces with contextual information in multiple languages, easily adaptable for different audiences or themes. Whether it's an exhibition, brand activation, or venue tour, it connects visitors with stories, facts, and narratives directly tied to their journey for maximum accessibility and engagement.",
+  "categories": [
+    "Guides & Narrative Systems",
+    "Discovery & Learning"
+  ],
+  "tags": [
+    "Storytelling",
+    "Multi-Language",
+    "Mobile",
+    "NFC / RFID / QR Code",
+    "Educational",
+    "Phygital",
+    "Low Barrier",
+    "Personalized",
+    "Video",
+    "Museum",
+    "Exhibition",
+    "Journey",
+    "Immersive",
+    "Family Friendly",
+    "Memorable",
+    "Data Collection",
+    "Brand Activation"
+  ],
+  "illustration": "illustration.png",
+  "animation": "animation.json",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    "gallery-1.jpg",
+    "gallery-2.jpg",
+    "gallery-3.jpg"
+  ],
+  "galleryLayout": [
+    "33%",
+    "67%",
+    "50%"
+  ],
+  "galleryCredits": "",
+  "clientLogos": [
+    "logo-wow.svg",
+    "logo-umweltarena.svg",
+    "logo-xaver.svg"
+  ],
+  "highlights": [
+    {
+      "title": "Seamless Onboarding & Multilingual Entry",
+      "description": "Visitors enter the experience effortlessly by scanning a QR code or tapping via NFC, with no app download required. A short welcome flow introduces the journey and lets users select their preferred language, setting the foundation for a personalized experience. The same entry points can support multiple audiences, from kids to expert groups, by simply switching the underlying “story” without changing any physical setup.",
+      "image": "highlight-1.png",
+      "imageWidth": "50%"
     },
-    "excluded": {
-      "slide": "What’s Excluded",
-      "items": [
-        {
-          "title": "Venue hardware outside agreed scope",
-          "description": "Screens, sound, network, scenic build, mounts, printers, or special sensors are scoped separately unless explicitly listed."
-        },
-        {
-          "title": "Large-scale custom content production",
-          "description": "Extensive editorial work, translations, media creation, or bespoke storytelling assets are separate services unless included."
-        },
-        {
-          "title": "Deep custom logic beyond the base module",
-          "description": "Unique game systems, unusual integrations, or one-off backend behaviour require separate scoping and testing."
-        }
-      ]
+    {
+      "title": "Flexible Mediaguide with Text & Images",
+      "description": "The default mediaguide delivers rich, structured content combining text, images, and contextual storytelling directly on the visitor’s device. It adapts to any topic, from exhibitions to brand spaces or tours, and can be easily reconfigured for different narratives or depths of information. Whether for families, guided groups, or individual exploration, the same system supports multiple layers of content without altering the access points.",
+      "image": "highlight-2.png",
+      "imageWidth": "50%"
     },
-    "states": {
-      "module": "Spatial Mediaguide",
-      "slide": "States",
-      "items": [
-        {
-          "state": "Attract",
-          "trigger": "Visitor notices the installation or receives the entry prompt",
-          "experience": "Spatial Mediaguide communicates what to do and invites the first action.",
-          "feedback": "Idle visuals, signage, motion, or ambient cue",
-          "configurable": "Branding, call-to-action, language",
-          "data": "View or start count"
-        },
-        {
-          "state": "Engage",
-          "trigger": "Visitor starts the interaction",
-          "experience": "The main Spatial Mediaguide experience unfolds and reacts to the visitor’s input.",
-          "feedback": "Live visual, audio, or haptic response",
-          "configurable": "Game rules, pacing, theme, interaction mode",
-          "data": "Inputs, timing, progress, completion"
-        },
-        {
-          "state": "Resolve",
-          "trigger": "Interaction reaches an outcome or end point",
-          "experience": "Results, rewards, media, or next steps are revealed.",
-          "feedback": "Score, confirmation, reward, save, or share prompt",
-          "configurable": "CTA, outcome logic, reward type",
-          "data": "Outcome, score, exportable summary"
-        }
-      ]
+    {
+      "title": "Audio & Video Companion Experiences",
+      "description": "Beyond text, the mediaguide expands into immersive audio and video formats, turning each location into a multimedia touchpoint. Visitors can listen to narrated stories or watch contextual clips that deepen understanding and engagement. Content formats can be mixed and matched freely, allowing you to tailor experiences for different audiences or themes while keeping the same QR codes or NFC triggers in place.",
+      "image": "highlight-3.png",
+      "imageWidth": "50%"
     },
-    "changes": {
-      "module": "Spatial Mediaguide",
-      "slide": "Customisable Elements",
-      "items": [
-        {
-          "title": "Visual identity",
-          "description": "Colours, fonts, screen assets, motion language, and tone can be adapted to brand or event theme."
-        },
-        {
-          "title": "Content layer",
-          "description": "Texts, questions, media, products, scenes, or stories can be swapped to fit the context."
-        },
-        {
-          "title": "Interaction rules",
-          "description": "Difficulty, duration, scoring, progression, and multiplayer logic can be tuned to the audience."
-        }
-      ]
+    {
+      "title": "Triggers, Quizzes & AR",
+      "description": "Swap the trigger to fit the space: keep QR and NFC, or layer in GPS and beacon proximity so content unlocks as visitors move. Add a quiz at each stop, a scan-them-all collectible challenge, AR overlays, bookmarking, or auto-play narration. Each upgrade slots in as a clean paid add-on that keeps repeat installs feeling new.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "setup": {
-      "module": "Spatial Mediaguide",
-      "slide": "Setup Notes & Requirements",
-      "items": [
-        {
-          "title": "Power and connectivity",
-          "description": "Stable power plus the right local network or internet setup depending on the module’s data and media needs."
-        },
-        {
-          "title": "Spatial planning",
-          "description": "Sufficient visitor flow, visibility, and physical clearance for safe and intuitive use."
-        },
-        {
-          "title": "Display and input hardware",
-          "description": "Screen, projector, sensors, touch surface, buttons, mobile flow, or other input devices according to the module setup."
-        }
-      ]
+    {
+      "title": "One Engine, Any Tour",
+      "description": "The same point-to-content engine reskins for any world: a museum exhibition trail, a sustainability route, a brand campus tour, a heritage city walk, or a playful kids' version of an adult guide. Look, voice, and depth all change while the physical setup stays exactly where it is.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "data": {
-      "module": "Spatial Mediaguide",
-      "slide": "Data & Impact",
-      "items": [
-        {
-          "title": "Participation metrics",
-          "description": "Starts, active users, completion rate, repeat plays, or dwell time depending on module behaviour."
-        },
-        {
-          "title": "Behaviour signals",
-          "description": "Inputs, choices, timing, accuracy, usage paths, or content preferences that help interpret engagement quality."
-        },
-        {
-          "title": "Connected follow-up potential",
-          "description": "Optional link to tokens, galleries, dashboards, exports, or post-event communication flows."
-        }
-      ]
+    {
+      "title": "Optional Visitor Data",
+      "description": "Add an optional data layer that captures scans, language choices, dwell time, media plays, and routes taken. With it in place, clients see which stories land, where visitors linger or drop off, and which languages actually matter, turning a tour into clear engagement evidence and a roadmap for sharper content.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "compatible": {
-      "module": "Spatial Mediaguide",
-      "slide": "Compatible Modules & Additional Services",
-      "items": [
-        {
-          "title": "Visitor Identificator",
-          "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
-        },
-        {
-          "title": "Shared Gallery / Media outputs",
-          "description": "Useful when the module produces or benefits from captured media, highlights, or public recap moments."
-        },
-        {
-          "title": "User Experience & Interface Design",
-          "description": "Refines the front-end quality and ensures the module feels coherent inside the wider BRDGE system."
-        }
-      ]
-    },
-    "twist": {
-      "module": "Spatial Mediaguide",
-      "slide": "Custom Twist Ideas",
-      "items": [
-        {
-          "title": "Sponsor edition",
-          "description": "Introduce branded rewards, visuals, or mechanics tied to a partner or campaign."
-        },
-        {
-          "title": "Tournament or leaderboard mode",
-          "description": "Extend the base interaction into a competitive format across guests, teams, or time slots."
-        },
-        {
-          "title": "Token-connected continuity",
-          "description": "Carry outcomes into another module, a personal recap, or a post-event reward flow."
-        }
-      ]
-    },
-    "theme": {
-      "module": "Spatial Mediaguide",
-      "slide": "Themed Story Examples",
-      "items": [
-        {
-          "title": "Winter / festive edition",
-          "description": "Re-skin the same interaction with seasonal visuals, story framing, and rewards."
-        },
-        {
-          "title": "Museum / education storyline",
-          "description": "Adapt the module to teach content, reveal facts, or guide visitors through a knowledge-driven narrative."
-        },
-        {
-          "title": "Brand activation scenario",
-          "description": "Translate the interaction into a product or campaign story that feels native to the brand world."
-        }
-      ]
-    },
-    "why": {
-      "module": "Spatial Mediaguide",
-      "slide": "Why it works",
-      "items": [
-        {
-          "title": "Needs a clearer participation hook",
-          "description": "Spatial Mediaguide gives visitors an immediate reason to engage instead of only observing."
-        },
-        {
-          "title": "Experience should feel more memorable",
-          "description": "Spatial Mediaguide creates a distinct interaction moment that people remember and talk about afterward."
-        },
-        {
-          "title": "Engagement should be measurable",
-          "description": "Spatial Mediaguide can capture interactions, completions, usage frequency, or connected outputs for reporting."
-        }
-      ]
+    {
+      "title": "Pairs Across the Journey",
+      "description": "Pair with Journey Manager to make each guided stop one node in a longer route. Layer in Trail / Scavenger Hunt to turn the stops into a gamified collect-and-find run, and Visitor Identificator to tie progress and rewards to each profile. Close with Personal Journey Recap so visitors leave with a personalized summary, or The One Big Question to capture a quick reflection at the end.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     }
-  }
-]
+  ],
+  "states": [
+    {
+      "state": "Entry & Language",
+      "trigger": "Visitor scans a QR code or taps an NFC tag at an entry point.",
+      "experience": "A short welcome flow loads on the phone and the visitor picks a language and, where used, a profile.",
+      "feedback": "Branded welcome screen, language picker, brief intro to the journey.",
+      "configurable": "Welcome copy, available languages, profiles, branding, entry points.",
+      "data": "Scan event, entry point, language selected, profile chosen."
+    },
+    {
+      "state": "Browsing Content",
+      "trigger": "Visitor reaches or scans a point of interest.",
+      "experience": "Structured text and images for that location load, tied to the chosen language and depth.",
+      "feedback": "Text, images, and contextual storytelling for the active stop.",
+      "configurable": "Content per stop, depth/layers, theme, ordering, imagery.",
+      "data": "Stop viewed, dwell time, scroll depth, language in use."
+    },
+    {
+      "state": "Media Playback",
+      "trigger": "Visitor taps an audio or video element at a stop.",
+      "experience": "The visitor listens to narration or watches a contextual clip.",
+      "feedback": "Inline audio or video player with playback controls.",
+      "configurable": "Media assets per stop, autoplay, captions, format mix.",
+      "data": "Plays started, completion rate, format preferred."
+    },
+    {
+      "state": "Completion",
+      "trigger": "Visitor reaches the end of a route or has covered the key stops.",
+      "experience": "A wrap-up screen offers a summary and any next step or call to action.",
+      "feedback": "Completion screen, optional reward, feedback or share prompt.",
+      "configurable": "Summary copy, CTA, reward, feedback prompt, hand-off to other modules.",
+      "data": "Completion rate, full route taken, CTA taps, feedback submitted."
+    }
+  ]
+}

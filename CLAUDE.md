@@ -1,9 +1,11 @@
 # BRDGE Modules — notes for Claude Code
 
 ## What this project is
-Per-module `.js` files that the website reads. Module **content is authored in Notion**
-(the source of truth) and converted into `.js` files here, then committed to git **manually**
-when I ask. The website only ever reads the committed `.js` files — it never talks to Notion.
+Per-module `.json` files that the website reads. Module **content is authored in Notion**
+(the source of truth) and converted into `.json` files here, then committed to git **manually**
+when I ask. The website only ever reads the committed `.json` files — it never talks to Notion.
+Each `.json` file is a **plain module object** (no `export`, no comments, no trailing commas), so
+the site can `fetch` `{slug}/{slug}.json` and `res.json()` it directly.
 
 ## When I change tags (my workflow)
 1. I edit `BRDGE-Tags.js` by hand — that is the only tag file I touch.
@@ -25,15 +27,15 @@ when I ask. The website only ever reads the committed `.js` files — it never t
 Match the template's structure exactly. Do not invent, reorder, or omit fields. If the
 template and a request conflict, surface the conflict before proceeding.
 
-## How to generate a module `.js` from a Notion row
+## How to generate a module `.json` from a Notion row
 1. Read the module's row from the **BRDGE Modules** database.
-2. Read an **existing module `.js` file in this repo** as the exact format reference — match its
-   export style, field order, quoting, and indentation, and write the new file to the same folder.
-   Copy the reference for *structure only* — **derive the export name and header comment from this
-   module's own slug** (`prize-draw` → `prizeDrawModule`), never copy the reference file's name.
+2. Read an **existing module `.json` file in this repo** as the exact format reference for field
+   order and shape. Each file is a single **plain JSON object** (no `export const`, no comments,
+   no trailing commas), pretty-printed with 2-space indentation. Write the new file to the module's
+   own folder.
 3. Build the module object from the template, filling values from the Notion row (mapping below).
-4. **Each module lives in its own folder named after its `slug`, containing a `<slug>.js` file** —
-   e.g. `pose-games/pose-games.js`. The folder and the file both match the slug verbatim, including
+4. **Each module lives in its own folder named after its `slug`, containing a `<slug>.json` file**,
+   e.g. `pose-games/pose-games.json`. The folder and the file both match the slug verbatim, including
    any existing typo. Never use the display title. Place new modules following the same location and
    pattern as existing module folders.
 5. For a **new** module, leave anything the row doesn't provide as `""` or `[]`. For an **existing**
@@ -74,15 +76,16 @@ template and a request conflict, surface the conflict before proceeding.
 - Then the four standard highlights. Icons, `imageSide`, and `imageWidth` are fixed (below). The
   **description** always comes from Notion. **Always write a custom, contextual title** for each:
   use the module's `… Title` field if filled, else draft a contextual one from the module's content.
-  Keep the standard default on the same line as an inline comment — `title: "<custom>", // default:
-  "<standard>"` — so the creator can revert by swapping the value for the commented default. Icons
-  stay fixed even when the title is customized (the slot's meaning is unchanged; only its wording is).
+  (JSON has no comments, so the default title is not stored in the file. The four defaults are the
+  fixed constants listed below, and the custom title also lives in the module's Notion `… Title`
+  field, so reverting is a one-field change there.) Icons stay fixed even when the title is
+  customized (the slot's meaning is unchanged; only its wording is).
   1. Default **"Twists & Upgrades"** — custom title from `Twists Title` (else drafted); `description: <Twists Description>`; `image: "icon-wand_stars.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
   2. Default **"Themed Story Examples"** — custom title from `Themes Title` (else drafted); `description: <Themes Description>`; `image: "icon-styleguide.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
   3. Default **"Data That Proves Value"** — custom title from `Data/ROI Title` (else drafted); `description: <Data/ROI Description>`; `image: "icon-insert_chart.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
   4. Default **"Better Together"** — custom title from `Connections Title` (else drafted); `description: <Connections Description>`; `image: "icon-automation.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
-- Keep the default in the comment every time, so reverting to the consistent catalogue-wide title is
-  a one-line edit.
+- The four defaults (below) stay consistent across the catalogue; a custom title only changes the
+  wording of that slot, never its meaning or icon.
 - **No redundant standard highlights.** A standard highlight (Twists / Themes / Data / Connections)
   must add a dimension the free highlights don't already cover. If it would largely restate a free
   highlight, either give it genuinely distinct content or **omit it entirely** — never pad the array
@@ -100,7 +103,7 @@ have fully authored states; those are hand-maintained and must survive a regener
 Notion stores only the **filename or URL** of media (Illustration, Animation, Video URL, Video URLs,
 Gallery, Client Logos) — never the actual files. The real image/video files are hosted separately
 (the repo and `upload.naut.ch`); Notion cannot host or serve them, and its upload links expire. So:
-- Treat these fields as text references. Write them through to the `.js` as filenames/URLs as-is.
+- Treat these fields as text references. Write them through to the `.json` as filenames/URLs as-is.
 - Never try to fetch a file from Notion. If a referenced file isn't hosted yet, flag it — don't invent a path.
 
 ## Editing an existing module (never destroy existing content)
@@ -116,7 +119,7 @@ row doesn't carry.**
 
 ## Importing an existing module into Notion (file → row)
 The reverse direction — used to backfill the source of truth for modules that were authored directly
-in code. Read `[slug]/[slug].js` and create or update its row in the **BRDGE Modules** database,
+in code. Read `[slug]/[slug].json` and create or update its row in the **BRDGE Modules** database,
 reversing the field mapping above:
 - Map straight back: title, slug, publish, tagline, short/long description, categories, tags, and the
   media fields (illustration, animation, videoUrl, videoUrls, gallery, clientLogos).
@@ -156,17 +159,15 @@ reversing the field mapping above:
   read the Order (JS) list and use the exact title. Flag any pairing name you can't find on the list.
 - **Slugs tie to the folder name, file name, and URL path.** Preserve the existing slug, folder/file
   names, and order when editing, unless I explicitly ask to change them. Changing a slug means
-  renaming both the folder and the `<slug>.js` file to match, and updating the Order (JS) page.
+  renaming both the folder and the `<slug>.json` file to match, and updating the Order (JS) page.
 - **Typos:** if you spot a likely typo (slug, title, tag, anywhere), tell me the exact value and a
   suggested fix. Do not silently change it. Still use the slug verbatim for the file name.
 - **New module → update the Order (JS) page.** Default: next order number (current highest + 1),
   appended last, using its title and slug. If I ask for a specific position, insert it there and
   shift every later module by +1 so the sequence stays contiguous and unique.
-- **Export naming:** each module's exported object and header comment must be named after the module
-  itself — the slug in camelCase + `Module` (e.g. `prize-draw` → `prizeDrawModule`), never a generic
-  name like `module` or a leftover copied from another file. Set this from the slug when generating;
-  don't inherit it from the reference file. If you spot a file whose export/header doesn't match its
-  slug, flag it as a likely copy-paste bug.
+- **Plain JSON object:** each module file is a single JSON object with no wrapper, no `export`, and
+  no comments. The file *name* ties it to the slug (`<slug>/<slug>.json`); there is no export name
+  or header comment to set.
 - If a row is missing copy, offer to draft it using the AI prompt in the README — don't invent
   technical claims.
 

@@ -1,0 +1,165 @@
+{
+  "title": "MultiPlay Game Station",
+  "slug": "multiplay-game-station",
+  "publish": true,
+  "tagline": "Play together.",
+  "shortDescription": "A modular multiplayer game station that connects buzzers, pedals, sensors, and more to fast, fun on-screen games. Adaptable to any theme, scoring model, and difficulty, it scales from head-to-head duels to team races.",
+  "longDescription": "At its heart is an electronic system that interconnects all kinds of inputs, buzzers, pedals, touch pads, blow sensors, and light-gun pistols, and turns them into fast, fun multiplayer games on a shared screen. Players compete head to head, in team races, or in theme-driven challenges, with scoring, difficulty, and rounds tuned to the crowd. The rig is rentable and turnkey: a PC, a screen, a signal controller, and two to four signals of your choice, plus a game concept and clear winner feedback. Games come from a ready-made library or an existing format restyled to your brand, and bespoke game logic can be built as an upgrade. Everything reskins to a theme, a sponsor, or a venue, so the same hardware powers a corporate keynote energizer, a trade-show crowd-puller, or a festival arcade. BRDGE handles the interconnect, game logic, scene management, and the links to leaderboard and data outputs.",
+  "categories": [
+    "Gamification & Fun",
+    "Audience Activation"
+  ],
+  "tags": [
+    "Live",
+    "Competitive",
+    "Collaborative",
+    "Multiplayer",
+    "Reflex",
+    "Timed",
+    "High Energy",
+    "Wow Factor",
+    "Memorable",
+    "Icebreaker",
+    "Gamified",
+    "Trivia",
+    "Real-Time",
+    "Phygital",
+    "Low Barrier",
+    "Family Friendly",
+    "Corporate Event",
+    "Trade Show",
+    "Festival",
+    "Brand Activation",
+    "Sponsorship",
+    "Leaderboard",
+    "Data Collection"
+  ],
+  "illustration": "illustration.png",
+  "animation": "",
+  "videoUrl": "https://upload.naut.ch/ByeByeBoat-short.mp4",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "gallery-1.png"
+    },
+    {
+      "file": "gallery-2.png"
+    },
+    {
+      "file": "gallery-3.png"
+    },
+    {
+      "file": "gallery-4.png"
+    },
+    {
+      "file": "gallery-5.png"
+    }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [
+    "logo-bernexpo.svg",
+    "logo-victorinox.svg",
+    "logo-xaver.svg"
+  ],
+  "highlights": [
+    {
+      "title": "One Rig, Any Input",
+      "description": "The core is an electronic system that interconnects all kinds of inputs on one controller: buzzers, pedals, touch pads, blow sensors, light-gun pistols, and more. Swap the signals to suit the game and the space, so a single rig covers dozens of formats without new hardware each time.",
+      "image": "icon-hub.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "A Deck of Quick Party Games",
+      "description": "Pick from a library of simple, instantly understood multiplayer games: smash the buzzer the instant the light turns, buzz in first to answer a quiz, pump a pedal to race an on-screen avatar, blow to fill a balloon, tap as fast as you can in a ten-second frenzy, or repeat a growing light-and-sound sequence. Each one is fast to learn, fun to watch, and built for back-to-back rounds.",
+      "image": "icon-bolt.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Scales From Duel to Crowd",
+      "description": "Start with two to four signals for a head-to-head duel or a small team race, then add stations to pull a whole crowd into one tournament. The same system flexes to your audience size, your branding, and your venue, from a booth corner to a main stage.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Custom Rounds & Bigger Rigs",
+      "description": "Commission bespoke game logic built for your brief, add sponsor rounds with branded prizes, or combine buzzer, pedal, and blow into one mixed-input challenge. Difficulty ramps, extra signals, and premium props all slot in as paid upgrades.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Skin It to Any Brand",
+      "description": "Reskin the visuals, sound, and props to any world: a corporate keynote energizer, a festival arcade, a product-launch showdown, a sports-bar reflex night, or a seasonal edition. The games stay the same underneath while the look, story, and branding change to fit the client.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Optional Score Data",
+      "description": "Add a data layer to log players, scores, reaction times, rounds played, and repeat plays, then export it for a post-event read on participation and the standout performers.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Wire It Into the Event",
+      "description": "Pair it with a Leaderboard for a venue-wide ranking, with Visitor Identificator to tie scores to each player, with Prize Draw to reward the winners, or with Event Dashboard to put live results on screens around the space.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Attract / Idle",
+      "trigger": "No players at the station.",
+      "experience": "A looping attract sequence runs, showing a quick demo round and inviting people to step up and play.",
+      "feedback": "Idle animation, ambient sound, a clear step-in prompt.",
+      "configurable": "Attract visuals, branding, demo game, audio bed.",
+      "data": "Footfall near the station, attract-to-play conversion."
+    },
+    {
+      "state": "Game Select",
+      "trigger": "A host or the players choose a game from the library.",
+      "experience": "The chosen game loads, the matching signals activate, and a one-line rule explains how to play.",
+      "feedback": "Game preview, input assignment, short how-to prompt.",
+      "configurable": "Available games, default game, number of signals, language.",
+      "data": "Game chosen, players per round, setup time."
+    },
+    {
+      "state": "Ready / Countdown",
+      "trigger": "Players take their signals and the round is armed.",
+      "experience": "Each side is greeted and locked in, then a short countdown builds anticipation before the start.",
+      "feedback": "Player-side lights, countdown, ready cue.",
+      "configurable": "Countdown length, number of players, team setup.",
+      "data": "Rounds started, players ready."
+    },
+    {
+      "state": "Active Round",
+      "trigger": "The countdown ends.",
+      "experience": "The game runs live, inputs drive the on-screen action, and scores update in real time until the round completes.",
+      "feedback": "Reactive visuals, score ticks, hit and miss cues, energetic audio.",
+      "configurable": "Game type, round length, difficulty, scoring model, audio theme.",
+      "data": "Inputs, reaction times, per-player score, round duration."
+    },
+    {
+      "state": "Result / Winner",
+      "trigger": "The round ends by score or time.",
+      "experience": "The winner is celebrated with clear feedback, final scores show for everyone, and an optional leaderboard entry is offered.",
+      "feedback": "Winner animation, score card, optional leaderboard post.",
+      "configurable": "Win logic, reward or prize prompt, leaderboard push.",
+      "data": "Final scores, winner, completion rate, repeat plays."
+    },
+    {
+      "state": "Reset",
+      "trigger": "The winner screen ends or the station times out.",
+      "experience": "The station clears and returns to the attract loop for the next group.",
+      "feedback": "Brief thanks, then a fade back to attract.",
+      "configurable": "Timeout duration, end-screen call to action.",
+      "data": "Session duration, groups per hour."
+    }
+  ]
+}
