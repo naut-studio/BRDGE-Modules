@@ -39,21 +39,11 @@
   "videoUrl": "https://upload.naut.ch/ByeByeBoat-short.mp4",
   "videoUrls": [],
   "gallery": [
-    {
-      "file": "gallery-1.png"
-    },
-    {
-      "file": "gallery-2.png"
-    },
-    {
-      "file": "gallery-3.png"
-    },
-    {
-      "file": "gallery-4.png"
-    },
-    {
-      "file": "gallery-5.png"
-    }
+    {"file": "gallery-1.png", "width": "50%" },
+    {"file": "gallery-2.png", "width": "50%" },
+    {"file": "gallery-3.png", "width": "33%" },
+    {"file": "gallery-4.png", "width": "33%" },
+    {"file": "gallery-5.png", "width": "33%" }
   ],
   "galleryCredits": "",
   "clientLogos": [
