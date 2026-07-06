@@ -21,7 +21,7 @@ export const moduleOrder = [
   { order: 11, title: "MultiPlay Game Station", slug: "multiplay-game-station" },
   { order: 12, title: "Objects Recognition", slug: "objects-recognition" },
   { order: 13, title: "Touchscreen", slug: "touchscreen" },
-  { order: 14, title: "Touch & Objects Recognition", slug: "touch-objects-recognition" },
+  { order: 14, title: "Touchscreen & Objects Recognition", slug: "touch-objects-recognition" },
   { order: 15, title: "Touch Projection", slug: "touch-projection" },
   { order: 16, title: "Augmented Reality", slug: "augmented-reality" },
   { order: 17, title: "Visitor Identificator", slug: "visitor-identificator" },

@@ -1,215 +1,142 @@
-[
-  {
-    "title": "Touch Surface - Objects Recognition",
-    "tagline": "Touch, place, discover: stories come alive through objects.",
-    "short_description": "A tangible touch table where physical objects unlock digital content in real time. Ideal for playful discovery, learning, and collaborative exploration.",
-    "long_description": "Bridge the physical and digital with an interactive touch table that recognizes objects placed on its surface. Each object triggers curated content such as stories, videos, data, or interactive elements. Perfect for exhibitions, brand spaces, and educational settings, it encourages hands-on exploration, shared moments, and intuitive storytelling that feels natural and engaging.",
-    "moment": "Journey",
-    "tag": [
-      "Module",
-      "Interactive Surfaces",
-      "Discovery",
-      "Education"
-    ],
-    "visuals": [
-      "Hero visual: Touch Surface - Objects Recognition in use within a branded environment",
-      "Interface mockup: primary interaction flow for Touch Surface - Objects Recognition",
-      "System overview: how visitors, screen, and backend connect",
-      "Scenario visual: themed use case of Touch Surface - Objects Recognition"
-    ],
-    "included": {
-      "module": "Touch Surface - Objects Recognition",
-      "slide": "What's included",
-      "items": [
-        {
-          "title": "Core interaction flow",
-          "description": "Base experience logic and visitor-facing interaction for Touch Surface - Objects Recognition.",
-          "visual": "Primary user flow"
-        },
-        {
-          "title": "Branded interface skin",
-          "description": "Adaptation of colours, typography, and visual language to the project context.",
-          "visual": "UI style frame"
-        },
-        {
-          "title": "Basic analytics output",
-          "description": "Tracking of key participation and usage signals relevant to the module.",
-          "visual": "Simple export or dashboard preview"
-        }
-      ]
+{
+  "title": "Touchscreen & Objects Recognition",
+  "slug": "touch-objects-recognition",
+  "publish": true,
+  "tagline": "Touch, place, discover.",
+  "shortDescription": "A tangible touch table where physical objects unlock digital content in real time. Ideal for playful discovery, learning, and collaborative exploration.",
+  "longDescription": "Bridge the physical and digital with an interactive touch table that recognizes objects placed on its surface. Each object triggers curated content such as stories, videos, data, or interactive elements, and visitors can touch to dig deeper or combine objects to reveal more. Perfect for exhibitions, brand spaces, and educational settings, it encourages hands-on exploration, shared moments, and intuitive storytelling that feels natural and engaging. BRDGE handles the surface tracking and object recognition, content mapping, scene management, and the links to journey, gallery, and data outputs.",
+  "categories": [
+    "Discovery & Learning"
+  ],
+  "tags": [
+    "Real-Time",
+    "Wow Factor",
+    "Memorable",
+    "Immersive",
+    "Collaborative",
+    "Multiplayer",
+    "Gamified",
+    "Touchscreen",
+    "NFC / RFID / QR Code",
+    "Phygital",
+    "Storytelling",
+    "Personalized",
+    "Educational",
+    "Low Barrier",
+    "Family Friendly",
+    "Museum",
+    "Exhibition",
+    "Retail",
+    "Trade Show",
+    "Brand Activation",
+    "Sponsorship",
+    "Journey",
+    "Reward",
+    "Leaderboard",
+    "Data Collection"
+  ],
+  "illustration": "illustration.png",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    { "file": "gallery-1.jpg" },
+    { "file": "gallery-2.jpg" },
+    { "file": "gallery-3.jpg" }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "Objects On, Content Up",
+      "description": "Set a real object on the table and it instantly calls up its story, video, or data. It is a tangible, intuitive interaction with nothing to hand out and nothing to learn, and it feels a little magical every time.",
+      "image": "icon-bolt.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "excluded": {
-      "slide": "What’s Excluded",
-      "items": [
-        {
-          "title": "Venue hardware outside agreed scope",
-          "description": "Screens, sound, network, scenic build, mounts, printers, or special sensors are scoped separately unless explicitly listed."
-        },
-        {
-          "title": "Large-scale custom content production",
-          "description": "Extensive editorial work, translations, media creation, or bespoke storytelling assets are separate services unless included."
-        },
-        {
-          "title": "Deep custom logic beyond the base module",
-          "description": "Unique game systems, unusual integrations, or one-off backend behaviour require separate scoping and testing."
-        }
-      ]
+    {
+      "title": "Made for Hands-On, Together",
+      "description": "The shared surface invites several people to explore side by side, touching, placing, and comparing at the same time. That turns solo browsing into a collaborative moment that draws small groups in and keeps them around.",
+      "image": "icon-hub.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "states": {
-      "module": "Touch Surface - Objects Recognition",
-      "slide": "States",
-      "items": [
-        {
-          "state": "Attract",
-          "trigger": "Visitor notices the installation or receives the entry prompt",
-          "experience": "Touch Surface - Objects Recognition communicates what to do and invites the first action.",
-          "feedback": "Idle visuals, signage, motion, or ambient cue",
-          "configurable": "Branding, call-to-action, language",
-          "data": "View or start count"
-        },
-        {
-          "state": "Engage",
-          "trigger": "Visitor starts the interaction",
-          "experience": "The main Touch Surface - Objects Recognition experience unfolds and reacts to the visitor’s input.",
-          "feedback": "Live visual, audio, or haptic response",
-          "configurable": "Game rules, pacing, theme, interaction mode",
-          "data": "Inputs, timing, progress, completion"
-        },
-        {
-          "state": "Resolve",
-          "trigger": "Interaction reaches an outcome or end point",
-          "experience": "Results, rewards, media, or next steps are revealed.",
-          "feedback": "Score, confirmation, reward, save, or share prompt",
-          "configurable": "CTA, outcome logic, reward type",
-          "data": "Outcome, score, exportable summary"
-        }
-      ]
+    {
+      "title": "Swap the Objects, Swap the Story",
+      "description": "Content is mapped per object, so the same table restocks for a new brand, exhibit, or lesson just by changing the objects and their linked media. One installation covers very different briefs with a low reconfiguration cost.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "changes": {
-      "module": "Touch Surface - Objects Recognition",
-      "slide": "Customisable Elements",
-      "items": [
-        {
-          "title": "Visual identity",
-          "description": "Colours, fonts, screen assets, motion language, and tone can be adapted to brand or event theme."
-        },
-        {
-          "title": "Content layer",
-          "description": "Texts, questions, media, products, scenes, or stories can be swapped to fit the context."
-        },
-        {
-          "title": "Interaction rules",
-          "description": "Difficulty, duration, scoring, progression, and multiplayer logic can be tuned to the audience."
-        }
-      ]
+    {
+      "title": "Sponsor Editions & Extra Tables",
+      "description": "Add a sponsor edition with branded objects and rewards, expand from one table to several for larger spaces, or link outcomes into a follow-on module or a post-event reward. New object sets and premium surfaces slot in as paid upgrades.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "setup": {
-      "module": "Touch Surface - Objects Recognition",
-      "slide": "Setup Notes & Requirements",
-      "items": [
-        {
-          "title": "Power and connectivity",
-          "description": "Stable power plus the right local network or internet setup depending on the module’s data and media needs."
-        },
-        {
-          "title": "Spatial planning",
-          "description": "Sufficient visitor flow, visibility, and physical clearance for safe and intuitive use."
-        },
-        {
-          "title": "Display and input hardware",
-          "description": "Screen, projector, sensors, touch surface, buttons, mobile flow, or other input devices according to the module setup."
-        }
-      ]
+    {
+      "title": "From Museum Trail to Brand World",
+      "description": "Reskin the same table as a museum or education storyline that reveals facts as objects are placed, a seasonal or festive edition, or a branded product world that feels native to the client. The surface and objects stay the same while the look and story change.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "data": {
-      "module": "Touch Surface - Objects Recognition",
-      "slide": "Data & Impact",
-      "items": [
-        {
-          "title": "Participation metrics",
-          "description": "Starts, active users, completion rate, repeat plays, or dwell time depending on module behaviour."
-        },
-        {
-          "title": "Behaviour signals",
-          "description": "Inputs, choices, timing, accuracy, usage paths, or content preferences that help interpret engagement quality."
-        },
-        {
-          "title": "Connected follow-up potential",
-          "description": "Optional link to tokens, galleries, dashboards, exports, or post-event communication flows."
-        }
-      ]
+    {
+      "title": "Optional Table Data",
+      "description": "Add a data layer to log which objects were placed, how often, dwell time per object, and the paths people take across the table, then export it for a post-event read on what drew the most attention.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "compatible": {
-      "module": "Touch Surface - Objects Recognition",
-      "slide": "Compatible Modules & Additional Services",
-      "items": [
-        {
-          "title": "Visitor Identificator",
-          "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
-        },
-        {
-          "title": "Shared Gallery / Media outputs",
-          "description": "Useful when the module produces or benefits from captured media, highlights, or public recap moments."
-        },
-        {
-          "title": "User Experience & Interface Design",
-          "description": "Refines the front-end quality and ensures the module feels coherent inside the wider BRDGE system."
-        }
-      ]
-    },
-    "twist": {
-      "module": "Touch Surface - Objects Recognition",
-      "slide": "Custom Twist Ideas",
-      "items": [
-        {
-          "title": "Sponsor edition",
-          "description": "Introduce branded rewards, visuals, or mechanics tied to a partner or campaign."
-        },
-        {
-          "title": "Tournament or leaderboard mode",
-          "description": "Extend the base interaction into a competitive format across guests, teams, or time slots."
-        },
-        {
-          "title": "Token-connected continuity",
-          "description": "Carry outcomes into another module, a personal recap, or a post-event reward flow."
-        }
-      ]
-    },
-    "theme": {
-      "module": "Touch Surface - Objects Recognition",
-      "slide": "Themed Story Examples",
-      "items": [
-        {
-          "title": "Winter / festive edition",
-          "description": "Re-skin the same interaction with seasonal visuals, story framing, and rewards."
-        },
-        {
-          "title": "Museum / education storyline",
-          "description": "Adapt the module to teach content, reveal facts, or guide visitors through a knowledge-driven narrative."
-        },
-        {
-          "title": "Brand activation scenario",
-          "description": "Translate the interaction into a product or campaign story that feels native to the brand world."
-        }
-      ]
-    },
-    "why": {
-      "module": "Touch Surface - Objects Recognition",
-      "slide": "Why it works",
-      "items": [
-        {
-          "title": "Needs a clearer participation hook",
-          "description": "Touch Surface - Objects Recognition gives visitors an immediate reason to engage instead of only observing."
-        },
-        {
-          "title": "Experience should feel more memorable",
-          "description": "Touch Surface - Objects Recognition creates a distinct interaction moment that people remember and talk about afterward."
-        },
-        {
-          "title": "Engagement should be measurable",
-          "description": "Touch Surface - Objects Recognition can capture interactions, completions, usage frequency, or connected outputs for reporting."
-        }
-      ]
+    {
+      "title": "Part of a Bigger Journey",
+      "description": "Pair it with Visitor Identificator to carry each visitor's discoveries across touchpoints, with Journey Manager to make the table one stop on a guided route, or with a Shared Gallery to collect and recap the moments it surfaces.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     }
-  }
-]
+  ],
+  "states": [
+    {
+      "state": "Attract / Idle",
+      "trigger": "No objects on the surface.",
+      "experience": "A looping prompt invites people to place an object on the table to see what it unlocks.",
+      "feedback": "Idle visuals, a clear place-here cue, ambient sound.",
+      "configurable": "Attract visuals, branding, demo object set, prompt copy.",
+      "data": "Footfall near the table, attract-to-place conversion."
+    },
+    {
+      "state": "Object Placed",
+      "trigger": "A recognized object is set on the surface.",
+      "experience": "The table identifies the object and opens its linked content around where it sits.",
+      "feedback": "Recognition halo, object name, a confirming sound.",
+      "configurable": "Recognition method, matched object set, reveal style.",
+      "data": "Objects placed, recognition method used, misreads."
+    },
+    {
+      "state": "Explore & Touch",
+      "trigger": "Content is open on the surface.",
+      "experience": "Visitors touch to dig deeper into stories, videos, data, or interactive elements tied to the object.",
+      "feedback": "Touch responses, expanding media, layered detail.",
+      "configurable": "Content per object, depth, layout, language.",
+      "data": "Touches, content opened, dwell time per object."
+    },
+    {
+      "state": "Combine & Compare",
+      "trigger": "A second object is added to the surface.",
+      "experience": "The table sets the objects side by side or reveals combined content when certain objects meet.",
+      "feedback": "Comparison view, combination cues, bonus reveals.",
+      "configurable": "Combination rules, compare logic, bonus content.",
+      "data": "Combinations made, objects per session."
+    },
+    {
+      "state": "Reset",
+      "trigger": "The objects are removed or the table times out.",
+      "experience": "The surface clears and returns to the attract loop for the next group.",
+      "feedback": "Brief thanks, then a fade back to attract.",
+      "configurable": "Timeout duration, end-screen call to action.",
+      "data": "Session duration, groups per hour."
+    }
+  ]
+}
