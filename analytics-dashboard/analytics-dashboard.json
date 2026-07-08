@@ -32,7 +32,7 @@
   "videoUrls": [],
   "gallery": [],
   "galleryCredits": "",
-  "clientLogos": [],
+  "clientLogos": ["logo-wow.svg"],
   "highlights": [
     {
       "title": "One View Across Everything",
