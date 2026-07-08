@@ -2,7 +2,7 @@
   "title": "Live Feed",
   "slug": "live-feed",
   "publish": true,
-  "tagline": "Highlight Event Stats.",
+  "tagline": "Highlight Event Data.",
   "shortDescription": "A participant-facing event screen that brings scores, leaderboards, shared photos, and live highlights together into one dynamic event layer.",
   "longDescription": "A real-time event screen that shows rankings, leaderboards, activity highlights, shared photos and videos, and personalised shout-outs across one or multiple modules. It turns scattered interactions into one shared story that participants and spectators can watch unfold, building energy and a sense of a connected event. Ideal for conferences, activations, festivals, and exhibitions that want a stronger live atmosphere. For the behind-the-scenes usage statistics and reporting, it pairs with the Analytics Dashboard. BRDGE handles the aggregation, layout, and live updates, and connects to journey, leaderboard, gallery, and data outputs.",
   "categories": [
