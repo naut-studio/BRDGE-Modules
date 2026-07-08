@@ -1,11 +1,15 @@
 # BRDGE Modules — notes for Claude Code
 
 ## What this project is
-Per-module `.json` files that the website reads. Module **content is authored in Notion**
-(the source of truth) and converted into `.json` files here, then committed to git **manually**
-when I ask. The website only ever reads the committed `.json` files — it never talks to Notion.
-Each `.json` file is a **plain module object** (no `export`, no comments, no trailing commas), so
-the site can `fetch` `{slug}/{slug}.json` and `res.json()` it directly.
+Per-module `.json` files that the website reads. **Notion is the source of truth** for module
+content, but it is usually **not where a module starts**: most modules are now **drafted with AI
+(you, Claude Code)** from a brief (a description, a product/reference URL, or pasted copy), written
+straight to `{slug}/{slug}.json`, and then the Notion row is **backfilled from the file**. Notion
+can still be the starting point too (fill the row first, then generate the file from it). Either
+way, Notion stays the canonical record, the committed `.json` is what ships, and files are
+committed to git **manually** when I ask. The website only ever reads the committed `.json` files —
+it never talks to Notion. Each `.json` file is a **plain module object** (no `export`, no comments,
+no trailing commas), so the site can `fetch` `{slug}/{slug}.json` and `res.json()` it directly.
 
 ## When I change tags (my workflow)
 1. I edit `BRDGE-Tags.js` by hand — that is the only tag file I touch.
