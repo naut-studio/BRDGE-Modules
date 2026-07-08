@@ -1,0 +1,127 @@
+{
+  "title": "Live Feed",
+  "slug": "live-feed",
+  "publish": true,
+  "tagline": "Highlight Event Stats.",
+  "shortDescription": "A participant-facing event screen that brings scores, leaderboards, shared photos, and live highlights together into one dynamic event layer.",
+  "longDescription": "A real-time event screen that shows rankings, leaderboards, activity highlights, shared photos and videos, and personalised shout-outs across one or multiple modules. It turns scattered interactions into one shared story that participants and spectators can watch unfold, building energy and a sense of a connected event. Ideal for conferences, activations, festivals, and exhibitions that want a stronger live atmosphere. For the behind-the-scenes usage statistics and reporting, it pairs with the Analytics Dashboard. BRDGE handles the aggregation, layout, and live updates, and connects to journey, leaderboard, gallery, and data outputs.",
+  "categories": [
+    "Audience Activation"
+  ],
+  "tags": [
+    "Live",
+    "Post-Event",
+    "Real-Time",
+    "Large",
+    "Collaborative",
+    "Competitive",
+    "High Energy",
+    "Wow Factor",
+    "Memorable",
+    "Viral",
+    "Storytelling",
+    "Personalized",
+    "User-Generated",
+    "Video",
+    "Leaderboard",
+    "Reward",
+    "Sponsorship",
+    "Journey",
+    "Conference",
+    "Festival",
+    "Exhibition",
+    "Corporate Event",
+    "Trade Show",
+    "Brand Activation"
+  ],
+  "illustration": "illustration.png",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    { "file": "gallery-1.png" },
+    { "file": "gallery-2.png" },
+    { "file": "gallery-3.png" },
+    { "file": "gallery-4.jpg" }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "One Screen, the Whole Event",
+      "description": "It gathers scores, leaderboards, shared photos, and highlights from every connected module into a single live screen, so scattered moments across the venue become one shared story everyone can follow.",
+      "image": "icon-hub.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Turns Watchers Into a Crowd",
+      "description": "Live rankings, rolling highlights, and personalised shout-outs pull spectators into the action and build energy, making the room feel like one connected event rather than a set of separate activities.",
+      "image": "icon-bolt.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Runs Itself All Day",
+      "description": "The screen fills automatically from whatever modules are live and whatever guests share, so there is no content to babysit. It stays fresh from doors open to close, which makes it an easy, low-effort win to pitch.",
+      "image": "icon-autorenew.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Sponsor Takeovers & Tournaments",
+      "description": "Hand a sponsor the screen with branded frames, rewards, and takeovers, run a live tournament or leaderboard across teams and time slots, or carry winners into a personal recap and post-event reward. New layouts and data feeds slot in as paid upgrades.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Festive, Museum or Brand Worlds",
+      "description": "Reskin the screen as a winter or festive edition, a museum or education storyline that frames the live moments inside a bigger narrative, or a branded campaign world that feels native to the client. The layout stays the same while the look and story change.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "The Face of Every Module",
+      "description": "It shows the output of whatever it is connected to, so pair it with Shared Gallery to surface guest photos and videos, with Visitor Identificator for personalised shout-outs by name, with Connected Photographer to stream event photos onto the screen, or with the Analytics Dashboard to back the public screen with private reporting.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Standby",
+      "trigger": "No live activity yet.",
+      "experience": "The screen runs a branded holding loop and teases what is coming.",
+      "feedback": "Idle loop, event branding, countdown or schedule.",
+      "configurable": "Holding visuals, branding, schedule.",
+      "data": "Uptime, screens online."
+    },
+    {
+      "state": "Live",
+      "trigger": "Connected modules and guests start producing scores, media, and moments.",
+      "experience": "The screen aggregates rankings, highlights, and shared photos and updates them in real time.",
+      "feedback": "Rolling leaderboards, live tiles, new-content animations.",
+      "configurable": "Layout, which feeds, rotation speed, branding.",
+      "data": "Items shown, feeds active, refresh rate."
+    },
+    {
+      "state": "Spotlight",
+      "trigger": "A standout moment lands, such as a new leader, a winning play, a featured photo, or a shout-out.",
+      "experience": "The moment takes over the screen so the whole room sees it.",
+      "feedback": "Full-screen takeover, celebration animation, sound sting.",
+      "configurable": "Trigger rules, spotlight duration, effects.",
+      "data": "Spotlights fired, moment types."
+    },
+    {
+      "state": "Recap",
+      "trigger": "The event winds down or enters post-event mode.",
+      "experience": "The screen cycles final rankings, top moments, and the best shared media.",
+      "feedback": "Recap reel, final leaderboard, highlight montage.",
+      "configurable": "Recap selection, order, duration, call to action.",
+      "data": "Recap views, top moments surfaced."
+    }
+  ]
+}

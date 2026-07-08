@@ -75,7 +75,7 @@
     },
     {
       "title": "Optional Match Data",
-      "description": "As an optional add-on, a data layer can log game count, session duration, score outcomes, and, when linked to Visitor Identificator or Journey, player IDs. It can also track dwell time and replay rate per unit and per event, gate the game start behind registration to capture contact data for lead-gen, or log impression time on branded surface visuals for sponsors. Anything captured feeds the Event Dashboard for real-time and post-event reporting.",
+      "description": "As an optional add-on, a data layer can log game count, session duration, score outcomes, and, when linked to Visitor Identificator or Journey, player IDs. It can also track dwell time and replay rate per unit and per event, gate the game start behind registration to capture contact data for lead-gen, or log impression time on branded surface visuals for sponsors. Anything captured pushes to the Live Feed for real-time and post-event reporting.",
       "image": "icon-insert_chart.svg",
       "imageWidth": "10%",
       "imageSide": "left"

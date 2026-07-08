@@ -1,0 +1,114 @@
+{
+  "title": "Analytics Dashboard",
+  "slug": "analytics-dashboard",
+  "publish": true,
+  "tagline": "Data into decisions.",
+  "shortDescription": "An admin dashboard that turns module and web-app usage into clear statistics and graphs. See which experiences, spaces, days, and audiences perform best, in real time or after the event.",
+  "longDescription": "A back-office analytics tool that aggregates usage data from BRDGE modules, web apps, and services into one place and renders it as clear charts and metrics. Operators can see which experiences draw the most engagement, which rooms or zones perform best, and how participation shifts by day, week, or season, so a museum, venue, or brand can spot trends, compare periods, and optimise layout, programming, and staffing. Configurable views let each client read the numbers that matter to them, in real time during an event or as a post-event report. BRDGE handles the data pipeline, aggregation, and visualisation, and connects to journey, leaderboard, and export outputs.",
+  "categories": [
+    "Tools For Visitors & Partners"
+  ],
+  "tags": [
+    "Pre-Event",
+    "Live",
+    "Post-Event",
+    "Real-Time",
+    "AI-Powered",
+    "Data Collection",
+    "Personalized",
+    "Journey",
+    "Museum",
+    "Exhibition",
+    "Conference",
+    "Trade Show",
+    "Retail",
+    "Corporate Event",
+    "Festival",
+    "Brand Activation"
+  ],
+  "illustration": "",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "One View Across Everything",
+      "description": "It pulls usage data from every module, web app, and connected service into a single admin dashboard, so scattered numbers become one clear picture of how the whole experience is performing.",
+      "image": "icon-hub.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "See What Performs, Where and When",
+      "description": "Break usage down by experience, room or zone, day, week, and season, so a museum or venue can see which spaces draw crowds, when the peaks and quiet spells fall, and how it all shifts over time.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Live Now, or the Full Story After",
+      "description": "Watch usage update in real time while an event runs, then keep the very same dashboard as a post-event report. One tool covers the live moment and the follow-up.",
+      "image": "icon-autorenew.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Proof of Impact for the Pitch",
+      "description": "It hands operators and resellers a concrete impact story: hard numbers on reach, engagement, and usage that back up decisions and make renewals and upsells easier to win.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Alerts, Reports & White-Label",
+      "description": "Schedule automated reports, set threshold alerts that fire when a metric moves, add custom KPIs and chart types, or white-label the dashboard in the client's brand. New data sources and connectors slot in as paid upgrades.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Feeds On Every Module",
+      "description": "It draws from any BRDGE module, web app, or service, so pair it with Live Feed to turn the same data into a participant-facing live screen, with Visitor Identificator to break usage down by visitor, or with Journey Manager to see how people move between spaces.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Connect",
+      "trigger": "Modules, web apps, and services are linked as data sources.",
+      "experience": "Usage data starts flowing from every touchpoint into one place.",
+      "feedback": "Connection status, source list, ingest confirmation.",
+      "configurable": "Which sources, field mapping, refresh rate.",
+      "data": "Sources connected, records ingested."
+    },
+    {
+      "state": "Live",
+      "trigger": "An event or campaign is running.",
+      "experience": "Dashboards update in real time as usage and performance come in.",
+      "feedback": "Live charts, counters, and breakdowns that move as data arrives.",
+      "configurable": "Metrics shown, layout, thresholds, refresh rate.",
+      "data": "Real-time usage, engagement, performance."
+    },
+    {
+      "state": "Explore",
+      "trigger": "A stakeholder opens their view.",
+      "experience": "They filter and drill into the metrics that matter to their role, by space, time, or segment.",
+      "feedback": "Interactive charts, filters, and per-segment breakdowns.",
+      "configurable": "Role-based views, filters, date ranges, saved queries.",
+      "data": "Views opened, filters used, segments compared."
+    },
+    {
+      "state": "Report",
+      "trigger": "The event ends or a scheduled report fires.",
+      "experience": "The same data becomes a shareable post-event report or export.",
+      "feedback": "Summary report, export files, optional scheduled email.",
+      "configurable": "Report template, KPIs, recipients, schedule.",
+      "data": "Reports generated, exports, KPI summaries."
+    }
+  ]
+}

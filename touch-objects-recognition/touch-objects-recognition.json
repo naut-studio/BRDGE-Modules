@@ -40,9 +40,9 @@
   "videoUrl": "",
   "videoUrls": [],
   "gallery": [
-    { "file": "gallery-1.jpg", "width": "500%" },
+    { "file": "gallery-1.jpg", "width": "50%" },
     { "file": "gallery-2.jpg", "width":"50%" },
-    { "file": "gallery-3.jpg", "width": "70%" },
+    { "file": "gallery-3.jpg", "width": "70%" }
   ],
   "galleryCredits": "",
   "clientLogos": [],

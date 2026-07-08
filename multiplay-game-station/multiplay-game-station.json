@@ -96,7 +96,7 @@
     },
     {
       "title": "Wire It Into the Event",
-      "description": "Pair it with a Leaderboard for a venue-wide ranking, with Visitor Identificator to tie scores to each player, with Prize Draw to reward the winners, or with Event Dashboard to put live results on screens around the space.",
+      "description": "Pair it with a Leaderboard for a venue-wide ranking, with Visitor Identificator to tie scores to each player, with Prize Draw to reward the winners, or with Live Feed to put live results on screens around the space.",
       "image": "icon-automation.svg",
       "imageWidth": "10%",
       "imageSide": "left"

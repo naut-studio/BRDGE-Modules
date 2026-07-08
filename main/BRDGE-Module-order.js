@@ -28,7 +28,7 @@ export const moduleOrder = [
   { order: 18, title: "Journey Manager", slug: "journey-manager" },
   { order: 19, title: "Photo Printing", slug: "photo-printing" },
   { order: 20, title: "Connected Photographer", slug: "connected-photographer" },
-  { order: 21, title: "Event Dashboard", slug: "event-dashboard" },
+  { order: 21, title: "Live Feed", slug: "live-feed" },
   { order: 22, title: "Shared Gallery", slug: "shared-gallery" },
   { order: 23, title: "Mosaic Wall", slug: "mosaic-wall" },
   { order: 24, title: "Virtual Shootout", slug: "virtual-shootout" },
@@ -67,4 +67,5 @@ export const moduleOrder = [
   { order: 57, title: "Interactive Trampoline", slug: "interactive-trampoline" },
   { order: 58, title: "Support System", slug: "support-system" },
   { order: 59, title: "Wiki Documentation", slug: "wiki-documentation" },
+  { order: 60, title: "Analytics Dashboard", slug: "analytics-dashboard" },
 ];

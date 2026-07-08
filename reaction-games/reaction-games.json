@@ -93,7 +93,7 @@
     },
     {
       "title": "Wire It Into the Event",
-      "description": "Pair it with a Leaderboard for a venue-wide fastest-reaction ranking, with Visitor Identificator to tie scores to each player, with Prize Draw to reward the quickest, or with Event Dashboard to put live results on screens around the space.",
+      "description": "Pair it with a Leaderboard for a venue-wide fastest-reaction ranking, with Visitor Identificator to tie scores to each player, with Prize Draw to reward the quickest, or with Live Feed to put live results on screens around the space.",
       "image": "icon-automation.svg",
       "imageWidth": "10%",
       "imageSide": "left"
