@@ -55,21 +55,21 @@
     {
       "title": "One Rig, Any Input",
       "description": "The core is an electronic system that interconnects all kinds of inputs on one controller: buzzers, pedals, touch pads, blow sensors, light-gun pistols, and more. Swap the signals to suit the game and the space, so a single rig covers dozens of formats without new hardware each time.",
-      "image": "icon-hub.svg",
+      "image": "highlight-trigger.png",
       "imageWidth": "10%",
       "imageSide": "left"
     },
     {
-      "title": "A Deck of Quick Party Games",
-      "description": "Pick from a library of simple, instantly understood multiplayer games: smash the buzzer the instant the light turns, buzz in first to answer a quiz, pump a pedal to race an on-screen avatar, blow to fill a balloon, tap as fast as you can in a ten-second frenzy, or repeat a growing light-and-sound sequence. Each one is fast to learn, fun to watch, and built for back-to-back rounds.",
-      "image": "icon-bolt.svg",
+      "title": "Skin It to Any Brand",
+      "description": "Reskin the visuals, sound, and props to any world: a corporate keynote energizer, a festival arcade, a product-launch showdown, a sports-bar reflex night, or a seasonal edition. The games stay the same underneath while the look, story, and branding change to fit the client.",
+      "image": "highlight-theme.png",
       "imageWidth": "10%",
       "imageSide": "left"
     },
     {
       "title": "Scales From Duel to Crowd",
       "description": "Start with two to four signals for a head-to-head duel or a small team race, then add stations to pull a whole crowd into one tournament. The same system flexes to your audience size, your branding, and your venue, from a booth corner to a main stage.",
-      "image": "icon-audience.svg",
+      "image": "highlight-types.png",
       "imageWidth": "10%",
       "imageSide": "left"
     },
@@ -80,13 +80,7 @@
       "imageWidth": "10%",
       "imageSide": "left"
     },
-    {
-      "title": "Skin It to Any Brand",
-      "description": "Reskin the visuals, sound, and props to any world: a corporate keynote energizer, a festival arcade, a product-launch showdown, a sports-bar reflex night, or a seasonal edition. The games stay the same underneath while the look, story, and branding change to fit the client.",
-      "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
-    },
+
     {
       "title": "Optional Score Data",
       "description": "Add a data layer to log players, scores, reaction times, rounds played, and repeat plays, then export it for a post-event read on participation and the standout performers.",
