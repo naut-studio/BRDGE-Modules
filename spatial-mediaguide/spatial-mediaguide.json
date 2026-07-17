@@ -90,7 +90,7 @@
     },
     {
       "title": "Pairs Across the Journey",
-      "description": "Pair with Journey Manager to make each guided stop one node in a longer route. Layer in Trail / Scavenger Hunt to turn the stops into a gamified collect-and-find run, and Visitor Identificator to tie progress and rewards to each profile. Close with Personal Journey Recap so visitors leave with a personalized summary, or The One Big Question to capture a quick reflection at the end.",
+      "description": "Pair with Journey Manager to make each guided stop one node in a longer route. Layer in Trail / Scavenger Hunt to turn the stops into a gamified collect-and-find run, and Visitor Identificator to tie progress and rewards to each profile. Close with Journey Recap so visitors leave with a personalized summary, or The One Big Question to capture a quick reflection at the end.",
       "image": "icon-automation.svg",
       "imageWidth": "10%",
       "imageSide": "left"

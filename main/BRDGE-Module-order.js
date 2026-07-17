@@ -48,7 +48,7 @@ export const moduleOrder = [
   { order: 38, title: "Planner", slug: "planner" },
   { order: 39, title: "Video Wrap", slug: "video-wrap" },
   { order: 40, title: "Poster Wrap", slug: "poster-wrap" },
-  { order: 41, title: "Personal Journey Recap", slug: "personal-journey-recap" },
+  { order: 41, title: "Journey Recap", slug: "journey-recap" },
   { order: 42, title: "Photo Service API", slug: "photo-service-api" },
   { order: 43, title: "Storytelling Invite", slug: "storytelling-invite" },
   { order: 44, title: "Digital Signage", slug: "digital-signage" },
