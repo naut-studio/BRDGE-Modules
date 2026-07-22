@@ -1,0 +1,115 @@
+{
+  "title": "Journey Recap",
+  "slug": "journey-recap",
+  "publish": true,
+  "tagline": "Unique experiences.",
+  "shortDescription": "A personalised recap that turns interactions, moments, and choices into a coherent story visitors can revisit over time.",
+  "longDescription": "This visitor-facing layer transforms tracked interactions into a personal narrative that unfolds after the experience. It curates moments, content, and milestones based on what actually happened and can resurface key memories through timed reminder drops. Instead of managing the journey, it reflects it, strengthening emotional connection and recall beyond the physical moment.",
+  "categories": [
+    "Capture & Memory",
+    "Guides & Narrative Systems",
+    "Tools For Visitors & Partners"
+  ],
+  "tags": [
+    "Pre-Event",
+    "Live",
+    "Post-Event",
+    "Mobile",
+    "Memorable",
+    "Personalized",
+    "Storytelling",
+    "User-Generated",
+    "AI-Powered",
+    "NFC / RFID / QR Code",
+    "Phygital",
+    "Journey",
+    "Museum",
+    "Exhibition",
+    "Conference",
+    "Corporate Event",
+    "Trade Show",
+    "Festival",
+    "Brand Activation",
+    "Loyalty",
+    "Lead Generation",
+    "Data Collection"
+  ],
+  "illustration": "illustration.png",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "gallery-1.png",
+      "width": "70%"
+    },
+    {
+      "file": "gallery-2.png",
+      "width": "30%"
+    },
+    {
+      "file": "journey-t.png",
+      "width": "100%"
+    }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "Interactions Become a Story",
+      "description": "It gathers the moments, choices, and milestones from a visit and threads them into one personal narrative, so people receive a story about their experience rather than a list of things they did.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "The Experience Keeps Going",
+      "description": "Timed reminder drops resurface key memories in the days and weeks after the visit, pulling people back to the moment and keeping the brand present long after they have left the venue.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "No Two Recaps Are the Same",
+      "description": "Every recap is built from what that person actually did, so the content, order, and emphasis shift for each visitor and the result feels made for them.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Ways to Make It Richer",
+      "description": "Turn the recap into a shareable web page, a short video edit, or a printed keepsake, add milestone badges and unlockables, or schedule the memories to arrive as a drip over several weeks instead of all at once.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "One Layer, Many Stories",
+      "description": "A museum can send a 'your visit' trail of the pieces someone lingered on, a festival can cut a personal highlights reel, a conference can recap the sessions and people a delegate engaged with, and a retail space can turn a shopping trip into a loyalty story.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Proof the Moment Landed",
+      "description": "Add an optional data layer that tracks how many recaps were opened, revisit and share rates, opt-ins captured, and engagement over the weeks that follow, giving the client evidence that the experience kept working after the doors closed.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Reflects the Journey Others Build",
+      "description": "It pairs naturally with Journey Manager, which drives the route it later reflects, and Visitor Identificator, which ties scattered interactions to a single person. Fold in photos from Connected Photographer or Shared Gallery so the recap carries real images from the day.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "",
+      "trigger": "",
+      "experience": "",
+      "feedback": "",
+      "configurable": "",
+      "data": ""
+    }
+  ]
+}
