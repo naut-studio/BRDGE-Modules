@@ -40,16 +40,17 @@
   "videoUrls": [],
   "gallery": [
     {
+      "file": "journey-t.png",
+      "width": "100%"
+    }
+    ,
+    {
       "file": "gallery-1.png",
       "width": "70%"
     },
     {
       "file": "gallery-2.png",
       "width": "30%"
-    },
-    {
-      "file": "journey-t.png",
-      "width": "100%"
     }
   ],
   "galleryCredits": "",
