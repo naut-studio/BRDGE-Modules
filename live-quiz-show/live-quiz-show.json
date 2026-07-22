@@ -55,23 +55,15 @@
     },
     {
       "file": "4.D0WkzbxC.jpg",
-      "width": "33%"
-    },
-    {
-      "file": "Live_poll_Any_device__anywhere.webp",
-      "width": "33%"
-    },
-    {
-      "file": "Mentimeter.jpg",
-      "width": "33%"
+      "width": "30%"
     },
     {
       "file": "gallery-3.png",
-      "width": "50%"
+      "width": "30%"
     },
     {
       "file": "gallery-2.png",
-      "width": "50%"
+      "width": "30%"
     },
     {
       "file": "racing.png",
@@ -80,6 +72,10 @@
     {
       "file": "western.png",
       "width": "50%"
+    },
+        {
+      "file": "laser.png",
+      "width": "70%"
     }
   ],
   "galleryCredits": "© Kahoot! / Mentimeter / QuizLinq",
