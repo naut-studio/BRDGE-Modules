@@ -72,6 +72,14 @@
     {
       "file": "gallery-2.png",
       "width": "50%"
+    },
+    {
+      "file": "racing.png",
+      "width": "50%"
+    },
+    {
+      "file": "western.png",
+      "width": "50%"
     }
   ],
   "galleryCredits": "© Kahoot! / Mentimeter / QuizLinq",
