@@ -1,215 +1,150 @@
-[
-  {
-    "title": "Mosaic Wall",
-    "tagline": "Many inputs. One shared image.",
-    "short_description": "A collective visual wall that assembles photos, drawings, or contributions into a growing mosaic.",
-    "long_description": "A large-scale visual composition that turns individual contributions into a shared final image or evolving wall. Inputs can come from photos, avatars, votes, drawings, or generated media, making the experience both personal and collective. Ideal for participation campaigns, community activations, and events that want to visualise togetherness in a single memorable output.",
-    "moment": "Journey, Post-Journey",
-    "tag": [
-      "Module",
-      "Experience",
-      "Group Activation",
-      "Art & Shows"
-    ],
-    "visuals": [
-      "Hero visual: Mosaic Wall in use within a branded environment",
-      "Interface mockup: primary interaction flow for Mosaic Wall",
-      "System overview: how visitors, screen, and backend connect",
-      "Scenario visual: themed use case of Mosaic Wall"
-    ],
-    "included": {
-      "module": "Mosaic Wall",
-      "slide": "What's included",
-      "items": [
-        {
-          "title": "Core interaction flow",
-          "description": "Base experience logic and visitor-facing interaction for Mosaic Wall.",
-          "visual": "Primary user flow"
-        },
-        {
-          "title": "Branded interface skin",
-          "description": "Adaptation of colours, typography, and visual language to the project context.",
-          "visual": "UI style frame"
-        },
-        {
-          "title": "Basic analytics output",
-          "description": "Tracking of key participation and usage signals relevant to the module.",
-          "visual": "Simple export or dashboard preview"
-        }
-      ]
+{
+  "title": "Mosaic Wall",
+  "slug": "mosaic-wall",
+  "publish": true,
+  "tagline": "One collective masterpiece.",
+  "shortDescription": "A collective visual wall that assembles photos, drawings, or contributions into a growing mosaic.",
+  "longDescription": "A large-scale visual composition that turns individual contributions into a shared final image or evolving wall. Inputs can come from photos, avatars, votes, drawings, or generated media, making the experience both personal and collective. Ideal for participation campaigns, community activations, and events that want to visualise togetherness in a single memorable output.",
+  "categories": [
+    "Light & Art Installations",
+    "Audience Activation",
+    "Capture & Memory"
+  ],
+  "tags": [
+    "Live",
+    "Post-Event",
+    "Large",
+    "Mobile",
+    "Collaborative",
+    "Memorable",
+    "Wow Factor",
+    "Voting",
+    "Generative",
+    "Multiplayer",
+    "Projection",
+    "AI-Powered",
+    "User-Generated",
+    "Personalized",
+    "Storytelling",
+    "Low Barrier",
+    "Family Friendly",
+    "Multi-Language",
+    "Museum",
+    "Exhibition",
+    "Conference",
+    "Corporate Event",
+    "Festival",
+    "Trade Show",
+    "Brand Activation",
+    "Sponsorship",
+    "Data Collection",
+    "Leaderboard",
+    "Educational"
+  ],
+  "illustration": "illustration.png",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "mosaic-wall.png",
+      "width": "60%"
     },
-    "excluded": {
-      "slide": "What’s Excluded",
-      "items": [
-        {
-          "title": "Venue hardware outside agreed scope",
-          "description": "Screens, sound, network, scenic build, mounts, printers, or special sensors are scoped separately unless explicitly listed."
-        },
-        {
-          "title": "Large-scale custom content production",
-          "description": "Extensive editorial work, translations, media creation, or bespoke storytelling assets are separate services unless included."
-        },
-        {
-          "title": "Deep custom logic beyond the base module",
-          "description": "Unique game systems, unusual integrations, or one-off backend behaviour require separate scoping and testing."
-        }
-      ]
+    {
+      "file": "gallery-5.png",
+      "width": "40%"
     },
-    "states": {
-      "module": "Mosaic Wall",
-      "slide": "States",
-      "items": [
-        {
-          "state": "Attract",
-          "trigger": "Visitor notices the installation or receives the entry prompt",
-          "experience": "Mosaic Wall communicates what to do and invites the first action.",
-          "feedback": "Idle visuals, signage, motion, or ambient cue",
-          "configurable": "Branding, call-to-action, language",
-          "data": "View or start count"
-        },
-        {
-          "state": "Engage",
-          "trigger": "Visitor starts the interaction",
-          "experience": "The main Mosaic Wall experience unfolds and reacts to the visitor’s input.",
-          "feedback": "Live visual, audio, or haptic response",
-          "configurable": "Game rules, pacing, theme, interaction mode",
-          "data": "Inputs, timing, progress, completion"
-        },
-        {
-          "state": "Resolve",
-          "trigger": "Interaction reaches an outcome or end point",
-          "experience": "Results, rewards, media, or next steps are revealed.",
-          "feedback": "Score, confirmation, reward, save, or share prompt",
-          "configurable": "CTA, outcome logic, reward type",
-          "data": "Outcome, score, exportable summary"
-        }
-      ]
+    {
+      "file": "gallery-4.png",
+      "width": "30%"
     },
-    "changes": {
-      "module": "Mosaic Wall",
-      "slide": "Customisable Elements",
-      "items": [
-        {
-          "title": "Visual identity",
-          "description": "Colours, fonts, screen assets, motion language, and tone can be adapted to brand or event theme."
-        },
-        {
-          "title": "Content layer",
-          "description": "Texts, questions, media, products, scenes, or stories can be swapped to fit the context."
-        },
-        {
-          "title": "Interaction rules",
-          "description": "Difficulty, duration, scoring, progression, and multiplayer logic can be tuned to the audience."
-        }
-      ]
+    {
+      "file": "gallery-1.png",
+      "width": "70%"
     },
-    "setup": {
-      "module": "Mosaic Wall",
-      "slide": "Setup Notes & Requirements",
-      "items": [
-        {
-          "title": "Power and connectivity",
-          "description": "Stable power plus the right local network or internet setup depending on the module’s data and media needs."
-        },
-        {
-          "title": "Spatial planning",
-          "description": "Sufficient visitor flow, visibility, and physical clearance for safe and intuitive use."
-        },
-        {
-          "title": "Display and input hardware",
-          "description": "Screen, projector, sensors, touch surface, buttons, mobile flow, or other input devices according to the module setup."
-        }
-      ]
+    {
+      "file": "gallery-2.png",
+      "width": "40%"
     },
-    "data": {
-      "module": "Mosaic Wall",
-      "slide": "Data & Impact",
-      "items": [
-        {
-          "title": "Participation metrics",
-          "description": "Starts, active users, completion rate, repeat plays, or dwell time depending on module behaviour."
-        },
-        {
-          "title": "Behaviour signals",
-          "description": "Inputs, choices, timing, accuracy, usage paths, or content preferences that help interpret engagement quality."
-        },
-        {
-          "title": "Connected follow-up potential",
-          "description": "Optional link to tokens, galleries, dashboards, exports, or post-event communication flows."
-        }
-      ]
-    },
-    "compatible": {
-      "module": "Mosaic Wall",
-      "slide": "Compatible Modules & Additional Services",
-      "items": [
-        {
-          "title": "Visitor Identificator",
-          "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
-        },
-        {
-          "title": "Shared Gallery / Media outputs",
-          "description": "Useful when the module produces or benefits from captured media, highlights, or public recap moments."
-        },
-        {
-          "title": "User Experience & Interface Design",
-          "description": "Refines the front-end quality and ensures the module feels coherent inside the wider BRDGE system."
-        }
-      ]
-    },
-    "twist": {
-      "module": "Mosaic Wall",
-      "slide": "Custom Twist Ideas",
-      "items": [
-        {
-          "title": "Sponsor edition",
-          "description": "Introduce branded rewards, visuals, or mechanics tied to a partner or campaign."
-        },
-        {
-          "title": "Tournament or leaderboard mode",
-          "description": "Extend the base interaction into a competitive format across guests, teams, or time slots."
-        },
-        {
-          "title": "Token-connected continuity",
-          "description": "Carry outcomes into another module, a personal recap, or a post-event reward flow."
-        }
-      ]
-    },
-    "theme": {
-      "module": "Mosaic Wall",
-      "slide": "Themed Story Examples",
-      "items": [
-        {
-          "title": "Winter / festive edition",
-          "description": "Re-skin the same interaction with seasonal visuals, story framing, and rewards."
-        },
-        {
-          "title": "Museum / education storyline",
-          "description": "Adapt the module to teach content, reveal facts, or guide visitors through a knowledge-driven narrative."
-        },
-        {
-          "title": "Brand activation scenario",
-          "description": "Translate the interaction into a product or campaign story that feels native to the brand world."
-        }
-      ]
-    },
-    "why": {
-      "module": "Mosaic Wall",
-      "slide": "Why it works",
-      "items": [
-        {
-          "title": "Needs a clearer participation hook",
-          "description": "Mosaic Wall gives visitors an immediate reason to engage instead of only observing."
-        },
-        {
-          "title": "Experience should feel more memorable",
-          "description": "Mosaic Wall creates a distinct interaction moment that people remember and talk about afterward."
-        },
-        {
-          "title": "Engagement should be measurable",
-          "description": "Mosaic Wall can capture interactions, completions, usage frequency, or connected outputs for reporting."
-        }
-      ]
+    {
+      "file": "gallery-3.png",
+      "width": "60%"
     }
-  }
-]
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "Everyone Adds a Piece",
+      "description": "Each visitor contributes a photo, a drawing, an avatar, or a vote and watches it join a shared wall in real time, so a room full of individuals builds one thing together.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Any Kind of Input",
+      "description": "Feed the wall with photos, hand drawings, avatars, votes, or AI-generated media, and mix input types to match the campaign, the audience, and the level of effort you want to ask for.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "One Memorable Shared Output",
+      "description": "Hundreds of small contributions resolve into a single large-scale image that makes togetherness visible in the moment and lives on as a recap people want to find themselves in.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Ways to Push It Further",
+      "description": "Run a sponsor edition with branded tiles and rewards, add a tournament or leaderboard layer across guests or time slots, or carry each contribution into another module, a personal recap, or a post-event reward flow.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Same Wall, Any Story",
+      "description": "Re-skin it as a seasonal festive wall, a museum or education piece that reveals facts as the image fills, or a brand-activation scenario where every contribution builds a product or campaign world.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "See Who Joined In",
+      "description": "Add a data layer that logs contributions, active participants, completion, dwell time, and content choices, then export it for a post-event report or link it to tokens and galleries for personal follow-up.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Plugs Into the Wider Journey",
+      "description": "Pair it with Visitor Identificator so each tile ties back to a known visitor, feed it with photos from Connected Photographer or Shared Gallery, and let Journey Recap fold the finished wall into each person's post-visit story.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Attract",
+      "trigger": "Visitor notices the installation or receives the entry prompt",
+      "experience": "Mosaic Wall communicates what to do and invites the first action.",
+      "feedback": "Idle visuals, signage, motion, or ambient cue",
+      "configurable": "Branding, call-to-action, language",
+      "data": "View or start count"
+    },
+    {
+      "state": "Engage",
+      "trigger": "Visitor starts the interaction",
+      "experience": "The main Mosaic Wall experience unfolds and reacts to the visitor’s input.",
+      "feedback": "Live visual, audio, or haptic response",
+      "configurable": "Game rules, pacing, theme, interaction mode",
+      "data": "Inputs, timing, progress, completion"
+    },
+    {
+      "state": "Resolve",
+      "trigger": "Interaction reaches an outcome or end point",
+      "experience": "Results, rewards, media, or next steps are revealed.",
+      "feedback": "Score, confirmation, reward, save, or share prompt",
+      "configurable": "CTA, outcome logic, reward type",
+      "data": "Outcome, score, exportable summary"
+    }
+  ]
+}
