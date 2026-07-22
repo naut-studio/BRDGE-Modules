@@ -53,7 +53,7 @@
     }
   ],
   "galleryCredits": "",
-  "clientLogos": [],
+  "clientLogos": ["logo-xaver.svg", "logo-wow.svg"],
   "highlights": [
     {
       "title": "Interactions Become a Story",
