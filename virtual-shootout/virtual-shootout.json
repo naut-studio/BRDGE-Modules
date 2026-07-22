@@ -1,0 +1,128 @@
+{
+  "title": "Virtual Shootout",
+  "slug": "virtual-shootout",
+  "publish": true,
+  "tagline": "Aim. Shoot. React.",
+  "shortDescription": "A fast-paced digital shooting experience where players hit virtual targets using tracked props or body gestures. Precision, speed, and instant feedback turn any space into an energetic play zone.",
+  "longDescription": "Players aim and shoot at digital targets using tracked props or gesture recognition. Movements and trigger actions are detected in real time, translating physical intent into responsive visuals and sound. Quick to understand and exciting to play, it creates competitive energy and strong visual moments, ideal for exhibitions, brand activations, and themed environments.",
+  "categories": [
+    "Gamification & Fun",
+    "Audience Activation"
+  ],
+  "tags": [
+    "Live",
+    "Large",
+    "High Energy",
+    "Competitive",
+    "Collaborative",
+    "Wow Factor",
+    "Immersive",
+    "Gamified",
+    "Single Player",
+    "Multiplayer",
+    "Reflex",
+    "Timed",
+    "Real-Time",
+    "Computer Vision",
+    "Body Tracking",
+    "Projection",
+    "Low Barrier",
+    "Family Friendly",
+    "Museum",
+    "Exhibition",
+    "Trade Show",
+    "Corporate Event",
+    "Festival",
+    "Pop-Up",
+    "Brand Activation",
+    "Leaderboard",
+    "Reward",
+    "Sponsorship",
+    "Data Collection"
+  ],
+  "illustration": "illustration.png",
+  "animation": "animation.json",
+  "videoUrl": "",
+  "videoUrls": [
+    "http://upload.naut.ch/WOW-Knabenschiessen_S.mp4",
+    "https://upload.naut.ch/Z%C3%BCrich_Hockey-Game_S.mp4"
+  ],
+  "gallery": [
+    {
+      "file": "gallery-1.jpg",
+      "width": "60%"
+    },
+    {
+      "file": "gallery-2.jpg",
+      "width": "40%"
+    },
+    {
+      "file": "gallery-3.jpg",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-4.jpg",
+      "width": "50%"
+    }
+  ],
+  "galleryCredits": "",
+  "clientLogos": ["logo-wow.svg","logo-zurichinsurance.svg"],
+  "highlights": [
+    {
+      "title": "Aim With Your Body or a Prop",
+      "description": "Players point with a tracked prop or their own gestures, so there are no controllers to learn and no buttons to explain. Point, trigger, and the shot lands where they aimed.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Instant, Physical Feedback",
+      "description": "Movements and trigger actions are read in real time and answered at once with responsive visuals and sound, so every hit and every miss registers as a satisfying, physical moment.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Play Solo or as a Team",
+      "description": "Chase a personal high score alone, or team up to hit the same target together, split targets by colour, and hold and shoot in sync, turning a shooting range into a group challenge.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Modes and Mechanics to Mix In",
+      "description": "Add moving or shrinking targets, colour-matched rounds, hold-and-shoot precision shots, sudden-death finals, timed rounds, and sponsor-branded targets, so the same range keeps feeling new across a day or a whole tour.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Reskin the Range",
+      "description": "Dress it as a Wild West shooting gallery, a marksman festival in the spirit of a Knabenschiessen, a hockey penalty shootout, a sci-fi laser range, or a sports-club target challenge, with visuals, targets, and sound reskinned to the brand or theme.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Turn Shots Into Numbers",
+      "description": "Add an optional data layer that logs hits, accuracy, reaction time, rounds played, and top scores, then export it for a post-event report or feed it into a live leaderboard on the big screen.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Wire It Into the Room",
+      "description": "Tie scores to a person with Visitor Identificator, reward the sharpest shooters through Prize Draw, and push the running leaderboard onto secondary screens with Live Feed so the whole crowd follows along.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "",
+      "trigger": "",
+      "experience": "",
+      "feedback": "",
+      "configurable": "",
+      "data": ""
+    }
+  ]
+}
