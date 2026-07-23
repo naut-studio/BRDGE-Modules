@@ -1,0 +1,157 @@
+{
+  "title": "Karaoke",
+  "slug": "karaoke",
+  "publish": true,
+  "tagline": "Sing it loud.",
+  "shortDescription": "A touchscreen-powered karaoke experience that lets visitors choose songs, sing along with lyrics, and enjoy stripped-vocal backing tracks, ready to be extended with live video, score, or memories.",
+  "longDescription": "This modular karaoke station turns any booth or corner into a fun, participative micro-stage. Visitors browse a curated playlist via touchscreen, select a song, and sing along with displayed lyrics and instrumental audio. The module can optionally record the moment or mix vocals live. Ideal for boosting mood, interaction, and content creation, especially if clients secure music rights. BRDGE powers the interaction logic, real-time playback, and song list updates.",
+  "categories": [
+    "Gamification & Fun",
+    "Capture & Memory",
+    "Audience Activation"
+  ],
+  "tags": [
+    "Live",
+    "Small",
+    "High Energy",
+    "Icebreaker",
+    "Wow Factor",
+    "Memorable",
+    "Viral",
+    "Single Player",
+    "Multiplayer",
+    "Gamified",
+    "Touchscreen",
+    "User-Generated",
+    "Video",
+    "Print",
+    "Low Barrier",
+    "Family Friendly",
+    "Multi-Language",
+    "Festival",
+    "Pop-Up",
+    "Corporate Event",
+    "Trade Show",
+    "Conference",
+    "Brand Activation",
+    "Sponsorship",
+    "Lead Generation",
+    "Data Collection"
+  ],
+  "illustration": "illustration.png",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [
+    "https://www.tiktok.com/@ricola/video/7323107135162699041",
+    "https://www.tiktok.com/@ricola/video/7313888197740596513"
+  ],
+  "gallery": [
+    {
+      "file": "gallery-1.png",
+      "width": "60%"
+    },
+    {
+      "file": "gallery-2.png",
+      "width": "40%"
+    },
+    {
+      "file": "gallery-4.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-5.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-6.png",
+      "width": "33%"
+    },
+    {
+      "file": "gallery-7.png",
+      "width": "33%"
+    },
+    {
+      "file": "gallery-8.png",
+      "width": "33%"
+    },
+    {
+      "file": "gallery-9.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-10.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-3.png",
+      "width": "60%"
+    },
+    {
+      "file": "gallery-11.webp",
+      "width": "40%"
+    }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [
+    "logo-ricola.svg",
+    "logo-paleo.svg"
+  ],
+  "highlights": [
+    {
+      "title": "Pick a Song and Sing",
+      "description": "Visitors browse a curated playlist on the touchscreen, choose a track, and sing along to on-screen lyrics over a stripped-vocal backing, so there is nothing to learn and no reason to hesitate.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Turn a Corner Into a Stage",
+      "description": "The modular station drops into a booth, a corner, or somewhere as unlikely as a mountain gondola, turning a small footprint into a participative micro-stage that pulls a crowd.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Capture the Moment",
+      "description": "Optionally record the performance or mix the vocals live, so a spontaneous sing-along leaves with the visitor as a clip or a photo they actually want to share.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Ways to Turn It Up",
+      "description": "Add live scoring and duet or battle modes, a disco ball and light show, a photo or video capture layer, a branded song list, and themed props, so the same booth can be a quiet lounge or a full-on party.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Where It Gets Played",
+      "description": "Ricola turned two gondolas into karaoke cabins where skiers belted out hits at minus 20 degrees over the Alps, a festival crowd can queue for a singing booth in the spirit of Paleo, and a brand can run a pop-up karaoke lounge or a Christmas sing-along corner.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Count the Encores",
+      "description": "Add an optional data layer that logs songs played, session counts, opt-in shares, and captures created, then export it for a post-event report on how much the crowd got involved.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Pair It With the Photo Stack",
+      "description": "Send the shot to Photo Printing for an instant keepsake, collect every clip in Shared Gallery, hand the capture to Connected Photographer, and tie each recording to a guest with Visitor Identificator.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "",
+      "trigger": "",
+      "experience": "",
+      "feedback": "",
+      "configurable": "",
+      "data": ""
+    }
+  ]
+}
