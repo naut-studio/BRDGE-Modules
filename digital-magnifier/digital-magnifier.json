@@ -1,0 +1,104 @@
+{
+  "title": "Digital Magnifier",
+  "slug": "digital-magnifier",
+  "publish": true,
+  "tagline": "Look. Zoom. Discover.",
+  "shortDescription": "An interactive lens that lets visitors zoom deep into a product, artefact, or image, revealing fine detail, hidden layers, and stories the naked eye would miss.",
+  "longDescription": "Move a virtual magnifying glass across a large display or a real object and the screen reveals what sits beneath the surface: close-up textures, exploded views, inner components, and annotated points of interest. It turns small or complex products into something visitors can explore hands-on, making technical detail tactile and inviting rather than intimidating. Ideal for trade shows and showrooms where the story lives in the details, it rewards curiosity with layer after layer of discovery, from precision engineering to intricate craftsmanship.",
+  "categories": [
+    "Discovery & Learning",
+    "Audience Activation"
+  ],
+  "tags": [
+    "Live",
+    "Large",
+    "Immersive",
+    "Wow Factor",
+    "Calm",
+    "Memorable",
+    "Single Player",
+    "Real-Time",
+    "Touchscreen",
+    "Storytelling",
+    "Low Barrier",
+    "Family Friendly",
+    "Multi-Language",
+    "Museum",
+    "Exhibition",
+    "Trade Show",
+    "Retail",
+    "Conference",
+    "Corporate Event",
+    "Brand Activation",
+    "Educational",
+    "Lead Generation",
+    "Data Collection"
+  ],
+  "illustration": "illustration.png",
+  "animation": "",
+  "videoUrl": "https://upload.naut.ch/Belimo_Messe.mp4",
+  "videoUrls": [],
+  "gallery": [],
+  "galleryCredits": "",
+  "clientLogos": [
+    "logo-belimo.svg"
+  ],
+  "highlights": [
+    {
+      "title": "Reveal What the Eye Misses",
+      "description": "Move the lens across the surface and the screen shows close-up textures, inner components, and fine detail that stays invisible at arm's length, so exploring feels like discovering something hidden.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Make Small Products Tactile",
+      "description": "Tiny or highly technical items become something visitors can handle and explore, turning precision detail into an invitation rather than something intimidating to look at.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Hotspots and Layers",
+      "description": "Annotated points of interest, exploded views, and layer-by-layer reveals guide people to what matters, so the experience tells a story instead of just enlarging a picture.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Ways to Go Deeper",
+      "description": "Add exploded 3D views, x-ray or before-and-after layers, guided tours that move the lens for the visitor, quiz hotspots, multi-object switching, and sponsor or product-of-the-month spotlights.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "One Lens, Any Subject",
+      "description": "Inspect a precision valve or actuator on a trade-fair stand, zoom into a museum artefact or manuscript, explore a map or an artwork, or peel back the layers of a material sample, all with the same interaction reskinned to the subject.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "See What Drew Them In",
+      "description": "Add an optional data layer that logs which hotspots and products got the most attention, dwell time per zoom, and session counts, then export it for a post-show report on what visitors actually cared about.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Wire It Into the Stand",
+      "description": "Tie each exploration to a visitor with Visitor Identificator, send the details they lingered on afterward through Journey Recap, mirror the zoomed view on a big screen with Live Feed, and swap products or annotations on the fly with Cloud Content Management.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "",
+      "trigger": "",
+      "experience": "",
+      "feedback": "",
+      "configurable": "",
+      "data": ""
+    }
+  ]
+}
