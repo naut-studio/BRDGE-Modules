@@ -48,11 +48,11 @@
   "gallery": [
     {
       "file": "gallery-1.png",
-      "width": "60%"
+      "width": "100%"
     },
     {
       "file": "gallery-2.png",
-      "width": "40%"
+      "width": "100%"
     },
     {
       "file": "gallery-4.png",
