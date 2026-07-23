@@ -30,7 +30,7 @@
   "gallery": [],
   "galleryLayout": [],
   "galleryCredits": "",
-  "clientLogos": [],
+  "clientLogos": ["logo-zweifel.svg", "logo-postfinance.svg", "logo-swica.svg", "logo-zkb.svg", "logo-wow.svg"],
   "highlights": [
     {
       "title": "Attach It to Anything",

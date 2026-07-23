@@ -31,7 +31,7 @@
   "gallery": [],
   "galleryLayout": [],
   "galleryCredits": "",
-  "clientLogos": [],
+  "clientLogos": ["logo-wow.svg"],
   "highlights": [
     {
       "title": "Tech Partner Enablement",

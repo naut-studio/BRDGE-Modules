@@ -45,7 +45,7 @@
     { "file": "gallery-4.jpg" }
   ],
   "galleryCredits": "",
-  "clientLogos": [],
+  "clientLogos": ["logo-mercedes.svg"],
   "highlights": [
     {
       "title": "One Screen, the Whole Event",

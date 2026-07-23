@@ -86,7 +86,7 @@
     }
   ],
   "galleryCredits": "",
-  "clientLogos": [],
+  "clientLogos": ["logo-wow.svg", "logo-xaver.svg"],
   "highlights": [
     {
       "title": "One Identity, Any Carrier",
