@@ -50,47 +50,50 @@
       "title": "Step Through, Not Just Look In",
       "description": "Visitors physically walk into the portal rather than watching from outside, so crossing the threshold becomes the moment itself and the experience reads as a place they entered, not a screen they looked at.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Real Movement, Virtual World",
       "description": "Their own steps and gestures drive what happens, blending physical motion with a rich virtual environment so the sense of actually being somewhere else holds up.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Intuitive From the First Second",
       "description": "Built so anyone can use it without a briefing, which matters when there is a queue outside and only a minute to get each guest in, oriented, and enjoying it.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Ways to Deepen the Trip",
       "description": "Add multi-person portals so people enter together, switch between a guided narrative and free roaming, layer in haptics, wind, or scent, set a timed mission, and tune the length of each session to the dwell time you need.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Worlds Worth Entering",
       "description": "Step inside a product or a factory line, travel to a historic site or a habitat under threat, run a safety or skills training scenario, or walk straight into a brand's own fantasy world, all through the same portal reskinned.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Proof of the Wow",
       "description": "Add an optional data layer that logs sessions run, dwell time, completion, the paths people chose inside the world, and opt-ins, then export it for a post-event report that puts numbers behind the reactions.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Bring the Queue Into It",
       "description": "Mirror the headset view onto a big screen with Live Feed so the waiting crowd watches along, tie each session to a guest with Visitor Identificator, hand them a shot from Connected Photographer, and let Journey Recap send the world they visited afterwards.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [
