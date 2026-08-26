@@ -33,14 +33,9 @@
   "videoUrl": "",
   "videoUrls": [],
   "gallery": [
-    "gallery-1.jpg",
-    "gallery-2.jpg",
-    "gallery-3.jpg"
-  ],
-  "galleryLayout": [
-    "33%",
-    "67%",
-    "50%"
+    { "file": "gallery-1.jpg", "width": "33%" },
+    { "file": "gallery-2.jpg", "width": "67%" },
+    { "file": "gallery-3.jpg", "width": "50%" }
   ],
   "galleryCredits": "",
   "clientLogos": [
