@@ -39,7 +39,7 @@ export const moduleOrder = [
   { order: 29, title: "Stack Games", slug: "stack-games" },
   { order: 30, title: "Memory Games", slug: "memory-games" },
   { order: 31, title: "Rhythm Games", slug: "rhythm-games" },
-  { order: 32, title: "Personality-Quiz", slug: "personality-quiz" },
+  { order: 32, title: "Personality Quiz", slug: "personality-quiz" },
   { order: 33, title: "Wheel of Luck", slug: "wheel-of-luck" },
   { order: 34, title: "Slot Machine", slug: "slot-machine" },
   { order: 35, title: "Laser Voting", slug: "laser-voting" },
