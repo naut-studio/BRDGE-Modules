@@ -39,28 +39,94 @@
     "https://upload.naut.ch/Swisscom-BlueSpace-short.mp4"
   ],
   "gallery": [
-    "gallery-15.png",
-    "gallery-3.png",
-    "gallery-9.jpg",
-    "gallery-11.jpg",
-    "gallery-10.png",
-    "gallery-16.png",
-    "gallery-2.png",
-    "gallery-14.png",
-    "gallery-17.png",
-    "gallery-20.png",
-    "gallery-21.png",
-    "gallery-22.png",
-    "gallery-19.png",
-    "gallery-23.png",
-    "zwe.png",
-    "gallery-5.png",
-    "gallery-6.png",
-    "mer.png",
-    "gallery-13.jpg",
-    "gallery-18.png",
-    "gallery-7.png",
-    "wow.png"
+    {
+      "file": "gallery-15.png",
+      "width": "25%"
+    },
+    {
+      "file": "gallery-3.png",
+      "width": "25%"
+    },
+    {
+      "file": "gallery-9.jpg",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-11.jpg",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-10.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-16.png",
+      "width": "25%"
+    },
+    {
+      "file": "gallery-2.png",
+      "width": "25%"
+    },
+    {
+      "file": "gallery-14.png",
+      "width": "25%"
+    },
+    {
+      "file": "gallery-17.png",
+      "width": "25%"
+    },
+    {
+      "file": "gallery-20.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-21.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-22.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-19.png",
+      "width": "25%"
+    },
+    {
+      "file": "gallery-23.png",
+      "width": "25%"
+    },
+    {
+      "file": "zwe.png",
+      "width": "25%"
+    },
+    {
+      "file": "gallery-5.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-6.png",
+      "width": "25%"
+    },
+    {
+      "file": "mer.png",
+      "width": "33%"
+    },
+    {
+      "file": "gallery-13.jpg",
+      "width": "33%"
+    },
+    {
+      "file": "gallery-18.png",
+      "width": "33%"
+    },
+    {
+      "file": "gallery-7.png",
+      "width": "50%"
+    },
+    {
+      "file": "wow.png",
+      "width": "50%"
+    }
   ],
   "galleryLayout": [
     "25%",
