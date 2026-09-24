@@ -41,7 +41,7 @@ export const tagGroups = [
   },
   {
     title: "Venue",
-    tags: ["Museum", "Exhibition", "Conference", "Trade Show", "Retail", "Corporate Event", "Festival", "Pop-Up"]
+    tags: ["Museum", "Exhibition", "Conference", "Trade Show / Fair", "Retail", "Corporate Event", "Festival", "Pop-Up"]
   },
   {
     title: "Goal",
