@@ -41,8 +41,11 @@
   ],
   "illustration": "illustration.png",
   "animation": "animation.json",
-  "videoUrl": "PXL_20260326_191909905_1.mp4",
-  "videoUrls": [],
+  "videoUrl": "",
+  "videoUrls": [
+    "https://upload.naut.ch/Prize-Draw-ScreenUP-noSound.mp4",
+    "https://upload.naut.ch/Prize-Draw-Celebrationpoint.mp4"
+  ],
   "gallery": [
     {
       "file": "https://youtube.com/shorts/4RnGaUUf0rU?si=7Fw2s2CNspBZxsHE",
