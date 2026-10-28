@@ -213,10 +213,7 @@
 <path d="M403.758 998.915L429.191 984.141" stroke-width="7" stroke-linecap="round" class="illu-stroke-primary-light"/>
 <path d="M406.508 1030.88L431.941 1016.11" stroke-width="7" stroke-linecap="round" class="illu-stroke-primary-light"/>
 <defs>
-<clipPath id="photo-printing__paint0_diamond_2890_16902_clip_path"><path d="M875.703 941.258L846.203 912.258L856.203 893.258L901.703 867.758L928.203 896.258L917.18 917.475L875.703 941.258Z"/></clipPath><linearGradient id="photo-printing__paint0_diamond_2890_16902" x1="0" y1="0" x2="500" y2="500" gradientUnits="userSpaceOnUse">
-<stop offset="0.596457" class="illu-stop-primary"/>
-<stop offset="1" class="illu-stop-primary"/>
-</linearGradient>
+<clipPath id="photo-printing__paint0_diamond_2890_16902_clip_path"><path d="M875.703 941.258L846.203 912.258L856.203 893.258L901.703 867.758L928.203 896.258L917.18 917.475L875.703 941.258Z"/></clipPath><linearGradient id="photo-printing__paint0_diamond_2890_16902" x1="0" y1="0" x2="500" y2="500" gradientUnits="userSpaceOnUse"><stop offset="0.596" stop-opacity="0.1" class="illu-stop-primary"/><stop offset="1" stop-opacity="0.3" class="illu-stop-primary"/></linearGradient>
 <clipPath id="photo-printing__clip0_2890_16902">
 <rect width="292.5" height="247.5" fill="white" transform="matrix(-1 0 0 1 1021.13 679.758)"/>
 </clipPath>

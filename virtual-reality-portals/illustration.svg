@@ -19,9 +19,6 @@
 <path d="M549.65 1153.17L552.599 1187.45L545.389 1159.22L527.039 1146.11L549.65 1153.17Z" class="illu-fill-grey-dark"/>
 <path d="M504.516 883.168C519.007 899.89 591.28 895.842 606.495 890.043" stroke-width="18.48" stroke-linecap="round" class="illu-stroke-black"/>
 <defs>
-<linearGradient id="virtual-reality-portals__paint0_linear_2890_16909" x1="653.587" y1="1203.48" x2="1194.49" y2="1216.64" gradientUnits="userSpaceOnUse">
-<stop class="illu-stop-primary"/>
-<stop offset="1" class="illu-stop-primary"/>
-</linearGradient>
+<linearGradient id="virtual-reality-portals__paint0_linear_2890_16909" x1="653.587" y1="1203.48" x2="1194.49" y2="1216.64" gradientUnits="userSpaceOnUse"><stop class="illu-stop-primary"/><stop offset="1" stop-opacity="0" class="illu-stop-primary"/></linearGradient>
 </defs>
 </svg>

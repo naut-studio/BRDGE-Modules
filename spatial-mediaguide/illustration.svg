@@ -103,14 +103,8 @@
 <path d="M1450.5 1143.23C1473 1138.73 1499 1169.23 1493.5 1185.73" stroke-width="9" stroke-linecap="round" class="illu-stroke-primary"/>
 <circle cx="1489" cy="1163.73" r="7" class="illu-fill-white"/>
 <defs>
-<linearGradient id="spatial-mediaguide__paint0_linear_2890_16822" x1="924.812" y1="945.368" x2="507.957" y2="1292.76" gradientUnits="userSpaceOnUse">
-<stop class="illu-stop-primary"/>
-<stop offset="1" class="illu-stop-primary"/>
-</linearGradient>
-<linearGradient id="spatial-mediaguide__paint1_linear_2890_16822" x1="1513.65" y1="1155.32" x2="1574.02" y2="1103.52" gradientUnits="userSpaceOnUse">
-<stop offset="0.423268" class="illu-stop-primary"/>
-<stop offset="1" class="illu-stop-primary"/>
-</linearGradient>
+<linearGradient id="spatial-mediaguide__paint0_linear_2890_16822" x1="924.812" y1="945.368" x2="507.957" y2="1292.76" gradientUnits="userSpaceOnUse"><stop class="illu-stop-primary"/><stop offset="1" stop-opacity="0" class="illu-stop-primary"/></linearGradient>
+<linearGradient id="spatial-mediaguide__paint1_linear_2890_16822" x1="1513.65" y1="1155.32" x2="1574.02" y2="1103.52" gradientUnits="userSpaceOnUse"><stop offset="0.423" class="illu-stop-primary"/><stop offset="1" stop-opacity="0" class="illu-stop-primary"/></linearGradient>
 <path id="spatial-mediaguide__stroke0_2890_16822" d="M1286.07 965.179C1288.17 974.701 1284.04 987.756 1276.84 994.337C1269.65 1000.92 1262.11 998.534 1260.01 989.012C1257.91 979.489 1262.04 966.434 1269.23 959.853C1276.43 953.272 1283.96 955.656 1286.07 965.179Z"/>
 <path id="spatial-mediaguide__stroke2_2890_16822" d="M1357.68 996.014C1358.57 1003.27 1354.56 1012.73 1348.72 1017.13C1342.88 1021.53 1337.42 1019.21 1336.53 1011.95C1335.64 1004.69 1339.65 995.241 1345.49 990.839C1351.33 986.438 1356.79 988.755 1357.68 996.014Z"/>
 </defs>

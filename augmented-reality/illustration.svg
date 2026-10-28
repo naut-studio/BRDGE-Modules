@@ -38,9 +38,6 @@
 <path d="M840.213 1093.9L856.308 1124.18V1141.42L840.213 1093.9Z" class="illu-fill-grey-dark"/>
 <path d="M802.994 1214.13L805.775 1245.64L798.978 1219.69L781.678 1207.64L802.994 1214.13Z" class="illu-fill-grey-dark"/>
 <defs>
-<linearGradient id="augmented-reality__paint0_linear_2890_17366" x1="1348.31" y1="877.103" x2="417.379" y2="877.631" gradientUnits="userSpaceOnUse">
-<stop class="illu-stop-primary"/>
-<stop offset="1" class="illu-stop-primary"/>
-</linearGradient>
+<linearGradient id="augmented-reality__paint0_linear_2890_17366" x1="1348.31" y1="877.103" x2="417.379" y2="877.631" gradientUnits="userSpaceOnUse"><stop stop-opacity="0" class="illu-stop-primary"/><stop offset="1" class="illu-stop-primary"/></linearGradient>
 </defs>
 </svg>

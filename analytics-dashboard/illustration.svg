@@ -149,14 +149,8 @@
 <path d="M108.027 1627.87L112.043 1708.68V1630.24L117.707 1547.83L108.027 1627.87Z" class="illu-fill-grey-dark"/>
 </g>
 <defs>
-<linearGradient id="analytics-dashboard__paint0_linear_2890_17822" x1="976.041" y1="1246.45" x2="976.041" y2="1559.04" gradientUnits="userSpaceOnUse">
-<stop class="illu-stop-primary"/>
-<stop offset="1" class="illu-stop-primary"/>
-</linearGradient>
-<linearGradient id="analytics-dashboard__paint1_linear_2890_17822" x1="1531.06" y1="914.294" x2="1531.06" y2="1820.61" gradientUnits="userSpaceOnUse">
-<stop class="illu-stop-primary"/>
-<stop offset="1" class="illu-stop-primary"/>
-</linearGradient>
+<linearGradient id="analytics-dashboard__paint0_linear_2890_17822" x1="976.041" y1="1246.45" x2="976.041" y2="1559.04" gradientUnits="userSpaceOnUse"><stop class="illu-stop-primary"/><stop offset="1" stop-opacity="0" class="illu-stop-primary"/></linearGradient>
+<linearGradient id="analytics-dashboard__paint1_linear_2890_17822" x1="1531.06" y1="914.294" x2="1531.06" y2="1820.61" gradientUnits="userSpaceOnUse"><stop class="illu-stop-primary"/><stop offset="1" stop-opacity="0" class="illu-stop-primary"/></linearGradient>
 <clipPath id="analytics-dashboard__clip0_2890_17822">
 <rect width="2000" height="2000" fill="white"/>
 </clipPath>

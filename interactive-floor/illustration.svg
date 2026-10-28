@@ -77,9 +77,6 @@
 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
 <feBlend mode="normal" in2="shape" result="effect2_innerShadow_2890_18855"/>
 </filter>
-<linearGradient id="interactive-floor__paint0_linear_2890_18855" x1="991.007" y1="106.632" x2="950.969" y2="1878.98" gradientUnits="userSpaceOnUse">
-<stop class="illu-stop-primary"/>
-<stop offset="1" class="illu-stop-primary"/>
-</linearGradient>
+<linearGradient id="interactive-floor__paint0_linear_2890_18855" x1="991.007" y1="106.632" x2="950.969" y2="1878.98" gradientUnits="userSpaceOnUse"><stop class="illu-stop-primary"/><stop offset="1" stop-opacity="0" class="illu-stop-primary"/></linearGradient>
 </defs>
 </svg>

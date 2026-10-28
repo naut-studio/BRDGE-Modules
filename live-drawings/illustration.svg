@@ -185,9 +185,6 @@
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2890_18949"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2890_18949" result="shape"/>
 </filter>
-<linearGradient id="live-drawings__paint0_linear_2890_18949" x1="554.167" y1="962.037" x2="627.706" y2="1144.05" gradientUnits="userSpaceOnUse">
-<stop class="illu-stop-primary"/>
-<stop offset="1" class="illu-stop-primary"/>
-</linearGradient>
+<linearGradient id="live-drawings__paint0_linear_2890_18949" x1="554.167" y1="962.037" x2="627.706" y2="1144.05" gradientUnits="userSpaceOnUse"><stop class="illu-stop-primary"/><stop offset="1" stop-opacity="0" class="illu-stop-primary"/></linearGradient>
 </defs>
 </svg>

@@ -105,13 +105,7 @@
 <path d="M956.658 1267.15C957.282 1308.01 960.755 1371.7 960.755 1371.7C960.755 1371.7 952.307 1307.05 952.102 1265.4C951.935 1231.38 957.1 1178.42 957.1 1178.42C957.1 1178.42 956.129 1232.5 956.658 1267.15Z" class="illu-fill-grey-dark"/>
 <path d="M1064.51 1321.16C1051.58 1274.3 1052.55 1214.5 1052.55 1214.5C1052.55 1214.5 1046.03 1275.54 1060.78 1322.28C1067.64 1344.01 1085.67 1375.07 1085.67 1375.07C1085.67 1375.07 1070.53 1342.96 1064.51 1321.16Z" class="illu-fill-grey-dark"/>
 <defs>
-<clipPath id="visitor-identificator__paint0_diamond_2890_17247_clip_path"><path d="M1100.36 896.5L1129.86 867.5L1119.86 848.5L1074.36 823L1047.86 851.5L1058.88 872.717L1100.36 896.5Z"/></clipPath><clipPath id="visitor-identificator__paint1_diamond_2890_17247_clip_path"><path d="M1469.5 1095L1499 1066L1489 1047L1443.5 1021.5L1417 1050L1428.02 1071.22L1469.5 1095Z"/></clipPath><linearGradient id="visitor-identificator__paint0_diamond_2890_17247" x1="0" y1="0" x2="500" y2="500" gradientUnits="userSpaceOnUse">
-<stop offset="0.596457" class="illu-stop-primary"/>
-<stop offset="1" class="illu-stop-primary"/>
-</linearGradient>
-<linearGradient id="visitor-identificator__paint1_diamond_2890_17247" x1="0" y1="0" x2="500" y2="500" gradientUnits="userSpaceOnUse">
-<stop offset="0.596457" class="illu-stop-primary"/>
-<stop offset="1" class="illu-stop-primary"/>
-</linearGradient>
+<clipPath id="visitor-identificator__paint0_diamond_2890_17247_clip_path"><path d="M1100.36 896.5L1129.86 867.5L1119.86 848.5L1074.36 823L1047.86 851.5L1058.88 872.717L1100.36 896.5Z"/></clipPath><clipPath id="visitor-identificator__paint1_diamond_2890_17247_clip_path"><path d="M1469.5 1095L1499 1066L1489 1047L1443.5 1021.5L1417 1050L1428.02 1071.22L1469.5 1095Z"/></clipPath><linearGradient id="visitor-identificator__paint0_diamond_2890_17247" x1="0" y1="0" x2="500" y2="500" gradientUnits="userSpaceOnUse"><stop offset="0.596" stop-opacity="0.1" class="illu-stop-primary"/><stop offset="1" stop-opacity="0.3" class="illu-stop-primary"/></linearGradient>
+<linearGradient id="visitor-identificator__paint1_diamond_2890_17247" x1="0" y1="0" x2="500" y2="500" gradientUnits="userSpaceOnUse"><stop offset="0.596" stop-opacity="0.1" class="illu-stop-primary"/><stop offset="1" stop-opacity="0.3" class="illu-stop-primary"/></linearGradient>
 </defs>
 </svg>
