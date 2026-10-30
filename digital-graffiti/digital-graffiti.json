@@ -1,0 +1,127 @@
+{
+  "title": "Digital Graffiti",
+  "slug": "digital-graffiti",
+  "publish": false,
+  "tagline": "Living canvas.",
+  "shortDescription": "Visitors pick up a digital spray can and paint straight onto a large projected or screen wall, side by side and in real time. No mess, no skills needed, and every piece becomes a moment worth sharing.",
+  "longDescription": "A large digital wall turns into a shared canvas: visitors grab a spray can and paint directly on the surface, with colour, spray texture, and drips appearing as they move. Several people can paint at once, so strangers end up co-creating a single piece, while solo visitors get a quick, satisfying creative moment. Backgrounds, colour palettes, brush styles, and stencils are configurable, so the wall can stay an open playground, follow a strict brand look, or frame a guided theme. Finished artworks can optionally be captured, shown on screen, or handed to visitors, and the setup scales from a single wall to a multi-wall street-art room. BRDGE handles the interaction logic, scene management, and journey and data links end to end.",
+  "categories": [
+    "Light & Art Installations",
+    "Audience Activation",
+    "Capture & Memory"
+  ],
+  "tags": [
+    "Live",
+    "Post-Event",
+    "Large",
+    "Collaborative",
+    "Icebreaker",
+    "Wow Factor",
+    "Viral",
+    "Memorable",
+    "Immersive",
+    "Single Player",
+    "Multiplayer",
+    "Real-Time",
+    "Projection",
+    "Phygital",
+    "User-Generated",
+    "Personalized",
+    "Family Friendly",
+    "Low Barrier",
+    "Museum",
+    "Exhibition",
+    "Conference",
+    "Trade Show / Fair",
+    "Retail",
+    "Corporate Event",
+    "Festival",
+    "Pop-Up",
+    "Brand Activation",
+    "Sponsorship",
+    "Lead Generation",
+    "Data Collection"
+  ],
+  "illustration": "illustration.svg",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "gallery-3.png",
+      "width": "100%"
+    },
+    {
+      "file": "gallery-1.png",
+      "width": "37%"
+    },
+    {
+      "file": "gallery-2.png",
+      "width": "23%"
+    },
+    {
+      "file": "gallery-4.jpg",
+      "width": "40%"
+    }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "Zero Learning Curve",
+      "description": "Everyone knows how a spray can works, so kids, executives, and first-time visitors start painting within seconds, with no app and little or no instruction needed.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Built for Crowds",
+      "description": "Several painters work on the same wall at once, and the growing artwork pulls in onlookers, making it a natural crowd magnet for booths, lobbies, and festival grounds.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "From One Wall to a Whole Room",
+      "description": "Start with a single screen or projection wall and expand to several walls for workshops, school groups, or a fully immersive graffiti room, all running on the same setup and content.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "New Cans, New Rules",
+      "description": "Add a stencil mode that reveals a logo or slogan as visitors spray, timed speed-painting challenges, artwork that animates once it is finished, or a live artist session that visitors join on the same wall.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Any Wall, Any World",
+      "description": "Paint on a city brick wall for an urban festival, a frosted window for a winter edition, a museum facade for an art history story, or a backdrop in brand colours for a product launch.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Proof on the Wall",
+      "description": "Add a data layer that counts painters, sessions, and artworks created, and link take-home artworks to an opt-in email step so every saved piece doubles as a qualified lead.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Part of the Bigger Picture",
+      "description": "Pair with Shared Gallery to stream finished pieces across the venue, with Photo Printing to hand out a print of each artwork, with Visitor Identificator to send painters their own piece, or with Journey Manager to make the wall one creative stop on a longer route.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "",
+      "trigger": "",
+      "experience": "",
+      "feedback": "",
+      "configurable": "",
+      "data": ""
+    }
+  ]
+}
