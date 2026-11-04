@@ -56,22 +56,25 @@
     {
       "title": "Instant, no-instructions",
       "description": "No app and no learning curve. People just step up and move, which makes it an easy crowd-pleaser to pitch for almost any audience or event type.",
-      "image": "icon-bolt.svg",
-      "imageWidth": "10%",
+      "image": "highlight-settings.png",
+      "imageMobile": "highlight-settings-mobile.png",
+      "imageWidth": "70%",
       "imageSide": "left"
     },
     {
       "title": "Sponsor Editions & Tournaments",
       "description": "Swap in a sponsor edition with branded rewards and visuals, turn it into a tournament or leaderboard mode across teams and time slots, or carry outcomes into a personal recap and post-event reward flow.",
-      "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "image": "highlight-variations.png",
+      "imageMobile": "highlight-variations-mobile.png",
+      "imageWidth": "70%",
+      "imageSide": "right"
     },
     {
       "title": "Festive, Museum or Brand Worlds",
       "description": "Reskin the same interaction as a winter or festive edition, a museum or education storyline that reveals facts as people play, or a branded campaign world that feels native to the client.",
-      "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
+      "image": "highlight-themes.png",
+      "imageMobile": "highlight-themes-mobile.png",
+      "imageWidth": "70%",
       "imageSide": "left"
     },
     {

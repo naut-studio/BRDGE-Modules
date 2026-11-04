@@ -81,7 +81,8 @@ template and a request conflict, surface the conflict before proceeding.
   - Slot 4: `Free Highlight4 Title` + `Free Highlight4 Description`
   - Slot 5: `Free Highlight5 Title` + `Free Highlight5 Description`
   Each → `{ title: <slot title>, description: <slot description>, image: "icon-check_circle.svg", imageWidth: "10%" }`
-- Then the four standard highlights. Icons, `imageSide`, and `imageWidth` are fixed (below). The
+- Then the four standard highlights. Icons, `imageSide`, and `imageWidth` are fixed (below), unless
+  the slot shows a designed highlight image instead (see **Highlight images** below). The
   **description** always comes from Notion. **Always write a custom, contextual title** for each:
   use the module's `… Title` field if filled, else draft a contextual one from the module's content.
   (JSON has no comments, so the default title is not stored in the file. The four defaults are the
@@ -101,6 +102,26 @@ template and a request conflict, surface the conflict before proceeding.
 - **Data/ROI framing.** Data capture is mostly an optional add-on, not a built-in guarantee. Write the
   Data/ROI description as an opt-in step ("Add a data layer to…", "Bolt on…", "Add an optional … layer
   that…"), never as a toggle ("Switch on / Enable / Turn on") or an affirmative claim ("Captures X").
+
+### Highlight images (desktop + mobile)
+Some modules have designed highlight images in their folder: a landscape desktop version
+(`highlight-<name>.png`, 1280×720) and a tall mobile version (`highlight-<name>-mobile.png`, 390 px
+wide) that stacks the same pictures vertically for readability.
+- Any highlight, free or standard, may show one instead of its icon:
+  `"image": "highlight-<name>.png"`, `"imageMobile": "highlight-<name>-mobile.png"`. Put `imageMobile`
+  right after `image`. Default layout for these is `imageWidth: "70%"` with `imageSide` alternating
+  `"left"` / `"right"` across the module's image highlights.
+- `imageMobile` has **no width or side**: on mobile it always renders full width above the text. If
+  `imageMobile` is missing, mobile falls back to `image`.
+- Desktop and mobile are **the same highlight**: one object, one `title` and `description`. Never
+  create separate mobile highlights or different mobile copy.
+- Match an image to a highlight by what it shows, not by its filename (e.g. a `themes` image goes
+  on the Themes slot, a `settings` image showing venues goes on the "fits any venue" highlight). If
+  no highlight fits an image, leave the image unused and flag it rather than forcing a match.
+- When a standard slot shows a photo, it is still that slot (same meaning, same Notion fields);
+  only its icon is replaced.
+- Notion has **no fields for highlight images**. `image`, `imageMobile`, `imageWidth`, and
+  `imageSide` on photo highlights are file-only, like `states` (see "Editing an existing module").
 
 ### States
 `states` is **not** populated from Notion. For a new module, leave it as the template default. For an
@@ -126,6 +147,9 @@ row doesn't carry.**
   highlight descriptions.
 - **Preserve from the existing file** whenever the Notion row is empty for them: `illustration`,
   `animation`, `videoUrl`, `videoUrls`, `gallery`, `clientLogos`, and `states`.
+- **Always preserve highlight images** from the existing file: when a highlight shows a photo
+  (`image` is not an `icon-*.svg`), keep its `image`, `imageMobile`, `imageWidth`, and `imageSide` and
+  update only its title and description from Notion. Never reset it to the slot's default icon.
 - Never replace a populated media/logos/states value with a blank.
 - If Notion and the file both have a value and they differ, flag the difference and ask — don't
   silently pick one.
@@ -151,6 +175,9 @@ reversing the field mapping above:
   title field blank. Any highlights beyond the four go into the free-highlight slots (1–5) — slot 1 =
   `Free Highlight1 Title` + `Free Highlight1 Description`, slots 2–5 = `Free Highlight{N} Title` +
   `Free Highlight{N} Description`. Don't import the standard icons — they're fixed defaults.
+  Identify standard slots by icon; a highlight that shows a photo instead belongs to the slot its
+  content matches (e.g. a themes image = Themes). Highlight images (`image`, `imageMobile`) are not
+  imported; they stay in the file only.
 - **`states`:** has no Notion field — leave it in the file only; ignore it on import.
 - **Status & Publish:** these are separate. `Publish` (checkbox) maps to the file's `publish`. `Status`
   is the internal tracker — set as I specify; for finished modules use `6. Good enough` (there is no

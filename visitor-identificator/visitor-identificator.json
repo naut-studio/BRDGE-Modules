@@ -91,8 +91,10 @@
     {
       "title": "One Identity, Any Carrier",
       "description": "Assign each visitor a unique token through whatever fits the venue: a scanned QR code, an NFC wristband, an RFID card, a sticker, or a pre-sent link. Registration can be a frictionless anonymous tap or a richer sign-up with name, language, and preferences.",
-      "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "image": "highlight-variations.png",
+      "imageMobile": "highlight-variations-mobile.png",
+      "imageWidth": "70%",
+      "imageSide": "left"
     },
     {
       "title": "Anonymous Crowds Become Known Visitors",
@@ -103,22 +105,26 @@
     {
       "title": "Continuity Across Zones and Days",
       "description": "The token carries each visitor's state, history, and rewards from one touchpoint to the next, across separate zones and even return visits, so progress is never lost and returning guests pick up exactly where they left off.",
-      "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "image": "highlight-journey.png",
+      "imageMobile": "highlight-journey-mobile.png",
+      "imageWidth": "70%",
+      "imageSide": "right"
     },
     {
       "title": "Twists That Change the Whole Feel",
       "description": "Layer in VIP and tiered access, collectible stamps and badges at every stop, shared team tokens, progressive unlocks that reveal zones in sequence, return-visit rewards, pre-event activation that shapes what people find on arrival, or a physical keepsake printed at the end. Token interactions can even feed a live public data wall.",
-      "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
+      "image": "highlight-types.png",
+      "imageMobile": "highlight-types-mobile.png",
+      "imageWidth": "70%",
       "imageSide": "left"
     },
     {
       "title": "One Token, Many Worlds",
       "description": "Recast the token as a secret-agent mission dossier, an explorer's field log that stamps every discovery, a brand-world passport travelling between zones, a museum time-traveller assigned an era, or a conference delegate profile that ties together the talks attended and people met, each ending in a personalised takeaway.",
-      "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "image": "highlight-themes.png",
+      "imageMobile": "highlight-themes-mobile.png",
+      "imageWidth": "70%",
+      "imageSide": "right"
     },
     {
       "title": "Proof You Can Put in a Report",

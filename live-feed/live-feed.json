@@ -50,16 +50,18 @@
     {
       "title": "One Screen, the Whole Event",
       "description": "It gathers scores, leaderboards, shared photos, and highlights from every connected module into a single live screen, so scattered moments across the venue become one shared story everyone can follow.",
-      "image": "icon-hub.svg",
-      "imageWidth": "10%",
+      "image": "highlight-variations.png",
+      "imageMobile": "highlight-variations-mobile.png",
+      "imageWidth": "70%",
       "imageSide": "left"
     },
     {
       "title": "Turns Watchers Into a Crowd",
       "description": "Live rankings, rolling highlights, and personalised shout-outs pull spectators into the action and build energy, making the room feel like one connected event rather than a set of separate activities.",
-      "image": "icon-bolt.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "image": "highlight-settings.png",
+      "imageMobile": "highlight-settings-mobile.png",
+      "imageWidth": "70%",
+      "imageSide": "right"
     },
     {
       "title": "Runs Itself All Day",
@@ -78,8 +80,9 @@
     {
       "title": "Festive, Museum or Brand Worlds",
       "description": "Reskin the screen as a winter or festive edition, a museum or education storyline that frames the live moments inside a bigger narrative, or a branded campaign world that feels native to the client. The layout stays the same while the look and story change.",
-      "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
+      "image": "highlight-themes.png",
+      "imageMobile": "highlight-themes-mobile.png",
+      "imageWidth": "70%",
       "imageSide": "left"
     },
     {

@@ -84,14 +84,18 @@
     {
       "title": "A Format Everyone Already Knows",
       "description": "Clients picture it instantly: \"like Kahoot, but ours and on brand.\" No demo needed to get a yes, and no learning curve for players on the day.",
-      "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "image": "highlight-formats.png",
+      "imageMobile": "highlight-formats-mobile.png",
+      "imageWidth": "70%",
+      "imageSide": "left"
     },
     {
       "title": "Zero Install, Whole-Room in Seconds",
       "description": "Players scan a QR code and play straight in the browser, with no app and no sign-up. The room fills up fast, which makes it an easy sell for big audiences.",
-      "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "image": "highlight-settings.png",
+      "imageMobile": "highlight-settings-mobile.png",
+      "imageWidth": "70%",
+      "imageSide": "right"
     },
     {
       "title": "One Host Runs Hundreds",
@@ -102,16 +106,18 @@
     {
       "title": "Modes, Buzzers & AI Question Packs",
       "description": "Switch up the mechanics: solo vs. team mode, sudden-death finals, double-points wagers, fastest-finger buzzer rounds, and image/audio/video questions. AI can draft a full question pack from a brief or a PDF, and sponsor-locked rounds open up paid add-ons.",
-      "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
+      "image": "highlight-variations.png",
+      "imageMobile": "highlight-variations-mobile.png",
+      "imageWidth": "70%",
       "imageSide": "left"
     },
     {
       "title": "Skin It To Any Brand or Topic",
       "description": "Same engine, any world: a product-launch trivia night, an onboarding or compliance quiz, a festival pop-culture showdown, a sustainability challenge, or a Christmas edition, with colours, copy and questions all reskinned to fit.",
-      "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "image": "highlight-themes.png",
+      "imageMobile": "highlight-themes-mobile.png",
+      "imageWidth": "70%",
+      "imageSide": "right"
     },
     {
       "title": "Every Tap Is a Data Point",
