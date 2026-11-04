@@ -1,0 +1,98 @@
+{
+  "title": "Cloud Content Management",
+  "slug": "cloud-cms",
+  "publish": false,
+  "tagline": "Connected content.",
+  "shortDescription": "One back office for the content behind BRDGE guides and trails. Editors manage stories, scenes, challenges, and media in every language, and the experiences pick it up automatically.",
+  "longDescription": "A custom content management system built for content-driven experiences such as mediaguides and trails. Each client project gets its own space where editors create stories and scenes for guides, or quests, challenges, and paths for trails, and attach images, audio, and video to them. Texts are managed in several languages side by side, reusable content blocks keep things consistent, and every published version is saved so changes can be compared and rolled back. The experiences read their content through an API, so updates go live without new software. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Tools For Visitors & Partners",
+    "Guides & Narrative Systems"
+  ],
+  "tags": [
+    "Pre-Event",
+    "Live",
+    "Post-Event",
+    "Mobile",
+    "NFC / RFID / QR Code",
+    "Storytelling",
+    "Multi-Language",
+    "Journey",
+    "Museum",
+    "Exhibition",
+    "Corporate Event",
+    "Data Collection",
+    "Educational"
+  ],
+  "illustration": "illustration.svg",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [],
+  "galleryCredits": "",
+  "clientLogos": [
+    "logo-wow.svg",
+    "logo-ubs.svg",
+    "logo-swica.svg",
+    "logo-postfinance.svg",
+    "logo-thurgau.svg"
+  ],
+  "highlights": [
+    {
+      "title": "One Back Office for Guides and Trails",
+      "description": "Stories, scenes, and scanpoints for mediaguides sit next to quests, challenges, and paths for trails, so a client edits every experience in one place instead of in separate tools.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Every Language, Every Asset",
+      "description": "Write each text in German, French, Italian, English, or any other language side by side, and attach localised images, audio, and video, so one project serves every visitor group.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Safe to Change, Easy to Undo",
+      "description": "Every published version is kept and can be compared with the last one, so editors update content with confidence and the client never loses a working state.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "New Content Types When Needed",
+      "description": "Add a custom content type for a new project, such as a riddle, a quiz question, or an onboarding step, and reuse it across every project that needs it.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Behind Very Different Stories",
+      "description": "The same system runs a museum mediaguide, a city rally, a corporate health game, or a prevention trail, which is how it has powered projects for WOW Museum, UBS, Swica, PostFinance, and Thurgau Police.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "See Which Content Works",
+      "description": "Add a data layer that ties usage back to the content itself: scans per scanpoint, tickets issued, scores and completions per challenge, and which version of a story or trail visitors opened, so an A and a B trail can be compared and the stronger one kept.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "The Content Layer of the Catalogue",
+      "description": "Pair with Spatial Mediaguide to run its stories and scenes, with Trail / Scavenger Hunt to manage quests and challenges, or with Digital Signage to keep screens up to date from the same content.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "",
+      "trigger": "",
+      "experience": "",
+      "feedback": "",
+      "configurable": "",
+      "data": ""
+    }
+  ]
+}

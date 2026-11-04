@@ -1,0 +1,129 @@
+{
+  "title": "Digital Signage",
+  "slug": "digital-signage",
+  "publish": false,
+  "tagline": "Content made simple.",
+  "shortDescription": "Screens, totems, and touch kiosks across a venue, all fed from one place. Content can be updated, scheduled, and localised without anyone touching the hardware.",
+  "longDescription": "A signage layer for the screens around an event, shop, museum, or public space. Information totems, screen walls, and touch kiosks show campaign visuals, event information, way-finding, or in-depth content pages with images and audio, all managed from a central content source. Content can run as a loop, change by time of day, or react to a touch, and each screen can show what fits its location. It scales from a single display to a whole network of screens. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Tools For Visitors & Partners",
+    "Discovery & Learning"
+  ],
+  "tags": [
+    "Pre-Event",
+    "Live",
+    "Large",
+    "Small",
+    "Touchscreen",
+    "Real-Time",
+    "Video",
+    "Storytelling",
+    "Multi-Language",
+    "Low Barrier",
+    "Museum",
+    "Exhibition",
+    "Conference",
+    "Trade Show / Fair",
+    "Retail",
+    "Corporate Event",
+    "Festival",
+    "Brand Activation",
+    "Sponsorship",
+    "Data Collection",
+    "Educational"
+  ],
+  "illustration": "illustration.svg",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "gallery-1.png",
+      "width": "46%"
+    },
+    {
+      "file": "gallery-2.png",
+      "width": "54%"
+    },
+    {
+      "file": "gallery-3.jpg",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-4.png",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-5.png",
+      "width": "38.5%"
+    },
+    {
+      "file": "gallery-6.png",
+      "width": "22%"
+    },
+    {
+      "file": "gallery-7.png",
+      "width": "39.5%"
+    }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "One Place for Every Screen",
+      "description": "Update a single totem or a whole network of displays from one content source, so the client changes a message once and it appears everywhere it should.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Touch When It Matters",
+      "description": "Turn any screen into an interactive kiosk with content pages, images, and audio, so visitors can dig deeper where a poster would end.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Right Message, Right Time",
+      "description": "Run playlists that change by time of day, location, or programme, from morning arrival information to the evening's highlights.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Screens That Do More",
+      "description": "Add a QR code that continues the content on the visitor's phone, an audio layer for headphones, live data such as schedules or queues, or a sponsor slot in every loop.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Signage for Any Setting",
+      "description": "Use it for destination campaigns in a travel hub, product stories in a shop, exhibit information in a museum, or the agenda and way-finding of a conference.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Proof of Airtime",
+      "description": "Add a data layer that logs what played where and when, and how often visitors touched each kiosk, so sponsors and partners see exactly the exposure they got.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "The Venue's Voice",
+      "description": "Pair with Cloud Content Management to keep screens in sync with guides and trails, with Live Feed to show live event highlights, or with Spatial Mediaguide to continue the story on visitors' phones.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "",
+      "trigger": "",
+      "experience": "",
+      "feedback": "",
+      "configurable": "",
+      "data": ""
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Poster Wrap",
+  "slug": "poster-wrap",
+  "publish": false,
+  "tagline": "Moments framed.",
+  "shortDescription": "A personal poster that wraps up each visitor's day: the stops they made, the moments they captured, and the times they were there, laid out as one keepsake to print, download, or share.",
+  "longDescription": "At the end of an event or visit, every guest gets a designed poster of their own experience. It collects the stops on their route, the photos and moments captured along the way, and the times they happened, then arranges them into a timeline, a route map, or a photo collage. The result can be printed on site, downloaded as a PDF booklet, or shared as an image or short video on social media. Layouts, artwork, and branding are configurable for each client. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Capture & Memory"
+  ],
+  "tags": [
+    "Post-Event",
+    "Memorable",
+    "Viral",
+    "Generative",
+    "User-Generated",
+    "Video",
+    "Print",
+    "Storytelling",
+    "Personalized",
+    "Family Friendly",
+    "Journey",
+    "Museum",
+    "Exhibition",
+    "Conference",
+    "Trade Show / Fair",
+    "Corporate Event",
+    "Festival",
+    "Brand Activation",
+    "Sponsorship",
+    "Lead Generation",
+    "Loyalty",
+    "Reward",
+    "Data Collection"
+  ],
+  "illustration": "illustration.svg",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "gallery-1.jpg",
+      "width": "44%"
+    },
+    {
+      "file": "gallery-3.jpg",
+      "width": "56%"
+    },
+    {
+      "file": "gallery-4.jpg",
+      "width": "51%"
+    },
+    {
+      "file": "gallery-5.jpg",
+      "width": "24.5%"
+    },
+    {
+      "file": "gallery-8.jpg",
+      "width": "24.5%"
+    }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "Your Day on One Page",
+      "description": "Each visitor gets a poster of their own route, moments, and times, which feels personal enough to keep and share long after the event.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Print, PDF, or Feed",
+      "description": "The same layout comes out as a printed poster, a PDF booklet, or an image and short video for social media, so it fits both on-site handouts and post-event follow-up.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Made From Real Moments",
+      "description": "It is built from what actually happened during the visit, the photos taken and the stops reached, so no two posters are alike and nothing has to be designed by hand.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Bigger Pictures",
+      "description": "Add a mosaic that combines every guest's photos into one image, a year-in-review collage, a group poster for families or teams, or a sponsor frame around every print.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "A Layout for Every Story",
+      "description": "Lay the day out as a travel route map, a historic timeline for a museum, a family album for a day out, or a festival line-up of the stages a guest saw.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Keepsakes You Can Count",
+      "description": "Add a data layer that tracks posters created, downloaded, printed, and shared, and pair it with an opt-in step so every keepsake can also capture a contact.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "The Last Chapter of the Journey",
+      "description": "Pair with Journey Manager to collect the stops, with Memory Catcher to add the photos, with Photo Printing to hand the poster out on site, or with Video Wrap for a moving version of the same day.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "",
+      "trigger": "",
+      "experience": "",
+      "feedback": "",
+      "configurable": "",
+      "data": ""
+    }
+  ]
+}

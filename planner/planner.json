@@ -1,0 +1,114 @@
+{
+  "title": "Planner",
+  "slug": "planner",
+  "publish": false,
+  "tagline": "Decide faster.",
+  "shortDescription": "A shared link on the phone that lets a group agree on when to come and what to do. Everyone votes on dates and activities, and the best plan rises to the top.",
+  "longDescription": "Group visits often stall in endless chats about the date and the programme. It replaces that with one shared link: the organiser invites the group, each person ticks the days that work and the activities they want, such as an exhibition, a trail, games, or an AR experience, and the overview shows at a glance which day and which activities win. It runs in the browser on any phone, can be branded for the venue, and turns a vague maybe into a booked visit. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Tools For Visitors & Partners"
+  ],
+  "tags": [
+    "Pre-Event",
+    "Mobile",
+    "Collaborative",
+    "Multiplayer",
+    "Voting",
+    "Real-Time",
+    "Personalized",
+    "Family Friendly",
+    "Low Barrier",
+    "Multi-Language",
+    "Journey",
+    "Museum",
+    "Exhibition",
+    "Retail",
+    "Corporate Event",
+    "Festival",
+    "Lead Generation",
+    "Loyalty",
+    "Data Collection"
+  ],
+  "illustration": "illustration.svg",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "gallery-1.jpg",
+      "width": "45%"
+    },
+    {
+      "file": "gallery-3.png",
+      "width": "55%"
+    },
+    {
+      "file": "gallery-4.png",
+      "width": "52%"
+    },
+    {
+      "file": "gallery-5.png",
+      "width": "48%"
+    }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "From Group Chat to One Plan",
+      "description": "Instead of dozens of messages, everyone ticks their days and favourite activities once, and the group instantly sees the best date and the most wanted programme.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "The Visit Starts at Home",
+      "description": "Visitors explore the offer while they plan, so the venue is on their mind days before they arrive and the programme they chose is ready when they do.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Easy to Sell to Any Venue",
+      "description": "Museums, attractions, festivals, and company events all deal with group planning, which makes it a simple add-on for almost any client with a visitor programme.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Plans That Lead to Bookings",
+      "description": "Add a ticket or booking link for the winning date, reminders before the visit, a group discount once enough people join, or a waiting list for popular slots.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "A Plan for Every Group",
+      "description": "Frame it as a family day out, a school class trip, a team offsite, or a festival crew picking which stages to see, each with its own look and activity list.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Know Who Is Coming",
+      "description": "Add a data layer that shows planned group sizes, the most popular days, and the most wanted activities, so the venue can forecast attendance and staff accordingly.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "From Plan to Programme",
+      "description": "Pair with Journey Manager to turn the chosen activities into the group's route on the day, with Storytelling Invite to send a themed invitation, or with Visitor Identificator to greet each group member on arrival.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "",
+      "trigger": "",
+      "experience": "",
+      "feedback": "",
+      "configurable": "",
+      "data": ""
+    }
+  ]
+}
