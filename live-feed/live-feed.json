@@ -38,14 +38,9 @@
   "animation": "",
   "videoUrl": "",
   "videoUrls": [],
-  "gallery": [
-    { "file": "gallery-1.png" },
-    { "file": "gallery-2.png" },
-    { "file": "gallery-3.png" },
-    { "file": "gallery-4.jpg" }
-  ],
+  "gallery": [],
   "galleryCredits": "",
-  "clientLogos": ["logo-mercedes.svg"],
+  "clientLogos": ["logo-mercedes.svg", "logo-victorinox.svg"],
   "highlights": [
     {
       "title": "One Screen, the Whole Event",
@@ -64,10 +59,11 @@
       "imageSide": "right"
     },
     {
-      "title": "Runs Itself All Day",
-      "description": "The screen fills automatically from whatever modules are live and whatever guests share, so there is no content to babysit. It stays fresh from doors open to close, which makes it an easy, low-effort win to pitch.",
-      "image": "icon-autorenew.svg",
-      "imageWidth": "10%",
+      "title": "Any Surface, Any Size",
+      "description": "Run it on a projection wall, a set of LED panels, or a single screen, from a booth monitor to a stage-sized display. It fills itself from whatever modules are live and whatever guests share, so there is no content to babysit from doors open to close.",
+      "image": "highlight-formats.png",
+      "imageMobile": "highlight-formats-mobile.png",
+      "imageWidth": "70%",
       "imageSide": "left"
     },
     {
@@ -83,7 +79,7 @@
       "image": "highlight-themes.png",
       "imageMobile": "highlight-themes-mobile.png",
       "imageWidth": "70%",
-      "imageSide": "left"
+      "imageSide": "right"
     },
     {
       "title": "The Face of Every Module",

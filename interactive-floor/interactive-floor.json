@@ -1,0 +1,113 @@
+{
+  "title": "Interactive Floor",
+  "slug": "interactive-floor",
+  "publish": false,
+  "tagline": "Step in. Light up. Play.",
+  "shortDescription": "A projected floor that reacts to every step, jump, and placed object, turning any open space into a game board, a discovery trail, or a living brand surface.",
+  "longDescription": "An interactive projection on the floor that responds the moment visitors walk onto it. Steps trigger ripples and effects, jumps set off bursts, and placing an object on a marked spot can unlock content, so the floor becomes a playground, a guided story, or a product showcase. It can run open, ambient effects for passers-by, structured games with scores and levels, or a discovery path that reveals information stop by stop. Graphics, games, and content are fully configurable and scale from a small booth to a large hall. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Gamification & Fun",
+    "Discovery & Learning",
+    "Light & Art Installations",
+    "Audience Activation"
+  ],
+  "tags": [
+    "Live",
+    "Large",
+    "Collaborative",
+    "Competitive",
+    "High Energy",
+    "Icebreaker",
+    "Wow Factor",
+    "Memorable",
+    "Immersive",
+    "Gamified",
+    "Single Player",
+    "Multiplayer",
+    "Reflex",
+    "Timed",
+    "Real-Time",
+    "Projection",
+    "Phygital",
+    "Storytelling",
+    "Family Friendly",
+    "Low Barrier",
+    "Museum",
+    "Exhibition",
+    "Trade Show / Fair",
+    "Retail",
+    "Corporate Event",
+    "Festival",
+    "Pop-Up",
+    "Brand Activation",
+    "Sponsorship",
+    "Leaderboard",
+    "Data Collection",
+    "Educational"
+  ],
+  "illustration": "illustration.svg",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "Step, Jump, Place",
+      "description": "Visitors interact with their whole body: a step sends out ripples, a jump sets off a burst, and placing an object on the floor unlocks the next piece of content. No device, no instructions, just walk on.",
+      "image": "highlight-interactions.png",
+      "imageMobile": "highlight-interactions-mobile.png",
+      "imageWidth": "70%",
+      "imageSide": "left"
+    },
+    {
+      "title": "From Booth Floor to Kids' Corner",
+      "description": "The same floor works on a corporate stand, in a museum gallery, or in a family venue, so one module covers product demos, education, and pure play.",
+      "image": "highlight-settings.png",
+      "imageMobile": "highlight-settings-mobile.png",
+      "imageWidth": "70%",
+      "imageSide": "right"
+    },
+    {
+      "title": "Game, Trail, or Arcade",
+      "description": "Switch between scored reflex games with levels and points, a calm discovery path that reveals facts at each stop, or a full-floor arcade such as a giant pinball where players move the flippers with their feet.",
+      "image": "highlight-variations.png",
+      "imageMobile": "highlight-variations-mobile.png",
+      "imageWidth": "70%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Any Ground, Any World",
+      "description": "Turn the floor into a Wild West trail map, a racing circuit where players choose their line, or an underwater reef full of hidden treasures, all on the same projection setup.",
+      "image": "highlight-themes.png",
+      "imageMobile": "highlight-themes-mobile.png",
+      "imageWidth": "70%",
+      "imageSide": "right"
+    },
+    {
+      "title": "Footsteps Into Figures",
+      "description": "Add a data layer that counts players, games started and finished, scores, and dwell time on the floor, so the client sees exactly how much traffic the space attracted and held.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "The Floor That Connects",
+      "description": "Pair with Visitor Identificator to save each player's score, with Live Feed to show the leaderboard on a wall screen, with Trail / Scavenger Hunt to make the floor one stop on a route, or with Memory Catcher to capture players mid-jump.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "",
+      "trigger": "",
+      "experience": "",
+      "feedback": "",
+      "configurable": "",
+      "data": ""
+    }
+  ]
+}

@@ -76,10 +76,6 @@
       "width": "25%"
     },
     {
-      "file": "gallery-20.png",
-      "width": "50%"
-    },
-    {
       "file": "gallery-21.png",
       "width": "50%"
     },
@@ -140,7 +136,6 @@
     "25%",
     "50%",
     "50%",
-    "50%",
     "25%",
     "25%",
     "25%",
@@ -167,18 +162,21 @@
       "title": "Your Unique Start",
       "description": "The trigger is half the fun. Fire the shutter with a tap, a held pose, a big smile, a gesture, a countdown, or even a scream, so the act of being captured turns into a moment in itself. Each trigger sets a different energy, from calm and posed to loud and chaotic, and any of them can be themed or rebranded per client.",
       "image": "highlight-1.png",
+      "imageMobile": "highlight-1-mobile.png",
       "imageWidth": "70%"
     },
     {
       "title": "Enhance and Transform",
       "description": "Subtle AI effects turn a plain snapshot into something worth sharing. Swap faces, drop in branded or virtual backgrounds, restyle a portrait into any visual world, or place guests inside a themed persona. Effects are swapped per client and per campaign, so the same setup wears a fresh look for every booking.",
       "image": "highlight-2.png",
+      "imageMobile": "highlight-2-mobile.png",
       "imageWidth": "70%"
     },
     {
       "title": "One Capture, Many Outputs",
       "description": "A single capture becomes whatever the moment needs. Deliver a still, a GIF, a boomerang, or a short video, then send it to a guest's personal journey, push it straight to social, or print a branded keepsake on the spot. Frames, formats, and delivery are all configurable to keep the brand present in every share.",
       "image": "highlight-3.png",
+      "imageMobile": "highlight-3-mobile.png",
       "imageWidth": "70%"
     },
     {

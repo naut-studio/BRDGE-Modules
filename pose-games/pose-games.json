@@ -42,12 +42,7 @@
   "illustration": "illustration.svg",
   "animation": "animation.json",
   "videoUrl": "https://upload.naut.ch/pose-game.mp4",
-  "gallery": [
-    {
-      "file": "highlight-1.png",
-      "width": "100%"
-    }
-  ],
+  "gallery": [],
   "clientLogos": [
     "logo-zweifel.svg",
     "logo-sgkb.svg"

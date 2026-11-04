@@ -73,7 +73,10 @@
     }
   ],
   "galleryCredits": "",
-  "clientLogos": [],
+  "clientLogos": [
+    "logo-axa.svg",
+    "logo-moehl.svg"
+  ],
   "highlights": [
     {
       "title": "Everyone Wants to Know Their Type",

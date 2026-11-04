@@ -41,7 +41,9 @@
   "videoUrls": [],
   "gallery": [],
   "galleryCredits": "",
-  "clientLogos": [],
+  "clientLogos": [
+    "logo-swisslife.svg"
+  ],
   "highlights": [
     {
       "title": "No Phones, Full Attention",

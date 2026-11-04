@@ -37,15 +37,7 @@
   "animation": "",
   "videoUrl": "https://upload.naut.ch/M%C3%B6hl-Table.mp4",
   "videoUrls": [],
-  "gallery": [
-    { "file": "gallery-1.png", "width": "50%" },
-    { "file": "gallery-2.png", "width": "50%" },
-    { "file": "gallery-3.png", "width": "50%" },
-    { "file": "gallery-4.png", "width": "50%" },
-    { "file": "gallery-6.png", "width": "33%" },
-    { "file": "gallery-7.png", "width": "33%" },
-    { "file": "gallery-8.png", "width": "33%" }
-  ],
+  "gallery": [],
   "galleryCredits": "",
   "clientLogos": [
     "logo-laderlach.svg",

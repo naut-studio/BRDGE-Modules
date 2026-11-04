@@ -44,58 +44,17 @@
   "animation": "animation.json",
   "videoUrl": "",
   "videoUrls": [],
-  "gallery": [
-    {
-      "file": "gallery-1.png",
-      "width": "50%"
-    },
-    {
-      "file": "2606_Kahoot-One_Hero-img.png",
-      "width": "50%"
-    },
-    {
-      "file": "4.D0WkzbxC.jpg",
-      "width": "33%"
-    },
-    {
-      "file": "gallery-3.png",
-      "width": "33%"
-    },
-    {
-      "file": "gallery-2.png",
-      "width": "33%"
-    },
-    {
-      "file": "racing.png",
-      "width": "50%"
-    },
-    {
-      "file": "western.png",
-      "width": "50%"
-    },
-    {
-      "file": "laser.png",
-      "width": "80%"
-    }
-  ],
+  "gallery": [],
   "galleryCredits": "© Kahoot! / Mentimeter / QuizLinq",
   "clientLogos": [],
   "highlights": [
-    {
-      "title": "A Format Everyone Already Knows",
-      "description": "Clients picture it instantly: \"like Kahoot, but ours and on brand.\" No demo needed to get a yes, and no learning curve for players on the day.",
-      "image": "highlight-formats.png",
-      "imageMobile": "highlight-formats-mobile.png",
-      "imageWidth": "70%",
-      "imageSide": "left"
-    },
     {
       "title": "Zero Install, Whole-Room in Seconds",
       "description": "Players scan a QR code and play straight in the browser, with no app and no sign-up. The room fills up fast, which makes it an easy sell for big audiences.",
       "image": "highlight-settings.png",
       "imageMobile": "highlight-settings-mobile.png",
       "imageWidth": "70%",
-      "imageSide": "right"
+      "imageSide": "left"
     },
     {
       "title": "One Host Runs Hundreds",
@@ -109,13 +68,21 @@
       "image": "highlight-variations.png",
       "imageMobile": "highlight-variations-mobile.png",
       "imageWidth": "70%",
-      "imageSide": "left"
+      "imageSide": "right"
     },
     {
       "title": "Skin It To Any Brand or Topic",
       "description": "Same engine, any world: a product-launch trivia night, an onboarding or compliance quiz, a festival pop-culture showdown, a sustainability challenge, or a Christmas edition, with colours, copy and questions all reskinned to fit.",
       "image": "highlight-themes.png",
       "imageMobile": "highlight-themes-mobile.png",
+      "imageWidth": "70%",
+      "imageSide": "left"
+    },
+    {
+      "title": "A Format Everyone Already Knows",
+      "description": "Clients picture it instantly: \"like Kahoot, but ours and on brand.\" No demo needed to get a yes, and no learning curve for players on the day.",
+      "image": "highlight-formats.png",
+      "imageMobile": "highlight-formats-mobile.png",
       "imageWidth": "70%",
       "imageSide": "right"
     },

@@ -47,44 +47,7 @@
   "animation": "animation.json",
   "videoUrl": "",
   "videoUrls": [],
-  "gallery": [
-    {
-      "file": "visitor-sports.png",
-      "width": "100%"
-    },
-    {
-      "file": "gallery-1.png",
-      "width": "70%"
-    },
-    {
-      "file": "gallery-2.png",
-      "width": "30%"
-    },
-    {
-      "file": "gallery-4.png",
-      "width": "50%"
-    },
-    {
-      "file": "gallery-5.png",
-      "width": "50%"
-    },
-    {
-      "file": "gallery-6.png",
-      "width": "33%"
-    },
-    {
-      "file": "gallery-7.png",
-      "width": "33%"
-    },
-    {
-      "file": "gallery-8.png",
-      "width": "33%"
-    },
-    {
-      "file": "gallery-3.png",
-      "width": "33%"
-    }
-  ],
+  "gallery": [],
   "galleryCredits": "",
   "clientLogos": ["logo-wow.svg", "logo-xaver.svg"],
   "highlights": [
