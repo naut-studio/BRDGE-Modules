@@ -1,0 +1,121 @@
+{
+  "title": "Journey Manager",
+  "slug": "journey-manager",
+  "publish": false,
+  "tagline": "Orchestrate the experience.",
+  "shortDescription": "The control room behind every connected visitor experience. Organisers set up projects, follow each visitor's journey across stations, and push timely announcements, all from one dashboard.",
+  "longDescription": "A web dashboard that ties every station, partner, and visitor of an event or exhibition into one connected journey. Each visitor gets a personal QR code that can be downloaded, printed, or sent ahead, and every scan or activity at a connected station is added to their journey in real time. Organisers see live numbers for projects, providers, journeys, visitors, and activities, can complete or reset journeys, and can push or schedule announcements to exactly the right visitors, filtered by journey status, journey type, or visitor tags. It runs anything from a single celebration point to a multi-day route with dozens of stations and external providers. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Tools For Visitors & Partners",
+    "Guides & Narrative Systems"
+  ],
+  "tags": [
+    "Pre-Event",
+    "Live",
+    "Post-Event",
+    "Large",
+    "Small",
+    "Mobile",
+    "Real-Time",
+    "NFC / RFID / QR Code",
+    "Personalized",
+    "Multi-Language",
+    "Journey",
+    "Museum",
+    "Exhibition",
+    "Conference",
+    "Trade Show / Fair",
+    "Corporate Event",
+    "Festival",
+    "Brand Activation",
+    "Sponsorship",
+    "Lead Generation",
+    "Loyalty",
+    "Reward",
+    "Data Collection"
+  ],
+  "illustration": "illustration.svg",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "highlight-1.png",
+      "width": "100%"
+    },
+    {
+      "file": "highlight-2.png",
+      "width": "45%"
+    },
+    {
+      "file": "highlight-3.png",
+      "width": "55%"
+    }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "One Dashboard, Every Touchpoint",
+      "description": "Projects, partner stations, journeys, visitors, and activities sit in one place, so the client sees the whole experience live instead of chasing separate tools.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "The Right Message at the Right Moment",
+      "description": "Push or schedule announcements with an image and a link, and target them by journey status, journey type, or visitor tags, so lunch calls, show starts, and last-chance prompts reach only the people they matter to.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "A Personal Key for Every Visitor",
+      "description": "Each visitor gets a unique QR code and short link that can be downloaded, printed on a badge, or sent before the event, turning any connected station into a recognised touchpoint.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Built to Sell on Every Project",
+      "description": "Because it sits underneath the other modules, it is a natural add-on for any multi-station brief, and it reskins to the client's brand and route with each new project.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Route Rules and Rewards",
+      "description": "Add unlock conditions between stations, bonus missions for VIP or sponsor routes, time windows that open new content, or a reward that triggers once a visitor completes the full route.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Every Event Becomes a Story",
+      "description": "Frame the route as a festival passport, a conference learning path, a museum quest through the collection, or a product launch tour where each stand reveals the next chapter.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "The Whole Event in Numbers",
+      "description": "Add a data layer that turns journeys into reporting: registered visitors, stations visited, completion rates, and announcement reach, exportable per project to show partners and sponsors exactly what they got.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "The Backbone of the Catalogue",
+      "description": "Pair with Visitor Identificator to recognise visitors at every stop, with Trail / Scavenger Hunt to turn the route into a game, with Prize Draw to reward completed journeys, or with Journey Recap to send each visitor their own summary afterwards.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "",
+      "trigger": "",
+      "experience": "",
+      "feedback": "",
+      "configurable": "",
+      "data": ""
+    }
+  ]
+}

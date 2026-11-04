@@ -1,0 +1,139 @@
+{
+  "title": "Remote Controllers",
+  "slug": "remote-controllers",
+  "publish": false,
+  "tagline": "Scan. Control. Experience.",
+  "shortDescription": "Visitors scan a QR code and their own phone becomes the remote for the space around them: lights, sound, colours, or a whole building facade respond to their touch in real time.",
+  "longDescription": "Turns any phone into a controller for physical installations, with no app to download. Visitors scan a code, open a branded web interface, and use it to change light colours, trigger sounds, play virtual instruments, or draw, while the room, sculpture, or facade reacts live in front of them. Control can be shared by everyone at once or handed out in timed slots so each visitor gets their own moment on stage. The interface, the controls, and what they drive are configurable, from a lit chandelier in a lobby to an interactive light maze or an entire office building after dark. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Light & Art Installations",
+    "Audience Activation",
+    "Gamification & Fun"
+  ],
+  "tags": [
+    "Live",
+    "Large",
+    "Small",
+    "Mobile",
+    "Collaborative",
+    "High Energy",
+    "Wow Factor",
+    "Viral",
+    "Memorable",
+    "Immersive",
+    "Single Player",
+    "Multiplayer",
+    "Timed",
+    "Real-Time",
+    "NFC / RFID / QR Code",
+    "Phygital",
+    "User-Generated",
+    "Personalized",
+    "Family Friendly",
+    "Low Barrier",
+    "Multi-Language",
+    "Museum",
+    "Exhibition",
+    "Retail",
+    "Corporate Event",
+    "Festival",
+    "Pop-Up",
+    "Brand Activation",
+    "Sponsorship",
+    "Data Collection"
+  ],
+  "illustration": "illustration.svg",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "gallery-1.jpg",
+      "width": "73%"
+    },
+    {
+      "file": "gallery-2.jpg",
+      "width": "27%"
+    },
+    {
+      "file": "gallery-3.jpg",
+      "width": "26.5%"
+    },
+    {
+      "file": "gallery-4.jpg",
+      "width": "26.5%"
+    },
+    {
+      "file": "MAZE.mp4",
+      "width": "47%"
+    },
+    {
+      "file": "gallery-5.jpg",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-6.jpg",
+      "width": "50%"
+    }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "No App, No Hardware in Hand",
+      "description": "Visitors use the phone they already carry: scan, open, play. There is nothing to hand out, clean, or collect, which keeps operating costs low and the barrier to joining close to zero.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Makes Any Space Interactive",
+      "description": "Lighting rigs, sound systems, screens, and architectural lighting the venue already has can become the canvas, so the same module upgrades a lobby, a showroom, or a whole facade without rebuilding it.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Your Moment on Stage",
+      "description": "Hand control to one visitor at a time with a countdown, or open it to the whole crowd at once. Both modes create a public moment that people film, share, and come back for.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "New Controls, New Experiences",
+      "description": "Swap colour pickers for a piano, drum kit, or guitar, add a drawing pad that paints with light, let donations or check-ins unlock a reveal, or queue visitors for timed solo slots with their name on screen.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Light Up Any Story",
+      "description": "Let visitors colour a building for a charity campaign, conduct a festive light show in a shopping centre, jam inside a neon music maze, or set the mood of a brand space in its signature colours.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Every Tap Counts",
+      "description": "Add a data layer that tracks scans, active controllers, session length, and the most chosen colours or sounds, giving the client clear proof of reach and an insight into what their audience liked best.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Plug It Into the Journey",
+      "description": "Pair with Visitor Identificator to greet each controller by name, with Journey Manager to make the installation one stop on a longer route, or with Live Feed to put the crowd's creations on the big screen.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "",
+      "trigger": "",
+      "experience": "",
+      "feedback": "",
+      "configurable": "",
+      "data": ""
+    }
+  ]
+}

@@ -54,10 +54,11 @@ template and a request conflict, surface the conflict before proceeding.
 - Long Description → `longDescription`
 - Categories (multi-select) → `categories: [...]` (exact strings)
 - Tags (multi-select) → `tags: [...]` (exact strings)
-- Illustration → `illustration`. If the Notion value is a full URL (e.g.
-  `https://raw.githubusercontent.com/naut-studio/brdge-modules/main/crowd-games/illustration.png`),
-  write only the filename (the part after the last `/`, e.g. `illustration.png`) to the `.json`; if it
-  is already a filename, write it as-is.
+- Illustration → `illustration`. Notion holds a full URL to the **PNG** (e.g.
+  `https://raw.githubusercontent.com/naut-studio/brdge-modules/main/crowd-games/illustration.png`);
+  the `.json` holds only a filename and prefers the recolorable **SVG**. Take the part after the
+  last `/` (e.g. `illustration.png`); if an `.svg` with the same name exists in the module folder,
+  write that instead (`illustration.svg`), otherwise write the filename as-is.
 - Animation → `animation`
 - Video URL → `videoUrl`
 - Video URLs (one per line) → `videoUrls: [...]`
@@ -112,9 +113,10 @@ Gallery, Client Logos) — never the actual files. The real image/video files ar
 (the repo and `upload.naut.ch`); Notion cannot host or serve them, and its upload links expire. So:
 - Treat these fields as text references. Write them through to the `.json` as filenames/URLs as-is
   (except Illustration, see below).
-- **Illustration is the one exception:** Notion holds the full raw GitHub URL so the Figma CMS CSV
-  import can load the image; the `.json` keeps only the filename (relative to the module folder) for
-  the website.
+- **Illustration is the one exception:** Notion holds the full raw GitHub URL of the `.png` so the
+  Figma CMS CSV import can load the image; the `.json` keeps only the filename (relative to the module
+  folder) and points to the `.svg` when one exists, so the website can recolor it to the brand color
+  (`main/brdge-illustrations.js`).
 - Never try to fetch a file from Notion. If a referenced file isn't hosted yet, flag it — don't invent a path.
 
 ## Editing an existing module (never destroy existing content)
@@ -127,8 +129,9 @@ row doesn't carry.**
 - Never replace a populated media/logos/states value with a blank.
 - If Notion and the file both have a value and they differ, flag the difference and ask — don't
   silently pick one.
-- Illustration: compare by filename. A Notion URL whose last `/` segment matches the file's
-  `illustration` value is the same value, not a difference.
+- Illustration: compare by filename, ignoring the `.png` / `.svg` extension. A Notion URL ending in
+  `illustration.png` and a file value of `illustration.svg` (or `.png`) are the same value, not a
+  difference.
 
 ## Importing an existing module into Notion (file → row)
 The reverse direction — used to backfill the source of truth for modules that were authored directly
@@ -136,9 +139,10 @@ in code. Read `[slug]/[slug].json` and create or update its row in the **BRDGE M
 reversing the field mapping above:
 - Map straight back: title, slug, publish, tagline, short/long description, categories, tags, and the
   media fields (illustration, animation, videoUrl, videoUrls, gallery, clientLogos).
-- **Illustration:** write it to Notion as the full URL
-  `https://raw.githubusercontent.com/naut-studio/brdge-modules/main/<slug>/<filename>` (the `.json`
-  holds only `<filename>`), and only if that file actually exists in the module folder. If it
+- **Illustration:** write it to Notion as the full URL of the **PNG**,
+  `https://raw.githubusercontent.com/naut-studio/brdge-modules/main/<slug>/<name>.png`, where
+  `<name>` is the file's `illustration` value without its extension (the `.json` usually holds
+  `illustration.svg`). Only do this if that `.png` actually exists in the module folder. If it
   doesn't, leave the Notion field blank and flag it.
 - **Highlights, un-bundled:** put each standard highlight's description into its matching field —
   `Twists Description`, `Themes Description`, `Data/ROI Description`, `Connections Description`. If a

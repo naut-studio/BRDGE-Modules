@@ -1,0 +1,135 @@
+{
+  "title": "Personality Quiz",
+  "slug": "personality-quiz",
+  "publish": false,
+  "tagline": "Answer. Discover. Belong.",
+  "shortDescription": "A few playful questions on the visitor's phone reveal which type they are, with an illustrated result card, a personal tip, and a share button that carries the brand into their feed.",
+  "longDescription": "A short, mobile-first quiz where every answer nudges visitors toward one of several illustrated personality types. It runs in the browser from a QR code, leads through a handful of multiple-choice questions with a clear progress bar, and ends with a result card that explains the type, adds a tip or product match, and invites sharing. Questions, types, illustrations, and languages are fully configurable, so the same logic can match people to a product, a value, a team, or a cause. Results can also be printed as posters or cards for the venue. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Gamification & Fun",
+    "Discovery & Learning",
+    "Audience Activation"
+  ],
+  "tags": [
+    "Pre-Event",
+    "Live",
+    "Post-Event",
+    "Small",
+    "Mobile",
+    "Icebreaker",
+    "Viral",
+    "Memorable",
+    "Gamified",
+    "Single Player",
+    "Trivia",
+    "NFC / RFID / QR Code",
+    "Print",
+    "Storytelling",
+    "Personalized",
+    "Family Friendly",
+    "Low Barrier",
+    "Multi-Language",
+    "Museum",
+    "Exhibition",
+    "Conference",
+    "Trade Show / Fair",
+    "Retail",
+    "Corporate Event",
+    "Festival",
+    "Pop-Up",
+    "Brand Activation",
+    "Lead Generation",
+    "Data Collection",
+    "Educational"
+  ],
+  "illustration": "illustration.svg",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "gallery-1.png",
+      "width": "100%"
+    },
+    {
+      "file": "gallery-2.png",
+      "width": "20%"
+    },
+    {
+      "file": "gallery-3.png",
+      "width": "20%"
+    },
+    {
+      "file": "gallery-4.png",
+      "width": "20%"
+    },
+    {
+      "file": "gallery-5.png",
+      "width": "20%"
+    },
+    {
+      "file": "gallery-6.png",
+      "width": "20%"
+    }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "Everyone Wants to Know Their Type",
+      "description": "People love finding out what they are, so participation comes naturally and the result card does the sharing for the brand, without needing a prize to pull people in.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Quick to Build, Easy to Reuse",
+      "description": "Swap the questions, types, and illustrations and the same quiz serves a new client, campaign, or language in days, which makes it an easy add-on to almost any brief.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "From Screen to Poster",
+      "description": "Each result type can become printed posters, cards, or stickers at the venue, so the digital quiz also shapes the physical space and gives visitors something to take home.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Results With a Twist",
+      "description": "Add a product or offer matched to each type, a reveal on a big screen, a team or crowd mode that shows how the room splits, or a follow-up challenge unlocked by the result.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "A Type for Every Theme",
+      "description": "Find your biodiversity animal for a sustainability campaign, your drink type for a beverage launch, your leadership style for a corporate offsite, or your festive character for a winter edition.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Know Your Audience",
+      "description": "Add a data layer that shows how many people took part, how the result types are distributed, and how answers break down per question, and pair it with an opt-in contact step to turn results into qualified leads.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Types That Travel",
+      "description": "Pair with Visitor Identificator to carry each visitor's type through the event, with Journey Manager to send them to the stations that match their result, or with Photo Printing to hand out a printed result card.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "",
+      "trigger": "",
+      "experience": "",
+      "feedback": "",
+      "configurable": "",
+      "data": ""
+    }
+  ]
+}
