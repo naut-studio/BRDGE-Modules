@@ -1,215 +1,152 @@
-[
-  {
-    "title": "Rhythm Games",
-    "tagline": "Feel the beat. Hit the timing.",
-    "short_description": "A timing-based challenge where participants match visual or audio cues with precision and rhythm.",
-    "long_description": "A modular rhythm interaction built around repeated timing cues, musical patterns, or signal matching. Inputs can come from touch, foot pedals, buzzers, or custom controls, making the module adaptable across themes and hardware setups. Ideal for playful challenges, music-related experiences, and fast replayable interactions that reward focus and coordination.",
-    "moment": "Journey",
-    "tag": [
-      "Module",
-      "Experience",
-      "Gamification",
-      "Art & Shows"
-    ],
-    "visuals": [
-      "Hero visual: Rhythm Games in use within a branded environment",
-      "Interface mockup: primary interaction flow for Rhythm Games",
-      "System overview: how visitors, screen, and backend connect",
-      "Scenario visual: themed use case of Rhythm Games"
-    ],
-    "included": {
-      "module": "Rhythm Games",
-      "slide": "What's included",
-      "items": [
-        {
-          "title": "Core interaction flow",
-          "description": "Base experience logic and visitor-facing interaction for Rhythm Games.",
-          "visual": "Primary user flow"
-        },
-        {
-          "title": "Branded interface skin",
-          "description": "Adaptation of colours, typography, and visual language to the project context.",
-          "visual": "UI style frame"
-        },
-        {
-          "title": "Basic analytics output",
-          "description": "Tracking of key participation and usage signals relevant to the module.",
-          "visual": "Simple export or dashboard preview"
-        }
-      ]
+{
+  "title": "Rhythm Games",
+  "slug": "rhythm-games",
+  "publish": true,
+  "tagline": "Feel the beat. Hit the timing.",
+  "shortDescription": "Players hit the cues in time with the music, on a touch surface, buttons, or real products built into the installation. A fast, replayable challenge that rewards focus and gets people competing for the top score.",
+  "longDescription": "A timing challenge built around cues that arrive with the beat of a track. Players tap, press, or step at the right moment, and every hit is scored for timing, with bonus points for streaks. Inputs can be a touch surface, buzzers, foot pedals, custom controls, or physical products placed in the setup, so a row of knives on a counter or a set of objects on a shelf becomes the instrument. The music, cue patterns, difficulty, round length, and visuals are configurable, and a round can end with a prize or a place on the leaderboard. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Gamification & Fun",
+    "Audience Activation"
+  ],
+  "tags": [
+    "Live",
+    "Small",
+    "Competitive",
+    "High Energy",
+    "Wow Factor",
+    "Memorable",
+    "Immersive",
+    "Gamified",
+    "Single Player",
+    "Multiplayer",
+    "Reflex",
+    "Timed",
+    "Real-Time",
+    "Projection",
+    "Touchscreen",
+    "AR / XR",
+    "Phygital",
+    "Family Friendly",
+    "Low Barrier",
+    "Exhibition",
+    "Retail",
+    "Trade Show / Fair",
+    "Festival",
+    "Brand Activation",
+    "Sponsorship",
+    "Lead Generation",
+    "Reward",
+    "Data Collection",
+    "Leaderboard"
+  ],
+  "illustration": "rhythm-games-illustration.svg",
+  "animation": "",
+  "videoUrl": "https://upload.naut.ch/Victorinox_MansWorld_S.mp4",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "gallery-1.jpg",
+      "width": "26%"
     },
-    "excluded": {
-      "slide": "What’s Excluded",
-      "items": [
-        {
-          "title": "Venue hardware outside agreed scope",
-          "description": "Screens, sound, network, scenic build, mounts, printers, or special sensors are scoped separately unless explicitly listed."
-        },
-        {
-          "title": "Large-scale custom content production",
-          "description": "Extensive editorial work, translations, media creation, or bespoke storytelling assets are separate services unless included."
-        },
-        {
-          "title": "Deep custom logic beyond the base module",
-          "description": "Unique game systems, unusual integrations, or one-off backend behaviour require separate scoping and testing."
-        }
-      ]
+    {
+      "file": "gallery-2.jpg",
+      "width": "35%"
     },
-    "states": {
-      "module": "Rhythm Games",
-      "slide": "States",
-      "items": [
-        {
-          "state": "Attract",
-          "trigger": "Visitor notices the installation or receives the entry prompt",
-          "experience": "Rhythm Games communicates what to do and invites the first action.",
-          "feedback": "Idle visuals, signage, motion, or ambient cue",
-          "configurable": "Branding, call-to-action, language",
-          "data": "View or start count"
-        },
-        {
-          "state": "Engage",
-          "trigger": "Visitor starts the interaction",
-          "experience": "The main Rhythm Games experience unfolds and reacts to the visitor’s input.",
-          "feedback": "Live visual, audio, or haptic response",
-          "configurable": "Game rules, pacing, theme, interaction mode",
-          "data": "Inputs, timing, progress, completion"
-        },
-        {
-          "state": "Resolve",
-          "trigger": "Interaction reaches an outcome or end point",
-          "experience": "Results, rewards, media, or next steps are revealed.",
-          "feedback": "Score, confirmation, reward, save, or share prompt",
-          "configurable": "CTA, outcome logic, reward type",
-          "data": "Outcome, score, exportable summary"
-        }
-      ]
+    {
+      "file": "gallery-3.jpg",
+      "width": "19.5%"
     },
-    "changes": {
-      "module": "Rhythm Games",
-      "slide": "Customisable Elements",
-      "items": [
-        {
-          "title": "Visual identity",
-          "description": "Colours, fonts, screen assets, motion language, and tone can be adapted to brand or event theme."
-        },
-        {
-          "title": "Content layer",
-          "description": "Texts, questions, media, products, scenes, or stories can be swapped to fit the context."
-        },
-        {
-          "title": "Interaction rules",
-          "description": "Difficulty, duration, scoring, progression, and multiplayer logic can be tuned to the audience."
-        }
-      ]
+    {
+      "file": "gallery-6.jpg",
+      "width": "19.5%"
     },
-    "setup": {
-      "module": "Rhythm Games",
-      "slide": "Setup Notes & Requirements",
-      "items": [
-        {
-          "title": "Power and connectivity",
-          "description": "Stable power plus the right local network or internet setup depending on the module’s data and media needs."
-        },
-        {
-          "title": "Spatial planning",
-          "description": "Sufficient visitor flow, visibility, and physical clearance for safe and intuitive use."
-        },
-        {
-          "title": "Display and input hardware",
-          "description": "Screen, projector, sensors, touch surface, buttons, mobile flow, or other input devices according to the module setup."
-        }
-      ]
+    {
+      "file": "gallery-4.jpg",
+      "width": "50%"
     },
-    "data": {
-      "module": "Rhythm Games",
-      "slide": "Data & Impact",
-      "items": [
-        {
-          "title": "Participation metrics",
-          "description": "Starts, active users, completion rate, repeat plays, or dwell time depending on module behaviour."
-        },
-        {
-          "title": "Behaviour signals",
-          "description": "Inputs, choices, timing, accuracy, usage paths, or content preferences that help interpret engagement quality."
-        },
-        {
-          "title": "Connected follow-up potential",
-          "description": "Optional link to tokens, galleries, dashboards, exports, or post-event communication flows."
-        }
-      ]
-    },
-    "compatible": {
-      "module": "Rhythm Games",
-      "slide": "Compatible Modules & Additional Services",
-      "items": [
-        {
-          "title": "Visitor Identificator",
-          "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
-        },
-        {
-          "title": "Shared Gallery / Media outputs",
-          "description": "Useful when the module produces or benefits from captured media, highlights, or public recap moments."
-        },
-        {
-          "title": "User Experience & Interface Design",
-          "description": "Refines the front-end quality and ensures the module feels coherent inside the wider BRDGE system."
-        }
-      ]
-    },
-    "twist": {
-      "module": "Rhythm Games",
-      "slide": "Custom Twist Ideas",
-      "items": [
-        {
-          "title": "Sponsor edition",
-          "description": "Introduce branded rewards, visuals, or mechanics tied to a partner or campaign."
-        },
-        {
-          "title": "Tournament or leaderboard mode",
-          "description": "Extend the base interaction into a competitive format across guests, teams, or time slots."
-        },
-        {
-          "title": "Token-connected continuity",
-          "description": "Carry outcomes into another module, a personal recap, or a post-event reward flow."
-        }
-      ]
-    },
-    "theme": {
-      "module": "Rhythm Games",
-      "slide": "Themed Story Examples",
-      "items": [
-        {
-          "title": "Winter / festive edition",
-          "description": "Re-skin the same interaction with seasonal visuals, story framing, and rewards."
-        },
-        {
-          "title": "Museum / education storyline",
-          "description": "Adapt the module to teach content, reveal facts, or guide visitors through a knowledge-driven narrative."
-        },
-        {
-          "title": "Brand activation scenario",
-          "description": "Translate the interaction into a product or campaign story that feels native to the brand world."
-        }
-      ]
-    },
-    "why": {
-      "module": "Rhythm Games",
-      "slide": "Why it works",
-      "items": [
-        {
-          "title": "Needs a clearer participation hook",
-          "description": "Rhythm Games gives visitors an immediate reason to engage instead of only observing."
-        },
-        {
-          "title": "Experience should feel more memorable",
-          "description": "Rhythm Games creates a distinct interaction moment that people remember and talk about afterward."
-        },
-        {
-          "title": "Engagement should be measurable",
-          "description": "Rhythm Games can capture interactions, completions, usage frequency, or connected outputs for reporting."
-        }
-      ]
+    {
+      "file": "gallery-5.jpg",
+      "width": "50%"
     }
-  }
-]
+  ],
+  "galleryCredits": "",
+  "clientLogos": [
+    "logo-victorinox.svg",
+    "logo-zoo.svg"
+  ],
+  "highlights": [
+    {
+      "title": "The Product Becomes the Instrument",
+      "description": "Real products placed in the setup can act as the hit zones, so players touch and look closely at the product while they play, instead of only watching a screen.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Easy to Start, Hard to Master",
+      "description": "Anyone understands \"hit it on the beat\" within seconds, while scoring and difficulty levels keep good players coming back for one more round.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "A Show for the Bystanders",
+      "description": "Music, light, and fast hands draw a crowd around the player, turning a quiet corner of a shop or stand into a lively spot.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Remix the Challenge",
+      "description": "Add a two-player battle, a crowd mode where several people play one track together, a custom track built from the brand's jingle, or a VR version played with headset and controllers.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Any Beat, Any Brand",
+      "description": "Run a knife-skills challenge in a brand store, a drum session at a music festival, a jingle game for a product launch, or a festive edition with seasonal tracks.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Score the Engagement",
+      "description": "Add a data layer that records rounds played, scores, accuracy, and replays, plus optional contact details for a prize, giving the client clear numbers on reach and participation.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Turn Up the Volume",
+      "description": "Pair with Prize Draw to reward the best players, with Visitor Identificator to keep each player's best score, or with Live Feed to show the leaderboard on screens across the venue.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Attract",
+      "trigger": "Visitor notices the installation or receives the entry prompt",
+      "experience": "Rhythm Games communicates what to do and invites the first action.",
+      "feedback": "Idle visuals, signage, motion, or ambient cue",
+      "configurable": "Branding, call-to-action, language",
+      "data": "View or start count"
+    },
+    {
+      "state": "Engage",
+      "trigger": "Visitor starts the interaction",
+      "experience": "The main Rhythm Games experience unfolds and reacts to the visitor’s input.",
+      "feedback": "Live visual, audio, or haptic response",
+      "configurable": "Game rules, pacing, theme, interaction mode",
+      "data": "Inputs, timing, progress, completion"
+    },
+    {
+      "state": "Resolve",
+      "trigger": "Interaction reaches an outcome or end point",
+      "experience": "Results, rewards, media, or next steps are revealed.",
+      "feedback": "Score, confirmation, reward, save, or share prompt",
+      "configurable": "CTA, outcome logic, reward type",
+      "data": "Outcome, score, exportable summary"
+    }
+  ]
+}

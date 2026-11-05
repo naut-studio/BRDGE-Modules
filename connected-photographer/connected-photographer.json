@@ -1,215 +1,152 @@
-[
-  {
-    "title": "Connected Photographer",
-    "tagline": "Professional photos, personally delivered.",
-    "short_description": "Professional event photos delivered instantly to each guest’s device using their personal visitor ID.",
-    "long_description": "A photo delivery layer that connects a roaming or fixed photographer workflow to the visitor journey. Images are matched to guests through tokens, QR codes, or other identifiers and can be delivered instantly to personal galleries, downloads, or follow-up experiences. Ideal for premium events, activations, and exhibitions where high-quality memories should remain connected to individual participants.",
-    "moment": "Journey, Post-Journey",
-    "tag": [
-      "Module",
-      "Experience",
-      "Photo Video & Memories",
-      "Personalization"
-    ],
-    "visuals": [
-      "Hero visual: Connected Photographer in use within a branded environment",
-      "Interface mockup: primary interaction flow for Connected Photographer",
-      "System overview: how visitors, screen, and backend connect",
-      "Scenario visual: themed use case of Connected Photographer"
-    ],
-    "included": {
-      "module": "Connected Photographer",
-      "slide": "What's included",
-      "items": [
-        {
-          "title": "Core interaction flow",
-          "description": "Base experience logic and visitor-facing interaction for Connected Photographer.",
-          "visual": "Primary user flow"
-        },
-        {
-          "title": "Branded interface skin",
-          "description": "Adaptation of colours, typography, and visual language to the project context.",
-          "visual": "UI style frame"
-        },
-        {
-          "title": "Basic analytics output",
-          "description": "Tracking of key participation and usage signals relevant to the module.",
-          "visual": "Simple export or dashboard preview"
-        }
-      ]
+{
+  "title": "Connected Photographer",
+  "slug": "connected-photographer",
+  "publish": true,
+  "tagline": "Professional photos, personally delivered.",
+  "shortDescription": "Event photographers scan a guest's badge and send the right shots straight to that guest's phone, so every visitor leaves with professional photos of themselves instead of searching a gallery of thousands.",
+  "longDescription": "Connects the event photographer to the visitor journey. The photographer scans the QR code on a guest's badge, wristband, or ticket in the photographer app, picks the photos or short videos that show that guest, and sends them with one tap. The images appear in the guest's personal journey, where they can be viewed, downloaded, and shared, in the guest's own language. Several photographers can work in parallel across the venue, and scanning several badges sends a group shot to everyone in it. Branding, identifiers, delivery channels, and follow-up actions are configurable. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Capture & Memory",
+    "Tools For Visitors & Partners"
+  ],
+  "tags": [
+    "Live",
+    "Post-Event",
+    "Large",
+    "Mobile",
+    "Memorable",
+    "Viral",
+    "Real-Time",
+    "NFC / RFID / QR Code",
+    "Phygital",
+    "Video",
+    "Personalized",
+    "Low Barrier",
+    "Multi-Language",
+    "Journey",
+    "Exhibition",
+    "Conference",
+    "Trade Show / Fair",
+    "Corporate Event",
+    "Festival",
+    "Brand Activation",
+    "Sponsorship",
+    "Lead Generation",
+    "Loyalty",
+    "Data Collection"
+  ],
+  "illustration": "connected-photographer-illustration.svg",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "gallery-1.png",
+      "width": "48.3%"
     },
-    "excluded": {
-      "slide": "What’s Excluded",
-      "items": [
-        {
-          "title": "Venue hardware outside agreed scope",
-          "description": "Screens, sound, network, scenic build, mounts, printers, or special sensors are scoped separately unless explicitly listed."
-        },
-        {
-          "title": "Large-scale custom content production",
-          "description": "Extensive editorial work, translations, media creation, or bespoke storytelling assets are separate services unless included."
-        },
-        {
-          "title": "Deep custom logic beyond the base module",
-          "description": "Unique game systems, unusual integrations, or one-off backend behaviour require separate scoping and testing."
-        }
-      ]
+    {
+      "file": "gallery-2.png",
+      "width": "51.7%"
     },
-    "states": {
-      "module": "Connected Photographer",
-      "slide": "States",
-      "items": [
-        {
-          "state": "Attract",
-          "trigger": "Visitor notices the installation or receives the entry prompt",
-          "experience": "Connected Photographer communicates what to do and invites the first action.",
-          "feedback": "Idle visuals, signage, motion, or ambient cue",
-          "configurable": "Branding, call-to-action, language",
-          "data": "View or start count"
-        },
-        {
-          "state": "Engage",
-          "trigger": "Visitor starts the interaction",
-          "experience": "The main Connected Photographer experience unfolds and reacts to the visitor’s input.",
-          "feedback": "Live visual, audio, or haptic response",
-          "configurable": "Game rules, pacing, theme, interaction mode",
-          "data": "Inputs, timing, progress, completion"
-        },
-        {
-          "state": "Resolve",
-          "trigger": "Interaction reaches an outcome or end point",
-          "experience": "Results, rewards, media, or next steps are revealed.",
-          "feedback": "Score, confirmation, reward, save, or share prompt",
-          "configurable": "CTA, outcome logic, reward type",
-          "data": "Outcome, score, exportable summary"
-        }
-      ]
+    {
+      "file": "gallery-3.png",
+      "width": "52.5%"
     },
-    "changes": {
-      "module": "Connected Photographer",
-      "slide": "Customisable Elements",
-      "items": [
-        {
-          "title": "Visual identity",
-          "description": "Colours, fonts, screen assets, motion language, and tone can be adapted to brand or event theme."
-        },
-        {
-          "title": "Content layer",
-          "description": "Texts, questions, media, products, scenes, or stories can be swapped to fit the context."
-        },
-        {
-          "title": "Interaction rules",
-          "description": "Difficulty, duration, scoring, progression, and multiplayer logic can be tuned to the audience."
-        }
-      ]
+    {
+      "file": "gallery-4.png",
+      "width": "23.7%"
     },
-    "setup": {
-      "module": "Connected Photographer",
-      "slide": "Setup Notes & Requirements",
-      "items": [
-        {
-          "title": "Power and connectivity",
-          "description": "Stable power plus the right local network or internet setup depending on the module’s data and media needs."
-        },
-        {
-          "title": "Spatial planning",
-          "description": "Sufficient visitor flow, visibility, and physical clearance for safe and intuitive use."
-        },
-        {
-          "title": "Display and input hardware",
-          "description": "Screen, projector, sensors, touch surface, buttons, mobile flow, or other input devices according to the module setup."
-        }
-      ]
+    {
+      "file": "gallery-5.png",
+      "width": "23.8%"
     },
-    "data": {
-      "module": "Connected Photographer",
-      "slide": "Data & Impact",
-      "items": [
-        {
-          "title": "Participation metrics",
-          "description": "Starts, active users, completion rate, repeat plays, or dwell time depending on module behaviour."
-        },
-        {
-          "title": "Behaviour signals",
-          "description": "Inputs, choices, timing, accuracy, usage paths, or content preferences that help interpret engagement quality."
-        },
-        {
-          "title": "Connected follow-up potential",
-          "description": "Optional link to tokens, galleries, dashboards, exports, or post-event communication flows."
-        }
-      ]
+    {
+      "file": "highlight-1.png",
+      "width": "36.3%"
     },
-    "compatible": {
-      "module": "Connected Photographer",
-      "slide": "Compatible Modules & Additional Services",
-      "items": [
-        {
-          "title": "Visitor Identificator",
-          "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
-        },
-        {
-          "title": "Shared Gallery / Media outputs",
-          "description": "Useful when the module produces or benefits from captured media, highlights, or public recap moments."
-        },
-        {
-          "title": "User Experience & Interface Design",
-          "description": "Refines the front-end quality and ensures the module feels coherent inside the wider BRDGE system."
-        }
-      ]
+    {
+      "file": "highlight-2.png",
+      "width": "36.3%"
     },
-    "twist": {
-      "module": "Connected Photographer",
-      "slide": "Custom Twist Ideas",
-      "items": [
-        {
-          "title": "Sponsor edition",
-          "description": "Introduce branded rewards, visuals, or mechanics tied to a partner or campaign."
-        },
-        {
-          "title": "Tournament or leaderboard mode",
-          "description": "Extend the base interaction into a competitive format across guests, teams, or time slots."
-        },
-        {
-          "title": "Token-connected continuity",
-          "description": "Carry outcomes into another module, a personal recap, or a post-event reward flow."
-        }
-      ]
-    },
-    "theme": {
-      "module": "Connected Photographer",
-      "slide": "Themed Story Examples",
-      "items": [
-        {
-          "title": "Winter / festive edition",
-          "description": "Re-skin the same interaction with seasonal visuals, story framing, and rewards."
-        },
-        {
-          "title": "Museum / education storyline",
-          "description": "Adapt the module to teach content, reveal facts, or guide visitors through a knowledge-driven narrative."
-        },
-        {
-          "title": "Brand activation scenario",
-          "description": "Translate the interaction into a product or campaign story that feels native to the brand world."
-        }
-      ]
-    },
-    "why": {
-      "module": "Connected Photographer",
-      "slide": "Why it works",
-      "items": [
-        {
-          "title": "Needs a clearer participation hook",
-          "description": "Connected Photographer gives visitors an immediate reason to engage instead of only observing."
-        },
-        {
-          "title": "Experience should feel more memorable",
-          "description": "Connected Photographer creates a distinct interaction moment that people remember and talk about afterward."
-        },
-        {
-          "title": "Engagement should be measurable",
-          "description": "Connected Photographer can capture interactions, completions, usage frequency, or connected outputs for reporting."
-        }
-      ]
+    {
+      "file": "highlight-3.png",
+      "width": "27.4%"
     }
-  }
-]
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "No Searching Through Thousands of Photos",
+      "description": "Guests don't scroll a public gallery or hunt for themselves in a cloud folder. Their photos are already waiting in their personal journey, matched to the badge they wear.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "One Scan, One Tap",
+      "description": "The photographer scans the guest's code, selects the shots, and sends them on the spot, so photos arrive during the event, while the moment is still fresh.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Professional Quality, Personal Moment",
+      "description": "Unlike a selfie or a photobooth picture, the images come from a professional with proper light and composition, which makes guests feel looked after and makes the photos worth sharing.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Beyond the Snapshot",
+      "description": "Add short video clips alongside the photos, a branded frame or sponsor mark on every image, printed copies at a pickup point, or a consent step so guests choose whether they want to be photographed.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Fits Every Occasion",
+      "description": "Deliver portraits at a gala dinner, product moments at a trade fair stand, team shots at a corporate offsite, or meet-and-greet photos backstage at a festival.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "See How Far the Photos Travel",
+      "description": "Add a data layer that counts photos sent, opened, downloaded, and shared per guest and per photographer, so the client sees how far the event imagery reached.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Part of the Guest Journey",
+      "description": "Pair with Visitor Identificator for the guest badges, with Journey Recap to send every photo in one summary after the event, with Photo Printing for printed copies, or with Shared Gallery for a public selection.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Attract",
+      "trigger": "Visitor notices the installation or receives the entry prompt",
+      "experience": "Connected Photographer communicates what to do and invites the first action.",
+      "feedback": "Idle visuals, signage, motion, or ambient cue",
+      "configurable": "Branding, call-to-action, language",
+      "data": "View or start count"
+    },
+    {
+      "state": "Engage",
+      "trigger": "Visitor starts the interaction",
+      "experience": "The main Connected Photographer experience unfolds and reacts to the visitor’s input.",
+      "feedback": "Live visual, audio, or haptic response",
+      "configurable": "Game rules, pacing, theme, interaction mode",
+      "data": "Inputs, timing, progress, completion"
+    },
+    {
+      "state": "Resolve",
+      "trigger": "Interaction reaches an outcome or end point",
+      "experience": "Results, rewards, media, or next steps are revealed.",
+      "feedback": "Score, confirmation, reward, save, or share prompt",
+      "configurable": "CTA, outcome logic, reward type",
+      "data": "Outcome, score, exportable summary"
+    }
+  ]
+}
