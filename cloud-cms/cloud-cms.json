@@ -39,6 +39,12 @@
   ],
   "highlights": [
     {
+      "title": "One Venue, Endless Experiences",
+      "description": "Prepare several complete versions of a guide in advance, such as a kids' edition, a weekend special, or a seasonal story, each with its own content, and switch the entire experience from one to the next at any moment, with no new hardware and no new app. On trails, the same QR scanpoint can launch different quests, so every group gets a fresh route from the same setup and returning visitors always find something new. One installation becomes a programme the client can keep renewing.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
       "title": "One Back Office for Guides and Trails",
       "description": "Stories, scenes, and scanpoints for mediaguides sit next to quests, challenges, and paths for trails, so a client edits every experience in one place instead of in separate tools.",
       "image": "icon-check_circle.svg",
