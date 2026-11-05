@@ -5,7 +5,8 @@
 (() => {
   const primary = getComputedStyle(document.documentElement).getPropertyValue('--illu-primary').trim();
   if (!primary) return;
-  const ILLU = /\/illustration\d?\.(?:svg|png)$/i;
+  // Matches both "<slug>/illustration.svg" and "<slug>/<slug>-illustration.svg" (plus a numbered variant)
+  const ILLU = /[\/-]illustration\d?\.(?:svg|png)$/i;
   const cache = new Map();
 
   function recolored(url) {
