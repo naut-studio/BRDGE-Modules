@@ -1,213 +1,157 @@
 {
   "title": "Ball Wall Games",
+  "slug": "ball-wall-games",
+  "publish": true,
   "tagline": "Throw the ball. Trigger the action.",
-  "short_description": "A physical ball game where real-world throws trigger instant reactions on a digital wall projection, blending sport, play, and spectacle into one moment.",
-  "long_description": "A physical-digital game that connects real ball throws with a large-scale interactive projection. Each hit triggers instant visual and audio reactions at the exact impact point, turning movement into play. The experience is intuitive, energetic, and highly repeatable, ideal for exhibitions, brand activations, and spaces that thrive on action and attention.",
-  "moment": "Journey",
-  "tag": [
-    "Module",
-    "Experience",
-    "Gamification",
-    "Interactive Surfaces"
+  "shortDescription": "Real balls, a digital wall: every throw or kick lands on a live projection that reacts at the exact point of impact, turning sport and play into a show for everyone around.",
+  "longDescription": "A physical game where players throw, kick, or hit real balls against a large projected wall, and every impact triggers an instant reaction at the exact spot it lands. The same setup runs penalty shoot-outs against a virtual goalkeeper, target and puzzle games, team missions, and arcade challenges with points and timers. It works indoors and outdoors, from a school gym to a city square, and draws crowds because everyone can see the action. Games, visuals, and difficulty are configurable for children, teams, or competitive adults. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Gamification & Fun",
+    "Audience Activation"
   ],
-  "visuals": [
-    "Hero visual: Ball Wall Games in use within a branded environment",
-    "Interface mockup: primary interaction flow for Ball Wall Games",
-    "System overview: how visitors, screen, and backend connect",
-    "Scenario visual: themed use case of Ball Wall Games"
+  "tags": [
+    "Live",
+    "Large",
+    "Collaborative",
+    "Competitive",
+    "High Energy",
+    "Icebreaker",
+    "Wow Factor",
+    "Memorable",
+    "Gamified",
+    "Single Player",
+    "Multiplayer",
+    "Reflex",
+    "Timed",
+    "Real-Time",
+    "Projection",
+    "Phygital",
+    "Family Friendly",
+    "Low Barrier",
+    "Exhibition",
+    "Trade Show / Fair",
+    "Corporate Event",
+    "Festival",
+    "Pop-Up",
+    "Brand Activation",
+    "Sponsorship",
+    "Reward",
+    "Leaderboard",
+    "Data Collection",
+    "Educational"
   ],
-  "included": {
-    "module": "Ball Wall Games",
-    "slide": "What's included",
-    "items": [
-      {
-        "title": "Core interaction flow",
-        "description": "Base experience logic and visitor-facing interaction for Ball Wall Games.",
-        "visual": "Primary user flow"
-      },
-      {
-        "title": "Branded interface skin",
-        "description": "Adaptation of colours, typography, and visual language to the project context.",
-        "visual": "UI style frame"
-      },
-      {
-        "title": "Basic analytics output",
-        "description": "Tracking of key participation and usage signals relevant to the module.",
-        "visual": "Simple export or dashboard preview"
-      }
-    ]
-  },
-  "excluded": {
-    "slide": "What’s Excluded",
-    "items": [
-      {
-        "title": "Venue hardware outside agreed scope",
-        "description": "Screens, sound, network, scenic build, mounts, printers, or special sensors are scoped separately unless explicitly listed."
-      },
-      {
-        "title": "Large-scale custom content production",
-        "description": "Extensive editorial work, translations, media creation, or bespoke storytelling assets are separate services unless included."
-      },
-      {
-        "title": "Deep custom logic beyond the base module",
-        "description": "Unique game systems, unusual integrations, or one-off backend behaviour require separate scoping and testing."
-      }
-    ]
-  },
-  "states": {
-    "module": "Ball Wall Games",
-    "slide": "States",
-    "items": [
-      {
-        "state": "Attract",
-        "trigger": "Visitor notices the installation or receives the entry prompt",
-        "experience": "Ball Wall Games communicates what to do and invites the first action.",
-        "feedback": "Idle visuals, signage, motion, or ambient cue",
-        "configurable": "Branding, call-to-action, language",
-        "data": "View or start count"
-      },
-      {
-        "state": "Engage",
-        "trigger": "Visitor starts the interaction",
-        "experience": "The main Ball Wall Games experience unfolds and reacts to the visitor’s input.",
-        "feedback": "Live visual, audio, or haptic response",
-        "configurable": "Game rules, pacing, theme, interaction mode",
-        "data": "Inputs, timing, progress, completion"
-      },
-      {
-        "state": "Resolve",
-        "trigger": "Interaction reaches an outcome or end point",
-        "experience": "Results, rewards, media, or next steps are revealed.",
-        "feedback": "Score, confirmation, reward, save, or share prompt",
-        "configurable": "CTA, outcome logic, reward type",
-        "data": "Outcome, score, exportable summary"
-      }
-    ]
-  },
-  "changes": {
-    "module": "Ball Wall Games",
-    "slide": "Customisable Elements",
-    "items": [
-      {
-        "title": "Visual identity",
-        "description": "Colours, fonts, screen assets, motion language, and tone can be adapted to brand or event theme."
-      },
-      {
-        "title": "Content layer",
-        "description": "Texts, questions, media, products, scenes, or stories can be swapped to fit the context."
-      },
-      {
-        "title": "Interaction rules",
-        "description": "Difficulty, duration, scoring, progression, and multiplayer logic can be tuned to the audience."
-      }
-    ]
-  },
-  "setup": {
-    "module": "Ball Wall Games",
-    "slide": "Setup Notes & Requirements",
-    "items": [
-      {
-        "title": "Power and connectivity",
-        "description": "Stable power plus the right local network or internet setup depending on the module’s data and media needs."
-      },
-      {
-        "title": "Spatial planning",
-        "description": "Sufficient visitor flow, visibility, and physical clearance for safe and intuitive use."
-      },
-      {
-        "title": "Display and input hardware",
-        "description": "Screen, projector, sensors, touch surface, buttons, mobile flow, or other input devices according to the module setup."
-      }
-    ]
-  },
-  "data": {
-    "module": "Ball Wall Games",
-    "slide": "Data & Impact",
-    "items": [
-      {
-        "title": "Participation metrics",
-        "description": "Starts, active users, completion rate, repeat plays, or dwell time depending on module behaviour."
-      },
-      {
-        "title": "Behaviour signals",
-        "description": "Inputs, choices, timing, accuracy, usage paths, or content preferences that help interpret engagement quality."
-      },
-      {
-        "title": "Connected follow-up potential",
-        "description": "Optional link to tokens, galleries, dashboards, exports, or post-event communication flows."
-      }
-    ]
-  },
-  "compatible": {
-    "module": "Ball Wall Games",
-    "slide": "Compatible Modules & Additional Services",
-    "items": [
-      {
-        "title": "Visitor Identificator",
-        "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
-      },
-      {
-        "title": "Shared Gallery / Media outputs",
-        "description": "Useful when the module produces or benefits from captured media, highlights, or public recap moments."
-      },
-      {
-        "title": "User Experience & Interface Design",
-        "description": "Refines the front-end quality and ensures the module feels coherent inside the wider BRDGE system."
-      }
-    ]
-  },
-  "twist": {
-    "module": "Ball Wall Games",
-    "slide": "Custom Twist Ideas",
-    "items": [
-      {
-        "title": "Sponsor edition",
-        "description": "Introduce branded rewards, visuals, or mechanics tied to a partner or campaign."
-      },
-      {
-        "title": "Tournament or leaderboard mode",
-        "description": "Extend the base interaction into a competitive format across guests, teams, or time slots."
-      },
-      {
-        "title": "Token-connected continuity",
-        "description": "Carry outcomes into another module, a personal recap, or a post-event reward flow."
-      }
-    ]
-  },
-  "theme": {
-    "module": "Ball Wall Games",
-    "slide": "Themed Story Examples",
-    "items": [
-      {
-        "title": "Winter / festive edition",
-        "description": "Re-skin the same interaction with seasonal visuals, story framing, and rewards."
-      },
-      {
-        "title": "Museum / education storyline",
-        "description": "Adapt the module to teach content, reveal facts, or guide visitors through a knowledge-driven narrative."
-      },
-      {
-        "title": "Brand activation scenario",
-        "description": "Translate the interaction into a product or campaign story that feels native to the brand world."
-      }
-    ]
-  },
-  "why": {
-    "module": "Ball Wall Games",
-    "slide": "Why it works",
-    "items": [
-      {
-        "title": "Needs a clearer participation hook",
-        "description": "Ball Wall Games gives visitors an immediate reason to engage instead of only observing."
-      },
-      {
-        "title": "Experience should feel more memorable",
-        "description": "Ball Wall Games creates a distinct interaction moment that people remember and talk about afterward."
-      },
-      {
-        "title": "Engagement should be measurable",
-        "description": "Ball Wall Games can capture interactions, completions, usage frequency, or connected outputs for reporting."
-      }
-    ]
-  }
+  "illustration": "ball-wall-games-illustration.svg",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [
+    {
+      "file": "gallery-1.mp4",
+      "width": "57.1%"
+    },
+    {
+      "file": "gallery-2.png",
+      "width": "42.9%"
+    },
+    {
+      "file": "gallery-3.png",
+      "width": "49.9%"
+    },
+    {
+      "file": "gallery-4.png",
+      "width": "50.1%"
+    },
+    {
+      "file": "gallery-5.png",
+      "width": "44.9%"
+    },
+    {
+      "file": "gallery-7.png",
+      "width": "55.1%"
+    },
+    {
+      "file": "gallery-8.png",
+      "width": "45.4%"
+    },
+    {
+      "file": "gallery-10.webp",
+      "width": "54.6%"
+    }
+  ],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "Real Sport, Digital Magic",
+      "description": "A real ball in the hand makes it instantly understood: throw, kick, or smash, and the wall answers. It feels like sport, not like screen time.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "One Wall, Many Games",
+      "description": "Switch between a penalty shoot-out, target practice, puzzle walls, and team missions on the same setup, so one booking covers a whole day of different audiences.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Indoors or Out",
+      "description": "It works in a gym, a hall, a fan zone, or a town square, and the size of the wall can grow with the venue.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
+    },
+    {
+      "title": "Change the Rules",
+      "description": "Add timed rounds, team-versus-team missions, a tournament bracket, rackets or bats instead of hands, or a final boss round that the whole crowd tries to beat together.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Kick Into Any World",
+      "description": "Play a goalkeeper duel for a football sponsor, a temple adventure for kids, a space mission for a tech brand, or a festive target game for a winter market.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Scores Worth Sharing",
+      "description": "Add a data layer that records players, scores, hits, and rounds per day, and turn it into a live leaderboard or a prize threshold that keeps people coming back.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    },
+    {
+      "title": "Part of the Game Zone",
+      "description": "Pair with Reaction Games and MultiPlay Game Station for a full arcade, with Live Feed to put the leaderboard on the big screen, or with Prize Draw to reward the best scores.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
+    }
+  ],
+  "states": [
+    {
+      "state": "Attract",
+      "trigger": "Visitor notices the installation or receives the entry prompt",
+      "experience": "Ball Wall Games communicates what to do and invites the first action.",
+      "feedback": "Idle visuals, signage, motion, or ambient cue",
+      "configurable": "Branding, call-to-action, language",
+      "data": "View or start count"
+    },
+    {
+      "state": "Engage",
+      "trigger": "Visitor starts the interaction",
+      "experience": "The main Ball Wall Games experience unfolds and reacts to the visitor’s input.",
+      "feedback": "Live visual, audio, or haptic response",
+      "configurable": "Game rules, pacing, theme, interaction mode",
+      "data": "Inputs, timing, progress, completion"
+    },
+    {
+      "state": "Resolve",
+      "trigger": "Interaction reaches an outcome or end point",
+      "experience": "Results, rewards, media, or next steps are revealed.",
+      "feedback": "Score, confirmation, reward, save, or share prompt",
+      "configurable": "CTA, outcome logic, reward type",
+      "data": "Outcome, score, exportable summary"
+    }
+  ]
 }
