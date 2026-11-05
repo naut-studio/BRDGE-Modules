@@ -47,24 +47,24 @@
     {
       "title": "Many Ways to Recognize",
       "description": "Recognize objects the way that suits the space: a QR scan, an NFC or RFID tap, or camera vision that spots the item on sight. One system supports several methods, so the same setup works for a printed tag, a wristband, a product, or a bare artifact.",
-      "image": "highlight-methods.png",
-      "imageMobile": "highlight-methods-mobile.png",
+      "image": "highlight-methods.webp",
+      "imageMobile": "highlight-methods-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "left"
     },
     {
       "title": "Any Object Becomes a Trigger",
       "description": "Turn products, artifacts, props, or tokens into interactive touchpoints. A visitor simply shows or taps the thing in their hand and the screen responds, a hands-on moment that feels natural and a little magical, with no app and nothing to learn.",
-      "image": "highlight-variations.png",
-      "imageMobile": "highlight-variations-mobile.png",
+      "image": "highlight-variations.webp",
+      "imageMobile": "highlight-variations-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
     },
     {
       "title": "Fits Almost Any Venue",
       "description": "The same technology drops into a retail shelf, a museum exhibit, a trade-show booth, or a brand activation, and points at product marketing, education, or play. That breadth makes it easy to pitch to very different clients from one core setup.",
-      "image": "highlight-settings.png",
-      "imageMobile": "highlight-settings-mobile.png",
+      "image": "highlight-settings.webp",
+      "imageMobile": "highlight-settings-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "left"
     },
@@ -78,8 +78,8 @@
     {
       "title": "From Product Story to Treasure Hunt",
       "description": "Reskin the same recognition engine as a product-story reveal, a museum discovery trail, a retail try-me display, a branded treasure hunt, or a festive edition. The look and story change while the trigger stays exactly the same.",
-      "image": "highlight-themes.png",
-      "imageMobile": "highlight-themes-mobile.png",
+      "image": "highlight-themes.webp",
+      "imageMobile": "highlight-themes-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
     },

@@ -40,29 +40,32 @@
   "videoUrls": [],
   "gallery": [],
   "galleryCredits": "",
-  "clientLogos": ["logo-mercedes.svg", "logo-victorinox.svg"],
+  "clientLogos": [
+    "logo-mercedes.svg",
+    "logo-victorinox.svg"
+  ],
   "highlights": [
     {
       "title": "One Screen, the Whole Event",
       "description": "It gathers scores, leaderboards, shared photos, and highlights from every connected module into a single live screen, so scattered moments across the venue become one shared story everyone can follow.",
-      "image": "highlight-variations.png",
-      "imageMobile": "highlight-variations-mobile.png",
+      "image": "highlight-variations.webp",
+      "imageMobile": "highlight-variations-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "left"
     },
     {
       "title": "Turns Watchers Into a Crowd",
       "description": "Live rankings, rolling highlights, and personalised shout-outs pull spectators into the action and build energy, making the room feel like one connected event rather than a set of separate activities.",
-      "image": "highlight-settings.png",
-      "imageMobile": "highlight-settings-mobile.png",
+      "image": "highlight-settings.webp",
+      "imageMobile": "highlight-settings-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
     },
     {
       "title": "Any Surface, Any Size",
       "description": "Run it on a projection wall, a set of LED panels, or a single screen, from a booth monitor to a stage-sized display. It fills itself from whatever modules are live and whatever guests share, so there is no content to babysit from doors open to close.",
-      "image": "highlight-formats.png",
-      "imageMobile": "highlight-formats-mobile.png",
+      "image": "highlight-formats.webp",
+      "imageMobile": "highlight-formats-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "left"
     },
@@ -76,8 +79,8 @@
     {
       "title": "Festive, Museum or Brand Worlds",
       "description": "Reskin the screen as a winter or festive edition, a museum or education storyline that frames the live moments inside a bigger narrative, or a branded campaign world that feels native to the client. The layout stays the same while the look and story change.",
-      "image": "highlight-themes.png",
-      "imageMobile": "highlight-themes-mobile.png",
+      "image": "highlight-themes.webp",
+      "imageMobile": "highlight-themes-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
     },

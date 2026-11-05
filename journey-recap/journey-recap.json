@@ -40,21 +40,24 @@
   "videoUrls": [],
   "gallery": [
     {
-      "file": "journey-t.png",
+      "file": "journey-t.webp",
       "width": "100%"
-    }
-    ,
+    },
     {
-      "file": "gallery-1.png",
+      "file": "gallery-1.webp",
       "width": "70%"
     },
     {
-      "file": "gallery-2.png",
+      "file": "gallery-2.webp",
       "width": "30%"
     }
   ],
   "galleryCredits": "",
-  "clientLogos": ["logo-wow.svg", "logo-xaver.svg", "logo-celebrationpoint.svg"],
+  "clientLogos": [
+    "logo-wow.svg",
+    "logo-xaver.svg",
+    "logo-celebrationpoint.svg"
+  ],
   "highlights": [
     {
       "title": "Interactions Become a Story",

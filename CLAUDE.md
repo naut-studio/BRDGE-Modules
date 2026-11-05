@@ -106,10 +106,10 @@ template and a request conflict, surface the conflict before proceeding.
 
 ### Highlight images (desktop + mobile)
 Some modules have designed highlight images in their folder: a landscape desktop version
-(`highlight-<name>.png`, 1280×720) and a tall mobile version (`highlight-<name>-mobile.png`, 390 px
+(`highlight-<name>.webp`, 1280×720 or 2x) and a tall mobile version (`highlight-<name>-mobile.webp`, 390 px
 wide) that stacks the same pictures vertically for readability.
 - Any highlight, free or standard, may show one instead of its icon:
-  `"image": "highlight-<name>.png"`, `"imageMobile": "highlight-<name>-mobile.png"`. Put `imageMobile`
+  `"image": "highlight-<name>.webp"`, `"imageMobile": "highlight-<name>-mobile.webp"`. Put `imageMobile`
   right after `image`. Default layout for these is `imageWidth: "70%"` with `imageSide` alternating
   `"left"` / `"right"` across the module's image highlights.
 - `imageMobile` has **no width or side**: on mobile it always renders full width above the text. If
@@ -145,6 +145,14 @@ Gallery, Client Logos) — never the actual files. The real image/video files ar
   just `illustration.*` or `animation.json`, and never save an animation as `<slug>.json` (that name
   is reserved for the module file). The recolor script recognises any file name ending in
   `illustration.svg` / `.png` (optionally numbered).
+- **Images are WebP.** Gallery and highlight images (`image`, `imageMobile`) are `.webp`, not `.png` /
+  `.jpg`. When a PNG or JPG is added to a module folder, convert it before committing
+  (`cwebp -q 80`, downscaled to max 1920 px wide; mobile highlight images stay 780 px wide, i.e. 2x of
+  390), update the module `.json` and the Notion **Gallery** field to the `.webp` name, and delete the
+  original. Illustrations stay SVG; videos stay on `upload.naut.ch`. As a safety net, the GitHub
+  Action `.github/workflows/convert-to-webp.yml` does the same on every push to `main` (files and
+  `.json`, not Notion), so after pushing a PNG/JPG, pull before editing again and fix the Notion
+  Gallery field.
 - Never try to fetch a file from Notion. If a referenced file isn't hosted yet, flag it — don't invent a path.
 
 ## Editing an existing module (never destroy existing content)

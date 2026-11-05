@@ -49,24 +49,27 @@
   ],
   "gallery": [
     {
-      "file": "gallery-1.jpg",
+      "file": "gallery-1.webp",
       "width": "60%"
     },
     {
-      "file": "gallery-2.jpg",
+      "file": "gallery-2.webp",
       "width": "40%"
     },
     {
-      "file": "gallery-3.jpg",
+      "file": "gallery-3.webp",
       "width": "50%"
     },
     {
-      "file": "gallery-4.jpg",
+      "file": "gallery-4.webp",
       "width": "50%"
     }
   ],
   "galleryCredits": "",
-  "clientLogos": ["logo-wow.svg","logo-zurichinsurance.svg"],
+  "clientLogos": [
+    "logo-wow.svg",
+    "logo-zurichinsurance.svg"
+  ],
   "highlights": [
     {
       "title": "Aim With Your Body or a Prop",

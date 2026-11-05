@@ -50,32 +50,36 @@
       "width": "57.1%"
     },
     {
-      "file": "gallery-2.png",
+      "file": "gallery-2.webp",
       "width": "42.9%"
     },
     {
-      "file": "gallery-3.png",
+      "file": "gallery-3.webp",
       "width": "49.9%"
     },
     {
-      "file": "gallery-4.png",
+      "file": "gallery-4.webp",
       "width": "50.1%"
     },
     {
-      "file": "gallery-5.png",
+      "file": "gallery-5.webp",
       "width": "44.9%"
     },
     {
-      "file": "gallery-7.png",
+      "file": "gallery-7.webp",
       "width": "55.1%"
     },
     {
-      "file": "gallery-8.png",
-      "width": "45.4%"
+      "file": "gallery-8.webp",
+      "width": "30%"
     },
     {
       "file": "gallery-10.webp",
-      "width": "54.6%"
+      "width": "36%"
+    },
+    {
+      "file": "gallery-6.webp",
+      "width": "34%"
     }
   ],
   "galleryCredits": "",

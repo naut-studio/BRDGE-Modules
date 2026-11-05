@@ -56,32 +56,32 @@
     {
       "title": "Step, Jump, Place",
       "description": "Visitors interact with their whole body: a step sends out ripples, a jump sets off a burst, and placing an object on the floor unlocks the next piece of content. No device, no instructions, just walk on.",
-      "image": "highlight-interactions.png",
-      "imageMobile": "highlight-interactions-mobile.png",
+      "image": "highlight-interactions.webp",
+      "imageMobile": "highlight-interactions-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "left"
     },
     {
       "title": "From Booth Floor to Kids' Corner",
       "description": "The same floor works on a corporate stand, in a museum gallery, or in a family venue, so one module covers product demos, education, and pure play.",
-      "image": "highlight-settings.png",
-      "imageMobile": "highlight-settings-mobile.png",
+      "image": "highlight-settings.webp",
+      "imageMobile": "highlight-settings-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
     },
     {
       "title": "Game, Trail, or Arcade",
       "description": "Switch between scored reflex games with levels and points, a calm discovery path that reveals facts at each stop, or a full-floor arcade such as a giant pinball where players move the flippers with their feet.",
-      "image": "highlight-variations.png",
-      "imageMobile": "highlight-variations-mobile.png",
+      "image": "highlight-variations.webp",
+      "imageMobile": "highlight-variations-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "left"
     },
     {
       "title": "Any Ground, Any World",
       "description": "Turn the floor into a Wild West trail map, a racing circuit where players choose their line, or an underwater reef full of hidden treasures, all on the same projection setup.",
-      "image": "highlight-themes.png",
-      "imageMobile": "highlight-themes-mobile.png",
+      "image": "highlight-themes.webp",
+      "imageMobile": "highlight-themes-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
     },

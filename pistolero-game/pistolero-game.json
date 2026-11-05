@@ -48,18 +48,18 @@
     {
       "title": "Physical Duel Interface (Buttons, Props, Setup)",
       "description": "The experience comes to life through a simple but highly engaging physical setup. Players stand face-to-face at a dedicated station, each equipped with a large, responsive trigger button or themed prop. The tactile interaction increases tension and clarity, so you feel the moment before you act. The setup is robust, intuitive, and adaptable to different themes, from western barrels to sleek branded pedestals.",
-      "image": "highlight-1.png"
+      "image": "highlight-1.webp"
     },
     {
       "title": "Real-Time Feedback & Result Screen",
       "description": "Every action is instantly translated into clear visual feedback on the screen. From countdown to the decisive 'DRAW' moment, players and spectators follow the tension in real time. Results are displayed immediately, highlighting reaction times and the winner in a bold, readable format. This creates a strong spectator effect and reinforces the competitive loop with satisfying, shareable outcomes.",
-      "image": "highlight-2.png",
+      "image": "highlight-2.webp",
       "imageWidth": "33%"
     },
     {
       "title": "Leaderboard & Competitive Layer",
       "description": "Beyond individual duels, the game scales into a broader competitive experience through leaderboards. Players can see how they rank against others, track fastest reaction times, or compete for top positions. This adds motivation for repeat play and transforms a simple interaction into an ongoing challenge, ideal for events where engagement should build over time.",
-      "image": "highlight-3.png"
+      "image": "highlight-3.webp"
     },
     {
       "title": "Solo, Brackets & Sudden Death",

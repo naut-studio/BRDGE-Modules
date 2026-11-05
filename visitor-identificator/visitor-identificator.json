@@ -49,13 +49,16 @@
   "videoUrls": [],
   "gallery": [],
   "galleryCredits": "",
-  "clientLogos": ["logo-wow.svg", "logo-xaver.svg"],
+  "clientLogos": [
+    "logo-wow.svg",
+    "logo-xaver.svg"
+  ],
   "highlights": [
     {
       "title": "One Identity, Any Carrier",
       "description": "Assign each visitor a unique token through whatever fits the venue: a scanned QR code, an NFC wristband, an RFID card, a sticker, or a pre-sent link. Registration can be a frictionless anonymous tap or a richer sign-up with name, language, and preferences.",
-      "image": "highlight-variations.png",
-      "imageMobile": "highlight-variations-mobile.png",
+      "image": "highlight-variations.webp",
+      "imageMobile": "highlight-variations-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "left"
     },
@@ -68,24 +71,24 @@
     {
       "title": "Continuity Across Zones and Days",
       "description": "The token carries each visitor's state, history, and rewards from one touchpoint to the next, across separate zones and even return visits, so progress is never lost and returning guests pick up exactly where they left off.",
-      "image": "highlight-journey.png",
-      "imageMobile": "highlight-journey-mobile.png",
+      "image": "highlight-journey.webp",
+      "imageMobile": "highlight-journey-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
     },
     {
       "title": "Twists That Change the Whole Feel",
       "description": "Layer in VIP and tiered access, collectible stamps and badges at every stop, shared team tokens, progressive unlocks that reveal zones in sequence, return-visit rewards, pre-event activation that shapes what people find on arrival, or a physical keepsake printed at the end. Token interactions can even feed a live public data wall.",
-      "image": "highlight-types.png",
-      "imageMobile": "highlight-types-mobile.png",
+      "image": "highlight-types.webp",
+      "imageMobile": "highlight-types-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "left"
     },
     {
       "title": "One Token, Many Worlds",
       "description": "Recast the token as a secret-agent mission dossier, an explorer's field log that stamps every discovery, a brand-world passport travelling between zones, a museum time-traveller assigned an era, or a conference delegate profile that ties together the talks attended and people met, each ending in a personalised takeaway.",
-      "image": "highlight-themes.png",
-      "imageMobile": "highlight-themes-mobile.png",
+      "image": "highlight-themes.webp",
+      "imageMobile": "highlight-themes-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
     },

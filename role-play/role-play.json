@@ -41,31 +41,31 @@
   "videoUrls": [],
   "gallery": [
     {
-      "file": "gallery-1.jpg",
+      "file": "gallery-1.webp",
       "width": "12.2%"
     },
     {
-      "file": "gallery-2.jpg",
+      "file": "gallery-2.webp",
       "width": "12.2%"
     },
     {
-      "file": "gallery-3.jpg",
+      "file": "gallery-3.webp",
       "width": "12.2%"
     },
     {
-      "file": "gallery-4.jpg",
+      "file": "gallery-4.webp",
       "width": "12.2%"
     },
     {
-      "file": "gallery-5.jpg",
+      "file": "gallery-5.webp",
       "width": "12.2%"
     },
     {
-      "file": "gallery-6.png",
+      "file": "gallery-6.webp",
       "width": "12.6%"
     },
     {
-      "file": "gallery-7.png",
+      "file": "gallery-7.webp",
       "width": "26.4%"
     }
   ],

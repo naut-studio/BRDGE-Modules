@@ -52,24 +52,24 @@
     {
       "title": "One Button, Instant Play",
       "description": "Players get it in a second: press at the right moment and the piece lands. That makes it an easy fit for a sponsor booth, a retail aisle, or a museum corner, with no staff needed to explain it.",
-      "image": "highlight-settings.png",
-      "imageMobile": "highlight-settings-mobile.png",
+      "image": "highlight-settings.webp",
+      "imageMobile": "highlight-settings-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "left"
     },
     {
       "title": "Stack It Any Way",
       "description": "Run it as a classic digital tower, a falling-blocks puzzle, a team challenge with two players at once, or a physical version where visitors stack real blocks in front of the screen.",
-      "image": "highlight-variations.png",
-      "imageMobile": "highlight-variations-mobile.png",
+      "image": "highlight-variations.webp",
+      "imageMobile": "highlight-variations-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
     },
     {
       "title": "Stack Anything, Anywhere",
       "description": "Stack bricks into a jungle temple, rings onto a Wild West post, tires in a racing pit, or the client's own products into a branded tower. Same game, entirely different world.",
-      "image": "highlight-themes.png",
-      "imageMobile": "highlight-themes-mobile.png",
+      "image": "highlight-themes.webp",
+      "imageMobile": "highlight-themes-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "left"
     },

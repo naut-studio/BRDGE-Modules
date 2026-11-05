@@ -41,11 +41,11 @@
   "videoUrls": [],
   "gallery": [
     {
-      "file": "gallery-1.png",
+      "file": "gallery-1.webp",
       "width": "50%"
     },
     {
-      "file": "gallery-3.png",
+      "file": "gallery-3.webp",
       "width": "50%"
     },
     {
@@ -53,15 +53,15 @@
       "width": "100%"
     },
     {
-      "file": "gallery-4.png",
+      "file": "gallery-4.webp",
       "width": "33.3%"
     },
     {
-      "file": "gallery-5.png",
+      "file": "gallery-5.webp",
       "width": "33.3%"
     },
     {
-      "file": "gallery-6.png",
+      "file": "gallery-6.webp",
       "width": "33.4%"
     }
   ],

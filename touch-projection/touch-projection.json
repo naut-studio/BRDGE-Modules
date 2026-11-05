@@ -45,19 +45,19 @@
   "videoUrls": [],
   "gallery": [
     {
-      "file": "gallery-1.png",
+      "file": "gallery-1.webp",
       "width": "57%"
     },
     {
-      "file": "gallery-2.png",
+      "file": "gallery-2.webp",
       "width": "43%"
     },
     {
-      "file": "gallery-3.png",
+      "file": "gallery-3.webp",
       "width": "48.5%"
     },
     {
-      "file": "gallery-4.png",
+      "file": "gallery-4.webp",
       "width": "51.5%"
     }
   ],

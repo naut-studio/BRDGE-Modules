@@ -47,43 +47,43 @@
   ],
   "gallery": [
     {
-      "file": "gallery-3.png",
+      "file": "gallery-3.webp",
       "width": "100%"
     },
     {
-      "file": "gallery-2.png",
-      "width": "50%"
-    },
-        {
-      "file": "gallery-1.png",
+      "file": "gallery-2.webp",
       "width": "50%"
     },
     {
-      "file": "gallery-4.png",
+      "file": "gallery-1.webp",
       "width": "50%"
     },
     {
-      "file": "gallery-5.png",
+      "file": "gallery-4.webp",
       "width": "50%"
     },
     {
-      "file": "gallery-6.png",
+      "file": "gallery-5.webp",
+      "width": "50%"
+    },
+    {
+      "file": "gallery-6.webp",
       "width": "33%"
     },
     {
-      "file": "gallery-7.png",
+      "file": "gallery-7.webp",
       "width": "33%"
     },
     {
-      "file": "gallery-8.png",
+      "file": "gallery-8.webp",
       "width": "33%"
     },
     {
-      "file": "gallery-9.png",
+      "file": "gallery-9.webp",
       "width": "50%"
     },
     {
-      "file": "gallery-10.png",
+      "file": "gallery-10.webp",
       "width": "50%"
     },
     {

@@ -44,19 +44,19 @@
   "videoUrls": [],
   "gallery": [
     {
-      "file": "gallery-1.png",
+      "file": "gallery-1.webp",
       "width": "61%"
     },
     {
-      "file": "gallery-2.png",
+      "file": "gallery-2.webp",
       "width": "39%"
     },
     {
-      "file": "gallery-3.png",
+      "file": "gallery-3.webp",
       "width": "37%"
     },
     {
-      "file": "gallery-4.png",
+      "file": "gallery-4.webp",
       "width": "63%"
     }
   ],
@@ -68,40 +68,40 @@
     {
       "title": "Something to Hold On To",
       "description": "A printed photo travels home, ends up on fridges and desks, and gets shown around, keeping the brand in view long after the event. It works for every age group, with no app and no account needed.",
-      "image": "highlight-benefits.png",
-      "imageMobile": "highlight-benefits-mobile.png",
+      "image": "highlight-benefits.webp",
+      "imageMobile": "highlight-benefits-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "left"
     },
     {
       "title": "Every Format the Moment Needs",
       "description": "Print classic photos, photo strips, postcards, stickers, or posters, and brand each one with the client's logo, campaign line, or event artwork, so the same station fits a gala, a fan zone, or a product launch.",
-      "image": "highlight-formats.png",
-      "imageMobile": "highlight-formats-mobile.png",
+      "image": "highlight-formats.webp",
+      "imageMobile": "highlight-formats-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
     },
     {
       "title": "At Home in Any Venue",
       "description": "Set it up at a sponsor booth, an evening event, or a museum exit, as a staffed print desk or a self-service kiosk, so it slots into almost any brief as an easy add-on.",
-      "image": "highlight-settings.png",
-      "imageMobile": "highlight-settings-mobile.png",
+      "image": "highlight-settings.webp",
+      "imageMobile": "highlight-settings-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "left"
     },
     {
       "title": "Dress the Station Itself",
       "description": "Upgrade the plain kiosk to a themed housing (a wooden saloon chest, a space station, a racing pit box), add a print-by-hashtag flow, limit prints per visitor, or unlock a print only after a challenge is completed.",
-      "image": "highlight-themes.png",
-      "imageMobile": "highlight-themes-mobile.png",
+      "image": "highlight-themes.webp",
+      "imageMobile": "highlight-themes-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
     },
     {
       "title": "Frames for Every Story",
       "description": "Wrap each print in a frame that tells the story: a Wild West wanted poster, a fantasy castle scene, a racing podium, or a seasonal edition, all from the same print logic.",
-      "image": "highlight-themes2.png",
-      "imageMobile": "highlight-themes2-mobile.png",
+      "image": "highlight-themes2.webp",
+      "imageMobile": "highlight-themes2-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "left"
     },

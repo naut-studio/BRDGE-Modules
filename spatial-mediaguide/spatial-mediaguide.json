@@ -33,9 +33,18 @@
   "videoUrl": "",
   "videoUrls": [],
   "gallery": [
-    { "file": "gallery-1.jpg", "width": "33%" },
-    { "file": "gallery-2.jpg", "width": "67%" },
-    { "file": "gallery-3.jpg", "width": "50%" }
+    {
+      "file": "gallery-1.webp",
+      "width": "33%"
+    },
+    {
+      "file": "gallery-2.webp",
+      "width": "67%"
+    },
+    {
+      "file": "gallery-3.webp",
+      "width": "50%"
+    }
   ],
   "galleryCredits": "",
   "clientLogos": [
@@ -47,19 +56,19 @@
     {
       "title": "Seamless Onboarding & Multilingual Entry",
       "description": "Visitors enter the experience effortlessly by scanning a QR code or tapping via NFC, with no app download required. A short welcome flow introduces the journey and lets users select their preferred language, setting the foundation for a personalized experience. The same entry points can support multiple audiences, from kids to expert groups, by simply switching the underlying “story” without changing any physical setup.",
-      "image": "highlight-1.png",
+      "image": "highlight-1.webp",
       "imageWidth": "50%"
     },
     {
       "title": "Flexible Mediaguide with Text & Images",
       "description": "The default mediaguide delivers rich, structured content combining text, images, and contextual storytelling directly on the visitor’s device. It adapts to any topic, from exhibitions to brand spaces or tours, and can be easily reconfigured for different narratives or depths of information. Whether for families, guided groups, or individual exploration, the same system supports multiple layers of content without altering the access points.",
-      "image": "highlight-2.png",
+      "image": "highlight-2.webp",
       "imageWidth": "50%"
     },
     {
       "title": "Audio & Video Companion Experiences",
       "description": "Beyond text, the mediaguide expands into immersive audio and video formats, turning each location into a multimedia touchpoint. Visitors can listen to narrated stories or watch contextual clips that deepen understanding and engagement. Content formats can be mixed and matched freely, allowing you to tailor experiences for different audiences or themes while keeping the same QR codes or NFC triggers in place.",
-      "image": "highlight-3.png",
+      "image": "highlight-3.webp",
       "imageWidth": "50%"
     },
     {

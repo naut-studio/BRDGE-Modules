@@ -1,0 +1,51 @@
+name: Convert images to WebP
+
+# Any PNG/JPG pushed into a module folder is converted to WebP, the module .json is
+# updated to the new name, and the result is committed back to main.
+# The Notion Gallery field is not updated here; fix it with Claude Code afterwards.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.png"
+      - "**/*.PNG"
+      - "**/*.jpg"
+      - "**/*.JPG"
+      - "**/*.jpeg"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: convert-to-webp
+  cancel-in-progress: false
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: pip install "pillow>=10"
+
+      - name: Convert
+        run: python .github/scripts/convert_to_webp.py
+
+      - name: Commit
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing to convert"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Convert new images to WebP"
+          git push

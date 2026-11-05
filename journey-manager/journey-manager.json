@@ -40,15 +40,15 @@
   "videoUrls": [],
   "gallery": [
     {
-      "file": "highlight-1.png",
+      "file": "highlight-1.webp",
       "width": "100%"
     },
     {
-      "file": "highlight-2.png",
+      "file": "highlight-2.webp",
       "width": "45%"
     },
     {
-      "file": "highlight-3.png",
+      "file": "highlight-3.webp",
       "width": "55%"
     }
   ],
