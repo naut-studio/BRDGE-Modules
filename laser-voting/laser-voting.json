@@ -1,7 +1,7 @@
 {
   "title": "Laser Voting",
   "slug": "laser-voting",
-  "publish": false,
+  "publish": true,
   "tagline": "Point. Vote. Decide.",
   "shortDescription": "The audience answers by pointing a laser at the screen. Every dot counts as a vote, and the result builds up live in front of the whole room.",
   "longDescription": "A crowd voting format where each guest gets a laser pointer and answers a question by aiming at one of the options projected on screen. Every laser dot is counted as a vote, a countdown keeps the energy up, and the result appears live, so the room sees its own opinion take shape within seconds. It works for quick polls, A/B decisions, quiz rounds, or moderated debates, and scales from a meeting room to a full auditorium. Questions, answer layouts, timing, and visuals are configurable and can be steered by a host on stage. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",

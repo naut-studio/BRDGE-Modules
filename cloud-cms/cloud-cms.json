@@ -1,7 +1,7 @@
 {
   "title": "Cloud Content Management",
   "slug": "cloud-cms",
-  "publish": false,
+  "publish": true,
   "tagline": "Connected content.",
   "shortDescription": "One back office for the content behind BRDGE guides and trails. Editors manage stories, scenes, challenges, and media in every language, and the experiences pick it up automatically.",
   "longDescription": "A custom content management system built for content-driven experiences such as mediaguides and trails. Each client project gets its own space where editors create stories and scenes for guides, or quests, challenges, and paths for trails, and attach images, audio, and video to them. Texts are managed in several languages side by side, reusable content blocks keep things consistent, and every published version is saved so changes can be compared and rolled back. The experiences read their content through an API, so updates go live without new software. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",

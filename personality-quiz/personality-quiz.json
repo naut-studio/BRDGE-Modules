@@ -1,7 +1,7 @@
 {
   "title": "Personality Quiz",
   "slug": "personality-quiz",
-  "publish": false,
+  "publish": true,
   "tagline": "Answer. Discover. Belong.",
   "shortDescription": "A few playful questions on the visitor's phone reveal which type they are, with an illustrated result card, a personal tip, and a share button that carries the brand into their feed.",
   "longDescription": "A short, mobile-first quiz where every answer nudges visitors toward one of several illustrated personality types. It runs in the browser from a QR code, leads through a handful of multiple-choice questions with a clear progress bar, and ends with a result card that explains the type, adds a tip or product match, and invites sharing. Questions, types, illustrations, and languages are fully configurable, so the same logic can match people to a product, a value, a team, or a cause. Results can also be printed as posters or cards for the venue. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",

@@ -1,7 +1,7 @@
 {
   "title": "Planner",
   "slug": "planner",
-  "publish": false,
+  "publish": true,
   "tagline": "Decide faster.",
   "shortDescription": "A shared link on the phone that lets a group agree on when to come and what to do. Everyone votes on dates and activities, and the best plan rises to the top.",
   "longDescription": "Group visits often stall in endless chats about the date and the programme. It replaces that with one shared link: the organiser invites the group, each person ticks the days that work and the activities they want, such as an exhibition, a trail, games, or an AR experience, and the overview shows at a glance which day and which activities win. It runs in the browser on any phone, can be branded for the venue, and turns a vague maybe into a booked visit. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",

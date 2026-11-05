@@ -1,7 +1,7 @@
 {
   "title": "Interactive Floor",
   "slug": "interactive-floor",
-  "publish": false,
+  "publish": true,
   "tagline": "Step in. Light up. Play.",
   "shortDescription": "A projected floor that reacts to every step, jump, and placed object, turning any open space into a game board, a discovery trail, or a living brand surface.",
   "longDescription": "An interactive projection on the floor that responds the moment visitors walk onto it. Steps trigger ripples and effects, jumps set off bursts, and placing an object on a marked spot can unlock content, so the floor becomes a playground, a guided story, or a product showcase. It can run open, ambient effects for passers-by, structured games with scores and levels, or a discovery path that reveals information stop by stop. Graphics, games, and content are fully configurable and scale from a small booth to a large hall. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",

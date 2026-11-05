@@ -1,7 +1,7 @@
 {
   "title": "Stack Games",
   "slug": "stack-games",
-  "publish": false,
+  "publish": true,
   "tagline": "Build tension, one layer at a time.",
   "shortDescription": "A one-button stacking challenge where timing and nerve decide how high the tower grows. Easy to start, hard to master, and made for repeat play.",
   "longDescription": "A family of stacking games where players drop, align, or balance pieces to build the highest possible tower. A single button or a few simple controls are all it takes, so anyone can play in seconds, while the growing risk of a collapse keeps everyone watching. The pieces, tower, and backdrop can become products, brand objects, or themed props, and the format scales from a quick solo round on a screen to team play with real physical blocks. Score, level, and time are shown live for a natural leaderboard. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",

@@ -1,7 +1,7 @@
 {
   "title": "Photo Printing",
   "slug": "photo-printing",
-  "publish": false,
+  "publish": true,
   "tagline": "From digital moment to physical keepsake.",
   "shortDescription": "Turns captured moments into instant printed souvenirs that visitors can take home on the spot, from classic prints and photo strips to postcards, stickers, and posters.",
   "longDescription": "A print station that turns photos from booths, photographers, or visitors' own phones into a physical keepsake within seconds. Visitors scan a code or pick their picture on screen, and it comes out formatted, framed, and branded for the occasion. Output can be a classic print, a photo strip, a postcard, a sticker, or a poster, and frames, overlays, and the station housing itself can be themed to match the event world. It runs as a standalone print point or as the final stop that hands out what other modules captured. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",

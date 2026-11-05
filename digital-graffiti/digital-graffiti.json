@@ -1,7 +1,7 @@
 {
   "title": "Digital Graffiti",
   "slug": "digital-graffiti",
-  "publish": false,
+  "publish": true,
   "tagline": "Living canvas.",
   "shortDescription": "Visitors pick up a digital spray can and paint straight onto a large projected or screen wall, side by side and in real time. No mess, no skills needed, and every piece becomes a moment worth sharing.",
   "longDescription": "A large digital wall turns into a shared canvas: visitors grab a spray can and paint directly on the surface, with colour, spray texture, and drips appearing as they move. Several people can paint at once, so strangers end up co-creating a single piece, while solo visitors get a quick, satisfying creative moment. Backgrounds, colour palettes, brush styles, and stencils are configurable, so the wall can stay an open playground, follow a strict brand look, or frame a guided theme. Finished artworks can optionally be captured, shown on screen, or handed to visitors, and the setup scales from a single wall to a multi-wall street-art room. BRDGE handles the interaction logic, scene management, and journey and data links end to end.",

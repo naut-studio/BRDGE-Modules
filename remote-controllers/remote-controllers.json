@@ -1,7 +1,7 @@
 {
   "title": "Remote Controllers",
   "slug": "remote-controllers",
-  "publish": false,
+  "publish": true,
   "tagline": "Scan. Control. Experience.",
   "shortDescription": "Visitors scan a QR code and their own phone becomes the remote for the space around them: lights, sound, colours, or a whole building facade respond to their touch in real time.",
   "longDescription": "Turns any phone into a controller for physical installations, with no app to download. Visitors scan a code, open a branded web interface, and use it to change light colours, trigger sounds, play virtual instruments, or draw, while the room, sculpture, or facade reacts live in front of them. Control can be shared by everyone at once or handed out in timed slots so each visitor gets their own moment on stage. The interface, the controls, and what they drive are configurable, from a lit chandelier in a lobby to an interactive light maze or an entire office building after dark. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",

@@ -1,7 +1,7 @@
 {
   "title": "Digital Signage",
   "slug": "digital-signage",
-  "publish": false,
+  "publish": true,
   "tagline": "Content made simple.",
   "shortDescription": "Screens, totems, and touch kiosks across a venue, all fed from one place. Content can be updated, scheduled, and localised without anyone touching the hardware.",
   "longDescription": "A signage layer for the screens around an event, shop, museum, or public space. Information totems, screen walls, and touch kiosks show campaign visuals, event information, way-finding, or in-depth content pages with images and audio, all managed from a central content source. Content can run as a loop, change by time of day, or react to a touch, and each screen can show what fits its location. It scales from a single display to a whole network of screens. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
