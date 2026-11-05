@@ -26,9 +26,9 @@ jobs:
   convert:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -40,6 +40,7 @@ jobs:
 
       - name: Commit
         run: |
+          modules=$(cat webp-modules.txt); rm -f webp-modules.txt
           if [ -z "$(git status --porcelain)" ]; then
             echo "Nothing to convert"
             exit 0
@@ -47,5 +48,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Convert new images to WebP"
+          if [ -n "$modules" ]; then
+            list=$(echo "$modules" | sed 's/^/- /')
+            git commit -m "Convert new images to WebP" -m "TODO: update the Notion Gallery field (.png/.jpg -> .webp) for:" -m "$list"
+            echo "::warning title=Update Notion::Gallery images were renamed to .webp. Update the Notion Gallery field for: $(echo $modules | tr ' ' ',')"
+            { echo "### Update Notion"; echo "Gallery images were renamed to \`.webp\`. Update the **Gallery** field in Notion for:"; echo "$list"; } >> "$GITHUB_STEP_SUMMARY"
+          else
+            git commit -m "Convert new images to WebP"
+          fi
           git push

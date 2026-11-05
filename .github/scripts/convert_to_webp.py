@@ -34,6 +34,7 @@ def convert(src, dst):
 
 def main():
     converted = 0
+    changed_modules = []
     for slug in module_folders():
         json_path = os.path.join(slug, f"{slug}.json")
         with open(json_path, encoding="utf-8") as f:
@@ -59,7 +60,11 @@ def main():
             json.loads(text)  # stay valid JSON
             with open(json_path, "w", encoding="utf-8") as f:
                 f.write(text)
+            changed_modules.append(slug)
     print(f"{converted} image(s) converted")
+    # Modules whose gallery may now differ from Notion; the workflow puts these in the commit message
+    with open("webp-modules.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(changed_modules))
     return 0
 
 

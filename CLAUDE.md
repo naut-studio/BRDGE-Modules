@@ -153,6 +153,11 @@ Gallery, Client Logos) — never the actual files. The real image/video files ar
   Action `.github/workflows/convert-to-webp.yml` does the same on every push to `main` (files and
   `.json`, not Notion), so after pushing a PNG/JPG, pull before editing again and fix the Notion
   Gallery field.
+- **Notion reminder after the WebP Action.** At the start of every session, after pulling, run
+  `git log --author=github-actions --grep="Convert new images to WebP" -5` and read each commit's
+  "TODO: update the Notion Gallery field" list. For every module listed, check its Notion **Gallery**
+  field and switch any `.png` / `.jpg` names to `.webp` so Notion matches the `.json`. Tell me which
+  rows you updated.
 - Never try to fetch a file from Notion. If a referenced file isn't hosted yet, flag it — don't invent a path.
 
 ## Editing an existing module (never destroy existing content)
