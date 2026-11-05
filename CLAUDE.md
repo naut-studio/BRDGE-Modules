@@ -58,11 +58,8 @@ template and a request conflict, surface the conflict before proceeding.
 - Long Description → `longDescription`
 - Categories (multi-select) → `categories: [...]` (exact strings)
 - Tags (multi-select) → `tags: [...]` (exact strings)
-- Illustration → `illustration`. Notion holds a full URL to the **PNG** (e.g.
-  `https://raw.githubusercontent.com/naut-studio/brdge-modules/main/crowd-games/crowd-games-illustration.png`);
-  the `.json` holds only a filename and prefers the recolorable **SVG**. Take the part after the
-  last `/` (e.g. `crowd-games-illustration.png`); if an `.svg` with the same name exists in the module
-  folder, write that instead (`crowd-games-illustration.svg`), otherwise write the filename as-is.
+- Illustration → `illustration` (filename, e.g. `crowd-games-illustration.svg`; same value in Notion and
+  in the `.json`)
 - Animation → `animation` (filename, e.g. `crowd-games-animation.json`)
 - Video URL → `videoUrl`
 - Video URLs (one per line) → `videoUrls: [...]`
@@ -136,18 +133,18 @@ have fully authored states; those are hand-maintained and must survive a regener
 Notion stores only the **filename or URL** of media (Illustration, Animation, Video URL, Video URLs,
 Gallery, Client Logos) — never the actual files. The real image/video files are hosted separately
 (the repo and `upload.naut.ch`); Notion cannot host or serve them, and its upload links expire. So:
-- Treat these fields as text references. Write them through to the `.json` as filenames/URLs as-is
-  (except Illustration, see below).
-- **Illustration is the one exception:** Notion holds the full raw GitHub URL of the `.png` so the
-  Figma CMS CSV import can load the image; the `.json` keeps only the filename (relative to the module
-  folder) and points to the `.svg` when one exists, so the website can recolor it to the brand color
-  (`main/brdge-illustrations.js`).
+- Treat these fields as text references. Write them through to the `.json` as filenames/URLs as-is.
+- **Illustrations are SVG only.** Each module's cover is the recolorable `<slug>-illustration.svg`;
+  the website and the rebranded partner catalogs recolor it to the brand color
+  (`main/brdge-illustrations.js`). The old PNG exports were removed (they were outdated, and nothing
+  used them). If a bitmap is ever needed (email, social preview, slides), render a PNG from the
+  current SVG on demand instead of storing one in the repo.
 - **File names include the slug**, so a file can't end up in the wrong module: the cover illustration
-  is `<slug>-illustration.svg` (recolorable) plus `<slug>-illustration.png`, the Lottie cover
-  animation is `<slug>-animation.json`, and extra versions are numbered (`<slug>-illustration2.png`,
-  `<slug>-animation2.json`). Never name a file just `illustration.*` or `animation.json`, and never
-  save an animation as `<slug>.json` (that name is reserved for the module file). The recolor script
-  recognises any file name ending in `illustration.svg` / `.png` (optionally numbered).
+  is `<slug>-illustration.svg`, the Lottie cover animation is `<slug>-animation.json`, and extra
+  versions are numbered (`<slug>-illustration2.svg`, `<slug>-animation2.json`). Never name a file
+  just `illustration.*` or `animation.json`, and never save an animation as `<slug>.json` (that name
+  is reserved for the module file). The recolor script recognises any file name ending in
+  `illustration.svg` / `.png` (optionally numbered).
 - Never try to fetch a file from Notion. If a referenced file isn't hosted yet, flag it — don't invent a path.
 
 ## Editing an existing module (never destroy existing content)
@@ -163,9 +160,6 @@ row doesn't carry.**
 - Never replace a populated media/logos/states value with a blank.
 - If Notion and the file both have a value and they differ, flag the difference and ask — don't
   silently pick one.
-- Illustration: compare by filename, ignoring the `.png` / `.svg` extension. A Notion URL ending in
-  `<slug>-illustration.png` and a file value of `<slug>-illustration.svg` (or `.png`) are the same
-  value, not a difference.
 
 ## Importing an existing module into Notion (file → row)
 The reverse direction — used to backfill the source of truth for modules that were authored directly
@@ -173,11 +167,9 @@ in code. Read `[slug]/[slug].json` and create or update its row in the **BRDGE M
 reversing the field mapping above:
 - Map straight back: title, slug, publish, tagline, short/long description, categories, tags, and the
   media fields (illustration, animation, videoUrl, videoUrls, gallery, clientLogos).
-- **Illustration:** write it to Notion as the full URL of the **PNG**,
-  `https://raw.githubusercontent.com/naut-studio/brdge-modules/main/<slug>/<name>.png`, where
-  `<name>` is the file's `illustration` value without its extension (the `.json` usually holds
-  `<slug>-illustration.svg`). Only do this if that `.png` actually exists in the module folder. If it
-  doesn't, leave the Notion field blank and flag it.
+- **Illustration:** write the file's `illustration` value to Notion as-is (e.g.
+  `crowd-games-illustration.svg`), only if that file exists in the module folder; otherwise leave the
+  Notion field blank and flag it.
 - **Highlights, un-bundled:** put each standard highlight's description into its matching field —
   `Twists Description`, `Themes Description`, `Data/ROI Description`, `Connections Description`. If a
   highlight's title differs from the standard default, put it in the matching title field (`Twists
