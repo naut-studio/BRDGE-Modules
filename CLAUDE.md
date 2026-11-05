@@ -19,9 +19,13 @@ no trailing commas), so the site can `fetch` `{slug}/{slug}.json` and `res.json(
 
 ## Sources of truth (read these before generating or editing a module)
 - **Content database (Notion):** BRDGE Modules — https://app.notion.com/p/e55cb9315246405bb5b78fd92f39bd92
-- **Canonical structure:** BRDGE — Module Template (code) — https://app.notion.com/p/389472cc45a081fab3c1f0bca5d9675b
-- **Field rules:** BRDGE — Module Creation Guide (README) — https://app.notion.com/p/389472cc45a08173bb3be222d7ebf697
-- **Order list:** BRDGE — Module Order (JS) — https://app.notion.com/p/389472cc45a0818c9627c075bfb1792f
+- **Canonical structure and field rules:** BRDGE — Module Creation Guide (README) —
+  https://app.notion.com/p/389472cc45a08173bb3be222d7ebf697. The module template (code) is the
+  "Module template (code)" toggle at the top of that page; the states framework is in its States
+  section. (The old Module Template and States Logic pages are only pointers now.)
+- **Order list (SOURCE OF TRUTH):** `main/BRDGE-Module-order.js` in this repo — the module list, card
+  order, and canonical titles and slugs. The website reads it directly. There is no Notion copy to
+  keep in sync anymore (the old Module Order (JS) page is only a pointer).
 - **Approved tags (SOURCE OF TRUTH):** `main/BRDGE-Tags.js` in this repo (inside the `main/` folder,
   not the repo root). The website fetches
   this at runtime; it defines the tag groups and the full tag vocabulary. `use-tag-constants.ts`
@@ -201,16 +205,16 @@ reversing the field mapping above:
   supports (the richer modules run ~20–30 tags across mood, mechanics, technology, content, audience,
   venue, and goal), not just the few most obvious ones. Add only what the content justifies.
 - **Module names referenced in copy** (e.g. Better Together / Connections pairings) must be real,
-  current module names taken **exactly** from the **Module Order (JS)** list (the source of truth for
-  what modules exist). Never invent a name or use one from memory — older names drift (e.g. it's
-  "Visitor Identificator", not "Visitor Token Pass"; "Journey Manager", not "Journey"). If unsure,
-  read the Order (JS) list and use the exact title. Flag any pairing name you can't find on the list.
+  current module names taken **exactly** from the order list `main/BRDGE-Module-order.js` (the source
+  of truth for what modules exist). Never invent a name or use one from memory — older names drift
+  (e.g. it's "Visitor Identificator", not "Visitor Token Pass"; "Journey Manager", not "Journey"). If
+  unsure, read the order list and use the exact title. Flag any pairing name you can't find on the list.
 - **Slugs tie to the folder name, file name, and URL path.** Preserve the existing slug, folder/file
   names, and order when editing, unless I explicitly ask to change them. Changing a slug means
-  renaming both the folder and the `<slug>.json` file to match, and updating the Order (JS) page.
+  renaming both the folder and the `<slug>.json` file to match, and updating `main/BRDGE-Module-order.js`.
 - **Typos:** if you spot a likely typo (slug, title, tag, anywhere), tell me the exact value and a
   suggested fix. Do not silently change it. Still use the slug verbatim for the file name.
-- **New module → update the Order (JS) page.** Default: next order number (current highest + 1),
+- **New module → update `main/BRDGE-Module-order.js`.** Default: next order number (current highest + 1),
   appended last, using its title and slug. If I ask for a specific position, insert it there and
   shift every later module by +1 so the sequence stays contiguous and unique.
 - **Plain JSON object:** each module file is a single JSON object with no wrapper, no `export`, and
