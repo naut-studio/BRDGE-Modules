@@ -43,8 +43,8 @@
     "Exhibition",
     "Sponsorship"
   ],
-  "illustration": "illustration.svg",
-  "animation": "animation.json",
+  "illustration": "crowd-games-illustration.svg",
+  "animation": "crowd-games-animation.json",
   "videoUrl": "gallery-0.mp4",
   "videoUrls": [],
   "gallery": [

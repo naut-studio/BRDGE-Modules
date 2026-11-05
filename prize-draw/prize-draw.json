@@ -39,8 +39,8 @@
     "Data Collection",
     "Leaderboard"
   ],
-  "illustration": "illustration.svg",
-  "animation": "animation.json",
+  "illustration": "prize-draw-illustration.svg",
+  "animation": "",
   "videoUrl": "",
   "videoUrls": [
     "https://upload.naut.ch/Prize-Draw-ScreenUP-noSound.mp4",

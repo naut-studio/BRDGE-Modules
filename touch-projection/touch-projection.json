@@ -39,8 +39,8 @@
     "Data Collection",
     "Educational"
   ],
-  "illustration": "illustration.svg",
-  "animation": "animation.json",
+  "illustration": "touch-projection-illustration.svg",
+  "animation": "touch-projection-animation.json",
   "videoUrl": "",
   "videoUrls": [],
   "gallery": [

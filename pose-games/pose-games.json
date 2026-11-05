@@ -39,8 +39,8 @@
     "Sponsorship",
     "Viral"
   ],
-  "illustration": "illustration.svg",
-  "animation": "animation.json",
+  "illustration": "pose-games-illustration.svg",
+  "animation": "pose-games-animation.json",
   "videoUrl": "https://upload.naut.ch/pose-game.mp4",
   "gallery": [],
   "clientLogos": [

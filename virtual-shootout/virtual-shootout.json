@@ -40,8 +40,8 @@
     "Sponsorship",
     "Data Collection"
   ],
-  "illustration": "illustration.svg",
-  "animation": "animation.json",
+  "illustration": "virtual-shootout-illustration.svg",
+  "animation": "virtual-shootout-animation.json",
   "videoUrl": "",
   "videoUrls": [
     "http://upload.naut.ch/WOW-Knabenschiessen_S.mp4",

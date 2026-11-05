@@ -31,8 +31,8 @@
     "Museum",
     "Exhibition"
   ],
-  "illustration": "illustration.svg",
-  "animation": "animation.json",
+  "illustration": "memory-catcher-illustration.svg",
+  "animation": "memory-catcher-animation.json",
   "videoUrl": "",
   "videoUrls": [
     "https://upload.naut.ch/webguideRemoteFoto.mp4",

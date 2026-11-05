@@ -43,8 +43,8 @@
     "Data Collection",
     "Leaderboard"
   ],
-  "illustration": "illustration.svg",
-  "animation": "animation.json",
+  "illustration": "visitor-identificator-illustration.svg",
+  "animation": "visitor-identificator-animation.json",
   "videoUrl": "",
   "videoUrls": [],
   "gallery": [],
