@@ -73,47 +73,50 @@
       "title": "One Place for Every Screen",
       "description": "Update a single totem or a whole network of displays from one content source, so the client changes a message once and it appears everywhere it should.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Touch When It Matters",
       "description": "Turn any screen into an interactive kiosk with content pages, images, and audio, so visitors can dig deeper where a poster would end.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Right Message, Right Time",
       "description": "Run playlists that change by time of day, location, or programme, from morning arrival information to the evening's highlights.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Screens That Do More",
       "description": "Add a QR code that continues the content on the visitor's phone, an audio layer for headphones, live data such as schedules or queues, or a sponsor slot in every loop.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Signage for Any Setting",
       "description": "Use it for destination campaigns in a travel hub, product stories in a shop, exhibit information in a museum, or the agenda and way-finding of a conference.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Proof of Airtime",
       "description": "Add a data layer that logs what played where and when, and how often visitors touched each kiosk, so sponsors and partners see exactly the exposure they got.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Venue's Voice",
       "description": "Pair with Cloud Content Management to keep screens in sync with guides and trails, with Live Feed to show live event highlights, or with Spatial Mediaguide to continue the story on visitors' phones.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

@@ -77,47 +77,50 @@
       "title": "Products That Explain Themselves",
       "description": "Point the phone at a device, a package, or a menu and the explanation appears right on it: which button to press, what is inside, or what the dish looks like. Ideal for retail and product launches.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Bigger Than the Space",
       "description": "Show a full-size room, a machine, or a scene that would never fit on a stand. A doorway or a marker on the floor becomes the entrance to a whole digital world.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "On the Phone They Already Have",
       "description": "Visitors scan a code and start, with no hardware to hand out. That keeps costs low and lets the experience travel beyond the venue, onto packaging, posters, or printed invitations.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "New Ways to Trigger",
       "description": "Add face filters that put visitors into the story, a collect-them-all hunt across several markers, a physical miniature that comes alive when scanned, or a shared view on a big screen.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Layer for Every Story",
       "description": "Let a mascot pop out of a drink for a brand campaign, show how a castle looked centuries ago in a museum, furnish an empty showroom, or add snow and lights to a winter edition.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "See What People Point At",
       "description": "Add a data layer that counts scans per marker, time spent with each scene, and shares of filter photos, so the client knows which products and stories drew the most attention.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Layer Over the Whole Visit",
       "description": "Pair with Trail / Scavenger Hunt to hide AR clues along a route, with Objects Recognition to trigger content from real objects, or with Memory Catcher to save AR moments as photos.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

@@ -46,47 +46,50 @@
       "title": "Curiosity Before Arrival",
       "description": "A teaser story makes guests look forward to the event and talk about it before it starts, which lifts sign-ups and attendance.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Arrive Already Prepared",
       "description": "Roles, teams, and registration details are sorted before the event, so check-in is quick and the experience starts the moment guests walk in.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Invitation Is Part of the Story",
       "description": "What guests choose or answer in the invitation reappears on site, so the event feels made for them from the very first email.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Build the Suspense",
       "description": "Add a countdown with a new clue each day, a secret code revealed only at the entrance, a team draw that guests can share, or a video message from the host.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Invitations That Tell a Story",
       "description": "Send agents on a mission for a product launch, invite employees to a time-travel company anniversary, open a museum night with a mystery to solve, or welcome conference guests with their own expedition role.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Know Who's Coming",
       "description": "Add a data layer that tracks opens, sign-ups, answers, and first actions, so the client sees interest and preferences before the event even begins.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The First Step of the Journey",
       "description": "Pair with Visitor Identificator to issue each guest's personal code, with Personality Quiz to assign roles before arrival, with Trail / Scavenger Hunt to start the first clue, or with Journey Manager to carry everything into the event.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

@@ -36,43 +36,43 @@
       "title": "Tech Partner Enablement",
       "description": "Tech partners get standing access to an extensive wiki packed with tutorials and step-by-step video walkthroughs. It turns setup, calibration, and troubleshooting into skills the team keeps, so partners stay self-sufficient across every future deployment instead of relying on a one-off briefing.",
       "image": "icon-build.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "White-Label Handover",
       "description": "Drop in the reseller or client brand and the whole pack becomes a polished, professional handover. It makes a stand or installation feel fully owned and turns routine setup paperwork into a credibility builder you can charge for.",
       "image": "icon-autorenew.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "QR, Video & AI Add-Ons",
       "description": "Layer in QR codes on the hardware that deep-link to the right page, embed video walkthroughs, add an AI assistant trained on the docs for instant answers, or wire up live status dashboards and sign-off checklists. Each upgrade is an easy paid add-on.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Presentation Skins",
       "description": "The same content reskins to fit the moment: a lean technical style for crews, a premium branded style for client handover, a co-branded version for a sponsor, or localized regional packs for international teams.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Optional Usage Tracking",
       "description": "Add an optional usage-tracking layer to see what crews actually use: page views, checklist completion, install time, sign-offs, and recurring issues logged in a searchable database. In place, it cuts support calls, speeds every future setup, and gives clients clear evidence of a clean, on-time deployment.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "One Hub for Every Module",
       "description": "It plugs into every other module by gathering each one's setup and run guide into a single hub. Pair it with Journey or Booths to document a full multi-stand route, with Games and Leaderboard to capture their config and reset flows, or with Visitor Identificator to brief reward handling, so a large deployment stays coordinated from one source.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

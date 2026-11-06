@@ -93,22 +93,22 @@
       "title": "One Route, Any World",
       "description": "Reskin the same route engine for any world: a museum mystery that reveals facts along the way, a city heritage walk, a brand discovery tour, a kids' treasure hunt, or a festive advent trail. Look, story, and challenges all change while the underlying flow stays the same.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Optional Trail Data",
       "description": "Add a data layer to track starts, stop completion, drop-off points, time per challenge, and finish rate, and connect it to tokens or dashboards for post-event reporting that shows exactly where visitors went and what held their attention.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Part of a Bigger Journey",
       "description": "Pair it with Visitor Identificator to tie progress and identity to each visitor profile, with Journey Manager to make the trail one leg of a longer multi-stop route, or with a Shared Gallery to collect and showcase the photos players capture along the way.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

@@ -35,36 +35,36 @@
       "title": "Attach It to Anything",
       "description": "Sell it as a standalone service or bolt it onto any other module as a quiet support layer. It needs no hardware, no floor space, and no visitor-facing footprint, so it drops into a quote as a low-friction add-on that raises the perceived reliability of the whole package.",
       "image": "icon-hub.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Smarter Intake & Escalation",
       "description": "Swap the intake from a public form to a QR code on each unit, a staff-only chat channel, or a monitored inbox. Layer in automatic escalation when a ticket sits too long, response-time targets, severity scoring, recurring-issue detection, or an on-call rotation that pages the right person automatically.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Themed Reskins",
       "description": "Dress the intake forms and dashboards to match the client's world: a clean corporate help desk, a playful festival 'something's broken' kiosk, a museum conservation log, or a retail floor-stock alert board. Same engine underneath, a look that fits each deployment.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Optional Reporting Layer",
       "description": "Add a reporting layer that rolls ticket history into uptime and stability reports, response-time stats, and a clear record of how issues were handled. Each ticket can log time of report, category, priority, owner, time to resolution, and recurrence, giving clients the evidence to justify renewal and to fix what matters before the next run.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Sits Behind Any Module",
       "description": "Pair it with Booths so a stand attendant can flag a fault in seconds, with Journey so a broken stop reroutes visitors automatically, with Leaderboard or Games so scoring glitches get caught live, or with a Feedback module so visitor complaints and operational issues land in one place.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

@@ -80,47 +80,50 @@
       "title": "No Searching Through Thousands of Photos",
       "description": "Guests don't scroll a public gallery or hunt for themselves in a cloud folder. Their photos are already waiting in their personal journey, matched to the badge they wear.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "One Scan, One Tap",
       "description": "The photographer scans the guest's code, selects the shots, and sends them on the spot, so photos arrive during the event, while the moment is still fresh.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Professional Quality, Personal Moment",
       "description": "Unlike a selfie or a photobooth picture, the images come from a professional with proper light and composition, which makes guests feel looked after and makes the photos worth sharing.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Beyond the Snapshot",
       "description": "Add short video clips alongside the photos, a branded frame or sponsor mark on every image, printed copies at a pickup point, or a consent step so guests choose whether they want to be photographed.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Fits Every Occasion",
       "description": "Deliver portraits at a gala dinner, product moments at a trade fair stand, team shots at a corporate offsite, or meet-and-greet photos backstage at a festival.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "See How Far the Photos Travel",
       "description": "Add a data layer that counts photos sent, opened, downloaded, and shared per guest and per photographer, so the client sees how far the event imagery reached.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Part of the Guest Journey",
       "description": "Pair with Visitor Identificator for the guest badges, with Journey Recap to send every photo in one summary after the event, with Photo Printing for printed copies, or with Shared Gallery for a public selection.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

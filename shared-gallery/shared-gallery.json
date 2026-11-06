@@ -82,47 +82,50 @@
       "title": "No App, No Login",
       "description": "Guests scan, upload, and browse in seconds from any phone, so far more people share their photos than with a hashtag or an email address.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Hundred Viewpoints, One Gallery",
       "description": "Every guest sees the event from a different angle. Together, their photos tell a story no single photographer could capture.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Lives On After the Event",
       "description": "The gallery stays online, can be downloaded as one file, and keeps the brand in front of guests long after they have gone home.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "More Ways to Collect",
       "description": "Add a written or video guestbook, albums for each stage or team, a moderation step before images go public, or a photo challenge with themed prompts.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Gallery for Every Occasion",
       "description": "Turn it into a wedding album, a conference highlights wall, a festival memory book, or a museum wall of visitor perspectives.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Reach You Can Count",
       "description": "Add a data layer that counts uploads, viewers, downloads, and shares, and pair it with an opt-in step so every upload can also build the guest list for the next event.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Memory Layer",
       "description": "Pair with Memory Catcher and Connected Photographer to fill the gallery automatically, with Live Feed to show the best moments on screens, or with Journey Recap to send each guest their own selection.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

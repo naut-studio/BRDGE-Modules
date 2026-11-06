@@ -73,8 +73,8 @@
       "title": "Sponsor Takeovers & Tournaments",
       "description": "Hand a sponsor the screen with branded frames, rewards, and takeovers, run a live tournament or leaderboard across teams and time slots, or carry winners into a personal recap and post-event reward. New layouts and data feeds slot in as paid upgrades.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Festive, Museum or Brand Worlds",
@@ -88,8 +88,8 @@
       "title": "The Face of Every Module",
       "description": "It shows the output of whatever it is connected to, so pair it with Shared Gallery to surface guest photos and videos, with Visitor Identificator for personalised shout-outs by name, with Connected Photographer to stream event photos onto the screen, or with the Analytics Dashboard to back the public screen with private reporting.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

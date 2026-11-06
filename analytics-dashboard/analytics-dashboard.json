@@ -38,43 +38,43 @@
       "title": "One View Across Everything",
       "description": "It pulls usage data from every module, web app, and connected service into a single admin dashboard, so scattered numbers become one clear picture of how the whole experience is performing.",
       "image": "icon-hub.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "See What Performs, Where and When",
       "description": "Break usage down by experience, room or zone, day, week, and season, so a museum or venue can see which spaces draw crowds, when the peaks and quiet spells fall, and how it all shifts over time.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Live Now, or the Full Story After",
       "description": "Watch usage update in real time while an event runs, then keep the very same dashboard as a post-event report. One tool covers the live moment and the follow-up.",
       "image": "icon-autorenew.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Proof of Impact for the Pitch",
       "description": "It hands operators and resellers a concrete impact story: hard numbers on reach, engagement, and usage that back up decisions and make renewals and upsells easier to win.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Alerts, Reports & White-Label",
       "description": "Schedule automated reports, set threshold alerts that fire when a metric moves, add custom KPIs and chart types, or white-label the dashboard in the client's brand. New data sources and connectors slot in as paid upgrades.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Feeds On Every Module",
       "description": "It draws from any BRDGE module, web app, or service, so pair it with Live Feed to turn the same data into a participant-facing live screen, with Visitor Identificator to break usage down by visitor, or with Journey Manager to see how people move between spaces.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

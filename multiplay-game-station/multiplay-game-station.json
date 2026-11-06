@@ -74,22 +74,22 @@
       "title": "Custom Rounds & Bigger Rigs",
       "description": "Commission bespoke game logic built for your brief, add sponsor rounds with branded prizes, or combine buzzer, pedal, and blow into one mixed-input challenge. Difficulty ramps, extra signals, and premium props all slot in as paid upgrades.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Optional Score Data",
       "description": "Add a data layer to log players, scores, reaction times, rounds played, and repeat plays, then export it for a post-event read on participation and the standout performers.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Wire It Into the Event",
       "description": "Pair it with a Leaderboard for a venue-wide ranking, with Visitor Identificator to tie scores to each player, with Prize Draw to reward the winners, or with Live Feed to put live results on screens around the space.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

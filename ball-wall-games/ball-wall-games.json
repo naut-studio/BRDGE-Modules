@@ -89,47 +89,50 @@
       "title": "Real Sport, Digital Magic",
       "description": "A real ball in the hand makes it instantly understood: throw, kick, or smash, and the wall answers. It feels like sport, not like screen time.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "One Wall, Many Games",
       "description": "Switch between a penalty shoot-out, target practice, puzzle walls, and team missions on the same setup, so one booking covers a whole day of different audiences.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Indoors or Out",
       "description": "It works in a gym, a hall, a fan zone, or a town square, and the size of the wall can grow with the venue.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Change the Rules",
       "description": "Add timed rounds, team-versus-team missions, a tournament bracket, rackets or bats instead of hands, or a final boss round that the whole crowd tries to beat together.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Kick Into Any World",
       "description": "Play a goalkeeper duel for a football sponsor, a temple adventure for kids, a space mission for a tech brand, or a festive target game for a winter market.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Scores Worth Sharing",
       "description": "Add a data layer that records players, scores, hits, and rounds per day, and turn it into a live leaderboard or a prize threshold that keeps people coming back.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Part of the Game Zone",
       "description": "Pair with Reaction Games and MultiPlay Game Station for a full arcade, with Live Feed to put the leaderboard on the big screen, or with Prize Draw to reward the best scores.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

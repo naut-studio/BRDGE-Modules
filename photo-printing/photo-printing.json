@@ -109,15 +109,15 @@
       "title": "Prints You Can Count",
       "description": "Add a data layer that counts prints per format, peak times, and the share of visitors who took a keepsake home, and pair it with an opt-in step so every print can also capture a lead.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Last Stop of the Journey",
       "description": "Pair with Memory Catcher to print booth photos on the spot, with Connected Photographer to hand out professional shots, with Visitor Identificator to send each visitor their own picture, or with Journey Recap to round off the visit with a printed summary.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

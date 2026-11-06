@@ -74,47 +74,50 @@
       "title": "Everyone Knows the Rules",
       "description": "Nobody needs instructions: visitors of any age start flipping cards right away, which keeps the barrier low and the queue moving.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Story Behind Every Pair",
       "description": "Each match can open a short text or an image, so the game carries brand values, products, or employee stories that visitors would walk past on a poster.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Fits Into Any Exhibit",
       "description": "Runs on a touchscreen or display built into a shop, museum, or stand wall, with a restart button that resets it for the next visitor.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Harder, Faster, Together",
       "description": "Add a timer and a leaderboard, levels with more pairs, a two-player duel on one screen, or a prize for visitors who beat a target time.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Pairs for Every Story",
       "description": "Match products with their origins in a brand store, artworks with their artists in a museum, team members with their favourite quotes for an employer brand, or winter motifs in a festive edition.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Know What Gets Discovered",
       "description": "Add a data layer that tracks rounds played, completion times, and which pairs are revealed most, showing which content visitors actually engage with.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Play It Further",
       "description": "Pair with Prize Draw to reward the fastest players, with Visitor Identificator to keep each visitor's score, or with Cloud Content Management to swap cards and languages without new development.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

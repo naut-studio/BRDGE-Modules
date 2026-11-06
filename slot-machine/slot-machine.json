@@ -62,47 +62,50 @@
       "title": "Pull the Lever",
       "description": "A physical lever and spinning reels give visitors something real to grab, which draws far more people in than a tap on a screen.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Brand Symbols on Every Reel",
       "description": "The reels show the client's products, logos, or campaign icons, so every spin repeats the brand message, win or lose.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Fair Odds, Lasting Prizes",
       "description": "Set the odds and the stock for each prize, so the jackpot stays rare and the giveaways last the whole event.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Jackpot Mechanics",
       "description": "Add a progressive jackpot that grows with every spin, a bonus round when three logos line up, a spin unlocked by a quiz answer or a sign-up, or a team mode where colleagues pool their spins.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Every Spin Tells a Story",
       "description": "Host a Las Vegas night at a company party, a candy machine at a retail launch, a fruit theme for a beverage brand, or a festive edition with gifts on the reels.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Every Pull Counted",
       "description": "Add a data layer that logs spins, wins per prize, and optional sign-ups before the spin, giving the client clear reach and lead numbers per day.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "More Ways to Win",
       "description": "Pair with Visitor Identificator to allow one spin per visitor, with Prize Draw for a main draw at the end of the event, or with Wheel of Luck to offer a second game of chance at a larger stand.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

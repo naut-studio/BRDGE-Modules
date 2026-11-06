@@ -89,15 +89,15 @@
       "title": "Footsteps Into Figures",
       "description": "Add a data layer that counts players, games started and finished, scores, and dwell time on the floor, so the client sees exactly how much traffic the space attracted and held.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Floor That Connects",
       "description": "Pair with Visitor Identificator to save each player's score, with Live Feed to show the leaderboard on a wall screen, with Trail / Scavenger Hunt to make the floor one stop on a route, or with Memory Catcher to capture players mid-jump.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

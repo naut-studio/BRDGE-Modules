@@ -70,47 +70,50 @@
       "title": "A Wall Full of Surprises",
       "description": "Every drawing is a possible discovery, so visitors keep exploring to see what reacts next. Curiosity does the work, and the space holds attention far longer than a printed wall.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Big Surfaces, No Screens",
       "description": "Projection covers whole walls, corners, and odd shapes at a fraction of the cost of large displays, and it blends into the architecture instead of looking like a screen.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Physical Meets Digital",
       "description": "Peepholes, tubes, buttons, or real products built into the wall become part of the story, giving visitors something to look into, pull, or touch beyond the projection itself.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Layers to Unlock",
       "description": "Add hidden scenes that open after several touches, a seek-and-find challenge across the wall, timed shows that take over the whole surface, or a mode where several visitors trigger a joint finale.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Draw Any World",
       "description": "Tell how chocolate is made in a factory shop, how a city grows in a museum, how a product travels from field to shelf, or how a season changes in a festive edition.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "See What Draws People In",
       "description": "Add a data layer that counts touches per hotspot, sessions, and dwell time, so the client sees which parts of the story attract visitors and which can be improved.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Part of the Story Route",
       "description": "Pair with Spatial Mediaguide to continue the story on visitors' phones, with Cloud Content Management to update texts and languages, or with Journey Manager to make the wall one stop on a longer route.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

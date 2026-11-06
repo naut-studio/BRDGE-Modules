@@ -78,47 +78,50 @@
       "title": "Learning by Playing a Part",
       "description": "Taking on a role makes people argue positions they would never choose themselves, which opens up new perspectives far better than a lecture.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Everyone Plays on Their Own Phone",
       "description": "Nothing to install and no hardware to hand out: participants join with their own phones, and a whole class or team is playing within minutes.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Reveal Starts the Conversation",
       "description": "When the roles are revealed at the end, the group sees how polarisers and followers steered the vote, a natural starting point for reflection and debriefing.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Plot Twists",
       "description": "Add an imposter that the others must unmask, roles that change mid-round, secret alliances, or a moderator who drops new information into the chat at key moments.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Any Topic, Any Group",
       "description": "Debate pineapple on pizza to break the ice, explore polarisation on social media with a school class, rehearse a negotiation in a leadership workshop, or play historical characters in a museum.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Insight Into Group Dynamics",
       "description": "Add a data layer that records votes, opinion shifts, and participation per role, giving trainers and teachers a clear basis for the debrief.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Roles Within a Bigger Story",
       "description": "Pair with Personality Quiz to assign roles that fit each person, with Live Quiz Show to follow up with a knowledge round, or with Laser Voting to bring the final vote onto the big screen.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

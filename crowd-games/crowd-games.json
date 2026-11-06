@@ -155,36 +155,36 @@
       "title": "Instant, No-App Participation",
       "description": "The whole room joins in seconds by scanning a QR code in the browser, so even large, passive audiences activate with zero friction and no hardware to hand out.",
       "image": "icon-bolt.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Reshape the Mechanic",
       "description": "Reshape the mechanic itself: swap the input from phones to buttons, gestures, or motion; split the crowd into teams that each steer their own avatar and race head to head; or turn steering into a live vote, where the avatar moves to catch A or B. Layer on vertical-lane gameplay, sponsor editions with branded vessels and rewards, or tournament and leaderboard rounds.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Any World, One Game",
       "description": "Reskin the same game for any world - Space Travel, Holiday Travel, a sustainability mission, a culture-and-history quest, a music festival, or a fully branded product story.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Optional Crowd Data",
       "description": "Add a data layer that captures engagement rate, player count (peak, average, per round), session duration, score stats, and a heatmap of movement, giving the client clear proof of participation and reach.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Pairs With Your Stack",
       "description": "Pair with Visitor Identificator for rewards and follow-up, Shared Gallery for the collective result and shareable cards, Journey Manager to make it one stop on a longer route, or a Leaderboard for live competition.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

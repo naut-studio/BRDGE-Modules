@@ -48,47 +48,50 @@
       "title": "Everyone Gets Their Own Film",
       "description": "No two videos are the same: each one shows the route, answers, and moments of that team or visitor, which makes it something people actually watch and keep.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Made to Be Shared",
       "description": "Vertical, branded, and short, the video is ready for stories and reels, so guests carry the client's brand into their own feeds.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Experience Keeps Going",
       "description": "A video arriving after the event brings the day back, extending the experience well beyond the moment and giving the client a natural reason to follow up.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Remix the Recap",
       "description": "Add a personal message from the host, the best photo of the day as the closing shot, a team versus team comparison, or a teaser for the next event at the end.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Video for Every Story",
       "description": "Recap a city trail through political history, a team day with points for climate and karma, a festival in highlights, or a museum visit with every object the visitor discovered.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "See Who Watches",
       "description": "Add a data layer that tracks deliveries, views, downloads, and shares per video, showing how far the recap travelled after the event.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Fed by the Whole Journey",
       "description": "Pair with Trail / Scavenger Hunt as the source of the route and challenges, with Journey Manager to collect each visitor's journey, with Memory Catcher or Connected Photographer for the photos, or with Journey Recap to send the video in a personal summary.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

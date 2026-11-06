@@ -49,47 +49,50 @@
       "title": "No Phones, Full Attention",
       "description": "Nobody has to unlock a phone, find the Wi-Fi, or open a link. Guests just point, which keeps eyes on the stage and gets even the least tech-savvy people in the room voting.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Room Full of Light",
       "description": "Hundreds of laser dots dancing across the screen are a show in themselves, turning a routine poll into a visual moment that photographers and attendees capture.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Host's Best Friend",
       "description": "Moderators get instant, visible answers to steer the conversation, break the ice at the start, or settle a debate on the spot, which makes it an easy upsell for any staged programme.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "More Than Yes or No",
       "description": "Add multi-option grids, team-versus-team rounds, a quiz mode with points per correct answer, heat maps of where the room pointed, or a live comparison between two halls.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Votes in Any Setting",
       "description": "Run it as a game show for a sales kick-off, a strategy check at a shareholder meeting, a light-saber duel at a sci-fi themed gala, or a festive quiz at the company Christmas party.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Room's Opinion, on Record",
       "description": "Add a data layer that saves every question with its vote split and timing, so the client leaves with an exportable snapshot of what the audience actually thought.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Part of the Show",
       "description": "Pair with Live Quiz Show for a full game format, with Live Feed to put results on every screen in the venue, or with Prize Draw to reward the room after the final question.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

@@ -78,47 +78,50 @@
       "title": "Your Day on One Page",
       "description": "Each visitor gets a poster of their own route, moments, and times, which feels personal enough to keep and share long after the event.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Print, PDF, or Feed",
       "description": "The same layout comes out as a printed poster, a PDF booklet, or an image and short video for social media, so it fits both on-site handouts and post-event follow-up.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Made From Real Moments",
       "description": "It is built from what actually happened during the visit, the photos taken and the stops reached, so no two posters are alike and nothing has to be designed by hand.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Bigger Pictures",
       "description": "Add a mosaic that combines every guest's photos into one image, a year-in-review collage, a group poster for families or teams, or a sponsor frame around every print.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Layout for Every Story",
       "description": "Lay the day out as a travel route map, a historic timeline for a museum, a family album for a day out, or a festival line-up of the stages a guest saw.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Keepsakes You Can Count",
       "description": "Add a data layer that tracks posters created, downloaded, printed, and shared, and pair it with an opt-in step so every keepsake can also capture a contact.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Last Chapter of the Journey",
       "description": "Pair with Journey Manager to collect the stops, with Memory Catcher to add the photos, with Photo Printing to hand the poster out on site, or with Video Wrap for a moving version of the same day.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

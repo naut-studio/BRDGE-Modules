@@ -85,47 +85,50 @@
       "title": "No App, No Hardware in Hand",
       "description": "Visitors use the phone they already carry: scan, open, play. There is nothing to hand out, clean, or collect, which keeps operating costs low and the barrier to joining close to zero.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Makes Any Space Interactive",
       "description": "Lighting rigs, sound systems, screens, and architectural lighting the venue already has can become the canvas, so the same module upgrades a lobby, a showroom, or a whole facade without rebuilding it.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Your Moment on Stage",
       "description": "Hand control to one visitor at a time with a countdown, or open it to the whole crowd at once. Both modes create a public moment that people film, share, and come back for.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "New Controls, New Experiences",
       "description": "Swap colour pickers for a piano, drum kit, or guitar, add a drawing pad that paints with light, let donations or check-ins unlock a reveal, or queue visitors for timed solo slots with their name on screen.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Light Up Any Story",
       "description": "Let visitors colour a building for a charity campaign, conduct a festive light show in a shopping centre, jam inside a neon music maze, or set the mood of a brand space in its signature colours.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Every Tap Counts",
       "description": "Add a data layer that tracks scans, active controllers, session length, and the most chosen colours or sounds, giving the client clear proof of reach and an insight into what their audience liked best.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Plug It Into the Journey",
       "description": "Pair with Visitor Identificator to greet each controller by name, with Journey Manager to make the installation one stop on a longer route, or with Live Feed to put the crowd's creations on the big screen.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

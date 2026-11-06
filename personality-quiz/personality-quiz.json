@@ -82,47 +82,50 @@
       "title": "Everyone Wants to Know Their Type",
       "description": "People love finding out what they are, so participation comes naturally and the result card does the sharing for the brand, without needing a prize to pull people in.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Quick to Build, Easy to Reuse",
       "description": "Swap the questions, types, and illustrations and the same quiz serves a new client, campaign, or language in days, which makes it an easy add-on to almost any brief.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "From Screen to Poster",
       "description": "Each result type can become printed posters, cards, or stickers at the venue, so the digital quiz also shapes the physical space and gives visitors something to take home.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Results With a Twist",
       "description": "Add a product or offer matched to each type, a reveal on a big screen, a team or crowd mode that shows how the room splits, or a follow-up challenge unlocked by the result.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Type for Every Theme",
       "description": "Find your biodiversity animal for a sustainability campaign, your drink type for a beverage launch, your leadership style for a corporate offsite, or your festive character for a winter edition.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Know Your Audience",
       "description": "Add a data layer that shows how many people took part, how the result types are distributed, and how answers break down per question, and pair it with an opt-in contact step to turn results into qualified leads.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Types That Travel",
       "description": "Pair with Visitor Identificator to carry each visitor's type through the event, with Journey Manager to send them to the stations that match their result, or with Photo Printing to hand out a printed result card.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

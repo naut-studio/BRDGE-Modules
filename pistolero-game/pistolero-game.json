@@ -65,29 +65,29 @@
       "title": "Solo, Brackets & Sudden Death",
       "description": "Run it solo against an AI draw, bracket several players into a knockout tournament, or add a sudden-death final for a big finish. Layer in gunshot sound design, muzzle-flash lighting, or a slow-motion replay of the winning draw to raise the drama at premium installs.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Wild West to Sci-Fi",
       "description": "Reskin the duel for any world: a Wild West saloon standoff, a sci-fi blaster duel, a spy laser showdown, a medieval joust, or a fully branded product face-off. The countdown, the draw, and the winner reveal all carry the chosen look and sound.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Optional Duel Data",
       "description": "Add a data layer to log duels played, reaction times, win rates, and repeat plays, then export it for a post-event read on engagement and the fastest hands in the room.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Wire It Into the Event",
       "description": "Pair it with Visitor Identificator to tie scores and reaction times to each player, with Journey Manager to make the duel one stop on a longer route, with Prize Draw to reward the fastest hand, or with a Connected Photographer to capture the winner's moment.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

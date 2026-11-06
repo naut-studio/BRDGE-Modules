@@ -80,47 +80,50 @@
       "title": "The Product Becomes the Instrument",
       "description": "Real products placed in the setup can act as the hit zones, so players touch and look closely at the product while they play, instead of only watching a screen.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Easy to Start, Hard to Master",
       "description": "Anyone understands \"hit it on the beat\" within seconds, while scoring and difficulty levels keep good players coming back for one more round.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Show for the Bystanders",
       "description": "Music, light, and fast hands draw a crowd around the player, turning a quiet corner of a shop or stand into a lively spot.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Remix the Challenge",
       "description": "Add a two-player battle, a crowd mode where several people play one track together, a custom track built from the brand's jingle, or a VR version played with headset and controllers.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Any Beat, Any Brand",
       "description": "Run a knife-skills challenge in a brand store, a drum session at a music festival, a jingle game for a product launch, or a festive edition with seasonal tracks.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Score the Engagement",
       "description": "Add a data layer that records rounds played, scores, accuracy, and replays, plus optional contact details for a prize, giving the client clear numbers on reach and participation.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Turn Up the Volume",
       "description": "Pair with Prize Draw to reward the best players, with Visitor Identificator to keep each player's best score, or with Live Feed to show the leaderboard on screens across the venue.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

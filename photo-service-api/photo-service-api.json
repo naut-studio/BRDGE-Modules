@@ -64,47 +64,50 @@
       "title": "One Workflow for Every Photo",
       "description": "Booths, photographers, and uploads feed one pipeline, so no picture gets lost between systems and every output follows the same rules.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Plug In Any Service",
       "description": "Galleries, print shops, email, cloud storage, or the client's own systems connect through the same API, so adding a new output never means rebuilding the setup.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Built to Scale",
       "description": "Many capture points and channels run in parallel at a large event, without manual sorting, renaming, or uploading.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Extra Outputs",
       "description": "Add automatic branding per sponsor, retouching or background removal before delivery, a photo book or poster ordered from a print partner, or a QR code on every print that leads back to the digital gallery.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Photos Wherever They're Needed",
       "description": "Send conference portraits straight to the attendee app, deliver festival snapshots to a sponsor's social channel, archive museum visitor photos for the yearly report, or turn team photos from an offsite into a printed poster.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Know Which Photos Matter",
       "description": "Add a data layer that tracks photos processed, delivered, opened, and ordered per channel and product, showing which memories guests value enough to keep.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Engine Behind the Photos",
       "description": "Pair with Memory Catcher and Connected Photographer as photo sources, with Shared Gallery for public display, with Photo Printing for prints on site, or with Journey Recap to deliver everything after the event.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

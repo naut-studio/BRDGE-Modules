@@ -101,47 +101,50 @@
       "title": "Pick a Song and Sing",
       "description": "Visitors browse a curated playlist on the touchscreen, choose a track, and sing along to on-screen lyrics over a stripped-vocal backing, so there is nothing to learn and no reason to hesitate.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Turn a Corner Into a Stage",
       "description": "The modular station drops into a booth, a corner, or somewhere as unlikely as a mountain gondola, turning a small footprint into a participative micro-stage that pulls a crowd.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Capture the Moment",
       "description": "Optionally record the performance or mix the vocals live, so a spontaneous sing-along leaves with the visitor as a clip or a photo they actually want to share.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Ways to Turn It Up",
       "description": "Add live scoring and duet or battle modes, a disco ball and light show, a photo or video capture layer, a branded song list, and themed props, so the same booth can be a quiet lounge or a full-on party.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Where It Gets Played",
       "description": "Ricola turned two gondolas into karaoke cabins where skiers belted out hits at minus 20 degrees over the Alps, a festival crowd can queue for a singing booth in the spirit of Paleo, and a brand can run a pop-up karaoke lounge or a Christmas sing-along corner.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Count the Encores",
       "description": "Add an optional data layer that logs songs played, session counts, opt-in shares, and captures created, then export it for a post-event report on how much the crowd got involved.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Pair It With the Photo Stack",
       "description": "Send the shot to Photo Printing for an instant keepsake, collect every clip in Shared Gallery, hand the capture to Connected Photographer, and tie each recording to a guest with Visitor Identificator.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

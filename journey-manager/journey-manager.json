@@ -59,53 +59,57 @@
       "title": "One Dashboard, Every Touchpoint",
       "description": "Projects, partner stations, journeys, visitors, and activities sit in one place, so the client sees the whole experience live instead of chasing separate tools.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Right Message at the Right Moment",
       "description": "Push or schedule announcements with an image and a link, and target them by journey status, journey type, or visitor tags, so lunch calls, show starts, and last-chance prompts reach only the people they matter to.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Personal Key for Every Visitor",
       "description": "Each visitor gets a unique QR code and short link that can be downloaded, printed on a badge, or sent before the event, turning any connected station into a recognised touchpoint.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Built to Sell on Every Project",
       "description": "Because it sits underneath the other modules, it is a natural add-on for any multi-station brief, and it reskins to the client's brand and route with each new project.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Route Rules and Rewards",
       "description": "Add unlock conditions between stations, bonus missions for VIP or sponsor routes, time windows that open new content, or a reward that triggers once a visitor completes the full route.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Every Event Becomes a Story",
       "description": "Frame the route as a festival passport, a conference learning path, a museum quest through the collection, or a product launch tour where each stand reveals the next chapter.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Whole Event in Numbers",
       "description": "Add a data layer that turns journeys into reporting: registered visitors, stations visited, completion rates, and announcement reach, exportable per project to show partners and sponsors exactly what they got.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Backbone of the Catalogue",
       "description": "Pair with Visitor Identificator to recognise visitors at every stop, with Trail / Scavenger Hunt to turn the route into a game, with Prize Draw to reward completed journeys, or with Journey Recap to send each visitor their own summary afterwards.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

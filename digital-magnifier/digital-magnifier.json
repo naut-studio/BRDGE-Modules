@@ -48,47 +48,50 @@
       "title": "Reveal What the Eye Misses",
       "description": "Move the lens across the surface and the screen shows close-up textures, inner components, and fine detail that stays invisible at arm's length, so exploring feels like discovering something hidden.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Make Small Products Tactile",
       "description": "Tiny or highly technical items become something visitors can handle and explore, turning precision detail into an invitation rather than something intimidating to look at.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Hotspots and Layers",
       "description": "Annotated points of interest, exploded views, and layer-by-layer reveals guide people to what matters, so the experience tells a story instead of just enlarging a picture.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Ways to Go Deeper",
       "description": "Add exploded 3D views, x-ray or before-and-after layers, guided tours that move the lens for the visitor, quiz hotspots, multi-object switching, and sponsor or product-of-the-month spotlights.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "One Lens, Any Subject",
       "description": "Inspect a precision valve or actuator on a trade-fair stand, zoom into a museum artefact or manuscript, explore a map or an artwork, or peel back the layers of a material sample, all with the same interaction reskinned to the subject.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "See What Drew Them In",
       "description": "Add an optional data layer that logs which hotspots and products got the most attention, dwell time per zoom, and session counts, then export it for a post-show report on what visitors actually cared about.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Wire It Into the Stand",
       "description": "Tie each exploration to a visitor with Visitor Identificator, send the details they lingered on afterward through Journey Recap, mirror the zoomed view on a big screen with Live Feed, and swap products or annotations on the fly with Cloud Content Management.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

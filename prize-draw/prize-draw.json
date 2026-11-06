@@ -74,35 +74,36 @@
       "title": "Works Standalone or Connected",
       "description": "Run it as a self-contained giveaway station or wire it into registration, token scans, gameplay outcomes, and post-event reward flows, and the same module covers all scenarios.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Remix the Mechanics",
       "description": "Swap the marble race for a ball drop, pinball run, or custom physics arena. Add prize tiers, sponsor-branded obstacles, a multi-heat bracket format, or audience voting on race conditions. The physics engine stays live and unscripted regardless of the skin.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Skin It to Any World",
       "description": "Re-dress it as a festive advent calendar reveal, a Wild West saloon poker draw, a futuristic capsule machine, a treasure hunt chest unlock, or a branded roulette wheel. Same logic, entirely different world.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Proof in the Numbers",
       "description": "Add a data layer that tracks entries, participation rate, draw completion events, and winner moments. Pair it with lead capture or token scans to tie prize draw activity to individual visitor profiles, exportable for client reporting.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Personalized and Connected",
       "description": "Pair with Journey Manager to make the draw the final reward of a multi-stop experience, with Visitor Identificator to recognize entrants and draw on real visitor data for a personalized draw, with Leaderboard to surface top-draw moments live, or with Shared Gallery to broadcast winner reactions across the venue.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

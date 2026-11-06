@@ -78,15 +78,15 @@
       "title": "Engagement You Can Measure",
       "description": "Bolt on a data layer to track starts, active users, completion and repeat plays, plus behaviour signals like timing and accuracy, and connect it to tokens, galleries, or dashboards for post-event reporting that evidences engagement.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Pairs With many Other Modules",
       "description": "Pair it with Visitor Identificator for identity and personalised follow-up, with a Memory Catcher to capture a player's poses as a photo, GIF, or video takeaway, with a shared gallery to recap the best moments, or with a Leaderboard for live head-to-head competition.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

@@ -78,47 +78,50 @@
       "title": "Everyone Adds a Piece",
       "description": "Each visitor contributes a photo, a drawing, an avatar, or a vote and watches it join a shared wall in real time, so a room full of individuals builds one thing together.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Any Kind of Input",
       "description": "Feed the wall with photos, hand drawings, avatars, votes, or AI-generated media, and mix input types to match the campaign, the audience, and the level of effort you want to ask for.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "One Memorable Shared Output",
       "description": "Hundreds of small contributions resolve into a single large-scale image that makes togetherness visible in the moment and lives on as a recap people want to find themselves in.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Ways to Push It Further",
       "description": "Run a sponsor edition with branded tiles and rewards, add a tournament or leaderboard layer across guests or time slots, or carry each contribution into another module, a personal recap, or a post-event reward flow.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Same Wall, Any Story",
       "description": "Re-skin it as a seasonal festive wall, a museum or education piece that reveals facts as the image fills, or a brand-activation scenario where every contribution builds a product or campaign world.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "See Who Joined In",
       "description": "Add a data layer that logs contributions, active participants, completion, dwell time, and content choices, then export it for a post-event report or link it to tokens and galleries for personal follow-up.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Plugs Into the Wider Journey",
       "description": "Pair it with Visitor Identificator so each tile ties back to a known visitor, feed it with photos from Connected Photographer or Shared Gallery, and let Journey Recap fold the finished wall into each person's post-visit story.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

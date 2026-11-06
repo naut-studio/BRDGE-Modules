@@ -78,47 +78,50 @@
       "title": "Your Body Is the Controller",
       "description": "No buttons, no instructions: step on the board and lean. The connection between movement and screen is instant, so everyone understands it at first try.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Made for Health and Wellness",
       "description": "Balance and body control are an easy story for insurers, health brands, and workplace programmes, and the game turns that message into something people feel.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Compact and Mobile",
       "description": "A board and a screen are enough, so it fits a booth, a reception area, or a corporate health day without special space or installation.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Harder, Faster, Together",
       "description": "Add a timed maze, levels that get steeper, a two-board duel, a calm mode for wellness breaks, or a version where the whole crowd tilts their phones to steer a giant maze on a big screen.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Balance in Any Story",
       "description": "Roll a ball through a stadium maze for a sports sponsor, keep a surfboard steady for a summer edition, guide a heart through the body for a health campaign, or balance on a frozen lake in winter.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Proof of Movement",
       "description": "Add a data layer that records plays, completion times, and best scores, and pair it with an opt-in step so a health campaign can follow up with participants.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Part of the Active Zone",
       "description": "Pair with Reaction Games and Pose Games for a full movement circuit, with Live Feed to show the best times, or with Visitor Identificator to save each player's score across stations.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

@@ -75,53 +75,57 @@
       "title": "No Clipboards, No Lost Results",
       "description": "Moderators use one fast tablet flow instead of paper lists, so every score is consistent, timestamped, and synced the moment it is entered.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Physical Wins on the Big Leaderboard",
       "description": "The best throws, jumps, and team efforts compete alongside digital scores, so the most exciting moments of the event count too.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Photo at the Peak of the Challenge",
       "description": "The moderator captures the moment from the tablet and links it to the guest, turning a great throw into a personal, shareable souvenir.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Room for Screen-Shy Visitors",
       "description": "Guests who don't want to play on a device still join the journey through play that feels natural, while the digital layer works quietly in the background.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Raise the Stakes",
       "description": "Add a live record wall for each station, team relay scoring across several activities, a VIP challenge lane, progressive unlocks from station to station, or a host who calls out new records over the PA.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Any Challenge, Any Crowd",
       "description": "Run a carnival fairground with tin-can alley and ring toss, a Wild West day, team away-day Olympics, a sports scouting combine, or a Christmas market with snowball throws and gift-wrapping races.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Analogue Play, Real Numbers",
       "description": "Add a data layer that turns every station into reporting: participation and results per station, throughput and peak times, and a photo archive per guest, exportable for event reports or a CRM.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Every Station Connected",
       "description": "Pair with Visitor Identificator for the guest tokens, with Journey Manager to make each station a stop on the route, with Journey Recap to send results and photos afterwards, or with Crowd Games to combine physical and digital scores in one ranking.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

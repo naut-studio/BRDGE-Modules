@@ -72,47 +72,50 @@
       "title": "Understood in a Second",
       "description": "A wheel and a big button need no explanation, so anyone walking past can play right away, from children to seniors.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Prizes Under Control",
       "description": "Set the odds and the stock for each prize, so the main prize stays special and the giveaways last until the end of the event.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Any Format, Any Space",
       "description": "Run it on a monitor, on a touch pillar at a trade fair, or in a custom-built installation with its own buzzer, indoors or out.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "More Than a Spin",
       "description": "Add a quiz question before the spin, a code that unlocks a bonus spin, a jackpot hour at a set time, or segments that assign teams or roles for the next activity.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Spin Into Any Story",
       "description": "Back a health campaign about luck and wellbeing, launch a space adventure in a shopping centre, run a sponsor booth at a sports event, or open an advent edition with a new prize each day.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Every Spin Counted",
       "description": "Add a data layer that logs spins, prizes handed out, and optional sign-ups before the spin, so the client can report reach and leads per day.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Keep the Luck Going",
       "description": "Pair with Prize Draw for a main draw at the end of the day, with Visitor Identificator to allow one spin per visitor, or with Live Quiz Show to reward the winners of a round.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

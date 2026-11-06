@@ -71,47 +71,50 @@
       "title": "Zero Learning Curve",
       "description": "Everyone knows how a spray can works, so kids, executives, and first-time visitors start painting within seconds, with no app and little or no instruction needed.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Built for Crowds",
       "description": "Several painters work on the same wall at once, and the growing artwork pulls in onlookers, making it a natural crowd magnet for booths, lobbies, and festival grounds.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "From One Wall to a Whole Room",
       "description": "Start with a single screen or projection wall and expand to several walls for workshops, school groups, or a fully immersive graffiti room, all running on the same setup and content.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "New Cans, New Rules",
       "description": "Add a stencil mode that reveals a logo or slogan as visitors spray, timed speed-painting challenges, artwork that animates once it is finished, or a live artist session that visitors join on the same wall.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Any Wall, Any World",
       "description": "Paint on a city brick wall for an urban festival, a frosted window for a winter edition, a museum facade for an art history story, or a backdrop in brand colours for a product launch.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Proof on the Wall",
       "description": "Add a data layer that counts painters, sessions, and artworks created, and link take-home artworks to an opt-in email step so every saved piece doubles as a qualified lead.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Part of the Bigger Picture",
       "description": "Pair with Shared Gallery to stream finished pieces across the venue, with Photo Printing to hand out a print of each artwork, with Visitor Identificator to send painters their own piece, or with Journey Manager to make the wall one creative stop on a longer route.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

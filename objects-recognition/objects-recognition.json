@@ -72,8 +72,8 @@
       "title": "Scan-to-Collect & Combos",
       "description": "Add a scan-them-all collectible challenge, unlock bonus content when two objects are combined, layer an AR overlay onto the recognized item, or serve a different reaction per visitor profile. New recognition methods and props slot in as paid upgrades.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "From Product Story to Treasure Hunt",
@@ -87,15 +87,15 @@
       "title": "Optional Scan Data",
       "description": "Add a data layer to log which objects were recognized, how often, dwell time per item, and the paths visitors take, then export it for a post-event read on what actually drew attention.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Wire It Into the Journey",
       "description": "Pair it with Visitor Identificator to tailor reactions to each visitor, with Journey Manager to make every object one stop on a route, with Trail / Scavenger Hunt to turn scanning into a game, or with a Shared Gallery to collect the moments it unlocks.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

@@ -58,47 +58,50 @@
       "title": "From Group Chat to One Plan",
       "description": "Instead of dozens of messages, everyone ticks their days and favourite activities once, and the group instantly sees the best date and the most wanted programme.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Visit Starts at Home",
       "description": "Visitors explore the offer while they plan, so the venue is on their mind days before they arrive and the programme they chose is ready when they do.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Easy to Sell to Any Venue",
       "description": "Museums, attractions, festivals, and company events all deal with group planning, which makes it a simple add-on for almost any client with a visitor programme.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Plans That Lead to Bookings",
       "description": "Add a ticket or booking link for the winning date, reminders before the visit, a group discount once enough people join, or a waiting list for popular slots.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "A Plan for Every Group",
       "description": "Frame it as a family day out, a school class trip, a team offsite, or a festival crew picking which stages to see, each with its own look and activity list.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Know Who Is Coming",
       "description": "Add a data layer that shows planned group sizes, the most popular days, and the most wanted activities, so the venue can forecast attendance and staff accordingly.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "From Plan to Programme",
       "description": "Pair with Journey Manager to turn the chosen activities into the group's route on the day, with Storytelling Invite to send a themed invitation, or with Visitor Identificator to greet each group member on arrival.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

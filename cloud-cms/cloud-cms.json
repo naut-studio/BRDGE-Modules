@@ -42,53 +42,57 @@
       "title": "One Venue, Endless Experiences",
       "description": "Prepare several complete versions of a guide in advance, such as a kids' edition, a weekend special, or a seasonal story, each with its own content, and switch the entire experience from one to the next at any moment, with no new hardware and no new app. On trails, the same QR scanpoint can launch different quests, so every group gets a fresh route from the same setup and returning visitors always find something new. One installation becomes a programme the client can keep renewing.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "One Back Office for Guides and Trails",
       "description": "Stories, scenes, and scanpoints for mediaguides sit next to quests, challenges, and paths for trails, so a client edits every experience in one place instead of in separate tools.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Every Language, Every Asset",
       "description": "Write each text in German, French, Italian, English, or any other language side by side, and attach localised images, audio, and video, so one project serves every visitor group.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Safe to Change, Easy to Undo",
       "description": "Every published version is kept and can be compared with the last one, so editors update content with confidence and the client never loses a working state.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "New Content Types When Needed",
       "description": "Add a custom content type for a new project, such as a riddle, a quiz question, or an onboarding step, and reuse it across every project that needs it.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Behind Very Different Stories",
       "description": "The same system runs a museum mediaguide, a city rally, a corporate health game, or a prevention trail, which is how it has powered projects for WOW Museum, UBS, Swica, PostFinance, and Thurgau Police.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "See Which Content Works",
       "description": "Add a data layer that ties usage back to the content itself: scans per scanpoint, tickets issued, scores and completions per challenge, and which version of a story or trail visitors opened, so an A and a B trail can be compared and the stronger one kept.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Content Layer of the Catalogue",
       "description": "Pair with Spatial Mediaguide to run its stories and scenes, with Trail / Scavenger Hunt to manage quests and challenges, or with Digital Signage to keep screens up to date from the same content.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

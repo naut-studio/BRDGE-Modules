@@ -60,7 +60,8 @@
       "title": "One Host Runs Hundreds",
       "description": "A single operator drives the entire game from one screen. Light on staff, light on hardware, high on perceived value, and a strong margin for the reseller.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Modes, Buzzers & AI Question Packs",
@@ -90,15 +91,15 @@
       "title": "Every Tap Is a Data Point",
       "description": "Add a data layer to capture participation, response rates, accuracy per question, completion, and opt-ins. With it in place, the client walks away with proof of engagement, a read on what the audience knows or believes, and an export for their post-event report.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Plays Well With Others",
       "description": "Pair it with Prize Draw to reward the champion, with Journey Manager to make it one stop on a longer route, or with Live Feed to push live results onto secondary screens around the venue.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

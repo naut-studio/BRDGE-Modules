@@ -77,15 +77,15 @@
       "title": "Every Level on Record",
       "description": "Add a data layer that records plays, heights reached, levels, and repeat attempts, and turn it into a daily leaderboard or a prize threshold that proves how long visitors stayed engaged.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Part of the Game Zone",
       "description": "Pair with MultiPlay Game Station to add physical buttons and pedals, with Visitor Identificator to save each player's best score, with Live Feed to put the leaderboard on the big screen, or with Prize Draw to reward the highest towers.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

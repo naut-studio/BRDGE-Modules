@@ -160,29 +160,29 @@
       "title": "Add Game Mechanics",
       "description": "Layer in mechanics that change how it plays: multi-shot photo strips, group and solo modes, a timed capture challenge, a hidden 'best face' score, or a hashtag-to-print flow. Small mechanical add-ons keep repeat bookings fresh and open clear paid upgrades.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Any World, Same Booth",
       "description": "Reskin the whole look for any world: a festive winter set, a Western saloon, a racing pit lane, a sustainability green-screen, or a clean corporate stage. Same hardware, a new universe for every event.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Optional Reach & Opt-In Data",
       "description": "Add an optional data layer to log participation, captures, prints, shares, and opt-ins, while each share carries branded content outward on its own. In place, it gives a clear count of reach and engagement plus a clean stream of consented contacts for follow-up.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Plugs Into the Catalog",
       "description": "Plugs straight into the wider catalog: set it as one stop on a Journey, feed captures into a Mosaic Wall or Shared Gallery, route keepsakes through Photo Printing, or hand opt-ins to a Prize Draw to turn a fun moment into a qualified lead.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

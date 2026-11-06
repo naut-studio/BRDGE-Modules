@@ -62,47 +62,50 @@
       "title": "Hands in the Sand",
       "description": "Real sand is irresistible to touch, so visitors of every age start playing without instructions and stay far longer than at a screen.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Learning by Digging",
       "description": "Contour lines, rivers, and layers show how landscapes form, and excavations reveal what lies beneath, making geography, history, or science tangible.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Room for Everyone",
       "description": "Several visitors play around the table together, building and discovering side by side, which turns it into a natural meeting point.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Hidden Layers",
       "description": "Add an excavation challenge against the clock, a flood that visitors hold back with dams, hidden logos or codes that unlock a reward, or a story that changes with the landscape visitors build.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Worlds to Uncover",
       "description": "Dig for dinosaur bones in a natural history museum, uncover ancient pottery in an archaeology exhibition, build islands in a family zone, or reveal products and their origins at a brand stand.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "See How Visitors Explore",
       "description": "Add a data layer that counts sessions, play time, and discoveries per hidden object, showing which content visitors uncover and how long the table holds their attention.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Part of the Expedition",
       "description": "Pair with Trail / Scavenger Hunt to make the table one stop of a quest, with Visitor Identificator to save each visitor's finds, or with Spatial Mediaguide to continue the story on the visitor's phone.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [

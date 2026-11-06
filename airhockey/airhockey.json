@@ -55,36 +55,36 @@
       "title": "A Crowd Magnet With Universal Appeal",
       "description": "Air hockey is one of the most instantly legible games on earth. Everyone knows the rules in two seconds. The AR layer makes it unmissable from across a venue. Bystanders stop, watch, and queue. That combination of zero learning curve and high spectacle makes it one of the easiest modules to sell to almost any client type: mall operators, festival producers, corporate event planners, and retail activations alike.",
       "image": "icon-check_circle.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Solo AI, Tournaments & Branding",
       "description": "Swap to single-player mode with an AI opponent for solo activations. Add a token-gate so each game requires a scanned wristband or QR code, turning play into a reward. Enable score-to-leaderboard so every match feeds a live ranking on a separate screen. Layer in timed sudden-death rounds for tournament formats. Upgrade to branded pucks and mallets for premium client installs.",
       "image": "icon-wand_stars.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Battle Worlds to Reskin",
       "description": "Space Battle: puck leaves meteor trails and goals trigger planetary explosions. Winter Wonderland: ice rink aesthetic with snowfall and frozen-goal effects for seasonal activations. Brand Arena: client's visual identity, colors, and mascot replace the default world. Sport Sponsor: stadium atmosphere with crowd audio and sponsor branding mapped onto the table surface. Fantasy Duel: spell-casting mechanics with branded characters for entertainment IPs.",
       "image": "icon-styleguide.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Optional Match Data",
       "description": "As an optional add-on, a data layer can log game count, session duration, score outcomes, and, when linked to Visitor Identificator or Journey, player IDs. It can also track dwell time and replay rate per unit and per event, gate the game start behind registration to capture contact data for lead-gen, or log impression time on branded surface visuals for sponsors. Anything captured pushes to the Live Feed for real-time and post-event reporting.",
       "image": "icon-insert_chart.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Pairs Across the Venue",
       "description": "Journey Manager: make it one stamped stop on a multi-zone route, driving traffic across a venue. Leaderboard: broadcast match scores live so the whole event sees the rankings build. Visitor Identificator: link play to visitor profiles for personalized stats and return incentives. Prize Draw / Wheel of Luck: use a top-score threshold to unlock a prize spin. Photo/Videobooth: capture the winning moment immediately after the match ends.",
       "image": "icon-automation.svg",
-      "imageWidth": "10%",
-      "imageSide": "left"
+      "imageWidth": "33%",
+      "imageSide": "center"
     }
   ],
   "states": [
