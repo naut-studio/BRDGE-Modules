@@ -69,19 +69,19 @@
       "imageSide": "left"
     },
     {
-      "title": "Scan-to-Collect & Combos",
-      "description": "Add a scan-them-all collectible challenge, unlock bonus content when two objects are combined, layer an AR overlay onto the recognized item, or serve a different reaction per visitor profile. New recognition methods and props slot in as paid upgrades.",
-      "image": "icon-wand_stars.svg",
-      "imageWidth": "33%",
-      "imageSide": "center"
-    },
-    {
       "title": "From Product Story to Treasure Hunt",
       "description": "Reskin the same recognition engine as a product-story reveal, a museum discovery trail, a retail try-me display, a branded treasure hunt, or a festive edition. The look and story change while the trigger stays exactly the same.",
       "image": "highlight-themes.webp",
       "imageMobile": "highlight-themes-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
+    },
+    {
+      "title": "Scan-to-Collect & Combos",
+      "description": "Add a scan-them-all collectible challenge, unlock bonus content when two objects are combined, layer an AR overlay onto the recognized item, or serve a different reaction per visitor profile. New recognition methods and props slot in as paid upgrades.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Optional Scan Data",

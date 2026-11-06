@@ -70,19 +70,19 @@
       "imageSide": "left"
     },
     {
-      "title": "Sponsor Takeovers & Tournaments",
-      "description": "Hand a sponsor the screen with branded frames, rewards, and takeovers, run a live tournament or leaderboard across teams and time slots, or carry winners into a personal recap and post-event reward. New layouts and data feeds slot in as paid upgrades.",
-      "image": "icon-wand_stars.svg",
-      "imageWidth": "33%",
-      "imageSide": "center"
-    },
-    {
       "title": "Festive, Museum or Brand Worlds",
       "description": "Reskin the screen as a winter or festive edition, a museum or education storyline that frames the live moments inside a bigger narrative, or a branded campaign world that feels native to the client. The layout stays the same while the look and story change.",
       "image": "highlight-themes.webp",
       "imageMobile": "highlight-themes-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
+    },
+    {
+      "title": "Sponsor Takeovers & Tournaments",
+      "description": "Hand a sponsor the screen with branded frames, rewards, and takeovers, run a live tournament or leaderboard across teams and time slots, or carry winners into a personal recap and post-event reward. New layouts and data feeds slot in as paid upgrades.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "The Face of Every Module",

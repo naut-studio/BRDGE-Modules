@@ -57,13 +57,6 @@
       "imageSide": "left"
     },
     {
-      "title": "One Host Runs Hundreds",
-      "description": "A single operator drives the entire game from one screen. Light on staff, light on hardware, high on perceived value, and a strong margin for the reseller.",
-      "image": "icon-check_circle.svg",
-      "imageWidth": "33%",
-      "imageSide": "center"
-    },
-    {
       "title": "Modes, Buzzers & AI Question Packs",
       "description": "Switch up the mechanics: solo vs. team mode, sudden-death finals, double-points wagers, fastest-finger buzzer rounds, and image/audio/video questions. AI can draft a full question pack from a brief or a PDF, and sponsor-locked rounds open up paid add-ons.",
       "image": "highlight-variations.webp",
@@ -86,6 +79,13 @@
       "imageMobile": "highlight-formats-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
+    },
+    {
+      "title": "One Host Runs Hundreds",
+      "description": "A single operator drives the entire game from one screen. Light on staff, light on hardware, high on perceived value, and a strong margin for the reseller.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Every Tap Is a Data Point",

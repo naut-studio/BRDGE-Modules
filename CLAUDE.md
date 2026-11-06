@@ -73,6 +73,9 @@ template and a request conflict, surface the conflict before proceeding.
 - Notes / Missing → **not exported** (internal scratch field).
 
 ### Highlights (build the array in this order)
+- **Image highlights always come first, icon highlights after.** Any highlight showing a designed image
+  (see **Highlight images** below) moves ahead of every icon highlight, whichever slot it belongs to.
+  Within each group, keep the order below (free highlights, then Twists, Themes, Data/ROI, Connections).
 - **Free highlights (up to 5).** For each filled slot, add it first (before the four standard ones),
   default `image: "icon-check_circle.svg"` (never leave `image` empty — empty renders a plain number,
   which we don't want for free highlights). Slot → fields:
@@ -81,7 +84,7 @@ template and a request conflict, surface the conflict before proceeding.
   - Slot 3: `Free Highlight3 Title` + `Free Highlight3 Description`
   - Slot 4: `Free Highlight4 Title` + `Free Highlight4 Description`
   - Slot 5: `Free Highlight5 Title` + `Free Highlight5 Description`
-  Each → `{ title: <slot title>, description: <slot description>, image: "icon-check_circle.svg", imageWidth: "10%" }`
+  Each → `{ title: <slot title>, description: <slot description>, image: "icon-check_circle.svg", imageWidth: "33%", imageSide: "center" }`
 - Then the four standard highlights. Icons, `imageSide`, and `imageWidth` are fixed (below), unless
   the slot shows a designed highlight image instead (see **Highlight images** below). The
   **description** always comes from Notion. **Always write a custom, contextual title** for each:
@@ -90,10 +93,17 @@ template and a request conflict, surface the conflict before proceeding.
   fixed constants listed below, and the custom title also lives in the module's Notion `… Title`
   field, so reverting is a one-field change there.) Icons stay fixed even when the title is
   customized (the slot's meaning is unchanged; only its wording is).
-  1. Default **"Twists & Upgrades"** — custom title from `Twists Title` (else drafted); `description: <Twists Description>`; `image: "icon-wand_stars.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
-  2. Default **"Themed Story Examples"** — custom title from `Themes Title` (else drafted); `description: <Themes Description>`; `image: "icon-styleguide.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
-  3. Default **"Data That Proves Value"** — custom title from `Data/ROI Title` (else drafted); `description: <Data/ROI Description>`; `image: "icon-insert_chart.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
-  4. Default **"Better Together"** — custom title from `Connections Title` (else drafted); `description: <Connections Description>`; `image: "icon-automation.svg"`, `imageWidth: "10%"`, `imageSide: "left"`
+  1. Default **"Twists & Upgrades"** — custom title from `Twists Title` (else drafted); `description: <Twists Description>`; `image: "icon-wand_stars.svg"`, `imageWidth: "33%"`, `imageSide: "center"`
+  2. Default **"Themed Story Examples"** — custom title from `Themes Title` (else drafted); `description: <Themes Description>`; `image: "icon-styleguide.svg"`, `imageWidth: "33%"`, `imageSide: "center"`
+  3. Default **"Data That Proves Value"** — custom title from `Data/ROI Title` (else drafted); `description: <Data/ROI Description>`; `image: "icon-insert_chart.svg"`, `imageWidth: "33%"`, `imageSide: "center"`
+  4. Default **"Better Together"** — custom title from `Connections Title` (else drafted); `description: <Connections Description>`; `image: "icon-automation.svg"`, `imageWidth: "33%"`, `imageSide: "center"`
+- **Icon highlights use the centered grid.** Every icon highlight, in every module, has
+  `imageWidth: "33%"` and `imageSide: "center"`. Image highlights keep their own width and side (see
+  **Highlight images** below). The website ignores the `33%` when sizing grid items and splits each
+  unbroken run of icon highlights into rows by count, with every row filling the full width:
+  1 = one item, two columns wide, centered; 2 = two halves; 3 = three thirds; 4 = four quarters;
+  5 = 2 + 3; 6 = 3 + 3; 7 = 3 + 4; 8 = 4 + 4. This logic lives in the website (Figma Make), not in the
+  `.json`, so don't add layout fields to control it.
 - The four defaults (below) stay consistent across the catalogue; a custom title only changes the
   wording of that slot, never its meaning or icon.
 - **No redundant standard highlights.** A standard highlight (Twists / Themes / Data / Connections)

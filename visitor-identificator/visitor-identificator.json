@@ -63,13 +63,6 @@
       "imageSide": "left"
     },
     {
-      "title": "Anonymous Crowds Become Known Visitors",
-      "description": "Without an identity layer, people pass through unseen. This makes every interaction attributable and connectable, so a visit stops being a one-off moment and becomes a thread you can follow, personalise, and pick back up after the exit.",
-      "image": "icon-check_circle.svg",
-      "imageWidth": "33%",
-      "imageSide": "center"
-    },
-    {
       "title": "Continuity Across Zones and Days",
       "description": "The token carries each visitor's state, history, and rewards from one touchpoint to the next, across separate zones and even return visits, so progress is never lost and returning guests pick up exactly where they left off.",
       "image": "highlight-journey.webp",
@@ -92,6 +85,13 @@
       "imageMobile": "highlight-themes-mobile.webp",
       "imageWidth": "70%",
       "imageSide": "right"
+    },
+    {
+      "title": "Anonymous Crowds Become Known Visitors",
+      "description": "Without an identity layer, people pass through unseen. This makes every interaction attributable and connectable, so a visit stops being a one-off moment and becomes a thread you can follow, personalise, and pick back up after the exit.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "33%",
+      "imageSide": "center"
     },
     {
       "title": "Proof You Can Put in a Report",
