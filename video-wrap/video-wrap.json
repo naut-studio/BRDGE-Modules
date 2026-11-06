@@ -1,215 +1,120 @@
-[
-  {
-    "title": "Video Wrap",
-    "tagline": "Your story, instantly edited.",
-    "short_description": "Automatically turns captured moments, data, and media into polished, personalized videos. Ideal for events, exhibitions, brands, and campaigns that want scalable, shareable storytelling.",
-    "long_description": "Automatically generates personalized or group-based videos from photos, clips, data, and templates. From event recaps and guides to tutorials, social media assets, music visuals, or animated statistics, it transforms raw inputs into high-quality stories at scale. Perfect for extending experiences beyond the moment and turning interactions into lasting content.",
-    "moment": "Post-Journey",
-    "tag": [
-      "Module",
-      "Experience",
-      "Photo Video & Memories",
-      "Personalization"
-    ],
-    "visuals": [
-      "Hero visual: Video Wrap in use within a branded environment",
-      "Interface mockup: primary interaction flow for Video Wrap",
-      "System overview: how visitors, screen, and backend connect",
-      "Scenario visual: themed use case of Video Wrap"
-    ],
-    "included": {
-      "module": "Video Wrap",
-      "slide": "What's included",
-      "items": [
-        {
-          "title": "Core interaction flow",
-          "description": "Base experience logic and visitor-facing interaction for Video Wrap.",
-          "visual": "Primary user flow"
-        },
-        {
-          "title": "Branded interface skin",
-          "description": "Adaptation of colours, typography, and visual language to the project context.",
-          "visual": "UI style frame"
-        },
-        {
-          "title": "Basic analytics output",
-          "description": "Tracking of key participation and usage signals relevant to the module.",
-          "visual": "Simple export or dashboard preview"
-        }
-      ]
+{
+  "title": "Video Wrap",
+  "slug": "video-wrap",
+  "publish": true,
+  "tagline": "Your story, instantly edited.",
+  "shortDescription": "Every team or visitor gets their own short video at the end: their route, their answers, their scores, and their photos, cut into a branded vertical clip that is ready to share.",
+  "longDescription": "Turns the data and media collected during an experience into a personal video. Route maps, quiz answers, facts discovered on the way, challenge results, points, leaderboard positions, photos, and clips are placed into an animated template, and each team or visitor receives a finished video that tells their own version of the day. Vertical formats suit stories and reels, while landscape versions work for screens and recap emails. Templates, branding, music, languages, and the data shown are configurable, from a city trail recap to an event highlight reel or an animated statistics video. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Capture & Memory",
+    "Tools For Visitors & Partners"
+  ],
+  "tags": [
+    "Post-Event",
+    "Large",
+    "Mobile",
+    "Collaborative",
+    "Memorable",
+    "Viral",
+    "Generative",
+    "Video",
+    "Storytelling",
+    "Personalized",
+    "Multi-Language",
+    "Journey",
+    "Museum",
+    "Exhibition",
+    "Conference",
+    "Corporate Event",
+    "Festival",
+    "Brand Activation",
+    "Sponsorship",
+    "Loyalty",
+    "Data Collection",
+    "Leaderboard",
+    "Educational"
+  ],
+  "illustration": "video-wrap-illustration.svg",
+  "animation": "",
+  "videoUrl": "https://upload.naut.ch/20240210-WDD_Video-teaser.MP4",
+  "videoUrls": [],
+  "gallery": [],
+  "galleryCredits": "",
+  "clientLogos": [
+    "logo-kantonsratzh.svg"
+  ],
+  "highlights": [
+    {
+      "title": "Everyone Gets Their Own Film",
+      "description": "No two videos are the same: each one shows the route, answers, and moments of that team or visitor, which makes it something people actually watch and keep.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
     },
-    "excluded": {
-      "slide": "What’s Excluded",
-      "items": [
-        {
-          "title": "Venue hardware outside agreed scope",
-          "description": "Screens, sound, network, scenic build, mounts, printers, or special sensors are scoped separately unless explicitly listed."
-        },
-        {
-          "title": "Large-scale custom content production",
-          "description": "Extensive editorial work, translations, media creation, or bespoke storytelling assets are separate services unless included."
-        },
-        {
-          "title": "Deep custom logic beyond the base module",
-          "description": "Unique game systems, unusual integrations, or one-off backend behaviour require separate scoping and testing."
-        }
-      ]
+    {
+      "title": "Made to Be Shared",
+      "description": "Vertical, branded, and short, the video is ready for stories and reels, so guests carry the client's brand into their own feeds.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
     },
-    "states": {
-      "module": "Video Wrap",
-      "slide": "States",
-      "items": [
-        {
-          "state": "Attract",
-          "trigger": "Visitor notices the installation or receives the entry prompt",
-          "experience": "Video Wrap communicates what to do and invites the first action.",
-          "feedback": "Idle visuals, signage, motion, or ambient cue",
-          "configurable": "Branding, call-to-action, language",
-          "data": "View or start count"
-        },
-        {
-          "state": "Engage",
-          "trigger": "Visitor starts the interaction",
-          "experience": "The main Video Wrap experience unfolds and reacts to the visitor’s input.",
-          "feedback": "Live visual, audio, or haptic response",
-          "configurable": "Game rules, pacing, theme, interaction mode",
-          "data": "Inputs, timing, progress, completion"
-        },
-        {
-          "state": "Resolve",
-          "trigger": "Interaction reaches an outcome or end point",
-          "experience": "Results, rewards, media, or next steps are revealed.",
-          "feedback": "Score, confirmation, reward, save, or share prompt",
-          "configurable": "CTA, outcome logic, reward type",
-          "data": "Outcome, score, exportable summary"
-        }
-      ]
+    {
+      "title": "The Experience Keeps Going",
+      "description": "A video arriving after the event brings the day back, extending the experience well beyond the moment and giving the client a natural reason to follow up.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
     },
-    "changes": {
-      "module": "Video Wrap",
-      "slide": "Customisable Elements",
-      "items": [
-        {
-          "title": "Visual identity",
-          "description": "Colours, fonts, screen assets, motion language, and tone can be adapted to brand or event theme."
-        },
-        {
-          "title": "Content layer",
-          "description": "Texts, questions, media, products, scenes, or stories can be swapped to fit the context."
-        },
-        {
-          "title": "Interaction rules",
-          "description": "Difficulty, duration, scoring, progression, and multiplayer logic can be tuned to the audience."
-        }
-      ]
+    {
+      "title": "Remix the Recap",
+      "description": "Add a personal message from the host, the best photo of the day as the closing shot, a team versus team comparison, or a teaser for the next event at the end.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "setup": {
-      "module": "Video Wrap",
-      "slide": "Setup Notes & Requirements",
-      "items": [
-        {
-          "title": "Power and connectivity",
-          "description": "Stable power plus the right local network or internet setup depending on the module’s data and media needs."
-        },
-        {
-          "title": "Spatial planning",
-          "description": "Sufficient visitor flow, visibility, and physical clearance for safe and intuitive use."
-        },
-        {
-          "title": "Display and input hardware",
-          "description": "Screen, projector, sensors, touch surface, buttons, mobile flow, or other input devices according to the module setup."
-        }
-      ]
+    {
+      "title": "A Video for Every Story",
+      "description": "Recap a city trail through political history, a team day with points for climate and karma, a festival in highlights, or a museum visit with every object the visitor discovered.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "data": {
-      "module": "Video Wrap",
-      "slide": "Data & Impact",
-      "items": [
-        {
-          "title": "Participation metrics",
-          "description": "Starts, active users, completion rate, repeat plays, or dwell time depending on module behaviour."
-        },
-        {
-          "title": "Behaviour signals",
-          "description": "Inputs, choices, timing, accuracy, usage paths, or content preferences that help interpret engagement quality."
-        },
-        {
-          "title": "Connected follow-up potential",
-          "description": "Optional link to tokens, galleries, dashboards, exports, or post-event communication flows."
-        }
-      ]
+    {
+      "title": "See Who Watches",
+      "description": "Add a data layer that tracks deliveries, views, downloads, and shares per video, showing how far the recap travelled after the event.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "compatible": {
-      "module": "Video Wrap",
-      "slide": "Compatible Modules & Additional Services",
-      "items": [
-        {
-          "title": "Visitor Identificator",
-          "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
-        },
-        {
-          "title": "Shared Gallery / Media outputs",
-          "description": "Useful when the module produces or benefits from captured media, highlights, or public recap moments."
-        },
-        {
-          "title": "User Experience & Interface Design",
-          "description": "Refines the front-end quality and ensures the module feels coherent inside the wider BRDGE system."
-        }
-      ]
-    },
-    "twist": {
-      "module": "Video Wrap",
-      "slide": "Custom Twist Ideas",
-      "items": [
-        {
-          "title": "Sponsor edition",
-          "description": "Introduce branded rewards, visuals, or mechanics tied to a partner or campaign."
-        },
-        {
-          "title": "Tournament or leaderboard mode",
-          "description": "Extend the base interaction into a competitive format across guests, teams, or time slots."
-        },
-        {
-          "title": "Token-connected continuity",
-          "description": "Carry outcomes into another module, a personal recap, or a post-event reward flow."
-        }
-      ]
-    },
-    "theme": {
-      "module": "Video Wrap",
-      "slide": "Themed Story Examples",
-      "items": [
-        {
-          "title": "Winter / festive edition",
-          "description": "Re-skin the same interaction with seasonal visuals, story framing, and rewards."
-        },
-        {
-          "title": "Museum / education storyline",
-          "description": "Adapt the module to teach content, reveal facts, or guide visitors through a knowledge-driven narrative."
-        },
-        {
-          "title": "Brand activation scenario",
-          "description": "Translate the interaction into a product or campaign story that feels native to the brand world."
-        }
-      ]
-    },
-    "why": {
-      "module": "Video Wrap",
-      "slide": "Why it works",
-      "items": [
-        {
-          "title": "Needs a clearer participation hook",
-          "description": "Video Wrap gives visitors an immediate reason to engage instead of only observing."
-        },
-        {
-          "title": "Experience should feel more memorable",
-          "description": "Video Wrap creates a distinct interaction moment that people remember and talk about afterward."
-        },
-        {
-          "title": "Engagement should be measurable",
-          "description": "Video Wrap can capture interactions, completions, usage frequency, or connected outputs for reporting."
-        }
-      ]
+    {
+      "title": "Fed by the Whole Journey",
+      "description": "Pair with Trail / Scavenger Hunt as the source of the route and challenges, with Journey Manager to collect each visitor's journey, with Memory Catcher or Connected Photographer for the photos, or with Journey Recap to send the video in a personal summary.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     }
-  }
-]
+  ],
+  "states": [
+    {
+      "state": "Attract",
+      "trigger": "Visitor notices the installation or receives the entry prompt",
+      "experience": "Video Wrap communicates what to do and invites the first action.",
+      "feedback": "Idle visuals, signage, motion, or ambient cue",
+      "configurable": "Branding, call-to-action, language",
+      "data": "View or start count"
+    },
+    {
+      "state": "Engage",
+      "trigger": "Visitor starts the interaction",
+      "experience": "The main Video Wrap experience unfolds and reacts to the visitor’s input.",
+      "feedback": "Live visual, audio, or haptic response",
+      "configurable": "Game rules, pacing, theme, interaction mode",
+      "data": "Inputs, timing, progress, completion"
+    },
+    {
+      "state": "Resolve",
+      "trigger": "Interaction reaches an outcome or end point",
+      "experience": "Results, rewards, media, or next steps are revealed.",
+      "feedback": "Score, confirmation, reward, save, or share prompt",
+      "configurable": "CTA, outcome logic, reward type",
+      "data": "Outcome, score, exportable summary"
+    }
+  ]
+}

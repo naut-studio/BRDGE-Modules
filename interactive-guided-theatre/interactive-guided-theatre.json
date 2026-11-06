@@ -1,215 +1,120 @@
-[
-  {
-    "title": "Interactive Guided Theatre",
-    "tagline": "A guided story you can step into.",
-    "short_description": "Blends performance, scenography, and audience interaction into a guided theatrical experience.",
-    "long_description": "A modular experience format in which visitors are guided through a story space using prompts, media, performance cues, and interactive decisions. It can be staged as a linear route, a semi-open exploration, or a themed performance world that reacts to audience presence. Ideal for museums, immersive brand spaces, and cultural storytelling formats where atmosphere and participation matter equally.",
-    "moment": "Journey",
-    "tag": [
-      "Module",
-      "Experience",
-      "Art & Shows",
-      "Discovery"
-    ],
-    "visuals": [
-      "Hero visual: Interactive Guided Theatre in use within a branded environment",
-      "Interface mockup: primary interaction flow for Interactive Guided Theatre",
-      "System overview: how visitors, screen, and backend connect",
-      "Scenario visual: themed use case of Interactive Guided Theatre"
-    ],
-    "included": {
-      "module": "Interactive Guided Theatre",
-      "slide": "What's included",
-      "items": [
-        {
-          "title": "Core interaction flow",
-          "description": "Base experience logic and visitor-facing interaction for Interactive Guided Theatre.",
-          "visual": "Primary user flow"
-        },
-        {
-          "title": "Branded interface skin",
-          "description": "Adaptation of colours, typography, and visual language to the project context.",
-          "visual": "UI style frame"
-        },
-        {
-          "title": "Basic analytics output",
-          "description": "Tracking of key participation and usage signals relevant to the module.",
-          "visual": "Simple export or dashboard preview"
-        }
-      ]
+{
+  "title": "Interactive Guided Theatre",
+  "slug": "interactive-guided-theatre",
+  "publish": true,
+  "tagline": "A guided story you can step into.",
+  "shortDescription": "Live actors, prerecorded media, and real props come together in a story that visitors move through and help decide, using their phones or simple remotes along the way.",
+  "longDescription": "A phygital performance format in which visitors are guided through a story space. Live actors lead the way and play scenes, prerecorded video, sound, and light take over between them, and props in the room become part of the plot. At key moments the audience decides how the story continues, voting on their phones or with simple analogue remotes such as buttons, levers, or tokens, and the scenography reacts in real time. It can run as a linear route, a semi-open exploration, or a themed world, and the script, roles, media, decisions, and languages are configurable. BRDGE handles the interaction logic, scene management, and journey, leaderboard, and data links end to end.",
+  "categories": [
+    "Guides & Narrative Systems",
+    "Discovery & Learning",
+    "Audience Activation"
+  ],
+  "tags": [
+    "Live",
+    "Large",
+    "Small",
+    "Mobile",
+    "Collaborative",
+    "Wow Factor",
+    "Memorable",
+    "Immersive",
+    "Multiplayer",
+    "Voting",
+    "Real-Time",
+    "Projection",
+    "Phygital",
+    "Storytelling",
+    "Family Friendly",
+    "Multi-Language",
+    "Journey",
+    "Museum",
+    "Exhibition",
+    "Corporate Event",
+    "Festival",
+    "Brand Activation",
+    "Data Collection",
+    "Educational"
+  ],
+  "illustration": "interactive-guided-theatre-illustration.svg",
+  "animation": "",
+  "videoUrl": "",
+  "videoUrls": [],
+  "gallery": [],
+  "galleryCredits": "",
+  "clientLogos": [],
+  "highlights": [
+    {
+      "title": "Theatre Meets Technology",
+      "description": "Actors bring warmth and surprise, media and effects bring scale, and together they create moments neither could achieve alone.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
     },
-    "excluded": {
-      "slide": "What’s Excluded",
-      "items": [
-        {
-          "title": "Venue hardware outside agreed scope",
-          "description": "Screens, sound, network, scenic build, mounts, printers, or special sensors are scoped separately unless explicitly listed."
-        },
-        {
-          "title": "Large-scale custom content production",
-          "description": "Extensive editorial work, translations, media creation, or bespoke storytelling assets are separate services unless included."
-        },
-        {
-          "title": "Deep custom logic beyond the base module",
-          "description": "Unique game systems, unusual integrations, or one-off backend behaviour require separate scoping and testing."
-        }
-      ]
+    {
+      "title": "The Audience Shapes the Story",
+      "description": "Decisions on phones or remotes change what happens next, so visitors feel responsible for the outcome and pay closer attention.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
     },
-    "states": {
-      "module": "Interactive Guided Theatre",
-      "slide": "States",
-      "items": [
-        {
-          "state": "Attract",
-          "trigger": "Visitor notices the installation or receives the entry prompt",
-          "experience": "Interactive Guided Theatre communicates what to do and invites the first action.",
-          "feedback": "Idle visuals, signage, motion, or ambient cue",
-          "configurable": "Branding, call-to-action, language",
-          "data": "View or start count"
-        },
-        {
-          "state": "Engage",
-          "trigger": "Visitor starts the interaction",
-          "experience": "The main Interactive Guided Theatre experience unfolds and reacts to the visitor’s input.",
-          "feedback": "Live visual, audio, or haptic response",
-          "configurable": "Game rules, pacing, theme, interaction mode",
-          "data": "Inputs, timing, progress, completion"
-        },
-        {
-          "state": "Resolve",
-          "trigger": "Interaction reaches an outcome or end point",
-          "experience": "Results, rewards, media, or next steps are revealed.",
-          "feedback": "Score, confirmation, reward, save, or share prompt",
-          "configurable": "CTA, outcome logic, reward type",
-          "data": "Outcome, score, exportable summary"
-        }
-      ]
+    {
+      "title": "A Small Cast, Many Shows",
+      "description": "Prerecorded scenes and automated cues carry parts of the performance, so a small cast can run many sessions a day at the same quality.",
+      "image": "icon-check_circle.svg",
+      "imageWidth": "10%"
     },
-    "changes": {
-      "module": "Interactive Guided Theatre",
-      "slide": "Customisable Elements",
-      "items": [
-        {
-          "title": "Visual identity",
-          "description": "Colours, fonts, screen assets, motion language, and tone can be adapted to brand or event theme."
-        },
-        {
-          "title": "Content layer",
-          "description": "Texts, questions, media, products, scenes, or stories can be swapped to fit the context."
-        },
-        {
-          "title": "Interaction rules",
-          "description": "Difficulty, duration, scoring, progression, and multiplayer logic can be tuned to the audience."
-        }
-      ]
+    {
+      "title": "Plot Twists Built In",
+      "description": "Add alternative endings based on the group's choices, a hidden character who appears only on certain paths, a puzzle that unlocks the next room, or a finale where the whole audience acts together.",
+      "image": "icon-wand_stars.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "setup": {
-      "module": "Interactive Guided Theatre",
-      "slide": "Setup Notes & Requirements",
-      "items": [
-        {
-          "title": "Power and connectivity",
-          "description": "Stable power plus the right local network or internet setup depending on the module’s data and media needs."
-        },
-        {
-          "title": "Spatial planning",
-          "description": "Sufficient visitor flow, visibility, and physical clearance for safe and intuitive use."
-        },
-        {
-          "title": "Display and input hardware",
-          "description": "Screen, projector, sensors, touch surface, buttons, mobile flow, or other input devices according to the module setup."
-        }
-      ]
+    {
+      "title": "Stages for Any Story",
+      "description": "Walk through a company's history with its founders as characters, solve a murder mystery at a gala evening, follow a scientist through a museum lab, or join a festive fairy tale for families.",
+      "image": "icon-styleguide.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "data": {
-      "module": "Interactive Guided Theatre",
-      "slide": "Data & Impact",
-      "items": [
-        {
-          "title": "Participation metrics",
-          "description": "Starts, active users, completion rate, repeat plays, or dwell time depending on module behaviour."
-        },
-        {
-          "title": "Behaviour signals",
-          "description": "Inputs, choices, timing, accuracy, usage paths, or content preferences that help interpret engagement quality."
-        },
-        {
-          "title": "Connected follow-up potential",
-          "description": "Optional link to tokens, galleries, dashboards, exports, or post-event communication flows."
-        }
-      ]
+    {
+      "title": "Know How the Story Lands",
+      "description": "Add a data layer that records group decisions, chosen endings, session counts, and dwell time per scene, showing which moments move the audience most.",
+      "image": "icon-insert_chart.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     },
-    "compatible": {
-      "module": "Interactive Guided Theatre",
-      "slide": "Compatible Modules & Additional Services",
-      "items": [
-        {
-          "title": "Visitor Identificator",
-          "description": "Links the module to identity, continuity, and personalised follow-up across touchpoints."
-        },
-        {
-          "title": "Shared Gallery / Media outputs",
-          "description": "Useful when the module produces or benefits from captured media, highlights, or public recap moments."
-        },
-        {
-          "title": "User Experience & Interface Design",
-          "description": "Refines the front-end quality and ensures the module feels coherent inside the wider BRDGE system."
-        }
-      ]
-    },
-    "twist": {
-      "module": "Interactive Guided Theatre",
-      "slide": "Custom Twist Ideas",
-      "items": [
-        {
-          "title": "Sponsor edition",
-          "description": "Introduce branded rewards, visuals, or mechanics tied to a partner or campaign."
-        },
-        {
-          "title": "Tournament or leaderboard mode",
-          "description": "Extend the base interaction into a competitive format across guests, teams, or time slots."
-        },
-        {
-          "title": "Token-connected continuity",
-          "description": "Carry outcomes into another module, a personal recap, or a post-event reward flow."
-        }
-      ]
-    },
-    "theme": {
-      "module": "Interactive Guided Theatre",
-      "slide": "Themed Story Examples",
-      "items": [
-        {
-          "title": "Winter / festive edition",
-          "description": "Re-skin the same interaction with seasonal visuals, story framing, and rewards."
-        },
-        {
-          "title": "Museum / education storyline",
-          "description": "Adapt the module to teach content, reveal facts, or guide visitors through a knowledge-driven narrative."
-        },
-        {
-          "title": "Brand activation scenario",
-          "description": "Translate the interaction into a product or campaign story that feels native to the brand world."
-        }
-      ]
-    },
-    "why": {
-      "module": "Interactive Guided Theatre",
-      "slide": "Why it works",
-      "items": [
-        {
-          "title": "Needs a clearer participation hook",
-          "description": "Interactive Guided Theatre gives visitors an immediate reason to engage instead of only observing."
-        },
-        {
-          "title": "Experience should feel more memorable",
-          "description": "Interactive Guided Theatre creates a distinct interaction moment that people remember and talk about afterward."
-        },
-        {
-          "title": "Engagement should be measurable",
-          "description": "Interactive Guided Theatre can capture interactions, completions, usage frequency, or connected outputs for reporting."
-        }
-      ]
+    {
+      "title": "More Ways to Play Along",
+      "description": "Pair with Remote Controllers to let visitors trigger effects from their phones, with Laser Voting for decisions as a crowd, with Spatial Mediaguide to continue the story on visitors' phones, or with Journey Recap to send each group their own ending.",
+      "image": "icon-automation.svg",
+      "imageWidth": "10%",
+      "imageSide": "left"
     }
-  }
-]
+  ],
+  "states": [
+    {
+      "state": "Attract",
+      "trigger": "Visitor notices the installation or receives the entry prompt",
+      "experience": "Interactive Guided Theatre communicates what to do and invites the first action.",
+      "feedback": "Idle visuals, signage, motion, or ambient cue",
+      "configurable": "Branding, call-to-action, language",
+      "data": "View or start count"
+    },
+    {
+      "state": "Engage",
+      "trigger": "Visitor starts the interaction",
+      "experience": "The main Interactive Guided Theatre experience unfolds and reacts to the visitor’s input.",
+      "feedback": "Live visual, audio, or haptic response",
+      "configurable": "Game rules, pacing, theme, interaction mode",
+      "data": "Inputs, timing, progress, completion"
+    },
+    {
+      "state": "Resolve",
+      "trigger": "Interaction reaches an outcome or end point",
+      "experience": "Results, rewards, media, or next steps are revealed.",
+      "feedback": "Score, confirmation, reward, save, or share prompt",
+      "configurable": "CTA, outcome logic, reward type",
+      "data": "Outcome, score, exportable summary"
+    }
+  ]
+}
